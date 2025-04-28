@@ -1,0 +1,105 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "e91a4fe3e4a1840c237d",
+  "position": {
+    "x": 352.326581595719,
+    "y": 476.51300194461396,
+    "z": 7,
+    "height": 210.46571375849879,
+    "width": 465.1175994662957,
+    "tabOrder": 7
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "hospital_locations csv"
+                    }
+                  },
+                  "Property": "Location_Name"
+                }
+              },
+              "queryRef": "hospital_locations csv.Location_Name",
+              "nativeQueryRef": "Location_Name",
+              "active": true
+            }
+          ]
+        },
+        "Tooltips": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hospital_locations csv"
+                        }
+                      },
+                      "Property": "Location_Name"
+                    }
+                  },
+                  "Function": 3
+                }
+              },
+              "queryRef": "Min(hospital_locations csv.Location_Name)",
+              "nativeQueryRef": "First Location_Name"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Patients"
+                }
+              },
+              "queryRef": "Measure Table.Patients",
+              "nativeQueryRef": "Patients"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Measure Table"
+                  }
+                },
+                "Property": "Patients"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "dataPoint": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

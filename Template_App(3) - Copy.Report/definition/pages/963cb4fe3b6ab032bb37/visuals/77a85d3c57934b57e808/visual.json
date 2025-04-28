@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "f3ab1fc8f959ccb12b44",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
+  "name": "77a85d3c57934b57e808",
   "position": {
-    "x": 984.75485952624535,
-    "y": 8.0585504052884236,
-    "z": 6000,
-    "height": 66.080113323365069,
-    "width": 273.99071377980641,
-    "tabOrder": 6000
+    "x": 1097.6775347404578,
+    "y": 23.255879973314784,
+    "z": 6,
+    "height": 59.302493931952704,
+    "width": 138.37248584122298,
+    "tabOrder": 6
   },
   "visual": {
     "visualType": "slicer",
@@ -123,6 +123,11 @@
           }
         }
       ]
+    },
+    "syncGroup": {
+      "groupName": "Year",
+      "fieldChanges": true,
+      "filterChanges": true
     },
     "drillFilterOtherVisuals": true
   }

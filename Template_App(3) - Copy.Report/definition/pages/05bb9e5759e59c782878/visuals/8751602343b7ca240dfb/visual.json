@@ -23,7 +23,7 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Procedures"
+                  "Property": "Patients"
                 }
               },
               "queryRef": "Measure Table.Total Patients",
@@ -42,7 +42,7 @@
                     "Entity": "Measure Table"
                   }
                 },
-                "Property": "Procedures"
+                "Property": "Patients"
               }
             },
             "direction": "Descending"

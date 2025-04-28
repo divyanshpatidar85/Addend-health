@@ -42,11 +42,11 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Procedures"
+                  "Property": "Patients"
                 }
               },
               "queryRef": "Measure Table.Total Patients",
-              "nativeQueryRef": "Total Patients"
+              "nativeQueryRef": "Patients"
             },
             {
               "field": {
@@ -79,11 +79,11 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Procedures"
+                  "Property": "Patients"
                 }
               },
               "queryRef": "Measure Table.Total Patients",
-              "nativeQueryRef": "Total Patients"
+              "nativeQueryRef": "Patients"
             }
           ]
         }
@@ -98,7 +98,7 @@
                     "Entity": "Measure Table"
                   }
                 },
-                "Property": "Procedures"
+                "Property": "Patients"
               }
             },
             "direction": "Descending"
