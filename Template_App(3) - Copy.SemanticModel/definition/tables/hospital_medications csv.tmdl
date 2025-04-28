@@ -1,0 +1,97 @@
+table 'hospital_medications csv'
+	lineageTag: 883085fd-c212-43b8-934c-05b23ee4b4c4
+
+	column Medication_ID
+		dataType: string
+		lineageTag: c7f2b8ff-7b77-406f-96c8-da0460b58421
+		summarizeBy: none
+		sourceColumn: Medication_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Admission_ID
+		dataType: string
+		lineageTag: cd5d7cdc-d3df-49a2-9636-90b77bde5464
+		summarizeBy: none
+		sourceColumn: Admission_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Medication
+		dataType: string
+		lineageTag: 14124797-0210-485b-87be-7906d99d5544
+		summarizeBy: none
+		sourceColumn: Medication
+
+		annotation SummarizationSetBy = Automatic
+
+	column Prescribed_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: de5fbbd2-2df2-4268-b5d1-50c496083e68
+		summarizeBy: none
+		sourceColumn: Prescribed_Date
+
+		variation Variation
+			isDefault
+			relationship: f6b9b86d-e57c-44e7-b195-1536c4f54579
+			defaultHierarchy: LocalDateTable_4015e88c-1efa-470e-897c-75d54f542072.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Dosage
+		dataType: string
+		lineageTag: c636e2ae-2b5a-43d9-b0fe-48811305a168
+		summarizeBy: none
+		sourceColumn: Dosage
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cost
+		dataType: int64
+		formatString: 0
+		lineageTag: a6deacfe-c3c1-4259-b104-3c559925a514
+		summarizeBy: sum
+		sourceColumn: Cost
+
+		annotation SummarizationSetBy = Automatic
+
+	column hi = RELATED('hospital_admissions csv'[Patient_ID])
+		lineageTag: 75670a92-f573-4204-a63f-26e658b4edbd
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column = RELATED('hospital_departments csv'[Department_Name])
+		lineageTag: 52241696-6e33-4e27-ad2e-4c93211dde09
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Duration_Days
+		dataType: int64
+		formatString: 0
+		lineageTag: 6ba5182f-e457-45f1-892a-1f4565a1b49f
+		summarizeBy: sum
+		sourceColumn: Duration_Days
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_medications csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2\"),
+				    #"E:\Addend Analytics\Health Github\_hospital_medications csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_medications.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\_hospital_medications csv1",[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Medication_ID", type text}, {"Admission_ID", type text}, {"Medication", type text}, {"Prescribed_Date", type date}, {"Dosage", type text}, {"Duration_Days", Int64.Type}, {"Cost", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

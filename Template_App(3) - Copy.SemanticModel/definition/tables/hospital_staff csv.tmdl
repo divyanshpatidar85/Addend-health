@@ -1,0 +1,72 @@
+table 'hospital_staff csv'
+	lineageTag: 41573d34-d9fb-4f99-8c40-6be72545da8a
+
+	column Staff_ID
+		dataType: string
+		lineageTag: a523131e-e0e2-4e79-9595-c4ffd5049b94
+		summarizeBy: none
+		sourceColumn: Staff_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Name
+		dataType: string
+		lineageTag: 3706f2fc-6a96-4d00-8228-bb60366f0598
+		summarizeBy: none
+		sourceColumn: Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Role
+		dataType: string
+		lineageTag: 6d37634c-b498-4442-afff-5c682606be03
+		summarizeBy: none
+		sourceColumn: Role
+
+		annotation SummarizationSetBy = Automatic
+
+	column Department_ID
+		dataType: string
+		lineageTag: 5ebf7da9-e0c9-4af2-bf61-50cabaad4565
+		summarizeBy: none
+		sourceColumn: Department_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Hire_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 24b47876-417b-4299-9de9-da333b41f570
+		summarizeBy: none
+		sourceColumn: Hire_Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Salary
+		dataType: double
+		lineageTag: 83614539-8aad-4489-8727-0611c4d9e058
+		summarizeBy: sum
+		sourceColumn: Salary
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'hospital_staff csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2\"),
+				    #"E:\Addend Analytics\Health Github\_hospital_staff csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_staff.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\_hospital_staff csv1",[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Hire_Date", type date}, {"Salary", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

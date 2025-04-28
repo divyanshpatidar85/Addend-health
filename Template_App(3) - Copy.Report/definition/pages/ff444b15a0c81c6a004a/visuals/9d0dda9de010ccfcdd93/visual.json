@@ -1,0 +1,97 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "9d0dda9de010ccfcdd93",
+  "position": {
+    "x": 134.17682282493837,
+    "y": 106.76435364564988,
+    "z": 0,
+    "height": 549.69214512152166,
+    "width": 1145.5526593871082,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "hospital_admissions csv"
+                    }
+                  },
+                  "Property": "Admission_ID"
+                }
+              },
+              "queryRef": "hospital_admissions csv.Admission_ID",
+              "nativeQueryRef": "Admission_ID"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "hospital_patients csv"
+                    }
+                  },
+                  "Property": "Name"
+                }
+              },
+              "queryRef": "hospital_patients csv.Name",
+              "nativeQueryRef": "Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "hospital_departments csv"
+                    }
+                  },
+                  "Property": "Department_Name"
+                }
+              },
+              "queryRef": "hospital_departments csv.Department_Name",
+              "nativeQueryRef": "Department_Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "hospital_conditions csv"
+                    }
+                  },
+                  "Property": "Condition"
+                }
+              },
+              "queryRef": "hospital_conditions csv.Condition",
+              "nativeQueryRef": "Condition"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "hospital_conditions csv"
+                  }
+                },
+                "Property": "Condition"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ]
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

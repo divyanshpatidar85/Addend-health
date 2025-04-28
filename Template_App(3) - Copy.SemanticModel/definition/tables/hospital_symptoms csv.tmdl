@@ -1,0 +1,59 @@
+table 'hospital_symptoms csv'
+	lineageTag: 446a1c08-1c7d-42b1-97a2-d5765d7a5430
+
+	column Symptom_ID
+		dataType: string
+		lineageTag: 09f155c3-4a8f-4acd-83fb-eb198ad40d96
+		summarizeBy: none
+		sourceColumn: Symptom_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Condition_ID
+		dataType: string
+		lineageTag: 6c1f87f1-e774-4b8a-8cc8-82316984a597
+		summarizeBy: none
+		sourceColumn: Condition_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Symptom
+		dataType: string
+		lineageTag: 26a1ab0e-f070-4a30-9bda-ea04735f360e
+		summarizeBy: none
+		sourceColumn: Symptom
+
+		annotation SummarizationSetBy = Automatic
+
+	column Reported_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 67c779bb-343e-4455-aeaa-16d474ea7a90
+		summarizeBy: none
+		sourceColumn: Reported_Date
+
+		variation Variation
+			isDefault
+			relationship: 09019e1d-957e-4527-a2de-89ce679be4fe
+			defaultHierarchy: LocalDateTable_96f2084d-8adb-42f3-94d3-a4d23b103a63.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition 'hospital_symptoms csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
+				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_symptoms csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_symptoms.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_symptoms csv1",[Delimiter=",", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Symptom_ID", type text}, {"Condition_ID", type text}, {"Symptom", type text}, {"Reported_Date", type date}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

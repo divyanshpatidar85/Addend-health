@@ -1,0 +1,53 @@
+table tap
+	lineageTag: b17af32a-cf68-4d42-bfeb-c65e215cea51
+
+	column 'hospital_medications csv_Medication'
+		lineageTag: 87b8f74f-982b-4c08-bf9e-266b6619b8e9
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: hospital_medications csv[Medication]
+
+		annotation SummarizationSetBy = Automatic
+
+	column MY
+		formatString: 0
+		lineageTag: 4bbf49da-ca3e-4984-9473-72d1bc04db8c
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [MY]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cost
+		formatString: 0
+		lineageTag: f24ed953-a1c7-49d0-9cf7-a3ceaa60dbfa
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Cost]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition tap = calculated
+		mode: import
+		source = ```
+				
+				VAR GroupedData = 
+				    GROUPBY(
+				        'hospital_medications csv',
+				        'hospital_medications csv'[Medication],
+				        "MY", 
+				        COUNTAX(CURRENTGROUP(), 'hospital_medications csv'[Medication]),
+				        "Cost",
+				        Sumx(CURRENTGROUP(),('hospital_medications csv'[Cost])
+				        )
+				    )
+				RETURN
+				    TOPN(
+				        1000, 
+				        GroupedData,
+				        [MY], 1 
+				    )
+				```
+
+	annotation PBI_Id = 26aac2d4478f4306a2b336b862841cdf
+

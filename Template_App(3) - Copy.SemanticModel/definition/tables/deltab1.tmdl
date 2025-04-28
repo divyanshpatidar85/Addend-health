@@ -1,0 +1,23 @@
+table deltab1
+	lineageTag: e13e9d2b-fbfe-4a8a-8202-cf0ba43b1a70
+
+	column Date
+		formatString: General Date
+		lineageTag: dd996052-c00f-4ee3-a994-c07fbaedcf89
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		variation Variation
+			isDefault
+			relationship: 7e5bcb19-18ed-41df-95df-0e8c8f590c3c
+			defaultHierarchy: LocalDateTable_0fe3b5b9-6c6c-48ab-b25a-0e59476aabb1.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	partition deltab1 = calculated
+		mode: import
+		source = CALENDARAUTO()
+
+	annotation PBI_Id = a64519f06b204a1b9d372a2e24991ce8
+

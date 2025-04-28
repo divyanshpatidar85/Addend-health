@@ -1,0 +1,51 @@
+table 'hospital_departments csv'
+	lineageTag: 120f7d58-2dad-4306-b7a9-61f85eaaba1f
+
+	column Department_ID
+		dataType: string
+		lineageTag: 388be594-1838-4288-9de6-c55602a8c2c6
+		summarizeBy: none
+		sourceColumn: Department_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Department_Name
+		dataType: string
+		lineageTag: 9f5a87e5-9c55-44b7-9eb5-322769517a26
+		summarizeBy: none
+		sourceColumn: Department_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Head_Doctor
+		dataType: string
+		lineageTag: 94164063-b21e-4a40-b177-ef6e64a56fbb
+		summarizeBy: none
+		sourceColumn: Head_Doctor
+
+		annotation SummarizationSetBy = Automatic
+
+	column Location_ID
+		dataType: string
+		lineageTag: fb80834b-b9d3-488d-b7a5-a7bf196281fd
+		summarizeBy: none
+		sourceColumn: Location_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_departments csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2\"),
+				    #"E:\Addend Analytics\Health Github\_hospital_departments csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_departments.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\_hospital_departments csv1",[Delimiter=",", Columns=4, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Imported CSV",{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type text}}),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Changed Type", [PromoteAllScalars=true])
+				in
+				    #"Promoted Headers"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,74 @@
+table 'hospital_procedures csv'
+	lineageTag: acb706f1-a2a4-4dfa-be78-efa2b9c8f725
+
+	column Procedure_ID
+		dataType: string
+		lineageTag: 60dd303f-8ee7-43c7-be3d-1aced39859f7
+		summarizeBy: none
+		sourceColumn: Procedure_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Admission_ID
+		dataType: string
+		lineageTag: c7b6eb45-6466-4f91-b2d2-f0ccb457b51d
+		summarizeBy: none
+		sourceColumn: Admission_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Procedure
+		dataType: string
+		lineageTag: 852da952-41e8-4465-b24a-101dd520b936
+		summarizeBy: none
+		sourceColumn: Procedure
+
+		annotation SummarizationSetBy = Automatic
+
+	column Procedure_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: fd53d350-3b3d-409d-b90c-946b49f3bf2a
+		summarizeBy: none
+		sourceColumn: Procedure_Date
+
+		variation Variation
+			isDefault
+			relationship: e6ba46b6-1e94-4d3f-9ce1-0383432db0b6
+			defaultHierarchy: LocalDateTable_6c839c39-3ad4-40e3-8961-23065d2ffb20.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Cost
+		dataType: int64
+		formatString: 0
+		lineageTag: 25de3b25-77a7-4b2d-8013-72521376b49d
+		summarizeBy: sum
+		sourceColumn: Cost
+
+		annotation SummarizationSetBy = Automatic
+
+	column D_id = RELATED('hospital_admissions csv'[Department_ID])
+		lineageTag: 14689d07-1475-4deb-b207-4dad0d96c05e
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_procedures csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2\"),
+				    #"E:\Addend Analytics\Health Github\_hospital_procedures csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_procedures.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\_hospital_procedures csv1",[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Procedure_ID", type text}, {"Admission_ID", type text}, {"Procedure", type text}, {"Procedure_Date", type date}, {"Cost", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

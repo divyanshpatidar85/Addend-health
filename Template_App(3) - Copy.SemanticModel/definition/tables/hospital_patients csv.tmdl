@@ -1,0 +1,108 @@
+table 'hospital_patients csv'
+	lineageTag: c168ca7d-0a57-4287-86f8-43c1b09c124a
+
+	column Patient_ID
+		dataType: string
+		lineageTag: 55b48c65-e61e-4938-b669-6e892bd739aa
+		summarizeBy: none
+		sourceColumn: Patient_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Name
+		dataType: string
+		lineageTag: fe0261f2-b4d0-48e8-88b7-4137777c29a4
+		summarizeBy: none
+		sourceColumn: Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column DOB
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 72dddeee-ef2d-4ab3-bc9f-4bb7c56f029a
+		summarizeBy: none
+		sourceColumn: DOB
+
+		variation Variation
+			isDefault
+			relationship: 0766f3f4-4c55-470f-8d50-3d8f7a3c4855
+			defaultHierarchy: LocalDateTable_156f5d1a-63ae-4372-ae4f-f21809133605.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Gender
+		dataType: string
+		lineageTag: 8a5cb89e-b0ec-4a66-b498-de0084c5b190
+		summarizeBy: none
+		sourceColumn: Gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column Address
+		dataType: string
+		lineageTag: 4da97d26-1d9b-4037-8b02-7b7b6e831ee6
+		summarizeBy: none
+		sourceColumn: Address
+
+		annotation SummarizationSetBy = Automatic
+
+	column Phone
+		dataType: string
+		lineageTag: a88dabf6-7b14-4ab0-8e5a-67e0275d11ff
+		summarizeBy: none
+		sourceColumn: Phone
+
+		annotation SummarizationSetBy = Automatic
+
+	column Insurance_ID
+		dataType: string
+		lineageTag: 239f5556-0cb0-4501-8e52-a7f9a5bff450
+		summarizeBy: none
+		sourceColumn: Insurance_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Age_Group
+		dataType: string
+		lineageTag: 50ecca6c-9bbf-455d-9ae1-fa9ec332e117
+		summarizeBy: none
+		sourceColumn: Age_Group
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_patients csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2\"),
+				    #"E:\Addend Analytics\Health Github\_hospital_patients csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_patients.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\_hospital_patients csv1",[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Patient_ID", type text}, {"Name", type text}, {"DOB", type date}, {"Gender", type text}, {"Address", type text}, {"Phone", type text}, {"Insurance_ID", type text}}),
+				    #"Added Custom" = Table.AddColumn(#"Changed Type", "Custom", each let
+				age=Duration.Days(DateTime.Date(DateTime.LocalNow()) - [DOB]) / 365.25,
+				b=if age < 0 then "Invalid Age"
+				        else if age <= 10 then "0-10"
+				        else if age <= 20 then "11-20"
+				        else if age <= 30 then "21-30"
+				        else if age <= 40 then "31-40"
+				        else if age <= 50 then "41-50"
+				        else if age <= 60 then "51-60"
+				        else if age <= 70 then "61-70"
+				        else if age <= 80 then "71-80"
+				        else if age <= 90 then "81-90"
+				        else if age <= 100 then "91-100"
+				        else "100+"
+				        in
+				        b),
+				    #"Renamed Columns" = Table.RenameColumns(#"Added Custom",{{"Custom", "Age_Group"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,269 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "407fd41aefefb8649541",
+  "position": {
+    "x": 597.14285714285722,
+    "y": 458.57142857142861,
+    "z": 5000,
+    "height": 248.57142857142858,
+    "width": 641.42857142857144,
+    "tabOrder": 5000
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "hospital_departments csv"
+                    }
+                  },
+                  "Property": "Department_Name"
+                }
+              },
+              "queryRef": "hospital_departments csv.Department_Name",
+              "nativeQueryRef": "Department_Name",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "hospital_procedures csv"
+                    }
+                  },
+                  "Property": "Procedure"
+                }
+              },
+              "queryRef": "hospital_procedures csv.Procedure",
+              "nativeQueryRef": "Procedure",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Staff"
+                }
+              },
+              "queryRef": "Measure Table.Staff",
+              "nativeQueryRef": "Staff"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Total Patients"
+                }
+              },
+              "queryRef": "Measure Table.Admitted Patients",
+              "nativeQueryRef": "Admitted Patients"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Readmission Rate2"
+                }
+              },
+              "queryRef": "Measure Table.Readmission Rate2",
+              "nativeQueryRef": "Readmission Rate2"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "ProcedureCost/Admission"
+                }
+              },
+              "queryRef": "Measure Table.ProcedureCost/Admission",
+              "nativeQueryRef": "ProcedureCost/Admission"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Measure Table"
+                  }
+                },
+                "Property": "Total Patients"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "expansionStates": [
+      {
+        "roles": [
+          "Rows"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "hospital_departments csv.Department_Name"
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "hospital_procedures csv.Procedure"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {}
+      }
+    ],
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "120.33423541276946D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure Table.Admitted Patients"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "123.4440950950387D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure Table.Readmission Rate2"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "163.06749989985727D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "hospital_departments csv.Department_Name"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "38.57793355935137D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure Table.Staff"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

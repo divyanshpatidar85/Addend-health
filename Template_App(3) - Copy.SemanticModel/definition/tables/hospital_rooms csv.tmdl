@@ -1,0 +1,84 @@
+table 'hospital_rooms csv'
+	lineageTag: cb2edc6b-f29b-4389-bdbf-80f4961703cf
+
+	column Room_ID
+		dataType: string
+		lineageTag: 6396be01-bc70-4637-a86d-f0c28768b64d
+		summarizeBy: none
+		sourceColumn: Room_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Location_ID
+		dataType: string
+		lineageTag: b6b89657-4cf4-4021-a377-e1525b47532c
+		summarizeBy: none
+		sourceColumn: Location_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Room_Type
+		dataType: string
+		lineageTag: cf60bfeb-c898-4d54-882f-acc3e1a04832
+		summarizeBy: none
+		sourceColumn: Room_Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Capacity
+		dataType: int64
+		formatString: 0
+		lineageTag: 537a4bc3-9435-4966-b55d-e8b799df237d
+		summarizeBy: sum
+		sourceColumn: Capacity
+
+		annotation SummarizationSetBy = Automatic
+
+	column Admission_ID
+		dataType: string
+		lineageTag: e7b810f2-cfa6-4bc2-8101-3b7cd4c1c7a6
+		summarizeBy: none
+		sourceColumn: Admission_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Occupancy_Status
+		dataType: string
+		lineageTag: 1346ca61-d20b-4f55-9074-557219cd54af
+		summarizeBy: none
+		sourceColumn: Occupancy_Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column Last_Cleaned
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 60611316-9fcf-4f38-8698-9cd5369e42e4
+		summarizeBy: none
+		sourceColumn: Last_Cleaned
+
+		variation Variation
+			isDefault
+			relationship: cc7942a2-382f-412e-96d1-6685a725bca4
+			defaultHierarchy: LocalDateTable_fbaccdae-54ed-41ad-bd6c-a5fcb369298d.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	partition 'hospital_rooms csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
+				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_rooms csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_rooms.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_rooms csv1",[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Room_ID", type text}, {"Location_ID", type text}, {"Room_Type", type text}, {"Capacity", Int64.Type}, {"Admission_ID", type text}, {"Occupancy_Status", type text}, {"Last_Cleaned", type date}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

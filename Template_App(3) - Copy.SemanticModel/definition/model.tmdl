@@ -1,0 +1,62 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Health Github","hospital_admissions csv","hospital_billing csv","hospital_conditions csv","hospital_departments csv","hospital_inventory csv","hospital_lab_results csv","hospital_medications csv","hospital_patients csv","hospital_procedures csv","hospital_staff csv","Measure Table","Query1","Date Table","hospital_appointments csv","hospital_equipment_maintenance","hospital_locations csv","hospital_patient_vitals csv","hospital_rooms csv","E:\\Addend Analytics\\Health Github\\Samplte Data 2\\_hospital_medications csv","E:\\Addend Analytics\\Health Github\\Samplte Data 2\\_hospital_locations csv","hospital_enquiries csv","hospital_feedback csv","hospital_salary_hikes csv","hospital_symptoms csv","hospital_attendance csv"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.140.1078.0 (25.02)+2cce24fb16e8b71ba835921d23e7ffc1fab909df
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'hospital_admissions csv'
+ref table DateTableTemplate_3ae75e70-7f27-40ee-bc19-cc67fd2b5fb4
+ref table LocalDateTable_74e7c7cc-97cf-47d5-95fa-f133749de1d4
+ref table 'hospital_billing csv'
+ref table 'hospital_conditions csv'
+ref table LocalDateTable_d6ac214c-14f5-4ec9-9430-986c1c2f3afe
+ref table 'hospital_departments csv'
+ref table 'hospital_inventory csv'
+ref table LocalDateTable_ce7fdd65-1092-47b0-9108-f857ead29bbb
+ref table 'hospital_lab_results csv'
+ref table LocalDateTable_aecf7452-b483-447d-8833-64c69fa61990
+ref table 'hospital_medications csv'
+ref table LocalDateTable_4015e88c-1efa-470e-897c-75d54f542072
+ref table 'hospital_patients csv'
+ref table LocalDateTable_156f5d1a-63ae-4372-ae4f-f21809133605
+ref table 'hospital_procedures csv'
+ref table LocalDateTable_6c839c39-3ad4-40e3-8961-23065d2ffb20
+ref table 'hospital_staff csv'
+ref table 'Measure Table'
+ref table 'Date Table'
+ref table LocalDateTable_6d1b8437-e915-4b7a-bc52-eb4849dbc85c
+ref table LocalDateTable_1588c364-69f6-4d3a-8632-b476ba7037c6
+ref table tap
+ref table 'hospital_appointments csv'
+ref table LocalDateTable_aba63317-0888-4b7d-a502-63a793e8acaa
+ref table hospital_equipment_maintenance
+ref table 'hospital_locations csv'
+ref table 'hospital_patient_vitals csv'
+ref table LocalDateTable_e0826138-13da-461a-a442-89b6ab5924be
+ref table 'hospital_rooms csv'
+ref table LocalDateTable_fbaccdae-54ed-41ad-bd6c-a5fcb369298d
+ref table kk2
+ref table deltab1
+ref table LocalDateTable_0fe3b5b9-6c6c-48ab-b25a-0e59476aabb1
+ref table 'hospital_enquiries csv'
+ref table LocalDateTable_ea04866f-88a7-4c12-b6a3-ae95fcab2dd0
+ref table LocalDateTable_1d6bbc3b-8b17-4950-bdaa-a1ff1b4bbb3e
+ref table 'hospital_feedback csv'
+ref table LocalDateTable_5cb4bf63-9dd6-4a6a-bcb9-2bcc7e546207
+ref table 'hospital_salary_hikes csv'
+ref table LocalDateTable_22da291b-a800-4f7e-a487-227041baa7b2
+ref table 'hospital_symptoms csv'
+ref table LocalDateTable_96f2084d-8adb-42f3-94d3-a4d23b103a63
+
+ref cultureInfo en-US
+

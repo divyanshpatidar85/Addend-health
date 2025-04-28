@@ -1,0 +1,84 @@
+table 'hospital_appointments csv'
+	lineageTag: 286f21b4-a801-4066-ba90-4e32aba4975a
+
+	column Appointment_ID
+		dataType: string
+		lineageTag: 50122b26-da62-41d3-93b1-8d287441a21b
+		summarizeBy: none
+		sourceColumn: Appointment_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Patient_ID
+		dataType: string
+		lineageTag: 9a211719-1ad5-4ab5-a631-b147ea32e7e5
+		summarizeBy: none
+		sourceColumn: Patient_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Staff_ID
+		dataType: string
+		lineageTag: 1a1e9384-dd5c-405e-b4ad-6c7f63ab5544
+		summarizeBy: none
+		sourceColumn: Staff_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Appointment_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 90c3cc2b-9f22-4d58-9b0b-4f2914c98665
+		summarizeBy: none
+		sourceColumn: Appointment_Date
+
+		variation Variation
+			isDefault
+			relationship: 17f123a7-e39e-4eaf-a960-e2ed844e96be
+			defaultHierarchy: LocalDateTable_aba63317-0888-4b7d-a502-63a793e8acaa.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Department_ID
+		dataType: string
+		lineageTag: c4648283-5ff7-4a4e-8ff2-0baa2ec542eb
+		summarizeBy: none
+		sourceColumn: Department_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Status
+		dataType: string
+		lineageTag: 9e5c017e-4000-49c6-a740-2f0926c1d48f
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column Location_ID
+		dataType: string
+		lineageTag: d4d84357-fd87-44b5-8239-2d5001ace40c
+		summarizeBy: none
+		sourceColumn: Location_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_appointments csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
+				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_appointments csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_appointments.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_appointments csv1",[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Appointment_ID", type text}, {"Patient_ID", type text}, {"Staff_ID", type text}, {"Appointment_Date", type datetime}, {"Department_ID", type text}, {"Status", type text}, {"Location_ID", type text}}),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Changed Type",{{"Appointment_Date", type date}})
+				in
+				    #"Changed Type1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

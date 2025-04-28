@@ -1,0 +1,71 @@
+table hospital_equipment_maintenance
+	lineageTag: 6e1297df-c047-4071-8be6-0c1139f70583
+
+	column Maintenance_ID
+		dataType: string
+		lineageTag: 83f0a62f-a0f7-49a5-be48-1b89bc5ea669
+		summarizeBy: none
+		sourceColumn: Maintenance_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Equipment_Name
+		dataType: string
+		lineageTag: bab93d5a-79a2-4b95-88b2-26763bd23407
+		summarizeBy: none
+		sourceColumn: Equipment_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Maintenance_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: df1a069c-3701-4746-a927-da32d8fcdba7
+		summarizeBy: none
+		sourceColumn: Maintenance_Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Cost
+		dataType: int64
+		formatString: 0
+		lineageTag: f42bbbbc-e5bb-492f-b9a9-0bcf3d71ad23
+		summarizeBy: sum
+		sourceColumn: Cost
+
+		annotation SummarizationSetBy = Automatic
+
+	column Status
+		dataType: string
+		lineageTag: 3fdb561f-0899-4552-a3a3-029f8bde2da9
+		summarizeBy: none
+		sourceColumn: Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column Location_ID
+		dataType: string
+		lineageTag: f813c58c-ff0f-4438-961f-9e5474a2acef
+		summarizeBy: none
+		sourceColumn: Location_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition hospital_equipment_maintenance = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
+				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_equipment_maintenance csv" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_equipment_maintenance.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_equipment_maintenance csv",[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Maintenance_ID", type text}, {"Equipment_Name", type text}, {"Maintenance_Date", type date}, {"Cost", Int64.Type}, {"Status", type text}, {"Location_ID", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

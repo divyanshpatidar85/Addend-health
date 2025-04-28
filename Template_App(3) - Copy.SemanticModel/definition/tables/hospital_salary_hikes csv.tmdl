@@ -1,0 +1,85 @@
+table 'hospital_salary_hikes csv'
+	lineageTag: 99270282-e1db-496c-828d-26cbcf4d3e5f
+
+	column Hike_ID
+		dataType: string
+		lineageTag: 24618955-94f8-4689-a10e-8992f263ad3a
+		summarizeBy: none
+		sourceColumn: Hike_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Staff_ID
+		dataType: string
+		lineageTag: 65e46357-c4f5-47c7-829a-f778bd3d8788
+		summarizeBy: none
+		sourceColumn: Staff_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Hike_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: c4a242b9-9a08-437a-955e-033e932f02b3
+		summarizeBy: none
+		sourceColumn: Hike_Date
+
+		variation Variation
+			isDefault
+			relationship: 80757546-9cad-4b8a-9b4b-ca06699d4794
+			defaultHierarchy: LocalDateTable_22da291b-a800-4f7e-a487-227041baa7b2.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Previous_Salary
+		dataType: int64
+		formatString: 0
+		lineageTag: c0a09a6f-5cb3-461c-871f-d2e29be9cd0e
+		summarizeBy: sum
+		sourceColumn: Previous_Salary
+
+		annotation SummarizationSetBy = Automatic
+
+	column New_Salary
+		dataType: int64
+		formatString: 0
+		lineageTag: f3ba6cbc-ed24-41c6-9592-6999492c46f0
+		summarizeBy: sum
+		sourceColumn: New_Salary
+
+		annotation SummarizationSetBy = Automatic
+
+	column Reason
+		dataType: string
+		lineageTag: 0251e216-9735-44c7-99bc-05aff99d5aa9
+		summarizeBy: none
+		sourceColumn: Reason
+
+		annotation SummarizationSetBy = Automatic
+
+	column Location_ID
+		dataType: string
+		lineageTag: d55462b7-c1a3-4403-a239-362fb0f81e47
+		summarizeBy: none
+		sourceColumn: Location_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_salary_hikes csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
+				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_salary_hikes csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_salary_hikes.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_salary_hikes csv1",[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Hike_ID", type text}, {"Staff_ID", type text}, {"Hike_Date", type date}, {"Previous_Salary", Int64.Type}, {"New_Salary", Int64.Type}, {"Reason", type text}, {"Location_ID", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

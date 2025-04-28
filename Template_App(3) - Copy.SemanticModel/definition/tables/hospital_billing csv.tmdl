@@ -1,0 +1,77 @@
+table 'hospital_billing csv'
+	lineageTag: 23017d18-6323-4187-900d-5fe8dcc5e66c
+
+	column Bill_ID
+		dataType: string
+		lineageTag: 92fa8028-bc0f-4ce1-86dc-d8309db86d1d
+		summarizeBy: none
+		sourceColumn: Bill_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Admission_ID
+		dataType: string
+		lineageTag: 0b6d458b-a91c-4585-9cb1-a45f70d24302
+		summarizeBy: none
+		sourceColumn: Admission_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Total_Amount
+		dataType: int64
+		formatString: 0
+		lineageTag: 7e60526f-dc3b-43af-9e26-8d41dd233b4c
+		summarizeBy: sum
+		sourceColumn: Total_Amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column Bill_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: adb0e958-1dd2-4e43-94a8-2cae06724107
+		summarizeBy: none
+		sourceColumn: Bill_Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Payment_Status
+		dataType: string
+		lineageTag: ef98e927-4325-43e6-9dff-628d567ce78c
+		summarizeBy: none
+		sourceColumn: Payment_Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year = YEAR('hospital_billing csv'[Bill_Date])
+		formatString: 0
+		lineageTag: 8c98d89e-3ce2-4030-92be-ad12ab039137
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month = MONTH('hospital_billing csv'[Bill_Date])
+		formatString: 0
+		lineageTag: c70458cc-f0eb-4a07-b5c9-7cab17476da5
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_billing csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
+				    #"E:\Addend Analytics\Health Github\_hospital_billing csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_billing.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\_hospital_billing csv1",[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Bill_ID", type text}, {"Admission_ID", type text}, {"Total_Amount", Int64.Type}, {"Bill_Date", type date}, {"Payment_Status", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,204 @@
+relationship 18bf076e-e8ec-4a8b-9252-48c851cda980
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_admissions csv'.Discharge_Date
+	toColumn: LocalDateTable_74e7c7cc-97cf-47d5-95fa-f133749de1d4.Date
+
+relationship b164298d-fee0-4973-a645-1526da80c360
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_conditions csv'.Diagnosis_Date
+	toColumn: LocalDateTable_d6ac214c-14f5-4ec9-9430-986c1c2f3afe.Date
+
+relationship e91fec1b-a666-4d4c-a11e-933eaf741bb0
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_inventory csv'.Last_Restocked
+	toColumn: LocalDateTable_ce7fdd65-1092-47b0-9108-f857ead29bbb.Date
+
+relationship 9a30d4c9-132b-4ad7-b707-cc9d19672c26
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_lab_results csv'.Test_Date
+	toColumn: LocalDateTable_aecf7452-b483-447d-8833-64c69fa61990.Date
+
+relationship f6b9b86d-e57c-44e7-b195-1536c4f54579
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_medications csv'.Prescribed_Date
+	toColumn: LocalDateTable_4015e88c-1efa-470e-897c-75d54f542072.Date
+
+relationship 0766f3f4-4c55-470f-8d50-3d8f7a3c4855
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_patients csv'.DOB
+	toColumn: LocalDateTable_156f5d1a-63ae-4372-ae4f-f21809133605.Date
+
+relationship e6ba46b6-1e94-4d3f-9ce1-0383432db0b6
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_procedures csv'.Procedure_Date
+	toColumn: LocalDateTable_6c839c39-3ad4-40e3-8961-23065d2ffb20.Date
+
+relationship AutoDetected_311976ad-a428-4386-b132-22656bef4a45
+	fromColumn: 'hospital_billing csv'.Admission_ID
+	toColumn: 'hospital_admissions csv'.Admission_ID
+
+relationship AutoDetected_e18090a4-a0b2-49cd-917e-00d61ba929cf
+	fromColumn: 'hospital_conditions csv'.Admission_ID
+	toColumn: 'hospital_admissions csv'.Admission_ID
+
+relationship AutoDetected_61f436cb-f79c-49bb-84fb-77725ccf3ef6
+	fromColumn: 'hospital_lab_results csv'.Admission_ID
+	toColumn: 'hospital_admissions csv'.Admission_ID
+
+relationship AutoDetected_3454fc17-68f8-422a-b6e7-fb6e4bcb08b1
+	fromColumn: 'hospital_medications csv'.Admission_ID
+	toColumn: 'hospital_admissions csv'.Admission_ID
+
+relationship AutoDetected_efacbebb-82a0-4af6-bcc8-c95a420231c2
+	fromColumn: 'hospital_procedures csv'.Admission_ID
+	toColumn: 'hospital_admissions csv'.Admission_ID
+
+relationship AutoDetected_6ef1c966-ee08-4727-bc68-52ae2809cc63
+	fromColumn: 'hospital_admissions csv'.Patient_ID
+	toColumn: 'hospital_patients csv'.Patient_ID
+
+relationship AutoDetected_48793a81-9d11-4ad8-9b29-c03ba500b396
+	fromColumn: 'hospital_staff csv'.Department_ID
+	toColumn: 'hospital_departments csv'.Department_ID
+
+relationship 90a10948-3131-43c8-9eb2-adf7e19b4ecb
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Date Table'.Date
+	toColumn: LocalDateTable_6d1b8437-e915-4b7a-bc52-eb4849dbc85c.Date
+
+relationship b1ff09d9-a9f7-4b9e-b11b-a1f954baae8c
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Date Table'.WeekEnding
+	toColumn: LocalDateTable_1588c364-69f6-4d3a-8632-b476ba7037c6.Date
+
+relationship 3e67b158-273b-33d7-061e-416113df17ce
+	fromColumn: 'hospital_staff csv'.Hire_Date
+	toColumn: 'Date Table'.Date
+
+relationship fb24f025-ecb2-b0f4-bc52-0d8b9c8b1280
+	fromColumn: 'hospital_admissions csv'.Admission_Date
+	toColumn: 'Date Table'.Date
+
+relationship 17f123a7-e39e-4eaf-a960-e2ed844e96be
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_appointments csv'.Appointment_Date
+	toColumn: LocalDateTable_aba63317-0888-4b7d-a502-63a793e8acaa.Date
+
+relationship fb5b67e1-091d-44f0-99fe-5ebe709b3e41
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_patient_vitals csv'.Measurement_Date
+	toColumn: LocalDateTable_e0826138-13da-461a-a442-89b6ab5924be.Date
+
+relationship AutoDetected_b0c39832-d4b2-4ec2-beab-8f1c2976787f
+	fromColumn: 'hospital_appointments csv'.Location_ID
+	toColumn: 'hospital_locations csv'.Location_ID
+
+relationship AutoDetected_85fb2d6b-ad0d-41d7-8d22-5e91860d57f4
+	fromColumn: hospital_equipment_maintenance.Location_ID
+	toColumn: 'hospital_locations csv'.Location_ID
+
+relationship AutoDetected_8606683c-14e0-4fa2-86cf-31688c49addb
+	fromColumn: 'hospital_patient_vitals csv'.Location_ID
+	toColumn: 'hospital_locations csv'.Location_ID
+
+relationship cc7942a2-382f-412e-96d1-6685a725bca4
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_rooms csv'.Last_Cleaned
+	toColumn: LocalDateTable_fbaccdae-54ed-41ad-bd6c-a5fcb369298d.Date
+
+relationship AutoDetected_9d7da88e-75c8-4eac-a56c-1e176c792297
+	isActive: false
+	fromColumn: 'hospital_admissions csv'.Location_ID
+	toColumn: 'hospital_locations csv'.Location_ID
+
+relationship AutoDetected_d6e574b7-539d-4e35-8d99-7b821109f6d2
+	fromColumn: 'hospital_rooms csv'.Location_ID
+	toColumn: 'hospital_locations csv'.Location_ID
+
+relationship 59e98fe8-7a18-eca9-c8de-33c15b1b3e83
+	fromColumn: 'hospital_admissions csv'.Department_ID
+	toColumn: 'hospital_departments csv'.Department_ID
+
+relationship 34eee601-327d-1518-7299-0668bd3cbf7d
+	isActive: false
+	fromColumn: 'hospital_appointments csv'.Department_ID
+	toColumn: 'hospital_departments csv'.Department_ID
+
+relationship 7e5bcb19-18ed-41df-95df-0e8c8f590c3c
+	joinOnDateBehavior: datePartOnly
+	fromColumn: deltab1.Date
+	toColumn: LocalDateTable_0fe3b5b9-6c6c-48ab-b25a-0e59476aabb1.Date
+
+relationship AutoDetected_5166a0e1-5eda-4515-94a4-5d38fbbbb1f3
+	fromColumn: 'hospital_departments csv'.Location_ID
+	toColumn: 'hospital_locations csv'.Location_ID
+
+relationship eee255cc-5cef-fd05-d044-04d9aee9e77c
+	fromColumn: hospital_equipment_maintenance.Maintenance_Date
+	toColumn: 'Date Table'.Date
+
+relationship 661f4484-bd5d-e4db-d7ed-ae62a2acd936
+	isActive: false
+	fromColumn: 'hospital_billing csv'.Bill_Date
+	toColumn: 'Date Table'.Date
+
+relationship c5c3aeac-2227-49fb-8fcc-50ff50418a86
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_enquiries csv'.Enquiry_Date
+	toColumn: LocalDateTable_ea04866f-88a7-4c12-b6a3-ae95fcab2dd0.Date
+
+relationship 42ce1ea2-e3e9-4de8-b5d3-c93a6727f367
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_enquiries csv'.Followup_Date
+	toColumn: LocalDateTable_1d6bbc3b-8b17-4950-bdaa-a1ff1b4bbb3e.Date
+
+relationship cba8e291-bfd7-45c0-9c5b-2ea26a7639a4
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_feedback csv'.Feedback_Date
+	toColumn: LocalDateTable_5cb4bf63-9dd6-4a6a-bcb9-2bcc7e546207.Date
+
+relationship 80757546-9cad-4b8a-9b4b-ca06699d4794
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_salary_hikes csv'.Hike_Date
+	toColumn: LocalDateTable_22da291b-a800-4f7e-a487-227041baa7b2.Date
+
+relationship 09019e1d-957e-4527-a2de-89ce679be4fe
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'hospital_symptoms csv'.Reported_Date
+	toColumn: LocalDateTable_96f2084d-8adb-42f3-94d3-a4d23b103a63.Date
+
+relationship AutoDetected_7b616a34-8772-4533-8b0e-3c1197c4cc09
+	fromColumn: 'hospital_feedback csv'.Admission_ID
+	toColumn: 'hospital_admissions csv'.Admission_ID
+
+relationship AutoDetected_a682fbbc-943f-4cfc-946d-c0247c1b63f4
+	fromColumn: 'hospital_enquiries csv'.Patient_ID
+	toColumn: 'hospital_patients csv'.Patient_ID
+
+relationship AutoDetected_e87a820c-1b6a-4175-b3a9-035d323724a1
+	isActive: false
+	fromColumn: 'hospital_feedback csv'.Patient_ID
+	toColumn: 'hospital_patients csv'.Patient_ID
+
+relationship AutoDetected_bfbe13c4-d381-40a6-bce4-a1b5780a63ed
+	fromColumn: 'hospital_enquiries csv'.Location_ID
+	toColumn: 'hospital_locations csv'.Location_ID
+
+relationship AutoDetected_23fad44a-4e9c-4395-9fc2-61f23329977b
+	isActive: false
+	fromColumn: 'hospital_feedback csv'.Location_ID
+	toColumn: 'hospital_locations csv'.Location_ID
+
+relationship AutoDetected_3f23aa92-74e5-4af7-8a62-29bb6fef07cb
+	fromColumn: 'hospital_salary_hikes csv'.Location_ID
+	toColumn: 'hospital_locations csv'.Location_ID
+
+relationship AutoDetected_105ee179-d676-4895-b5e8-e6c317aebe72
+	fromColumn: 'hospital_symptoms csv'.Condition_ID
+	toColumn: 'hospital_conditions csv'.Condition_ID
+
+relationship AutoDetected_78c3ed0d-1208-4f67-9819-ede4a5c32896
+	isActive: false
+	fromColumn: 'hospital_salary_hikes csv'.Staff_ID
+	toColumn: 'hospital_staff csv'.Staff_ID
+

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "8609c8941016e7e3f53f",
+  "position": {
+    "x": 924.28571428571433,
+    "y": 94.285714285714292,
+    "z": 4000,
+    "height": 102.85714285714286,
+    "width": 257.14285714285717,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "card",
+    "autoSelectVisualType": true,
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Avg. Days to Discharge"
+                }
+              },
+              "queryRef": "Measure Table.Average Duration/Admitted Patient",
+              "nativeQueryRef": "Avg. Days to Discharge"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

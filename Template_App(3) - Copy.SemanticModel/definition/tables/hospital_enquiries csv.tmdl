@@ -1,0 +1,95 @@
+table 'hospital_enquiries csv'
+	lineageTag: 19e5dac0-5ca3-4a2c-b0ca-6695030250d2
+
+	column Enquiry_ID
+		dataType: string
+		lineageTag: cd69c30f-b360-43b4-a194-7b4f1b3b87d6
+		summarizeBy: none
+		sourceColumn: Enquiry_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Patient_ID
+		dataType: string
+		lineageTag: d9b2a7cb-b142-4192-9d0e-a51a6c984b44
+		summarizeBy: none
+		sourceColumn: Patient_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Enquiry_Date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 3daeaf87-5818-49d8-9575-71ef87cf2c90
+		summarizeBy: none
+		sourceColumn: Enquiry_Date
+
+		variation Variation
+			isDefault
+			relationship: c5c3aeac-2227-49fb-8fcc-50ff50418a86
+			defaultHierarchy: LocalDateTable_ea04866f-88a7-4c12-b6a3-ae95fcab2dd0.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Enquiry_Type
+		dataType: string
+		lineageTag: f54ab6eb-5d5c-4149-b68d-6f372cd78b93
+		summarizeBy: none
+		sourceColumn: Enquiry_Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Followup_Date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: f38b1c34-ad5f-4cbc-8c95-19099fe59465
+		summarizeBy: none
+		sourceColumn: Followup_Date
+
+		variation Variation
+			isDefault
+			relationship: 42ce1ea2-e3e9-4de8-b5d3-c93a6727f367
+			defaultHierarchy: LocalDateTable_1d6bbc3b-8b17-4950-bdaa-a1ff1b4bbb3e.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Conversion_Status
+		dataType: string
+		lineageTag: 1f24266c-2e41-445d-b6d5-520c4e1aba1d
+		summarizeBy: none
+		sourceColumn: Conversion_Status
+
+		annotation SummarizationSetBy = Automatic
+
+	column Appointment_ID
+		dataType: string
+		lineageTag: b67790a3-f8ba-4686-82fb-97512964eb48
+		summarizeBy: none
+		sourceColumn: Appointment_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Location_ID
+		dataType: string
+		lineageTag: 920d1507-a936-4f35-aca9-d648d8d45714
+		summarizeBy: none
+		sourceColumn: Location_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_enquiries csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
+				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_enquiries csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_enquiries.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_enquiries csv1",[Delimiter=",", Columns=8, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Enquiry_ID", type text}, {"Patient_ID", type text}, {"Enquiry_Date", type datetime}, {"Enquiry_Type", type text}, {"Followup_Date", type datetime}, {"Conversion_Status", type text}, {"Appointment_ID", type text}, {"Location_ID", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

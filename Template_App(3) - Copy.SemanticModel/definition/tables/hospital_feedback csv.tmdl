@@ -1,0 +1,84 @@
+table 'hospital_feedback csv'
+	lineageTag: ee69a799-8bec-4bf0-8f61-64cb9c3d6ca5
+
+	column Feedback_ID
+		dataType: string
+		lineageTag: 8aea0820-97a6-4e3b-86b4-c568339eb55f
+		summarizeBy: none
+		sourceColumn: Feedback_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Patient_ID
+		dataType: string
+		lineageTag: 5ac5cd27-cd95-438a-83cc-0f1cb63cd4f7
+		summarizeBy: none
+		sourceColumn: Patient_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Admission_ID
+		dataType: string
+		lineageTag: fbb3b4bf-ab43-48f1-abbd-20737d0721a0
+		summarizeBy: none
+		sourceColumn: Admission_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Feedback_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 651bec07-dba7-4b13-a669-195289e6c66b
+		summarizeBy: none
+		sourceColumn: Feedback_Date
+
+		variation Variation
+			isDefault
+			relationship: cba8e291-bfd7-45c0-9c5b-2ea26a7639a4
+			defaultHierarchy: LocalDateTable_5cb4bf63-9dd6-4a6a-bcb9-2bcc7e546207.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Rating
+		dataType: int64
+		formatString: 0
+		lineageTag: 1017cb2f-fd27-4e80-9b34-701011353660
+		summarizeBy: sum
+		sourceColumn: Rating
+
+		annotation SummarizationSetBy = Automatic
+
+	column Comments
+		dataType: string
+		lineageTag: b1f231c5-7a31-483b-8d59-e5016b4aa3bb
+		summarizeBy: none
+		sourceColumn: Comments
+
+		annotation SummarizationSetBy = Automatic
+
+	column Location_ID
+		dataType: string
+		lineageTag: e1677185-e3a4-4006-827a-82d9fc91a97a
+		summarizeBy: none
+		sourceColumn: Location_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_feedback csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
+				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_feedback csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_feedback.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_feedback csv1",[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Feedback_ID", type text}, {"Patient_ID", type text}, {"Admission_ID", type text}, {"Feedback_Date", type date}, {"Rating", Int64.Type}, {"Comments", type text}, {"Location_ID", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

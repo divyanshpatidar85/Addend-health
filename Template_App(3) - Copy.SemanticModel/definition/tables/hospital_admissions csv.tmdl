@@ -1,0 +1,101 @@
+table 'hospital_admissions csv'
+	lineageTag: c1fee6bf-e9f0-4a4d-aadf-ca3378be3d18
+
+	column Admission_ID
+		dataType: string
+		lineageTag: 7035afac-3afd-4514-9163-e01ea4aff427
+		summarizeBy: none
+		sourceColumn: Admission_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Patient_ID
+		dataType: string
+		lineageTag: d2d1b339-3f7a-4e9e-9490-516d73d1970e
+		summarizeBy: none
+		sourceColumn: Patient_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Admission_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: f3aa919c-f29a-425c-ba4c-363391fd11fe
+		summarizeBy: none
+		sourceColumn: Admission_Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Discharge_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: cb90bc4f-443d-4c57-8254-2ba32de42409
+		summarizeBy: none
+		sourceColumn: Discharge_Date
+
+		variation Variation
+			isDefault
+			relationship: 18bf076e-e8ec-4a8b-9252-48c851cda980
+			defaultHierarchy: LocalDateTable_74e7c7cc-97cf-47d5-95fa-f133749de1d4.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Department_ID
+		dataType: string
+		lineageTag: de0cd637-5b76-4a0f-a633-963a5d584752
+		summarizeBy: none
+		sourceColumn: Department_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Assigned_Staff_ID
+		dataType: string
+		lineageTag: 35df3129-ca3e-4a5f-9ac6-41816073a8d1
+		summarizeBy: none
+		sourceColumn: Assigned_Staff_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Duration = DATEDIFF('hospital_admissions csv'[Admission_Date],'hospital_admissions csv'[Discharge_Date],DAY)
+		formatString: 0
+		lineageTag: 272e56a9-33f8-461f-839c-0aa3948b6102
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Location_ID
+		dataType: string
+		lineageTag: a4638c6e-8a3b-471a-851b-ac487ad09789
+		summarizeBy: none
+		sourceColumn: Location_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column yera = YEAR('hospital_admissions csv'[Admission_Date])
+		formatString: 0
+		lineageTag: 9594c2c0-d1ab-4546-85e9-f0c37d2bab59
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_admissions csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2\"),
+				    #"E:\Addend Analytics\Health Github\_hospital_admissions csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_admissions.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\_hospital_admissions csv1",[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Admission_ID", type text}, {"Patient_ID", type text}, {"Admission_Date", type datetime}, {"Discharge_Date", type datetime}, {"Department_ID", type text}, {"Assigned_Staff_ID", type text}, {"Location_ID", type text}}),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Changed Type",{{"Admission_Date", type date}, {"Discharge_Date", type date}})
+				in
+				    #"Changed Type1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

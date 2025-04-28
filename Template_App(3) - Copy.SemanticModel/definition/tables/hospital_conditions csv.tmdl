@@ -1,0 +1,67 @@
+table 'hospital_conditions csv'
+	lineageTag: d2ddfb6a-551d-498d-831b-d944598b6aea
+
+	column Condition_ID
+		dataType: string
+		lineageTag: 64b39614-d4c5-4e6f-80be-91fca61ef3b1
+		summarizeBy: none
+		sourceColumn: Condition_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Admission_ID
+		dataType: string
+		lineageTag: d94e4d6a-4d07-4dff-8fcf-0b6ba75d9948
+		summarizeBy: none
+		sourceColumn: Admission_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Condition
+		dataType: string
+		lineageTag: 23f1d0c1-1408-4672-a2ee-f8d9e3040680
+		summarizeBy: none
+		sourceColumn: Condition
+
+		annotation SummarizationSetBy = Automatic
+
+	column Diagnosis_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d798935c-8bb2-49de-9a62-617d49d4a300
+		summarizeBy: none
+		sourceColumn: Diagnosis_Date
+
+		variation Variation
+			isDefault
+			relationship: b164298d-fee0-4973-a645-1526da80c360
+			defaultHierarchy: LocalDateTable_d6ac214c-14f5-4ec9-9430-986c1c2f3afe.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Severity
+		dataType: string
+		lineageTag: 43337cf2-38a2-456d-8803-6903b39099f7
+		summarizeBy: none
+		sourceColumn: Severity
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_conditions csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2\"),
+				    #"E:\Addend Analytics\Health Github\_hospital_conditions csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_conditions.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\_hospital_conditions csv1",[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Condition_ID", type text}, {"Admission_ID", type text}, {"Condition", type text}, {"Diagnosis_Date", type date}, {"Severity", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

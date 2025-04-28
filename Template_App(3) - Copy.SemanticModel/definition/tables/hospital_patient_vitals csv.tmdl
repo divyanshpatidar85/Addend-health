@@ -1,0 +1,84 @@
+table 'hospital_patient_vitals csv'
+	lineageTag: dd980342-190f-416a-be49-960cea30d3fc
+
+	column Vital_ID
+		dataType: string
+		lineageTag: bef0ed79-2bb2-4126-8672-33935521b0d1
+		summarizeBy: none
+		sourceColumn: Vital_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Admission_ID
+		dataType: string
+		lineageTag: 40f4ac82-f4ef-4f24-8caa-7c9a02413134
+		summarizeBy: none
+		sourceColumn: Admission_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Measurement_Date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 69d64df9-59f8-409e-b835-2b333a45a54c
+		summarizeBy: none
+		sourceColumn: Measurement_Date
+
+		variation Variation
+			isDefault
+			relationship: fb5b67e1-091d-44f0-99fe-5ebe709b3e41
+			defaultHierarchy: LocalDateTable_e0826138-13da-461a-a442-89b6ab5924be.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Blood_Pressure
+		dataType: string
+		lineageTag: b70e66b6-78de-4a97-8ef9-ee15adc52aaf
+		summarizeBy: none
+		sourceColumn: Blood_Pressure
+
+		annotation SummarizationSetBy = Automatic
+
+	column Heart_Rate
+		dataType: int64
+		formatString: 0
+		lineageTag: cdc80e6c-4e86-4552-945d-476e541103c3
+		summarizeBy: sum
+		sourceColumn: Heart_Rate
+
+		annotation SummarizationSetBy = Automatic
+
+	column Temperature
+		dataType: double
+		lineageTag: f0a2a63b-1598-4053-90da-f6c18e903539
+		summarizeBy: sum
+		sourceColumn: Temperature
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Location_ID
+		dataType: string
+		lineageTag: cceac7b8-1eaa-4310-a2bb-b2e2528d0d18
+		summarizeBy: none
+		sourceColumn: Location_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_patient_vitals csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
+				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_patient_vitals csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_patient_vitals.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_patient_vitals csv1",[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Vital_ID", type text}, {"Admission_ID", type text}, {"Measurement_Date", type datetime}, {"Blood_Pressure", type text}, {"Heart_Rate", Int64.Type}, {"Temperature", type number}, {"Location_ID", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

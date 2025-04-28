@@ -1,0 +1,767 @@
+table 'Measure Table'
+	lineageTag: fabeef6d-7248-463c-baee-f21cf4a4b176
+
+	measure 'Total Patients(Actual)' =
+			CALCULATE(
+			    Count('hospital_patients csv'[Patient_ID]),
+			    CROSSFILTER('hospital_admissions csv'[Patient_ID],'hospital_patients csv'[Patient_ID],Both)
+			    )
+		formatString: 0
+		lineageTag: b276bd08-0017-4614-b063-5cc1103d4353
+
+	measure 'Total Patients' = Count('hospital_admissions csv'[Patient_ID])
+		formatString: 0
+		lineageTag: 00b4e49c-9f3a-49c2-bba5-2dd262af0495
+
+	measure 'Avg. Days to Discharge' =
+			
+			AVERAGE('hospital_admissions csv'[Duration])
+		lineageTag: be027fb1-12f8-493c-b04a-ea28e59f1e23
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Doctors =
+			
+			var y=max('Date Table'[Year])
+			return
+			
+			CALCULATE(count('hospital_staff csv'[Staff_ID]),'hospital_staff csv'[Role]="Doctor",
+			All('Date Table'[Year]),
+			year('hospital_staff csv'[Hire_Date])<=y
+			)
+		formatString: 0
+		lineageTag: ab71c4fc-cc04-48d4-ba35-3ef1658ea49d
+
+	measure 'Doctor/Patient Ratio' = DIVIDE([Total Patients],[Doctors])
+		lineageTag: 0fd748eb-8cb2-4027-a5aa-7b4506a9e251
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Staff =
+			
+			var y=SELECTEDVALUE('Date Table'[Year])
+			return
+			CALCULATE(
+			    count('hospital_staff csv'[Staff_ID]),
+			    All('Date Table'[Year]),
+			    year('hospital_staff csv'[Hire_Date])<=y
+			    )
+		formatString: 0
+		lineageTag: 219a1de0-3d28-4825-a4d9-4871122368df
+
+	measure 'Staff/Patient Ratio' = DIVIDE([Total Patients],[Staff])
+		lineageTag: 81d6668a-5761-4b4c-8ada-9cc94a505af9
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Nurses = ```
+			
+			var y=SELECTEDVALUE('Date Table'[Year])
+			return
+			CALCULATE(count('hospital_staff csv'[Staff_ID]),
+			'hospital_staff csv'[Role]="Nurse",
+			All('Date Table'[Year]),
+			 year('hospital_staff csv'[Hire_Date])<=y
+			 ) 
+			```
+		formatString: 0
+		lineageTag: 2ade6ebe-ca7e-4b82-8c22-778a8be96024
+
+	measure 'Nurse/Patient Ratio' = DIVIDE([Total Patients],[Nurses])
+		formatString: 0.00
+		lineageTag: 189cb8a3-c8d7-4f7c-bf89-da42d5c6413f
+
+	measure 'Most Prescribed medication' = ```
+			
+			
+			VAR GroupedData = 
+			    GROUPBY(
+			        'hospital_medications csv',
+			        'hospital_medications csv'[Medication],
+			        "MY", 
+			        COUNTAX(CURRENTGROUP(), 'hospital_medications csv'[Medication])
+			    )
+			RETURN
+			   SELECTCOLUMNS( 
+			    Topn(
+			        1,
+			    TOPN(
+			        1, 
+			        GroupedData,[my],
+			        0
+			    )),
+			    [Medication]
+			    )
+			    
+			```
+		lineageTag: 5ec8b095-0421-4c7b-92aa-e6f8cec70915
+
+	measure 'Medication Count' = Count('hospital_medications csv'[Medication_ID])
+		formatString: 0
+		lineageTag: c9a3f821-0263-4c87-882c-50cf6c21ec58
+
+	measure 'Most Prescribed Medicatioqn' = ```
+			
+			var a=CALCULATE([Most Prescribed medication],ALLSELECTED('hospital_departments csv'[Department_Name]))
+			return
+			CALCULATE(
+			    [Medication Count],
+			    KEEPFILTERS('hospital_medications csv'[Medication]=a)
+			)
+			
+			```
+		formatString: 0
+		lineageTag: 962e955e-05b4-4690-a85c-b0c797d1cae3
+
+	measure 'Most Prescribed Medicatioqn2' = ```
+			
+			var a=CALCULATE([Most Prescribed medication],TOPN(1,ALLEXCEPT('hospital_admissions csv','hospital_patients csv'[Patient_ID])))
+			return
+			a
+			// CALCULATE(
+			//     [Medication Count],
+			//     'hospital_medications csv'[Medication]=a
+			// )
+			
+			```
+		lineageTag: 11545bc6-0ae3-44fa-8232-5745ffd1fbd2
+
+	measure diff = [Medication Count]-[Most Prescribed Medicatioqn]
+		formatString: 0
+		lineageTag: 99168bce-e57f-474c-be0c-69827fbed3e8
+
+	measure test =
+			
+			var m=CALCULATE([Most Prescribed medication],ALL('hospital_patients csv'))
+			return
+			CALCULATE(MAX('hospital_medications csv'[Medication]),'hospital_medications csv'[Medication]=m)
+		lineageTag: 23052f3d-30e9-46ed-b0af-8b5f9a3de8b9
+
+	measure 'M Count' = ```
+			
+			var b=[test]
+			return
+			CALCULATE(Count('hospital_medications csv'[hi]),'hospital_medications csv'[Medication]=b)
+			
+			```
+		formatString: 0
+		lineageTag: a4e4a080-cf2e-4958-ae6c-0a2264e0b8a0
+
+	measure Rank = ```
+			
+			RankX(
+			    ALLSELECTED('hospital_admissions csv'[Patient_ID],'hospital_admissions csv'[Admission_ID]),
+			    [Total Medication Cost],,
+			    DESC,Dense
+			    )
+			
+			```
+		formatString: 0
+		lineageTag: 978985f0-a3be-4aaf-b09d-fdd9cbd2b8bc
+
+	measure 'Total Medication Cost' = Sum('hospital_medications csv'[Cost])
+		formatString: 0
+		lineageTag: b91b5e0a-659b-4a5c-823e-604170e4ddf6
+
+	measure 'Average Medication Cost/Admission' = DIVIDE([Total Medication Cost],[Unique Admission])
+		lineageTag: d4755bdb-452e-4c27-8c7b-2c3106a715b3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Unique Admission' = DISTINCTCOUNT('hospital_medications csv'[Admission_ID])
+		formatString: 0
+		lineageTag: b469345c-fddc-4f61-ba44-6de2c9ff28a9
+
+	measure 'Most Prescribed Medication Cost%' =
+			
+			var m=[Most Prescribed medication]
+			return
+			CALCULATE(
+			    [Total Medication Cost],
+			    'hospital_medications csv'[Medication]=m
+			    )
+		formatString: 0
+		lineageTag: 818afbea-53ac-473b-a15b-b7a36d1c9b46
+
+	measure % = DIVIDE([Most Prescribed Medication Cost%],[Total Medication Cost])
+		formatString: 0.00%;-0.00%;0.00%
+		displayFolder: New Page Follder
+		lineageTag: fc012632-45e5-4eb0-a840-d748e10aae8b
+
+	measure 'Most Prescribed Medicatioqn(Year)' = ```
+			
+			var a=CALCULATE([Most Prescribed medication],ALLSELECTED('hospital_departments csv'[Department_Name]))
+			return
+			CALCULATE(
+			    [Medication Count],
+			    KEEPFILTERS('hospital_medications csv'[Medication]=a)
+			)
+			
+			```
+		formatString: 0
+		lineageTag: 385ad775-403d-4987-bdf4-dec7346f314f
+
+	measure 'UnqiueAdmitted Patient' = DISTINCTCOUNT('hospital_admissions csv'[Patient_ID])
+		formatString: 0
+		lineageTag: 1ffcfb6c-ca44-430b-a339-084c8eb685f9
+
+	measure 'Re Admitted Patient' =
+			
+			VAR tap2 =
+			    ADDCOLUMNS(
+			        SUMMARIZE('hospital_admissions csv', 'hospital_admissions csv'[Patient_ID]),
+			        "AdmissionCount", CALCULATE(COUNT('hospital_admissions csv'[Admission_ID]))
+			    )
+			VAR result =
+			    COUNTROWS(
+			        FILTER(tap2, [AdmissionCount] > 2)
+			    )
+			RETURN
+			   result
+		lineageTag: 49a0e579-41da-4bbd-a48d-c257851fda39
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Active Patients' = CALCULATE(count('hospital_admissions csv'[Admission_ID]),'hospital_admissions csv'[Discharge_Date]=BLANK())
+		formatString: 0
+		lineageTag: 33b9f230-2451-4c75-820e-71c65b7e5daa
+
+	measure 'Emergency Admissions %' = ```
+			
+			var em=CALCULATE(max('hospital_departments csv'[Department_ID]),'hospital_departments csv'[Department_Name]="Emergency")
+			var ec=CALCULATE(COUNT('hospital_admissions csv'[Admission_ID]),'hospital_admissions csv'[Department_ID]=em)
+			return 
+			// ec
+			DIVIDE(ec,[Total Patients])
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 0e45f64f-d057-4c37-a458-9416c8be9eca
+
+	measure 'Planned Admissions %' = 1-[Emergency Admissions %]
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 320c0994-82c4-4fe2-b87c-57b12e3e2b20
+
+	measure 'Appointment Completion Rate' =
+			
+			var compltedAppointmet=CALCULATE(count('hospital_appointments csv'[Appointment_ID]),'hospital_appointments csv'[Status]="Completed")
+			var total=count( 'hospital_appointments csv'[Appointment_ID])
+			RETURN
+			DIVIDE(compltedAppointmet,total)
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 7e19db1a-fa0c-412f-886a-3dfd5462c2a2
+
+	measure 'Occupancy %' = ```
+			
+			//  var adminId=CALCULATE(
+			//     Max('hospital_admissions csv'[Admission_ID]),
+			//     'hospital_admissions csv'[Discharge_Date]=BLANK())
+			//  var o=CALCULATE(count('hospital_rooms csv'[Room_ID]),'hospital_rooms csv'[Occupancy_Status]="Occupied"
+			// //  RELATED('hospital_admissions csv'[)
+			//  )
+			//  return
+			// CALCULATE
+			//    (
+			//     DIVIDE(o,[Total Room])
+			//     // ,
+			//     // USERELATIONSHIP('hospital_locations csv'[Location_ID],'hospital_departments csv'[Location_ID])
+			//     )
+			// // o&" "&[Total Room]
+			VAR CurrentAdmissions =
+			    FILTER (
+			        'hospital_admissions csv',
+			        ISBLANK ( 'hospital_admissions csv'[Discharge_Date] )
+			    )
+			
+			VAR OccupiedRooms_CurrentAdmissions =
+			    CALCULATETABLE (
+			        'hospital_rooms csv',
+			        'hospital_rooms csv'[Occupancy_Status] = "Occupied",
+			        TREATAS (
+			            SELECTCOLUMNS (
+			                CurrentAdmissions,
+			                "Admission_ID", 'hospital_admissions csv'[Admission_ID]
+			            ),
+			            'hospital_rooms csv'[Admission_ID]
+			        )
+			    )
+			
+			VAR NumOccupied =
+			    COUNTROWS ( OccupiedRooms_CurrentAdmissions )
+			
+			VAR TotalRooms =
+			    COUNTROWS ( 'hospital_rooms csv' )
+			
+			RETURN
+			    DIVIDE ( NumOccupied, TotalRooms)
+			
+			
+			
+			
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: f4990502-2f01-460c-b0b7-57b86540156b
+
+	measure 'Total Room' = COUNT('hospital_rooms csv'[Room_ID])
+		formatString: 0
+		lineageTag: cc4ef461-b0b2-456a-9812-99366ed3f2ff
+
+	measure del1 =
+			CALCULATE(
+			count('hospital_rooms csv'[Room_ID]),
+			'hospital_rooms csv'[Occupancy_Status]="Occupied",
+			// CROSSFILTER('hospital_locations csv'[Location_ID],'hospital_admissions csv'[Location_ID],Both)
+			USERELATIONSHIP('hospital_departments csv'[Location_ID],'hospital_locations csv'[Location_ID]),
+			CROSSFILTER('hospital_departments csv'[Location_ID],'hospital_locations csv'[Location_ID],Both)
+			)
+		formatString: 0
+		lineageTag: cc1e0b85-51eb-4f6f-bdc1-ea895ed09648
+
+	measure Location_Name
+		lineageTag: e71ead71-8747-41ce-a87c-7da224d08fc2
+
+		annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":null}
+
+		annotation 277cc1b9-af89-4597-8e15-cacc25c0886b = To use special characters in a measure name, enclose the entire name in brackets ( [] ) and add a ] to any closing brackets in the name.
+
+	measure 'Readmission Rate2' = ```
+			
+			VAR tap2 =
+			    ADDCOLUMNS(
+			        SUMMARIZE(
+			        'hospital_admissions csv', 
+			        'hospital_admissions csv'[Patient_ID],
+			        'hospital_admissions csv'[Department_ID]
+			        ),
+			        "AdmissionCount", CALCULATE(COUNT('hospital_admissions csv'[Admission_ID]))
+			    )
+			VAR result =
+			    COUNTROWS(
+			        FILTER(tap2, [AdmissionCount] >= 2)
+			    )
+			RETURN
+			    DIVIDE(result,[UnqiueAdmitted Patient])
+			```
+		lineageTag: c72ad7eb-b08a-4963-ae11-65ea2004688a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure del2 = ```
+			
+			VAR tap2 =
+			    ADDCOLUMNS(
+			        SUMMARIZE(
+			        'hospital_admissions csv', 
+			        'hospital_admissions csv'[Patient_ID],
+			        'hospital_admissions csv'[Department_ID]
+			        ),
+			        "AdmissionCount", CALCULATE(COUNT('hospital_admissions csv'[Admission_ID]))
+			    )
+			VAR result =
+			    COUNTROWS(
+			        FILTER(tap2, [AdmissionCount] >=2)
+			    )
+			RETURN
+			   result
+			```
+		formatString: 0
+		lineageTag: 0c441357-dbe9-4fd3-9afc-2e9073cfa99e
+
+	measure 'Procedure Cost' = sum('hospital_procedures csv'[Cost])
+		formatString: 0
+		lineageTag: b15e7b7d-c07d-489a-aef0-08e89db49e5c
+
+	measure ProcedureCost/Admission = [Procedure Cost]/DISTINCTCOUNT('hospital_procedures csv'[Admission_ID])
+		lineageTag: 7d209f78-f1a6-48b3-a533-85203a143215
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Occupancy %(year)' =
+			
+			
+			
+			VAR OccupiedRooms_CurrentAdmissions =
+			    CALCULATETABLE (
+			        'hospital_rooms csv',
+			        'hospital_rooms csv'[Occupancy_Status] = "Occupied",
+			        TREATAS (
+			            SELECTCOLUMNS (
+			                'hospital_admissions csv',
+			                "Admission_ID", 'hospital_admissions csv'[Admission_ID]
+			            ),
+			            'hospital_rooms csv'[Admission_ID]
+			        )
+			    )
+			
+			VAR NumOccupied =
+			    COUNTROWS ( OccupiedRooms_CurrentAdmissions )
+			
+			VAR TotalRooms =
+			    COUNTROWS ( 'hospital_rooms csv' )
+			
+			RETURN
+			    DIVIDE ( NumOccupied, TotalRooms )
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 509511f4-4228-482b-bc0e-095c68726442
+
+	measure Procedure = COUNT('hospital_procedures csv'[Procedure])
+		formatString: 0
+		lineageTag: ec9e1268-f96e-49aa-a115-397e1ca7c217
+
+	measure 'Avg Salary' = AVERAGE('hospital_staff csv'[Salary])
+		lineageTag: 2f3fc1b8-0fcb-43fc-9cf2-2e54db6d7198
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Avg Procedure Cost' = AVERAGE('hospital_procedures csv'[Cost])
+		lineageTag: 234f179a-759b-4218-b45b-b25163794b10
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Patient in ICU' =
+			
+			var io=CALCULATE(count('hospital_rooms csv'[Room_ID]),'hospital_rooms csv'[Occupancy_Status]="Occupied",'hospital_rooms csv'[Room_Type]="ICU")
+			return io
+		formatString: 0
+		lineageTag: 88bf4019-afcb-4679-bdbc-49386aa65bc8
+
+	measure 'ICU Non Occupied' =
+			
+			var io=CALCULATE(count('hospital_rooms csv'[Room_ID]),'hospital_rooms csv'[Occupancy_Status]<>"Occupied",'hospital_rooms csv'[Room_Type]="ICU")
+			return io
+		formatString: 0
+		lineageTag: e48951e8-a3f7-4c1b-950f-a1c87ec02947
+
+	measure 'Max Admission Date' = CALCULATE((MAX('hospital_admissions csv'[Admission_Date])),aLL('Date Table'[Year]))
+		formatString: General Date
+		lineageTag: eed69e11-da45-4c0f-a238-d34b15109268
+
+	measure 'C Admitted' =
+			
+			var a=[Max Admission Date]
+			return
+			CALCULATE(
+			    COUNT('hospital_admissions csv'[Admission_ID]),
+			    MONTH('hospital_admissions csv'[Admission_Date])=MONTH(a),
+			    aLL('Date Table'[Year])
+			)
+		formatString: 0
+		lineageTag: f62990d7-a69e-4787-acbd-192dcc1e3b60
+
+	measure 'C Dischared' =
+			
+			var a=[Max Admission Date]
+			return
+			CALCULATE(COUNT('hospital_admissions csv'[Admission_ID]),
+			MONTH('hospital_admissions csv'[Discharge_Date])=MONTH(a),
+			aLL('Date Table'[Year]))
+		formatString: 0
+		lineageTag: 89decb06-c577-4ace-b93d-f119e5f87575
+
+	measure Measure
+		lineageTag: 6b13a91a-31c0-4e47-96cb-13ee1ce13173
+
+		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
+
+	measure 'Admission/Discharge Rate' = DIVIDE([C Admitted],[C Dischared],1)
+		formatString: 0.0
+		lineageTag: 65698dfc-1f0d-4010-8290-83e9bd2ec02f
+
+	measure 'Maintenance Cost' = sum(hospital_equipment_maintenance[Cost])
+		formatString: 0
+		lineageTag: b7da636c-f803-4521-a553-860466b1770b
+
+	measure 'Occupancy %(2)' = ```
+			
+			
+			VAR CurrentAdmissions =
+			    CALCULATETABLE (
+			     'hospital_admissions csv',
+			      ISBLANK ( 'hospital_admissions csv'[Discharge_Date] ),
+			      All('Date Table'[Year])
+			      )
+			    
+			
+			VAR OccupiedRooms_CurrentAdmissions =
+			    CALCULATETABLE (
+			        'hospital_rooms csv',
+			        'hospital_rooms csv'[Occupancy_Status] = "Occupied",
+			        TREATAS (
+			            SELECTCOLUMNS (
+			                CurrentAdmissions,
+			                "Admission_ID", 'hospital_admissions csv'[Admission_ID]
+			            ),
+			            'hospital_rooms csv'[Admission_ID]
+			        )
+			    )
+			
+			VAR NumOccupied =
+			    COUNTROWS ( OccupiedRooms_CurrentAdmissions )
+			
+			VAR TotalRooms =
+			    COUNTROWS ( 'hospital_rooms csv' )
+			
+			RETURN
+			    DIVIDE ( NumOccupied, TotalRooms )
+			
+			
+			
+			
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 4e301591-3b0a-472f-9cba-2b103007a6c5
+
+	measure 'C Dischared(LAST)' =
+			
+			var a=[Max Admission Date]
+			return
+			CALCULATE(COUNT('hospital_admissions csv'[Admission_ID]),
+			MONTH('hospital_admissions csv'[Discharge_Date])=MONTH(EOMONTH(a,-1)),
+			aLL('Date Table'[Year])
+			)
+		formatString: 0
+		lineageTag: 06b46a9e-bc7b-48ca-8c31-25178b4c423d
+
+	measure 'C Admitted(LAST)' =
+			
+			var a=[Max Admission Date]
+			return
+			CALCULATE(COUNT('hospital_admissions csv'[Admission_ID]),
+			MONTH('hospital_admissions csv'[Admission_Date])=MONTH(EOMONTH(a,-1)),
+			aLL('Date Table'[Year])
+			)
+		formatString: 0
+		lineageTag: 29965279-cb66-4e15-940f-ec51040fa09a
+
+	measure 'A/D L' = ```
+			
+			var val=[Admission/Discharge Rate]
+			var val2=FORMAT(DIVIDE([C Admitted(LAST)],[C Dischared(LAST)],100),"0.00")
+			var indicator=if(DIVIDE(val,val2,0)>=0,"▲", "▼")
+			return 
+			"PM : "&val2&" "&indicator
+			```
+		lineageTag: 8f487099-067d-4b57-b383-7f0136f74c83
+
+	measure 'Total Revenue' =
+			CALCULATE(
+			    sum('hospital_billing csv'[Total_Amount]),
+			    USERELATIONSHIP('Date Table'[Date],'hospital_billing csv'[Bill_Date]))
+		formatString: 0
+		displayFolder: New Page Follder
+		lineageTag: 65808cc3-530b-4c27-9493-17a82536c89c
+
+	measure 'Revenue Rank' = ```
+			
+			var prank=RankX(
+			    ALLSELECTED('hospital_admissions csv'),[Total_ Revenue],,DESC,Dense
+			    )
+			return 
+			prank
+			```
+		formatString: 0
+		displayFolder: New Page Follder
+		lineageTag: 561548d2-6fc5-4a3d-93df-3a940da52ca1
+
+	measure 'Patient Name' = ```
+			
+			if([Revenue Rank]<=5,CALCULATE(
+			    max('hospital_patients csv'[Name]),
+			    'hospital_patients csv'[Patient_ID]=MAX('hospital_admissions csv'[Patient_ID])
+			    ),BLANK())
+			
+			```
+		displayFolder: New Page Follder
+		lineageTag: 05aa9228-5db4-40ea-a43a-7482f8f4747d
+
+	measure 'Total_ Revenue' = ```
+			CALCULATE(
+			sum('hospital_billing csv'[Total_Amount])
+			// ALLSELECTED('hospital_admissions csv'[Admission_ID])
+			)
+			
+			```
+		formatString: 0
+		displayFolder: New Page Follder
+		lineageTag: 74e0f80b-59fc-418b-b268-7e43ce4ef395
+
+	measure 'Department Name' = ```
+			
+			if(
+			    [Revenue Rank]<=5,
+			 CALCULATE(max('hospital_departments csv'[Department_Name]),
+			'hospital_departments csv'[Department_ID]=MAX('hospital_admissions csv'[Department_ID])),BLANK())
+			
+			```
+		displayFolder: New Page Follder
+		lineageTag: e12da0a4-f5b0-49a0-a302-1c5156210623
+
+	measure 'Billing Revenue' = ```
+			
+			var m=SELECTEDVALUE('Date Table'[MonthOfYear])
+			var y=SELECTEDVALUE('Date Table'[Year])
+			RETURN
+			CALCULATE(
+			    [Total Revenue],
+			    
+			    MONTH('hospital_billing csv'[Bill_Date])=m,YEAR('hospital_billing csv'[Bill_Date])=y,USERELATIONSHIP('Date Table'[Date],'hospital_billing csv'[Bill_Date])
+			    )
+			```
+		formatString: 0
+		displayFolder: New Page Follder
+		lineageTag: 3e9aff4f-a82b-4deb-966e-dee2c3791659
+
+	measure 'Max Date' = MAX('Date Table'[Date])
+		formatString: General Date
+		lineageTag: f914e72c-9343-4e79-81af-6b0bad509e81
+
+	measure 'PM Billing Revenue' = ```
+			
+			var m=MONTH(EOMONTH([Max Date],-1))
+			var y=Year(EOMONTH([Max Date],-1))
+			RETURN
+			CALCULATE(
+			    [Total Revenue],
+			    All('Date Table'),
+			    MONTH('hospital_billing csv'[Bill_Date])=m,YEAR('hospital_billing csv'[Bill_Date])=y,USERELATIONSHIP('Date Table'[Date],'hospital_billing csv'[Bill_Date])
+			    ) 
+			```
+		formatString: 0
+		displayFolder: New Page Follder
+		lineageTag: 7e63416f-9a62-402e-b942-b2d18c484c3a
+
+	measure 'Paid Revenue' =
+			
+			var m=SELECTEDVALUE('Date Table'[MonthOfYear])
+			var y=SELECTEDVALUE('Date Table'[Year])
+			var r=CALCULATE(
+			    [Total Revenue],
+			    MONTH('hospital_billing csv'[Bill_Date])=m,
+			    YEAR('hospital_billing csv'[Bill_Date])=y,
+			    USERELATIONSHIP('Date Table'[Date],'hospital_billing csv'[Bill_Date]),
+			    'hospital_billing csv'[Payment_Status]="Paid"
+			    )
+			RETURN
+			DIVIDE(r,[Billing Revenue])
+		displayFolder: New Page Follder
+		lineageTag: d5e37d4a-bdb8-43b6-a7bb-f71b6da7c6f6
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'PM Paid Revenue' = ```
+			
+			var m=MONTH(EOMONTH([Max Date],-1))
+			var y=Year(EOMONTH([Max Date],-1))
+			var r=CALCULATE(
+			    [Total Revenue],
+			    All('Date Table'),
+			    MONTH('hospital_billing csv'[Bill_Date])=m,YEAR('hospital_billing csv'[Bill_Date])=y,USERELATIONSHIP('Date Table'[Date],'hospital_billing csv'[Bill_Date]),
+			    'hospital_billing csv'[Payment_Status]="Paid"
+			    ) 
+			RETURN
+			DIVIDE(r,[PM Billing Revenue])
+			```
+		displayFolder: New Page Follder
+		lineageTag: 88b24c50-3ee7-4ecb-9e06-82849a57103d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Count Bills year wise' =
+			
+			var y=SELECTEDVALUE('Date Table'[Year])
+			return
+			CALCULATE(count('hospital_billing csv'[Bill_ID]),year('hospital_billing csv'[Bill_Date])=y)
+		formatString: 0
+		displayFolder: New Page Follder
+		lineageTag: 71379ace-abfc-4fe2-83d1-33b59be98987
+
+	measure 'Average Bill Amount' =
+			
+			var m=SELECTEDVALUE('Date Table'[MonthOfYear])
+			var y=SELECTEDVALUE('Date Table'[Year])
+			var r=CALCULATE(
+			    [Avg Revenue],
+			    YEAR('hospital_billing csv'[Bill_Date])=y,
+			    All('Date Table')
+			    )
+			RETURN
+			r
+		displayFolder: New Page Follder
+		lineageTag: b804fb62-a3ad-403f-9bdd-9139d44c05e0
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Avg Revenue' = CALCULATE(AVERAGE('hospital_billing csv'[Total_Amount]),USERELATIONSHIP('Date Table'[Date],'hospital_billing csv'[Bill_Date]))
+		displayFolder: New Page Follder
+		lineageTag: ea327c16-fc46-4cc0-9445-031dd7d4cdf4
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'PY Average Bill Amount' =
+			
+			// var m=SELECTEDVALUE('Date Table'[MonthOfYear])
+			var y=YEAR([Max Date])-1
+			var r=CALCULATE(
+			    [Avg Revenue],
+			    YEAR('hospital_billing csv'[Bill_Date])=y,
+			    All('Date Table')
+			    )
+			RETURN
+			r
+		displayFolder: New Page Follder
+		lineageTag: 62e20a95-5584-487b-8ca4-80392eb66b28
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Overdue Bills' =
+			CALCULATE(count('hospital_billing csv'[Bill_ID]),
+			USERELATIONSHIP('Date Table'[Date],'hospital_billing csv'[Bill_Date]),'hospital_billing csv'[Payment_Status]="Overdue")
+		formatString: 0
+		displayFolder: New Page Follder
+		lineageTag: eba87520-425b-40ae-9e66-e8691694692e
+
+	measure 'PM Overdue Bills' =
+			
+			var m=MONTH(EOMONTH([Max Date],-1))
+			var y=YEAR(EOMONTH([Max Date],-1))
+			return
+			CALCULATE(
+			    [Overdue Bills],
+			    All('Date Table'),
+			    'hospital_billing csv'[Payment_Status]="Overdue",
+			    month('hospital_billing csv'[Bill_Date])=m,
+			    year('hospital_billing csv'[Bill_Date])=y
+			    )
+		formatString: 0
+		displayFolder: New Page Follder
+		lineageTag: c258ff79-7edc-4148-b3ad-668e5ceebac2
+
+	measure medicationcount = count('hospital_medications csv'[Medication_ID])
+		formatString: 0
+		lineageTag: 0e68c3c0-a691-4d09-8ad7-875faf343806
+
+	measure 'Measure 2'
+		lineageTag: 6acc1f05-b020-42a2-84dc-c7d73fbb0674
+
+		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
+
+	column Column1
+		dataType: string
+		lineageTag: 89a54742-a63b-4e4c-93b1-d7faa085be52
+		summarizeBy: none
+		sourceColumn: Column1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Measure Table' = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i45WyshUio0FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),
+				    #"Changed Type" = Table.TransformColumnTypes(Source,{{"Column1", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

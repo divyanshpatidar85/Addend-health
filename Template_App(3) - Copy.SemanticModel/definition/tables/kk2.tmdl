@@ -1,0 +1,44 @@
+table kk2
+	lineageTag: 01a80214-9e94-4c09-9586-1943369ca4af
+
+	column Patient_ID
+		lineageTag: d2a86aca-1037-471c-946d-6cf356241541
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: hospital_admissions csv[Patient_ID]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Department_ID
+		lineageTag: 8fac3222-974b-4f22-9f2f-23108bd7d6fe
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: hospital_admissions csv[Department_ID]
+
+		annotation SummarizationSetBy = Automatic
+
+	column AdmissionCount
+		formatString: 0
+		lineageTag: 1fb60340-5849-48cd-8d04-de34caba4479
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [AdmissionCount]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition kk2 = calculated
+		mode: import
+		source = ```
+				
+				    ADDCOLUMNS(
+				        SUMMARIZE(
+				        'hospital_admissions csv', 
+				        'hospital_admissions csv'[Patient_ID],
+				        'hospital_admissions csv'[Department_ID]
+				        ),
+				        "AdmissionCount", CALCULATE(COUNT('hospital_admissions csv'[Admission_ID]))
+				    )
+				```
+
+	annotation PBI_Id = 4d9d668d0f4d47a3871797003c8abca2
+

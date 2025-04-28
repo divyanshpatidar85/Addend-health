@@ -1,0 +1,67 @@
+table 'hospital_lab_results csv'
+	lineageTag: 9b3decca-85a4-43df-8318-3234c5a89f42
+
+	column Lab_ID
+		dataType: string
+		lineageTag: 437079f1-68d7-4600-8f16-f0789ae5c5d2
+		summarizeBy: none
+		sourceColumn: Lab_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Admission_ID
+		dataType: string
+		lineageTag: 6ea27dc8-4cda-4695-8bc1-5efaba4c55fc
+		summarizeBy: none
+		sourceColumn: Admission_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Test_Name
+		dataType: string
+		lineageTag: c9044bb4-d092-4c23-89a5-a28236b0f95c
+		summarizeBy: none
+		sourceColumn: Test_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Test_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 15b2cf18-001e-40af-b8ab-55962add448b
+		summarizeBy: none
+		sourceColumn: Test_Date
+
+		variation Variation
+			isDefault
+			relationship: 9a30d4c9-132b-4ad7-b707-cc9d19672c26
+			defaultHierarchy: LocalDateTable_aecf7452-b483-447d-8833-64c69fa61990.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Result
+		dataType: string
+		lineageTag: 38c06367-b042-4f11-90ac-d433b5022055
+		summarizeBy: none
+		sourceColumn: Result
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_lab_results csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2\"),
+				    #"E:\Addend Analytics\Health Github\_hospital_lab_results csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_lab_results.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\_hospital_lab_results csv1",[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Lab_ID", type text}, {"Admission_ID", type text}, {"Test_Name", type text}, {"Test_Date", type date}, {"Result", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,69 @@
+table 'hospital_inventory csv'
+	lineageTag: 8d3d7322-c49a-414f-8fb4-60a868c37938
+
+	column Item_ID
+		dataType: string
+		lineageTag: 8da51c28-92ad-4524-a7e2-05ebb4ec4b6e
+		summarizeBy: none
+		sourceColumn: Item_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Item_Name
+		dataType: string
+		lineageTag: 4b8acba0-2cee-4d2d-9e1a-6d2a97ddf03f
+		summarizeBy: none
+		sourceColumn: Item_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: 80784532-5793-4321-84b8-eaaac6a90510
+		summarizeBy: sum
+		sourceColumn: Quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column Last_Restocked
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d4885019-6d86-4ee0-8167-4e36c79488ee
+		summarizeBy: none
+		sourceColumn: Last_Restocked
+
+		variation Variation
+			isDefault
+			relationship: e91fec1b-a666-4d4c-a11e-933eaf741bb0
+			defaultHierarchy: LocalDateTable_ce7fdd65-1092-47b0-9108-f857ead29bbb.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Unit_Cost
+		dataType: int64
+		formatString: 0
+		lineageTag: 54e8cee4-0f40-4e91-bfbb-e91e28059f18
+		summarizeBy: sum
+		sourceColumn: Unit_Cost
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'hospital_inventory csv' = m
+		mode: import
+		source =
+				let
+				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2\"),
+				    #"E:\Addend Analytics\Health Github\_hospital_inventory csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_inventory.csv"]}[Content],
+				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\_hospital_inventory csv1",[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Item_ID", type text}, {"Item_Name", type text}, {"Quantity", Int64.Type}, {"Last_Restocked", type date}, {"Unit_Cost", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

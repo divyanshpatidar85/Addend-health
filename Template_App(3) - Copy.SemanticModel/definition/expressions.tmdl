@@ -1,0 +1,93 @@
+expression 'Health Github' =
+		let
+		    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2")
+		in
+		    Source
+	lineageTag: c849b368-04b6-4af9-b5bb-b567f3a9b674
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
+expression Query1 = ```
+		let fnDateTable = (StartDate as date, EndDate as date, FYStartMonth as number) as table =>
+		  let
+		    DayCount = Duration.Days(Duration.From(EndDate - StartDate)),
+		    Source = List.Dates(StartDate,DayCount,#duration(1,0,0,0)),
+		    TableFromList = Table.FromList(Source, Splitter.SplitByNothing()),   
+		    ChangedType = Table.TransformColumnTypes(TableFromList,{{"Column1", type date}}),
+		    RenamedColumns = Table.RenameColumns(ChangedType,{{"Column1", "Date"}}),
+		    InsertYear = Table.AddColumn(RenamedColumns, "Year", each Date.Year([Date]),type text),
+		    InsertYearNumber = Table.AddColumn(RenamedColumns, "YearNumber", each Date.Year([Date])),
+		    InsertQuarter = Table.AddColumn(InsertYear, "QuarterOfYear", each Date.QuarterOfYear([Date])),
+		    InsertMonth = Table.AddColumn(InsertQuarter, "MonthOfYear", each Date.Month([Date]), type text),
+		    InsertDay = Table.AddColumn(InsertMonth, "DayOfMonth", each Date.Day([Date])),
+		    InsertDayInt = Table.AddColumn(InsertDay, "DateInt", each [Year] * 10000 + [MonthOfYear] * 100 + [DayOfMonth]),
+		    InsertMonthName = Table.AddColumn(InsertDayInt, "MonthName", each Date.ToText([Date], "MMMM"), type text),
+		    InsertCalendarMonth = Table.AddColumn(InsertMonthName, "MonthInCalendar", each (try(Text.Range([MonthName],0,3)) otherwise [MonthName]) & " " & Number.ToText([Year])),
+		    InsertCalendarQtr = Table.AddColumn(InsertCalendarMonth, "QuarterInCalendar", each "Q" & Number.ToText([QuarterOfYear]) & " " & Number.ToText([Year])),
+		    InsertDayWeek = Table.AddColumn(InsertCalendarQtr, "DayInWeek", each Date.DayOfWeek([Date])),
+		    InsertDayName = Table.AddColumn(InsertDayWeek, "DayOfWeekName", each Date.ToText([Date], "dddd"), type text),
+		    InsertWeekEnding = Table.AddColumn(InsertDayName, "WeekEnding", each Date.EndOfWeek([Date]), type date),
+		    InsertWeekNumber= Table.AddColumn(InsertWeekEnding, "Week Number", each Date.WeekOfYear([Date])),
+		    InsertMonthnYear = Table.AddColumn(InsertWeekNumber,"MonthnYear", each [Year] * 10000 + [MonthOfYear] * 100),
+		    InsertQuarternYear = Table.AddColumn(InsertMonthnYear,"QuarternYear", each [Year] * 10000 + [QuarterOfYear] * 100),
+		    ChangedType1 = Table.TransformColumnTypes(InsertQuarternYear,{{"QuarternYear", Int64.Type},{"Week Number", Int64.Type},{"Year", type text},{"MonthnYear", Int64.Type}, {"DateInt", Int64.Type}, {"DayOfMonth", Int64.Type}, {"MonthOfYear", Int64.Type}, {"QuarterOfYear", Int64.Type}, {"MonthInCalendar", type text}, {"QuarterInCalendar", type text}, {"DayInWeek", Int64.Type}}),
+		    InsertShortYear = Table.AddColumn(ChangedType1, "ShortYear", each Text.End(Text.From([Year]), 2), type text),
+		    AddFY = Table.AddColumn(InsertShortYear, "FY", each "FY"&(if [MonthOfYear]>=FYStartMonth then Text.From(Number.From([ShortYear])+1) else [ShortYear]))
+		in
+		    AddFY
+		in
+		    fnDateTable
+		```
+	lineageTag: 3cb68e61-b356-45e9-a3e4-82acdb43ce70
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Function
+
+expression 'E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_medications csv' =
+		let
+		    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
+		    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_medications csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_medications.csv"]}[Content],
+		    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_medications csv1",[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+		    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+		    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Medication_ID", type text}, {"Admission_ID", type text}, {"Medication", type text}, {"Prescribed_Date", type date}, {"Dosage", type text}, {"Duration_Days", Int64.Type}, {"Cost", Int64.Type}})
+		in
+		    #"Changed Type"
+	lineageTag: 815f939b-ab84-4c1f-9de0-c7d0704d4a27
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
+expression 'E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_locations csv' =
+		let
+		    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
+		    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_locations csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_locations.csv"]}[Content],
+		    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_locations csv1",[Delimiter=",", Columns=9, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+		    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+		    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Location_ID", type text}, {"Location_Name", type text}, {"Facility_Type", type text}, {"Address", type text}, {"City", type text}, {"Region", type text}, {"Country", type text}, {"Latitude", type number}, {"Longitude", type number}})
+		in
+		    #"Changed Type"
+	lineageTag: c6371128-251b-4690-8f74-1d503278389f
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
+expression 'hospital_attendance csv' =
+		let
+		    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
+		    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_attendance csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_attendance.csv"]}[Content],
+		    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_attendance csv1",[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+		    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
+		    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Attendance_ID", type text}, {"Staff_ID", type text}, {"Attendance_Date", type date}, {"Status", type text}, {"Shift", type text}, {"Location_ID", type text}})
+		in
+		    #"Changed Type"
+	lineageTag: e93b67c9-49af-4f56-88e0-59ed50493499
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

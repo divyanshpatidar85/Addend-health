@@ -1,0 +1,192 @@
+table 'Date Table'
+	lineageTag: e11ce7b7-3488-4fe9-8cf3-eb9787d8848b
+
+	column Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 2243c7f2-8b53-418b-9914-7855e8b96afd
+		summarizeBy: none
+		sourceColumn: Date
+
+		variation Variation
+			isDefault
+			relationship: 90a10948-3131-43c8-9eb2-adf7e19b4ecb
+			defaultHierarchy: LocalDateTable_6d1b8437-e915-4b7a-bc52-eb4849dbc85c.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 52d98109-5d56-4032-b9ac-0a33011dffd5
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuarterOfYear
+		dataType: int64
+		formatString: 0
+		lineageTag: 543df048-462d-4fdd-bd2c-f35a4f92b92f
+		summarizeBy: sum
+		sourceColumn: QuarterOfYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthOfYear
+		dataType: int64
+		formatString: 0
+		lineageTag: 44ee9fb6-4f2f-482f-87db-0500daa2deaf
+		summarizeBy: sum
+		sourceColumn: MonthOfYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayOfMonth
+		dataType: int64
+		formatString: 0
+		lineageTag: 109564d9-240d-4295-8ee5-19ca18c27d73
+		summarizeBy: sum
+		sourceColumn: DayOfMonth
+
+		annotation SummarizationSetBy = Automatic
+
+	column DateInt
+		dataType: int64
+		formatString: 0
+		lineageTag: 76e46c66-aeb1-4364-9235-46d490df79a2
+		summarizeBy: sum
+		sourceColumn: DateInt
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthName
+		dataType: string
+		lineageTag: fed06a46-9aa0-4710-a1d5-b9f0b6a2a2b3
+		summarizeBy: none
+		sourceColumn: MonthName
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthInCalendar
+		dataType: string
+		lineageTag: 9a799301-2597-431f-b5ce-11cb25198859
+		summarizeBy: none
+		sourceColumn: MonthInCalendar
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuarterInCalendar
+		dataType: string
+		lineageTag: f1af3016-5975-4f62-82eb-115a3c38ffa0
+		summarizeBy: none
+		sourceColumn: QuarterInCalendar
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayInWeek
+		dataType: int64
+		formatString: 0
+		lineageTag: 9e685f6c-01e5-4b75-965b-39647ce797c2
+		summarizeBy: sum
+		sourceColumn: DayInWeek
+
+		annotation SummarizationSetBy = Automatic
+
+	column DayOfWeekName
+		dataType: string
+		lineageTag: 032d7056-726d-4d21-8521-2b20c4caf0e6
+		summarizeBy: none
+		sourceColumn: DayOfWeekName
+
+		annotation SummarizationSetBy = Automatic
+
+	column WeekEnding
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 21381898-0f64-4969-89b2-3083e5f14a57
+		summarizeBy: none
+		sourceColumn: WeekEnding
+
+		variation Variation
+			isDefault
+			relationship: b1ff09d9-a9f7-4b9e-b11b-a1f954baae8c
+			defaultHierarchy: LocalDateTable_1588c364-69f6-4d3a-8632-b476ba7037c6.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Week Number'
+		dataType: int64
+		formatString: 0
+		lineageTag: 5434dc9a-ae88-4186-96db-6de6a6a62fbc
+		summarizeBy: sum
+		sourceColumn: Week Number
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthnYear
+		dataType: int64
+		formatString: 0
+		lineageTag: 1e2fdbf9-038d-4fc4-8c87-56d94ba2b02a
+		summarizeBy: sum
+		sourceColumn: MonthnYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column QuarternYear
+		dataType: int64
+		formatString: 0
+		lineageTag: 88878007-6e8c-49c9-8c4f-a430e73cf291
+		summarizeBy: sum
+		sourceColumn: QuarternYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column ShortYear
+		dataType: string
+		lineageTag: 7ce0ea04-0d60-4017-a7b6-70a37a3a2d0d
+		summarizeBy: none
+		sourceColumn: ShortYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column FY
+		dataType: string
+		lineageTag: cebeba38-0939-4c4c-81d0-8844651f974b
+		summarizeBy: none
+		sourceColumn: FY
+
+		annotation SummarizationSetBy = Automatic
+
+	column Custom
+		dataType: string
+		lineageTag: 504a02eb-1ab9-4a90-bc9b-3b5c23fdbe8a
+		summarizeBy: none
+		sourceColumn: Custom
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Date Table' = m
+		mode: import
+		source =
+				let
+				    Source = Query1(#date(2022, 1, 1), #date(2025, 12, 31), 1),
+				    #"Added Custom" = Table.AddColumn(Source, "Custom", each let
+				month=Date.Month([Date]),
+				y=if month >= 6 and month<= 8 then "Monsoon"
+				else if month >= 3 and month <= 5 then "Summer"
+				else if month >= 11 or month <= 2 then "Winter"
+				else "Transition"
+				in y),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Added Custom",{{"Year", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
