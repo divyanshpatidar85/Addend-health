@@ -1,6 +1,6 @@
 expression 'Health Github' =
 		let
-		    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2")
+		    Source = Folder.Files(Source)
 		in
 		    Source
 	lineageTag: c849b368-04b6-4af9-b5bb-b567f3a9b674
@@ -90,4 +90,18 @@ expression 'hospital_attendance csv' =
 	annotation PBI_NavigationStepName = Navigation
 
 	annotation PBI_ResultType = Table
+
+expression Source = "D:\Health_Report" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 4fbae29c-bf2f-4a31-afc5-2a65a8135b7f
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
+expression Source2 = "D:\Health_Report\Data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: e50be62d-fbf5-4d4b-ab3b-e70b98826e0e
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
 

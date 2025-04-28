@@ -57,8 +57,8 @@ table hospital_equipment_maintenance
 		mode: import
 		source =
 				let
-				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
-				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_equipment_maintenance csv" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_equipment_maintenance.csv"]}[Content],
+				    Source = Folder.Files(Source),
+				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_equipment_maintenance csv" = Source{[#"Folder Path"=Source2,Name="hospital_equipment_maintenance.csv"]}[Content],
 				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_equipment_maintenance csv",[Delimiter=",", Columns=6, Encoding=1252, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Maintenance_ID", type text}, {"Equipment_Name", type text}, {"Maintenance_Date", type date}, {"Cost", Int64.Type}, {"Status", type text}, {"Location_ID", type text}})

@@ -53,8 +53,8 @@ table 'hospital_conditions csv'
 		mode: import
 		source =
 				let
-				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2\"),
-				    #"E:\Addend Analytics\Health Github\_hospital_conditions csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_conditions.csv"]}[Content],
+				    Source = Folder.Files(Source),
+				    #"E:\Addend Analytics\Health Github\_hospital_conditions csv1" = Source{[#"Folder Path"=Source2,Name="hospital_conditions.csv"]}[Content],
 				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\_hospital_conditions csv1",[Delimiter=",", Columns=5, Encoding=1252, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Condition_ID", type text}, {"Admission_ID", type text}, {"Condition", type text}, {"Diagnosis_Date", type date}, {"Severity", type text}})

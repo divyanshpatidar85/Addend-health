@@ -83,8 +83,8 @@ table 'hospital_locations csv'
 		mode: import
 		source =
 				let
-				    Source = Folder.Files("E:\Addend Analytics\Health Github\Samplte Data 2"),
-				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_locations csv1" = Source{[#"Folder Path"="E:\Addend Analytics\Health Github\Samplte Data 2\",Name="hospital_locations.csv"]}[Content],
+				    Source = Folder.Files(Source),
+				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_locations csv1" = Source{[#"Folder Path"=Source2,Name="hospital_locations.csv"]}[Content],
 				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_locations csv1",[Delimiter=",", Columns=9, Encoding=1252, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
 				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Location_ID", type text}, {"Location_Name", type text}, {"Facility_Type", type text}, {"Address", type text}, {"City", type text}, {"Region", type text}, {"Country", type text}, {"Latitude", type number}, {"Longitude", type number}})
