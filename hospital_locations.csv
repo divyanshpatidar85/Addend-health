@@ -1,0 +1,6 @@
+Location_ID,Location_Name,Facility_Type,Address,City,Region,Country,Latitude,Longitude
+L001,Massachusetts General Hospital,Tertiary,"55 Fruit St, Boston, MA 02114, USA",Boston,Massachusetts,United States,42.3626,-71.0692
+L002,Toronto General Hospital,Tertiary,"200 Elizabeth St, Toronto, ON M5G 2C4, Canada",Toronto,Ontario,Canada,43.6584,-79.386
+L003,Apollo Hospital Chennai,Tertiary,"21 Greams Ln, Thousand Lights, Chennai, Tamil Nadu 600006, India",Chennai,Tamil Nadu,India,13.0604,80.2518
+L004,Royal Melbourne Hospital,Tertiary,"300 Grattan St, Parkville VIC 3050, Australia",Melbourne,Victoria,Australia,-37.7983,144.9551
+L005,Groote Schuur Hospital,Tertiary,"Main Rd, Observatory, Cape Town, 7925, South Africa",Cape Town,Western Cape,South Africa,-33.9366,18.4714
