@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "51e6671007b7744b5464",
+  "name": "0a949e37e713e2e68436",
   "position": {
-    "x": 848.57142857142867,
-    "y": 230.00000000000003,
-    "z": 8000,
-    "height": 231.42857142857144,
-    "width": 410,
-    "tabOrder": 8000
+    "x": 549.83019733822857,
+    "y": 472.70469454417838,
+    "z": 6002,
+    "height": 207.74127365494155,
+    "width": 380.65167508031203,
+    "tabOrder": 6002
   },
   "visual": {
-    "visualType": "clusteredColumnChart",
+    "visualType": "lineClusteredColumnComboChart",
     "query": {
       "queryState": {
         "Category": {
@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "hospital_patients csv"
+                      "Entity": "hospital_staff csv"
                     }
                   },
-                  "Property": "Age_Group"
+                  "Property": "Role"
                 }
               },
-              "queryRef": "hospital_patients csv.Age_Group",
-              "nativeQueryRef": "Age_Group",
+              "queryRef": "hospital_staff csv.Role",
+              "nativeQueryRef": "Role",
               "active": true
             }
           ]
@@ -42,11 +42,11 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Procedures"
+                  "Property": "Staff"
                 }
               },
-              "queryRef": "Measure Table.Total Patients",
-              "nativeQueryRef": "Total Patients"
+              "queryRef": "Measure Table.Staff",
+              "nativeQueryRef": "Staff"
             }
           ]
         }
@@ -55,18 +55,19 @@
         "sort": [
           {
             "field": {
-              "Column": {
+              "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "hospital_patients csv"
+                    "Entity": "Measure Table"
                   }
                 },
-                "Property": "Age_Group"
+                "Property": "Staff"
               }
             },
-            "direction": "Ascending"
+            "direction": "Descending"
           }
-        ]
+        ],
+        "isDefaultSort": true
       }
     },
     "drillFilterOtherVisuals": true

@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "51e6671007b7744b5464",
+  "name": "77952a833e295999298a",
   "position": {
-    "x": 848.57142857142867,
-    "y": 230.00000000000003,
-    "z": 8000,
-    "height": 231.42857142857144,
-    "width": 410,
-    "tabOrder": 8000
+    "x": 445.33758064951542,
+    "y": 232.62046810463514,
+    "z": 5000,
+    "height": 230.13254865966579,
+    "width": 459.02113759684687,
+    "tabOrder": 5000
   },
   "visual": {
-    "visualType": "clusteredColumnChart",
+    "visualType": "lineClusteredColumnComboChart",
     "query": {
       "queryState": {
         "Category": {
@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "hospital_patients csv"
+                      "Entity": "hospital_procedures csv"
                     }
                   },
-                  "Property": "Age_Group"
+                  "Property": "Procedure"
                 }
               },
-              "queryRef": "hospital_patients csv.Age_Group",
-              "nativeQueryRef": "Age_Group",
+              "queryRef": "hospital_procedures csv.Procedure",
+              "nativeQueryRef": "Procedure",
               "active": true
             }
           ]
@@ -42,11 +42,11 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Procedures"
+                  "Property": "Avg. Treatment Cost"
                 }
               },
-              "queryRef": "Measure Table.Total Patients",
-              "nativeQueryRef": "Total Patients"
+              "queryRef": "Measure Table.Avg. Treatment Cost",
+              "nativeQueryRef": "Avg. Treatment Cost"
             }
           ]
         }
@@ -55,18 +55,19 @@
         "sort": [
           {
             "field": {
-              "Column": {
+              "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "hospital_patients csv"
+                    "Entity": "Measure Table"
                   }
                 },
-                "Property": "Age_Group"
+                "Property": "Avg. Treatment Cost"
               }
             },
-            "direction": "Ascending"
+            "direction": "Descending"
           }
-        ]
+        ],
+        "isDefaultSort": true
       }
     },
     "drillFilterOtherVisuals": true

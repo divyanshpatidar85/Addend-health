@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "b5796264408744bfa8e9",
+  "name": "b7dfdabb5b44a499e4e7",
   "position": {
-    "x": 20,
-    "y": 94.285714285714292,
-    "z": 0,
-    "height": 111.42857142857143,
-    "width": 178.57142857142858,
-    "tabOrder": 0
+    "x": 872.01576546176068,
+    "y": 60.954026401749317,
+    "z": 2000,
+    "height": 110.71241530113652,
+    "width": 179.13020003779391,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "card",
@@ -23,11 +23,11 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Procedures"
+                  "Property": "No. of Doctors"
                 }
               },
-              "queryRef": "Measure Table.Total Patients",
-              "nativeQueryRef": "Total Patients"
+              "queryRef": "Measure Table.No. of Doctors",
+              "nativeQueryRef": "No. of Doctors"
             }
           ]
         }
@@ -42,7 +42,7 @@
                     "Entity": "Measure Table"
                   }
                 },
-                "Property": "Procedures"
+                "Property": "No. of Doctors"
               }
             },
             "direction": "Descending"

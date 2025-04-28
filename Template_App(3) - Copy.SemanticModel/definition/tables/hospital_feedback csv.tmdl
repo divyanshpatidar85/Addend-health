@@ -66,17 +66,32 @@ table 'hospital_feedback csv'
 
 		annotation SummarizationSetBy = Automatic
 
+	column Satisfaction
+		dataType: string
+		lineageTag: f73916ee-f9ca-447e-9e1d-7ebe2a27d088
+		summarizeBy: none
+		sourceColumn: Satisfaction
+
+		annotation SummarizationSetBy = Automatic
+
 	partition 'hospital_feedback csv' = m
 		mode: import
-		source =
+		source = ```
 				let
 				    Source = Folder.Files(Source),
 				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_feedback csv1" = Source{[#"Folder Path"=Source2,Name="hospital_feedback.csv"]}[Content],
 				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_feedback csv1",[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
-				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Feedback_ID", type text}, {"Patient_ID", type text}, {"Admission_ID", type text}, {"Feedback_Date", type date}, {"Rating", Int64.Type}, {"Comments", type text}, {"Location_ID", type text}})
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Feedback_ID", type text}, {"Patient_ID", type text}, {"Admission_ID", type text}, {"Feedback_Date", type date}, {"Rating", Int64.Type}, {"Comments", type text}, {"Location_ID", type text}}),
+				    #"Added Custom" = Table.AddColumn(#"Changed Type", "Custom", each if [Rating] = null then "Not Reviewed" 
+				        else if [Rating] >= 4 then "Excellent" 
+				        else if [Rating] >= 2.5 then "Okay" 
+				        else "Poor"),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Added Custom",{{"Custom", type text}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type1",{{"Custom", "Satisfaction"}})
 				in
-				    #"Changed Type"
+				    #"Renamed Columns"
+				```
 
 	annotation PBI_NavigationStepName = Navigation
 

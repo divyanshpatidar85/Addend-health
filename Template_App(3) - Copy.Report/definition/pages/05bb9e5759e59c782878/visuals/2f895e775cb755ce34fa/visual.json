@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "b5796264408744bfa8e9",
+  "name": "2f895e775cb755ce34fa",
   "position": {
-    "x": 20,
-    "y": 94.285714285714292,
-    "z": 0,
-    "height": 111.42857142857143,
-    "width": 178.57142857142858,
-    "tabOrder": 0
+    "x": 675.47012930918117,
+    "y": 60.954026401749317,
+    "z": 1000,
+    "height": 110.71241530113652,
+    "width": 179.13020003779391,
+    "tabOrder": 1000
   },
   "visual": {
     "visualType": "card",
@@ -23,11 +23,11 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Procedures"
+                  "Property": "Avg. Treatment Cost"
                 }
               },
-              "queryRef": "Measure Table.Total Patients",
-              "nativeQueryRef": "Total Patients"
+              "queryRef": "Measure Table.Avg. Treatment Cost",
+              "nativeQueryRef": "Avg. Treatment Cost"
             }
           ]
         }
@@ -42,7 +42,7 @@
                     "Entity": "Measure Table"
                   }
                 },
-                "Property": "Procedures"
+                "Property": "Avg. Treatment Cost"
               }
             },
             "direction": "Descending"

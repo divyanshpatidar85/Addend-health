@@ -1,0 +1,196 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "2bf4987158efaeb586bd",
+  "position": {
+    "x": 18.755899964776329,
+    "y": 503.52377597745686,
+    "z": 4000,
+    "height": 184.67347657625925,
+    "width": 509.29482212046497,
+    "tabOrder": 4000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Department Name"
+                }
+              },
+              "queryRef": "Measure Table.Department Name",
+              "nativeQueryRef": "Department Name"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Patient Name"
+                }
+              },
+              "queryRef": "Measure Table.Patient Name",
+              "nativeQueryRef": "Patient Name"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "hospital_admissions csv"
+                    }
+                  },
+                  "Property": "Admission_ID"
+                }
+              },
+              "queryRef": "hospital_admissions csv.Admission_ID",
+              "nativeQueryRef": "Admission_ID"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Total_ Revenue"
+                }
+              },
+              "queryRef": "Measure Table.Total_ Revenue",
+              "nativeQueryRef": "Total_ Revenue"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Measure Table"
+                  }
+                },
+                "Property": "Patient Name"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "110.19866150052836D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "hospital_admissions csv.Admission_ID"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "123.19866150052836D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure Table.Patient Name"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "137.3131384290243D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure Table.Department Name"
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "dc33250ebf9fc12649cc",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Measure Table"
+              }
+            },
+            "Property": "Revenue Rank"
+          }
+        },
+        "type": "Advanced",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "m",
+              "Entity": "Measure Table",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "Comparison": {
+                  "ComparisonKind": 4,
+                  "Left": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Source": "m"
+                        }
+                      },
+                      "Property": "Revenue Rank"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "5L"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  }
+}

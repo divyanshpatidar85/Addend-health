@@ -1,38 +1,19 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "51e6671007b7744b5464",
+  "name": "8751602343b7ca240dfb",
   "position": {
-    "x": 848.57142857142867,
-    "y": 230.00000000000003,
-    "z": 8000,
-    "height": 231.42857142857144,
-    "width": 410,
-    "tabOrder": 8000
+    "x": 460.26509731933157,
+    "y": 60.954026401749317,
+    "z": 0,
+    "height": 110.71241530113652,
+    "width": 179.13020003779391,
+    "tabOrder": 0
   },
   "visual": {
-    "visualType": "clusteredColumnChart",
+    "visualType": "card",
     "query": {
       "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "hospital_patients csv"
-                    }
-                  },
-                  "Property": "Age_Group"
-                }
-              },
-              "queryRef": "hospital_patients csv.Age_Group",
-              "nativeQueryRef": "Age_Group",
-              "active": true
-            }
-          ]
-        },
-        "Y": {
+        "Values": {
           "projections": [
             {
               "field": {
@@ -55,18 +36,19 @@
         "sort": [
           {
             "field": {
-              "Column": {
+              "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "hospital_patients csv"
+                    "Entity": "Measure Table"
                   }
                 },
-                "Property": "Age_Group"
+                "Property": "Procedures"
               }
             },
-            "direction": "Ascending"
+            "direction": "Descending"
           }
-        ]
+        ],
+        "isDefaultSort": true
       }
     },
     "drillFilterOtherVisuals": true

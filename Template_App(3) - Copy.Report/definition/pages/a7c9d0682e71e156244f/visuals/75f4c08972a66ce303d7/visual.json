@@ -56,7 +56,7 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Total Patients"
+                  "Property": "Procedures"
                 }
               },
               "queryRef": "Measure Table.Admitted Patients",

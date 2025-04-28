@@ -1,13 +1,13 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "b5796264408744bfa8e9",
+  "name": "9ff4edd36ac8ef163efa",
   "position": {
-    "x": 20,
-    "y": 94.285714285714292,
-    "z": 0,
-    "height": 111.42857142857143,
-    "width": 178.57142857142858,
-    "tabOrder": 0
+    "x": 1051.1459654995544,
+    "y": 60.954026401749317,
+    "z": 3000,
+    "height": 110.71241530113652,
+    "width": 200.27751532003347,
+    "tabOrder": 3000
   },
   "visual": {
     "visualType": "card",
@@ -23,11 +23,11 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Procedures"
+                  "Property": "Doctor/Patient Ratio"
                 }
               },
-              "queryRef": "Measure Table.Total Patients",
-              "nativeQueryRef": "Total Patients"
+              "queryRef": "Measure Table.Doctor/Patient Ratio",
+              "nativeQueryRef": "Doctor/Patient Ratio"
             }
           ]
         }
@@ -42,7 +42,7 @@
                     "Entity": "Measure Table"
                   }
                 },
-                "Property": "Procedures"
+                "Property": "Doctor/Patient Ratio"
               }
             },
             "direction": "Descending"

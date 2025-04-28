@@ -202,3 +202,8 @@ relationship AutoDetected_78c3ed0d-1208-4f67-9819-ede4a5c32896
 	fromColumn: 'hospital_salary_hikes csv'.Staff_ID
 	toColumn: 'hospital_staff csv'.Staff_ID
 
+relationship b8e6ff21-3036-3a6e-f5e6-12a54c020f96
+	isActive: false
+	fromColumn: 'hospital_procedures csv'.D_id
+	toColumn: 'hospital_departments csv'.Department_ID
+

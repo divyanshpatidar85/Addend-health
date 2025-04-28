@@ -1,0 +1,88 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "f2026b95e026d589933e",
+  "position": {
+    "x": 1057.5442057062346,
+    "y": 82.237407537865451,
+    "z": 13000,
+    "height": 174.57414582599506,
+    "width": 201.98661500528354,
+    "tabOrder": 13000
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Overdue Bills"
+                }
+              },
+              "queryRef": "Measure Table.Overdue Bills",
+              "nativeQueryRef": "Overdue Bills"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Measure Table"
+                  }
+                },
+                "Property": "Overdue Bills"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "referenceLabel": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "PM Overdue Bills"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure Table.Overdue Bills",
+            "id": "field-4437360a-714f-bc4a-71c8-22b2dd044f57",
+            "order": 0
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -9,7 +9,10 @@ table 'Measure Table'
 		formatString: 0
 		lineageTag: b276bd08-0017-4614-b063-5cc1103d4353
 
-	measure 'Total Patients' = Count('hospital_admissions csv'[Patient_ID])
+	measure Procedures =
+			
+			// Count('hospital_admissions csv'[Patient_ID])
+			Count('hospital_procedures csv'[Procedure_ID])
 		formatString: 0
 		lineageTag: 00b4e49c-9f3a-49c2-bba5-2dd262af0495
 
@@ -20,7 +23,7 @@ table 'Measure Table'
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
-	measure Doctors =
+	measure 'No. of Doctors' =
 			
 			var y=max('Date Table'[Year])
 			return
@@ -32,14 +35,14 @@ table 'Measure Table'
 		formatString: 0
 		lineageTag: ab71c4fc-cc04-48d4-ba35-3ef1658ea49d
 
-	measure 'Doctor/Patient Ratio' = DIVIDE([Total Patients],[Doctors])
+	measure 'Doctor/Patient Ratio' = DIVIDE([Procedures],[No. of Doctors])
 		lineageTag: 0fd748eb-8cb2-4027-a5aa-7b4506a9e251
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
 
 	measure Staff =
 			
-			var y=SELECTEDVALUE('Date Table'[Year])
+			var y=if(SELECTEDVALUE('Date Table'[Year])==BLANK(),2024,SELECTEDVALUE('Date Table'[Year]))
 			return
 			CALCULATE(
 			    count('hospital_staff csv'[Staff_ID]),
@@ -49,7 +52,7 @@ table 'Measure Table'
 		formatString: 0
 		lineageTag: 219a1de0-3d28-4825-a4d9-4871122368df
 
-	measure 'Staff/Patient Ratio' = DIVIDE([Total Patients],[Staff])
+	measure 'Staff/Patient Ratio' = DIVIDE([Procedures],[Staff])
 		lineageTag: 81d6668a-5761-4b4c-8ada-9cc94a505af9
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
@@ -67,7 +70,7 @@ table 'Measure Table'
 		formatString: 0
 		lineageTag: 2ade6ebe-ca7e-4b82-8c22-778a8be96024
 
-	measure 'Nurse/Patient Ratio' = DIVIDE([Total Patients],[Nurses])
+	measure 'Nurse/Patient Ratio' = DIVIDE([Procedures],[Nurses])
 		formatString: 0.00
 		lineageTag: 189cb8a3-c8d7-4f7c-bf89-da42d5c6413f
 
@@ -232,7 +235,7 @@ table 'Measure Table'
 			var ec=CALCULATE(COUNT('hospital_admissions csv'[Admission_ID]),'hospital_admissions csv'[Department_ID]=em)
 			return 
 			// ec
-			DIVIDE(ec,[Total Patients])
+			DIVIDE(ec,[Procedures])
 			```
 		formatString: 0.00%;-0.00%;0.00%
 		lineageTag: 0e45f64f-d057-4c37-a458-9416c8be9eca
@@ -366,11 +369,15 @@ table 'Measure Table'
 		formatString: 0
 		lineageTag: 0c441357-dbe9-4fd3-9afc-2e9073cfa99e
 
-	measure 'Procedure Cost' = sum('hospital_procedures csv'[Cost])
+	measure 'Avg. Treatment Cost' = ```
+			
+			
+			    AVERAGE('hospital_procedures csv'[Cost])
+			```
 		formatString: 0
 		lineageTag: b15e7b7d-c07d-489a-aef0-08e89db49e5c
 
-	measure ProcedureCost/Admission = [Procedure Cost]/DISTINCTCOUNT('hospital_procedures csv'[Admission_ID])
+	measure ProcedureCost/Admission = [Avg. Treatment Cost]/DISTINCTCOUNT('hospital_procedures csv'[Procedure_ID])
 		lineageTag: 7d209f78-f1a6-48b3-a533-85203a143215
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
@@ -641,6 +648,7 @@ table 'Measure Table'
 			    'hospital_billing csv'[Payment_Status]="Paid"
 			    )
 			RETURN
+			
 			DIVIDE(r,[Billing Revenue])
 		displayFolder: New Page Follder
 		lineageTag: d5e37d4a-bdb8-43b6-a7bb-f71b6da7c6f6
@@ -743,6 +751,10 @@ table 'Measure Table'
 		lineageTag: 6acc1f05-b020-42a2-84dc-c7d73fbb0674
 
 		annotation 43dbc3e8-3a1c-4b6f-9923-b49ff7d6691c = True
+
+	measure Satisfaction = Count('hospital_feedback csv'[Feedback_ID])
+		formatString: 0
+		lineageTag: f9f6160a-c39f-43ff-9aab-127c048fcae9
 
 	column Column1
 		dataType: string

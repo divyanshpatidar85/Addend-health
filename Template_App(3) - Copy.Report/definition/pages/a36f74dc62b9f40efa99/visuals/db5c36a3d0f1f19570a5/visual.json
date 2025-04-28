@@ -1,12 +1,12 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "532ddd4f80e751245fd7",
+  "name": "db5c36a3d0f1f19570a5",
   "position": {
-    "x": 757.201646090535,
-    "y": 7.9012345679012341,
+    "x": 464,
+    "y": 0,
     "z": 6000,
-    "height": 75.061728395061721,
-    "width": 188.31275720164609,
+    "height": 94,
+    "width": 342,
     "tabOrder": 6000
   },
   "visual": {
@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "hospital_locations csv"
+                      "Entity": "Date Table"
                     }
                   },
-                  "Property": "Location_Name"
+                  "Property": "Year"
                 }
               },
-              "queryRef": "hospital_locations csv.Location_Name",
-              "nativeQueryRef": "Location_Name",
+              "queryRef": "Date Table.Year",
+              "nativeQueryRef": "Year",
               "active": true
             }
           ]
@@ -56,8 +56,8 @@
                 "Version": 2,
                 "From": [
                   {
-                    "Name": "h",
-                    "Entity": "hospital_locations csv",
+                    "Name": "d",
+                    "Entity": "Date Table",
                     "Type": 0
                   }
                 ],
@@ -70,10 +70,10 @@
                             "Column": {
                               "Expression": {
                                 "SourceRef": {
-                                  "Source": "h"
+                                  "Source": "d"
                                 }
                               },
-                              "Property": "Location_Name"
+                              "Property": "Year"
                             }
                           }
                         ],
@@ -81,7 +81,7 @@
                           [
                             {
                               "Literal": {
-                                "Value": "'Apollo Hospital Chennai'"
+                                "Value": "2025L"
                               }
                             }
                           ]
@@ -101,73 +101,13 @@
             "strictSingleSelect": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
+                  "Value": "true"
                 }
               }
             }
           }
         }
       ]
-    },
-    "visualContainerObjects": {
-      "title": [
-        {
-          "properties": {
-            "titleWrap": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "background": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "transparency": {
-              "expr": {
-                "Literal": {
-                  "Value": "0D"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "border": [
-        {
-          "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "width": {
-              "expr": {
-                "Literal": {
-                  "Value": "1D"
-                }
-              }
-            }
-          }
-        }
-      ]
-    },
-    "syncGroup": {
-      "groupName": "Department_Name1",
-      "fieldChanges": true,
-      "filterChanges": true
     },
     "drillFilterOtherVisuals": true
   }

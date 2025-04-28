@@ -1,16 +1,16 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "51e6671007b7744b5464",
+  "name": "6ee56c10f1c658316914",
   "position": {
-    "x": 848.57142857142867,
-    "y": 230.00000000000003,
-    "z": 8000,
-    "height": 231.42857142857144,
-    "width": 410,
-    "tabOrder": 8000
+    "x": 924.2620738061172,
+    "y": 472.70469454417838,
+    "z": 6004,
+    "height": 156.73892503306968,
+    "width": 306.01409173123125,
+    "tabOrder": 6004
   },
   "visual": {
-    "visualType": "clusteredColumnChart",
+    "visualType": "lineClusteredColumnComboChart",
     "query": {
       "queryState": {
         "Category": {
@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "hospital_patients csv"
+                      "Entity": "hospital_departments csv"
                     }
                   },
-                  "Property": "Age_Group"
+                  "Property": "Department_Name"
                 }
               },
-              "queryRef": "hospital_patients csv.Age_Group",
-              "nativeQueryRef": "Age_Group",
+              "queryRef": "hospital_departments csv.Department_Name",
+              "nativeQueryRef": "Department_Name",
               "active": true
             }
           ]
@@ -42,11 +42,11 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Procedures"
+                  "Property": "Avg. Days to Discharge"
                 }
               },
-              "queryRef": "Measure Table.Total Patients",
-              "nativeQueryRef": "Total Patients"
+              "queryRef": "Measure Table.Avg. Days to Discharge",
+              "nativeQueryRef": "Avg. Days to Discharge"
             }
           ]
         }
@@ -55,18 +55,19 @@
         "sort": [
           {
             "field": {
-              "Column": {
+              "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "hospital_patients csv"
+                    "Entity": "Measure Table"
                   }
                 },
-                "Property": "Age_Group"
+                "Property": "Avg. Days to Discharge"
               }
             },
-            "direction": "Ascending"
+            "direction": "Descending"
           }
-        ]
+        ],
+        "isDefaultSort": true
       }
     },
     "drillFilterOtherVisuals": true

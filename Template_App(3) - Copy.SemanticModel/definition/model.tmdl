@@ -6,7 +6,7 @@ model Model
 		legacyRedirects
 		returnErrorValuesAsNull
 
-annotation PBI_QueryOrder = ["Health Github","hospital_admissions csv","hospital_billing csv","hospital_conditions csv","hospital_departments csv","hospital_inventory csv","hospital_lab_results csv","hospital_medications csv","hospital_patients csv","hospital_procedures csv","hospital_staff csv","Measure Table","Query1","Date Table","hospital_appointments csv","hospital_equipment_maintenance","hospital_locations csv","hospital_patient_vitals csv","hospital_rooms csv","E:\\Addend Analytics\\Health Github\\Samplte Data 2\\_hospital_medications csv","E:\\Addend Analytics\\Health Github\\Samplte Data 2\\_hospital_locations csv","hospital_enquiries csv","hospital_feedback csv","hospital_salary_hikes csv","hospital_symptoms csv","hospital_attendance csv","Source","Source2"]
+annotation PBI_QueryOrder = ["Health Github","hospital_admissions csv","hospital_billing csv","hospital_conditions csv","hospital_departments csv","hospital_inventory csv","hospital_lab_results csv","hospital_medications csv","hospital_patients csv","hospital_procedures csv","hospital_staff csv","Measure Table","Query1","Date Table","hospital_appointments csv","hospital_equipment_maintenance","hospital_locations csv","hospital_patient_vitals csv","hospital_rooms csv","E:\\Addend Analytics\\Health Github\\Samplte Data 2\\_hospital_locations csv","hospital_enquiries csv","E:\\Addend Analytics\\Health Github\\Samplte Data 2\\_hospital_medications csv","hospital_feedback csv","hospital_salary_hikes csv","hospital_symptoms csv","hospital_attendance csv","Source","Source2"]
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 

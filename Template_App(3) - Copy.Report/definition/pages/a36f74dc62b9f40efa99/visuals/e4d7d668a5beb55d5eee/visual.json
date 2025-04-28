@@ -1,0 +1,88 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "e4d7d668a5beb55d5eee",
+  "position": {
+    "x": 774.7629446988376,
+    "y": 85.12293060936949,
+    "z": 11000,
+    "height": 168.80309968298695,
+    "width": 253.92603029235647,
+    "tabOrder": 11000
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Average Bill Amount"
+                }
+              },
+              "queryRef": "Measure Table.Average Bill Amount",
+              "nativeQueryRef": "Average Bill Amount"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Measure Table"
+                  }
+                },
+                "Property": "Average Bill Amount"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "referenceLabel": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "PY Average Bill Amount"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure Table.Average Bill Amount",
+            "id": "field-ba2c238b-a3ba-1fba-40bf-9dc82fa66526",
+            "order": 0
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

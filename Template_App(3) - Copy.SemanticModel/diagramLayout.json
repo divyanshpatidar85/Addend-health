@@ -5,7 +5,7 @@
       "ordinal": 0,
       "scrollPosition": {
         "x": 0,
-        "y": 0
+        "y": 410.31165727072977
       },
       "nodes": [
         {
@@ -49,8 +49,8 @@
         },
         {
           "location": {
-            "x": 1039.9582156445604,
-            "y": 1507.9031755262665
+            "x": 1042.9228953798618,
+            "y": 1309.26963326108
           },
           "nodeIndex": "hospital_departments csv",
           "nodeLineageTag": "120f7d58-2dad-4306-b7a9-61f85eaaba1f",

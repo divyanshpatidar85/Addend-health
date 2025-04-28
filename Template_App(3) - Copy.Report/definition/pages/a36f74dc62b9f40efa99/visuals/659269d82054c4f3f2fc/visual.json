@@ -1,0 +1,88 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "659269d82054c4f3f2fc",
+  "position": {
+    "x": 206.31489961253962,
+    "y": 85.12293060936949,
+    "z": 5000,
+    "height": 168.80309968298695,
+    "width": 258.25431489961255,
+    "tabOrder": 5000
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "Billing Revenue"
+                }
+              },
+              "queryRef": "Measure Table.Billing Revenue",
+              "nativeQueryRef": "Billing Revenue"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Measure Table"
+                  }
+                },
+                "Property": "Billing Revenue"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "referenceLabel": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Measure Table"
+                    }
+                  },
+                  "Property": "PM Billing Revenue"
+                }
+              }
+            }
+          },
+          "selector": {
+            "data": [
+              {
+                "dataViewWildcard": {
+                  "matchingOption": 0
+                }
+              }
+            ],
+            "metadata": "Measure Table.Billing Revenue",
+            "id": "field-5c45f949-51fa-65d6-cbfd-9d4cfc5ca9ff",
+            "order": 0
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
