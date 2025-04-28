@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
   "name": "c4c4d62a8fa8cfcdf2dc",
   "position": {
     "x": 28.340325782602207,
@@ -23,11 +23,11 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Total Patients"
+                  "Property": "Patients"
                 }
               },
-              "queryRef": "Measure Table.Total Patients",
-              "nativeQueryRef": "Total Patients"
+              "queryRef": "Measure Table.Patients",
+              "nativeQueryRef": "Patients"
             }
           ]
         }
@@ -42,7 +42,7 @@
                     "Entity": "Measure Table"
                   }
                 },
-                "Property": "Total Patients"
+                "Property": "Patients"
               }
             },
             "direction": "Descending"

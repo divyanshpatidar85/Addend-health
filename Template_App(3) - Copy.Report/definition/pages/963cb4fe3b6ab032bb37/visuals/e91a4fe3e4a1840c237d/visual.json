@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
   "name": "e91a4fe3e4a1840c237d",
   "position": {
     "x": 352.326581595719,
@@ -36,20 +36,6 @@
           "projections": [
             {
               "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure Table"
-                    }
-                  },
-                  "Property": "Total Patients"
-                }
-              },
-              "queryRef": "Measure Table.Total Patients",
-              "nativeQueryRef": "Total Patients"
-            },
-            {
-              "field": {
                 "Aggregation": {
                   "Expression": {
                     "Column": {
@@ -79,11 +65,11 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Total Patients"
+                  "Property": "Patients"
                 }
               },
-              "queryRef": "Measure Table.Total Patients",
-              "nativeQueryRef": "Total Patients"
+              "queryRef": "Measure Table.Patients",
+              "nativeQueryRef": "Patients"
             }
           ]
         }
@@ -98,7 +84,7 @@
                     "Entity": "Measure Table"
                   }
                 },
-                "Property": "Total Patients"
+                "Property": "Patients"
               }
             },
             "direction": "Descending"
@@ -110,39 +96,7 @@
     "objects": {
       "dataPoint": [
         {
-          "properties": {
-            "fillRule": {
-              "linearGradient2": {
-                "min": {
-                  "color": {
-                    "expr": {
-                      "Literal": {
-                        "Value": "'minColor'"
-                      }
-                    }
-                  }
-                },
-                "max": {
-                  "color": {
-                    "expr": {
-                      "Literal": {
-                        "Value": "'maxColor'"
-                      }
-                    }
-                  }
-                },
-                "nullColoringStrategy": {
-                  "strategy": {
-                    "expr": {
-                      "Literal": {
-                        "Value": "'asZero'"
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
+          "properties": {}
         }
       ]
     },
