@@ -1,0 +1,26 @@
+table 'Doctor name'
+	lineageTag: 2a68527a-967c-41a8-b4b0-1072ec601c05
+
+	column Name
+		dataType: string
+		lineageTag: f2ee171d-d848-432b-8111-53ce6a6d11b1
+		summarizeBy: none
+		sourceColumn: Name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Doctor name' = m
+		mode: import
+		source =
+				let
+				    Source = #"hospital_staff csv",
+				    #"Filtered Rows" = Table.SelectRows(Source, each ([Role] = "Doctor")),
+				    #"Removed Other Columns" = Table.SelectColumns(#"Filtered Rows",{"Name"}),
+				    #"Removed Duplicates" = Table.Distinct(#"Removed Other Columns")
+				in
+				    #"Removed Duplicates"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

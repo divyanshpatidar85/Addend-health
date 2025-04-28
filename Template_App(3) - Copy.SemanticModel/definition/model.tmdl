@@ -6,11 +6,11 @@ model Model
 		legacyRedirects
 		returnErrorValuesAsNull
 
-annotation PBI_QueryOrder = ["Health Github","hospital_admissions csv","hospital_billing csv","hospital_conditions csv","hospital_departments csv","hospital_inventory csv","hospital_lab_results csv","hospital_medications csv","hospital_patients csv","hospital_procedures csv","hospital_staff csv","Measure Table","Query1","Date Table","hospital_appointments csv","hospital_equipment_maintenance","hospital_locations csv","hospital_patient_vitals csv","hospital_rooms csv","E:\\Addend Analytics\\Health Github\\Samplte Data 2\\_hospital_locations csv","hospital_enquiries csv","E:\\Addend Analytics\\Health Github\\Samplte Data 2\\_hospital_medications csv","hospital_feedback csv","hospital_salary_hikes csv","hospital_symptoms csv","hospital_attendance csv","Source","Source2"]
+annotation PBI_QueryOrder = ["Health Github","hospital_admissions csv","hospital_billing csv","hospital_conditions csv","hospital_departments csv","hospital_inventory csv","hospital_lab_results csv","hospital_medications csv","hospital_patients csv","hospital_procedures csv","hospital_staff csv","Measure Table","Query1","Date Table","hospital_appointments csv","hospital_equipment_maintenance","hospital_locations csv","hospital_patient_vitals csv","hospital_rooms csv","E:\\Addend Analytics\\Health Github\\Samplte Data 2\\_hospital_locations csv","hospital_enquiries csv","E:\\Addend Analytics\\Health Github\\Samplte Data 2\\_hospital_medications csv","hospital_feedback csv","hospital_salary_hikes csv","hospital_symptoms csv","hospital_attendance csv","Source","Source2","Doctor name"]
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBIDesktopVersion = 2.140.1078.0 (25.02)+2cce24fb16e8b71ba835921d23e7ffc1fab909df
+annotation PBIDesktopVersion = 2.141.1558.0 (25.03)+75b5f06a991f8f8a8a4d6b6fcd0f66e1ec2d6fdc
 
 annotation PBI_ProTooling = ["DevMode"]
 
@@ -57,6 +57,7 @@ ref table 'hospital_salary_hikes csv'
 ref table LocalDateTable_22da291b-a800-4f7e-a487-227041baa7b2
 ref table 'hospital_symptoms csv'
 ref table LocalDateTable_96f2084d-8adb-42f3-94d3-a4d23b103a63
+ref table 'Doctor name'
 
 ref cultureInfo en-US
 

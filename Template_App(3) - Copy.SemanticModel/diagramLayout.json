@@ -317,6 +317,19 @@
             "width": 234
           },
           "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 5460.770566154175,
+            "y": 984.47300715502433
+          },
+          "nodeIndex": "Doctor name",
+          "nodeLineageTag": "2a68527a-967c-41a8-b4b0-1072ec601c05",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
         }
       ],
       "name": "All tables",
