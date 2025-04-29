@@ -1,9 +1,9 @@
 Department_ID,Department_Name,Head_Doctor,Location_ID
-D001,Cardiology,Christopher Fowler MD,L002
-D002,Orthopedics,Michelle Cortez,L002
-D003,Pediatrics,Jeremy Silva,L001
-D004,Neurology,James Mcfarland,L001
-D005,Emergency,Taylor Proctor,L004
-D006,Oncology,Suzanne Kirby,L004
-D007,Radiology,Kevin Browning,L003
-D008,Surgery,Phillip Walters,L002
+D001,Cardiology,Joseph Martinez,L004
+D002,Orthopedics,Kristina Fletcher MD,L001
+D003,Pediatrics,Nathan Green,L002
+D004,Neurology,Erik Mcgee,L001
+D005,Emergency,Jeremiah Rodriguez,L005
+D006,Oncology,Alexis Miller,L004
+D007,Radiology,Kara Smith,L001
+D008,Surgery,Kelly Stewart,L002

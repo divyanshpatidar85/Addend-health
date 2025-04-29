@@ -9,11 +9,11 @@ table 'hospital_rooms csv'
 
 		annotation SummarizationSetBy = Automatic
 
-	column Location_ID
+	column Department_ID
 		dataType: string
 		lineageTag: b6b89657-4cf4-4021-a377-e1525b47532c
 		summarizeBy: none
-		sourceColumn: Location_ID
+		sourceColumn: Department_ID
 
 		annotation SummarizationSetBy = Automatic
 
@@ -74,9 +74,10 @@ table 'hospital_rooms csv'
 				    #"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_rooms csv1" = Source{[#"Folder Path"=Source2,Name="hospital_rooms.csv"]}[Content],
 				    #"Imported CSV" = Csv.Document(#"E:\Addend Analytics\Health Github\Samplte Data 2\_hospital_rooms csv1",[Delimiter=",", Columns=7, Encoding=1252, QuoteStyle=QuoteStyle.None]),
 				    #"Promoted Headers" = Table.PromoteHeaders(#"Imported CSV", [PromoteAllScalars=true]),
-				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Room_ID", type text}, {"Location_ID", type text}, {"Room_Type", type text}, {"Capacity", Int64.Type}, {"Admission_ID", type text}, {"Occupancy_Status", type text}, {"Last_Cleaned", type date}})
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Room_ID", type text}, {"Location_ID", type text}, {"Room_Type", type text}, {"Capacity", Int64.Type}, {"Admission_ID", type text}, {"Occupancy_Status", type text}, {"Last_Cleaned", type date}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"Location_ID", "Department_ID"}})
 				in
-				    #"Changed Type"
+				    #"Renamed Columns"
 
 	annotation PBI_NavigationStepName = Navigation
 

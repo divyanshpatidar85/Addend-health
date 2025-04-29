@@ -1,1001 +1,1001 @@
 Maintenance_ID,Equipment_Name,Maintenance_Date,Cost,Status,Location_ID
-EM0001,Ultrasound Machine,2022-07-25,20521,Scheduled,L003
-EM0002,MRI Machine,2022-06-09,22756,Scheduled,L005
-EM0003,Ventilator,2025-03-29,21555,Completed,L004
-EM0004,Ultrasound Machine,2024-05-04,2285,Scheduled,L001
-EM0005,Ultrasound Machine,2023-03-12,23151,Completed,L002
-EM0006,Defibrillator,2024-07-10,12361,Completed,L002
-EM0007,Ultrasound Machine,2022-09-08,12342,In Progress,L001
-EM0008,Ventilator,2024-05-15,20428,In Progress,L004
-EM0009,Defibrillator,2023-04-26,17537,In Progress,L004
-EM0010,Ventilator,2024-02-28,11323,In Progress,L001
-EM0011,Defibrillator,2025-03-21,6212,Completed,L005
-EM0012,Ventilator,2024-10-27,10881,In Progress,L004
-EM0013,CT Scanner,2023-08-01,13301,In Progress,L005
-EM0014,Defibrillator,2023-04-18,10260,Completed,L005
-EM0015,Defibrillator,2023-04-29,12394,In Progress,L004
-EM0016,Ultrasound Machine,2022-07-13,9330,Scheduled,L005
-EM0017,CT Scanner,2024-04-12,19873,Completed,L005
-EM0018,Ultrasound Machine,2022-09-08,8361,In Progress,L004
-EM0019,Ultrasound Machine,2025-01-10,18192,Scheduled,L001
-EM0020,MRI Machine,2023-05-15,14526,Completed,L003
-EM0021,Ventilator,2022-10-28,15683,Scheduled,L001
-EM0022,MRI Machine,2023-01-18,3650,Scheduled,L004
-EM0023,CT Scanner,2023-08-24,7968,Scheduled,L004
-EM0024,Ventilator,2023-10-23,16320,In Progress,L003
-EM0025,Ventilator,2023-01-07,18927,Completed,L001
-EM0026,Defibrillator,2025-03-04,24633,Scheduled,L005
-EM0027,CT Scanner,2022-11-23,4878,In Progress,L002
-EM0028,Defibrillator,2022-09-11,17307,Scheduled,L003
-EM0029,Defibrillator,2023-07-29,11539,Completed,L003
-EM0030,Ventilator,2022-09-24,2680,Completed,L005
-EM0031,Ultrasound Machine,2024-06-24,11097,Scheduled,L003
-EM0032,CT Scanner,2023-07-24,20388,Scheduled,L003
-EM0033,Defibrillator,2022-09-17,9599,Scheduled,L003
-EM0034,MRI Machine,2022-06-26,4663,Completed,L004
-EM0035,MRI Machine,2022-11-04,11699,Scheduled,L005
-EM0036,Defibrillator,2024-03-27,5368,In Progress,L002
-EM0037,Defibrillator,2023-11-11,16368,In Progress,L004
-EM0038,Ventilator,2025-04-14,20203,Scheduled,L002
-EM0039,MRI Machine,2023-03-21,761,Completed,L002
-EM0040,Ventilator,2022-06-26,21875,Completed,L004
-EM0041,Defibrillator,2022-05-10,18440,Completed,L003
-EM0042,CT Scanner,2023-02-16,4948,Completed,L005
-EM0043,Defibrillator,2024-10-07,15539,Scheduled,L005
-EM0044,MRI Machine,2022-11-12,16437,In Progress,L001
-EM0045,CT Scanner,2023-08-06,17569,In Progress,L002
-EM0046,Ultrasound Machine,2022-08-11,2099,Completed,L003
-EM0047,MRI Machine,2022-08-07,23510,Completed,L004
-EM0048,Defibrillator,2022-06-21,22362,Completed,L003
-EM0049,MRI Machine,2024-01-23,16350,Completed,L001
-EM0050,Ultrasound Machine,2023-07-08,7037,Scheduled,L003
-EM0051,MRI Machine,2023-12-07,9139,Scheduled,L004
-EM0052,MRI Machine,2024-05-29,7803,Completed,L001
-EM0053,Defibrillator,2024-10-12,24291,Completed,L001
-EM0054,MRI Machine,2025-01-18,20533,In Progress,L004
-EM0055,Defibrillator,2023-10-26,22673,In Progress,L005
-EM0056,Ventilator,2023-09-23,7389,Scheduled,L001
-EM0057,Ventilator,2022-10-05,16178,In Progress,L005
-EM0058,MRI Machine,2025-02-17,15277,Completed,L002
-EM0059,MRI Machine,2023-12-15,17185,In Progress,L004
-EM0060,Defibrillator,2024-07-02,20870,In Progress,L004
-EM0061,CT Scanner,2024-05-17,14088,Scheduled,L005
-EM0062,Ventilator,2023-02-28,5107,Scheduled,L003
-EM0063,Ventilator,2023-08-10,4368,Completed,L002
-EM0064,Ultrasound Machine,2025-04-02,10843,Scheduled,L002
-EM0065,Ventilator,2024-02-25,10752,Scheduled,L004
-EM0066,CT Scanner,2022-09-08,18783,Scheduled,L005
-EM0067,Defibrillator,2023-05-16,1647,Scheduled,L004
-EM0068,Ventilator,2023-10-14,20712,In Progress,L001
-EM0069,CT Scanner,2022-12-20,7718,Completed,L001
-EM0070,Defibrillator,2024-08-02,12812,Scheduled,L004
-EM0071,Defibrillator,2022-10-28,4615,In Progress,L005
-EM0072,CT Scanner,2025-03-27,23840,In Progress,L004
-EM0073,MRI Machine,2023-03-04,23539,Scheduled,L001
-EM0074,Ultrasound Machine,2022-06-02,5032,Completed,L004
-EM0075,Ventilator,2022-08-31,21713,In Progress,L002
-EM0076,Ventilator,2024-02-09,10837,Completed,L005
-EM0077,Ultrasound Machine,2025-04-07,4776,Completed,L003
-EM0078,CT Scanner,2022-08-19,12089,In Progress,L002
-EM0079,Defibrillator,2022-05-18,3876,Completed,L005
-EM0080,Ultrasound Machine,2022-10-31,12125,In Progress,L002
-EM0081,CT Scanner,2024-11-22,22536,Scheduled,L004
-EM0082,CT Scanner,2024-03-26,17278,In Progress,L005
-EM0083,CT Scanner,2025-01-16,11310,In Progress,L003
-EM0084,MRI Machine,2023-03-14,19222,Scheduled,L003
-EM0085,CT Scanner,2025-04-13,9763,Completed,L002
-EM0086,Defibrillator,2022-05-12,8325,Scheduled,L002
-EM0087,Defibrillator,2023-09-08,7365,Completed,L003
-EM0088,Ultrasound Machine,2024-11-03,11171,Scheduled,L002
-EM0089,MRI Machine,2022-10-20,14366,Scheduled,L003
-EM0090,CT Scanner,2022-08-07,3076,Completed,L004
-EM0091,Defibrillator,2024-05-31,3277,Completed,L001
-EM0092,Ultrasound Machine,2025-01-03,15641,Completed,L003
-EM0093,Defibrillator,2024-01-12,5381,In Progress,L001
-EM0094,Defibrillator,2022-06-23,22715,In Progress,L001
-EM0095,Ventilator,2025-01-30,10717,In Progress,L001
-EM0096,MRI Machine,2024-02-27,15080,Completed,L003
-EM0097,Defibrillator,2024-05-22,16305,Completed,L004
-EM0098,Ventilator,2022-04-29,16123,Completed,L003
-EM0099,CT Scanner,2024-05-06,8745,Completed,L001
-EM0100,MRI Machine,2025-03-18,10068,Scheduled,L004
-EM0101,Defibrillator,2022-10-15,14140,Scheduled,L003
-EM0102,Ultrasound Machine,2024-08-29,6954,In Progress,L003
-EM0103,Defibrillator,2024-04-16,23330,In Progress,L002
-EM0104,Defibrillator,2024-07-27,23581,Scheduled,L004
-EM0105,Defibrillator,2023-05-13,19283,Scheduled,L004
-EM0106,MRI Machine,2025-01-10,3819,Scheduled,L002
-EM0107,CT Scanner,2022-11-19,6916,In Progress,L003
-EM0108,Ventilator,2024-11-14,954,Scheduled,L005
-EM0109,CT Scanner,2024-10-22,15647,Scheduled,L003
-EM0110,MRI Machine,2024-02-23,23283,Scheduled,L002
-EM0111,Ultrasound Machine,2025-01-25,18804,Completed,L001
-EM0112,Ultrasound Machine,2022-10-05,16253,Scheduled,L001
-EM0113,MRI Machine,2023-01-22,16688,Scheduled,L002
-EM0114,Ventilator,2025-01-20,9078,Completed,L004
-EM0115,Ventilator,2024-10-07,15858,Scheduled,L003
-EM0116,CT Scanner,2024-07-02,12300,Scheduled,L003
-EM0117,CT Scanner,2022-05-12,19846,In Progress,L004
-EM0118,Ventilator,2024-11-13,17702,In Progress,L001
-EM0119,Ultrasound Machine,2023-07-11,14149,In Progress,L005
-EM0120,CT Scanner,2023-03-03,18324,In Progress,L003
-EM0121,Ventilator,2022-07-25,24128,Completed,L005
-EM0122,Ultrasound Machine,2023-05-04,12578,Completed,L005
-EM0123,CT Scanner,2023-04-16,13483,Completed,L005
-EM0124,MRI Machine,2023-06-22,4309,Scheduled,L003
-EM0125,CT Scanner,2023-08-10,7713,In Progress,L003
-EM0126,Ventilator,2024-12-23,24017,In Progress,L003
-EM0127,Ultrasound Machine,2024-01-18,12095,Scheduled,L005
-EM0128,Ultrasound Machine,2023-06-03,2913,In Progress,L005
-EM0129,MRI Machine,2024-02-23,11967,Scheduled,L004
-EM0130,CT Scanner,2024-12-29,8880,In Progress,L005
-EM0131,Defibrillator,2022-07-30,22607,Scheduled,L005
-EM0132,Defibrillator,2025-03-17,18066,Scheduled,L001
-EM0133,MRI Machine,2024-07-10,19360,In Progress,L002
-EM0134,MRI Machine,2023-07-15,11606,Scheduled,L003
-EM0135,Defibrillator,2023-06-14,3205,Scheduled,L001
-EM0136,MRI Machine,2023-02-04,8971,Completed,L005
-EM0137,Defibrillator,2023-12-26,3399,Scheduled,L002
-EM0138,Ultrasound Machine,2024-03-01,21546,In Progress,L004
-EM0139,Ventilator,2024-10-01,17539,In Progress,L005
-EM0140,Ventilator,2024-01-21,10284,Completed,L005
-EM0141,CT Scanner,2023-02-23,19403,Scheduled,L005
-EM0142,Ultrasound Machine,2022-06-01,9917,In Progress,L004
-EM0143,Ventilator,2024-04-29,19833,Completed,L003
-EM0144,MRI Machine,2024-06-28,3406,Scheduled,L004
-EM0145,Ventilator,2022-12-22,7296,In Progress,L001
-EM0146,Defibrillator,2023-07-30,13815,Scheduled,L004
-EM0147,CT Scanner,2023-06-21,1430,Completed,L002
-EM0148,Ultrasound Machine,2024-12-20,13195,Scheduled,L003
-EM0149,Ultrasound Machine,2023-12-23,13684,Scheduled,L003
-EM0150,Defibrillator,2023-06-28,13342,Completed,L002
-EM0151,Ventilator,2024-10-09,1960,Scheduled,L004
-EM0152,Defibrillator,2023-08-04,23831,Scheduled,L002
-EM0153,Ultrasound Machine,2022-04-29,24703,Completed,L001
-EM0154,Defibrillator,2024-01-05,1165,Completed,L004
-EM0155,Defibrillator,2023-06-23,15057,Completed,L001
-EM0156,Ultrasound Machine,2024-08-08,2140,Scheduled,L001
-EM0157,MRI Machine,2022-07-24,21731,Completed,L003
-EM0158,Ultrasound Machine,2022-07-31,9841,Scheduled,L002
-EM0159,MRI Machine,2024-01-03,17949,Completed,L004
-EM0160,CT Scanner,2022-04-26,12325,In Progress,L003
-EM0161,Ventilator,2023-05-01,5522,In Progress,L005
-EM0162,Defibrillator,2025-01-29,6610,Completed,L001
-EM0163,Defibrillator,2024-09-19,1201,Scheduled,L002
-EM0164,MRI Machine,2023-09-12,6951,Scheduled,L005
-EM0165,Ventilator,2023-10-16,1848,Scheduled,L002
-EM0166,CT Scanner,2023-09-10,3575,Completed,L002
-EM0167,CT Scanner,2024-04-10,6956,In Progress,L001
-EM0168,Ultrasound Machine,2023-05-12,9617,Scheduled,L004
-EM0169,MRI Machine,2024-09-04,896,Completed,L003
-EM0170,MRI Machine,2024-07-01,20365,Scheduled,L001
-EM0171,Ultrasound Machine,2023-05-08,3209,Completed,L003
-EM0172,Ventilator,2025-04-06,24483,Scheduled,L003
-EM0173,CT Scanner,2023-03-25,19048,Scheduled,L003
-EM0174,CT Scanner,2024-09-20,22237,Scheduled,L005
-EM0175,Ultrasound Machine,2022-08-21,9438,In Progress,L001
-EM0176,CT Scanner,2024-01-04,18954,Scheduled,L004
-EM0177,Defibrillator,2022-07-27,16377,In Progress,L005
-EM0178,Defibrillator,2023-07-15,9357,Completed,L004
-EM0179,MRI Machine,2024-12-18,788,In Progress,L004
-EM0180,Defibrillator,2024-03-18,21249,Completed,L001
-EM0181,Ultrasound Machine,2022-07-19,21686,Scheduled,L005
-EM0182,Defibrillator,2024-01-06,5616,Scheduled,L005
-EM0183,Ventilator,2023-07-24,6380,Completed,L003
-EM0184,Ventilator,2023-05-20,10253,In Progress,L005
-EM0185,MRI Machine,2024-04-30,1094,Completed,L001
-EM0186,Defibrillator,2024-07-04,13365,Completed,L003
-EM0187,MRI Machine,2025-01-12,6625,Scheduled,L001
-EM0188,Ultrasound Machine,2024-10-04,13436,Scheduled,L005
-EM0189,Ventilator,2023-11-21,12934,Completed,L003
-EM0190,Defibrillator,2022-12-29,13955,Completed,L002
-EM0191,Ventilator,2023-03-01,7527,Completed,L001
-EM0192,Defibrillator,2024-04-28,5289,In Progress,L005
-EM0193,CT Scanner,2024-05-15,7286,Completed,L004
-EM0194,Ultrasound Machine,2025-03-05,17516,Completed,L001
-EM0195,Ultrasound Machine,2024-09-29,10381,Scheduled,L005
-EM0196,CT Scanner,2024-01-05,19212,Completed,L001
-EM0197,Ventilator,2023-05-05,3444,Completed,L003
-EM0198,CT Scanner,2023-10-22,16068,Scheduled,L002
-EM0199,CT Scanner,2022-06-10,9729,In Progress,L005
-EM0200,MRI Machine,2022-05-30,20144,In Progress,L002
-EM0201,CT Scanner,2023-11-26,15360,Completed,L004
-EM0202,Ultrasound Machine,2023-11-30,13250,In Progress,L004
-EM0203,Defibrillator,2024-09-12,18325,Completed,L004
-EM0204,Defibrillator,2025-01-26,17558,In Progress,L005
-EM0205,Ventilator,2024-07-04,20899,Scheduled,L002
-EM0206,Ventilator,2024-11-04,12935,Scheduled,L002
-EM0207,Ventilator,2024-10-25,24479,Scheduled,L002
-EM0208,MRI Machine,2023-02-20,15881,Scheduled,L002
-EM0209,CT Scanner,2022-10-28,4825,In Progress,L004
-EM0210,Defibrillator,2025-03-06,14867,Scheduled,L005
-EM0211,Ultrasound Machine,2023-07-26,6663,Scheduled,L001
-EM0212,CT Scanner,2023-01-08,1303,Completed,L002
-EM0213,Ventilator,2025-04-02,3315,In Progress,L005
-EM0214,Defibrillator,2023-06-02,11590,Completed,L005
-EM0215,Ventilator,2024-02-19,10163,Scheduled,L004
-EM0216,MRI Machine,2024-07-10,21230,In Progress,L003
-EM0217,MRI Machine,2024-12-22,20008,Completed,L001
-EM0218,Ventilator,2023-11-29,4287,Completed,L005
-EM0219,Ultrasound Machine,2024-02-07,23874,Completed,L002
-EM0220,MRI Machine,2022-06-17,14253,Completed,L002
-EM0221,Ventilator,2022-09-21,11812,Scheduled,L002
-EM0222,Ultrasound Machine,2024-03-25,1181,Scheduled,L004
-EM0223,CT Scanner,2023-01-31,14289,Scheduled,L004
-EM0224,CT Scanner,2022-11-26,20975,Scheduled,L005
-EM0225,Ventilator,2025-03-09,12352,Completed,L004
-EM0226,MRI Machine,2025-01-04,19002,In Progress,L002
-EM0227,Ultrasound Machine,2025-01-30,5281,Scheduled,L005
-EM0228,CT Scanner,2023-05-08,16401,In Progress,L004
-EM0229,Ultrasound Machine,2023-06-08,3082,In Progress,L004
-EM0230,CT Scanner,2024-08-27,6072,Scheduled,L003
-EM0231,Defibrillator,2022-06-17,19424,Scheduled,L004
-EM0232,Ventilator,2023-03-11,10210,Scheduled,L002
-EM0233,CT Scanner,2023-06-18,1730,Completed,L005
-EM0234,Ultrasound Machine,2023-07-11,20768,Scheduled,L001
-EM0235,Defibrillator,2023-01-26,13838,In Progress,L002
-EM0236,Ultrasound Machine,2023-01-22,20878,In Progress,L001
-EM0237,Defibrillator,2024-12-09,18495,In Progress,L004
-EM0238,Defibrillator,2022-05-20,14578,Scheduled,L001
-EM0239,MRI Machine,2024-04-18,6296,Completed,L003
-EM0240,CT Scanner,2025-04-13,2636,Scheduled,L003
-EM0241,Ventilator,2023-10-15,11678,In Progress,L002
-EM0242,CT Scanner,2023-04-03,23258,In Progress,L001
-EM0243,Defibrillator,2023-07-16,6621,Scheduled,L001
-EM0244,MRI Machine,2024-07-04,6661,In Progress,L001
-EM0245,Ventilator,2024-02-04,23270,In Progress,L003
-EM0246,Defibrillator,2023-09-09,1154,In Progress,L004
-EM0247,Defibrillator,2024-07-06,10471,Completed,L004
-EM0248,Ultrasound Machine,2022-10-01,15738,Completed,L003
-EM0249,MRI Machine,2023-05-29,5233,In Progress,L003
-EM0250,CT Scanner,2025-02-07,663,In Progress,L004
-EM0251,Ultrasound Machine,2024-02-28,6621,Completed,L001
-EM0252,Ultrasound Machine,2023-06-25,20855,Scheduled,L001
-EM0253,CT Scanner,2024-04-20,22230,In Progress,L003
-EM0254,Ventilator,2022-07-05,24805,Scheduled,L005
-EM0255,Defibrillator,2023-04-06,11371,In Progress,L005
-EM0256,Defibrillator,2025-02-16,12591,In Progress,L004
-EM0257,Defibrillator,2023-11-11,23785,Scheduled,L004
-EM0258,MRI Machine,2022-10-26,11526,Scheduled,L001
-EM0259,CT Scanner,2024-03-03,14265,Completed,L001
-EM0260,MRI Machine,2024-01-07,23905,Scheduled,L005
-EM0261,Ultrasound Machine,2022-05-17,2441,In Progress,L001
-EM0262,Ventilator,2022-09-24,6117,In Progress,L002
-EM0263,CT Scanner,2022-05-29,14902,In Progress,L005
-EM0264,Ultrasound Machine,2023-12-01,22633,Scheduled,L003
-EM0265,Ultrasound Machine,2024-10-15,11127,Scheduled,L003
-EM0266,Ultrasound Machine,2023-01-24,3227,In Progress,L005
-EM0267,MRI Machine,2025-03-07,1661,In Progress,L003
-EM0268,CT Scanner,2024-01-29,4246,In Progress,L004
-EM0269,Defibrillator,2022-09-04,839,Scheduled,L001
-EM0270,CT Scanner,2022-07-19,8170,In Progress,L002
-EM0271,Defibrillator,2024-07-02,3594,Scheduled,L004
-EM0272,Ultrasound Machine,2024-06-29,10651,Scheduled,L001
-EM0273,CT Scanner,2024-03-05,20352,Scheduled,L002
-EM0274,MRI Machine,2023-06-17,17894,Completed,L005
-EM0275,Ultrasound Machine,2025-01-09,8944,Completed,L001
-EM0276,Ultrasound Machine,2022-07-11,22373,In Progress,L002
-EM0277,CT Scanner,2023-09-20,8719,Scheduled,L003
-EM0278,Ultrasound Machine,2022-09-29,20305,Scheduled,L003
-EM0279,Defibrillator,2024-11-23,17815,In Progress,L001
-EM0280,CT Scanner,2023-03-16,24243,Scheduled,L003
-EM0281,Ventilator,2024-06-30,15815,In Progress,L001
-EM0282,MRI Machine,2023-01-08,6285,Completed,L001
-EM0283,Defibrillator,2024-06-27,2714,In Progress,L003
-EM0284,Ultrasound Machine,2022-07-13,5499,In Progress,L002
-EM0285,CT Scanner,2024-07-07,10337,In Progress,L005
-EM0286,Ultrasound Machine,2023-04-03,9377,In Progress,L005
-EM0287,Ultrasound Machine,2023-08-07,22841,In Progress,L003
-EM0288,CT Scanner,2022-10-15,13165,Completed,L003
-EM0289,Defibrillator,2024-05-21,13065,In Progress,L005
-EM0290,Ultrasound Machine,2023-01-29,10074,In Progress,L003
-EM0291,Ventilator,2025-01-26,21927,In Progress,L001
-EM0292,Defibrillator,2023-11-24,4884,Completed,L005
-EM0293,CT Scanner,2022-10-02,9719,Scheduled,L001
-EM0294,MRI Machine,2024-07-08,24484,Completed,L002
-EM0295,Ultrasound Machine,2023-12-29,24567,In Progress,L003
-EM0296,MRI Machine,2022-07-10,20227,In Progress,L001
-EM0297,MRI Machine,2022-08-06,7832,Completed,L001
-EM0298,Defibrillator,2024-08-07,18766,In Progress,L003
-EM0299,Ventilator,2023-06-25,12955,Completed,L003
-EM0300,Defibrillator,2024-08-28,18989,Scheduled,L002
-EM0301,Defibrillator,2022-10-21,23801,Completed,L001
-EM0302,Ventilator,2024-03-30,9645,Completed,L005
-EM0303,Ultrasound Machine,2024-05-17,14940,Completed,L004
-EM0304,Ventilator,2023-03-22,15772,In Progress,L001
-EM0305,CT Scanner,2024-11-09,19062,In Progress,L002
-EM0306,Ultrasound Machine,2022-06-27,6326,Scheduled,L003
-EM0307,Ultrasound Machine,2023-05-25,11200,In Progress,L004
-EM0308,CT Scanner,2023-05-21,14250,Scheduled,L005
-EM0309,MRI Machine,2025-03-05,15003,In Progress,L001
-EM0310,Defibrillator,2025-01-28,15767,Scheduled,L004
-EM0311,CT Scanner,2023-12-27,869,In Progress,L004
-EM0312,Defibrillator,2023-01-15,1711,Completed,L004
-EM0313,Ultrasound Machine,2023-06-21,22369,Scheduled,L003
-EM0314,CT Scanner,2022-09-03,16355,Scheduled,L001
-EM0315,Ultrasound Machine,2022-12-22,14876,In Progress,L004
-EM0316,Ventilator,2022-07-29,10995,Completed,L003
-EM0317,Ultrasound Machine,2024-08-08,22172,In Progress,L003
-EM0318,Ultrasound Machine,2022-08-20,17197,Scheduled,L001
-EM0319,Ultrasound Machine,2022-10-30,10108,In Progress,L004
-EM0320,CT Scanner,2024-03-01,19176,In Progress,L005
-EM0321,Defibrillator,2022-12-12,19668,In Progress,L001
-EM0322,Defibrillator,2022-05-10,16747,Scheduled,L004
-EM0323,Defibrillator,2024-05-18,10996,Scheduled,L001
-EM0324,MRI Machine,2023-07-11,23092,Completed,L003
-EM0325,Ventilator,2025-04-11,9764,Scheduled,L002
-EM0326,MRI Machine,2024-09-12,23597,In Progress,L003
-EM0327,MRI Machine,2023-05-16,13499,Scheduled,L005
-EM0328,MRI Machine,2022-10-11,20416,In Progress,L005
-EM0329,Ultrasound Machine,2023-06-29,19789,Scheduled,L004
-EM0330,MRI Machine,2023-07-13,23180,In Progress,L002
-EM0331,MRI Machine,2023-08-11,21890,Scheduled,L002
-EM0332,MRI Machine,2025-04-14,23338,Scheduled,L001
-EM0333,Ventilator,2023-06-30,18975,In Progress,L005
-EM0334,CT Scanner,2023-08-28,23913,Completed,L001
-EM0335,Defibrillator,2023-11-07,12925,In Progress,L003
-EM0336,Ultrasound Machine,2023-03-05,14749,In Progress,L002
-EM0337,CT Scanner,2022-07-23,4585,Scheduled,L005
-EM0338,MRI Machine,2024-01-15,17642,In Progress,L004
-EM0339,Ventilator,2023-04-10,11347,Scheduled,L002
-EM0340,Defibrillator,2023-03-24,14766,In Progress,L004
-EM0341,Defibrillator,2024-03-03,9595,Scheduled,L004
-EM0342,Ultrasound Machine,2024-11-20,11112,Scheduled,L003
-EM0343,Defibrillator,2022-07-02,8593,Scheduled,L005
-EM0344,CT Scanner,2022-07-06,1657,In Progress,L003
-EM0345,Ultrasound Machine,2022-05-26,15694,Completed,L003
-EM0346,MRI Machine,2023-01-06,16807,In Progress,L001
-EM0347,Ultrasound Machine,2023-10-18,10103,Completed,L005
-EM0348,Defibrillator,2023-09-30,3789,In Progress,L004
-EM0349,Defibrillator,2023-08-09,23905,Completed,L005
-EM0350,Ventilator,2023-07-12,8126,Completed,L004
-EM0351,Ultrasound Machine,2022-09-13,3913,In Progress,L004
-EM0352,Defibrillator,2023-08-11,18144,In Progress,L004
-EM0353,MRI Machine,2023-09-07,12509,Scheduled,L004
-EM0354,MRI Machine,2022-10-23,17858,Scheduled,L002
-EM0355,CT Scanner,2024-11-06,24121,Completed,L002
-EM0356,MRI Machine,2024-02-27,16465,In Progress,L004
-EM0357,Ventilator,2024-02-17,15977,In Progress,L005
-EM0358,CT Scanner,2022-06-19,19942,In Progress,L004
-EM0359,MRI Machine,2024-03-13,20511,Completed,L001
-EM0360,Ultrasound Machine,2022-06-15,24168,Completed,L002
-EM0361,CT Scanner,2023-05-24,8235,Scheduled,L001
-EM0362,Defibrillator,2024-10-03,15464,Completed,L005
-EM0363,CT Scanner,2024-11-12,14984,Completed,L003
-EM0364,Ultrasound Machine,2024-03-04,6166,Completed,L003
-EM0365,CT Scanner,2023-09-19,9151,Completed,L002
-EM0366,Ultrasound Machine,2022-08-04,14057,In Progress,L001
-EM0367,CT Scanner,2023-06-26,8074,Scheduled,L003
-EM0368,Ventilator,2024-10-29,6417,Scheduled,L002
-EM0369,CT Scanner,2024-09-30,17135,In Progress,L002
-EM0370,Defibrillator,2024-09-14,17288,Completed,L002
-EM0371,Ultrasound Machine,2025-04-06,5350,In Progress,L004
-EM0372,Defibrillator,2022-11-26,7575,Completed,L001
-EM0373,Ventilator,2023-06-28,1763,In Progress,L005
-EM0374,Ventilator,2022-10-01,16325,In Progress,L004
-EM0375,Ventilator,2023-03-23,8743,Scheduled,L005
-EM0376,CT Scanner,2023-04-19,21468,Completed,L005
-EM0377,CT Scanner,2023-08-15,8495,Completed,L005
-EM0378,Ultrasound Machine,2024-09-04,3864,Completed,L003
-EM0379,CT Scanner,2023-07-14,15671,Completed,L001
-EM0380,CT Scanner,2024-11-03,13294,In Progress,L001
-EM0381,Defibrillator,2022-09-17,5774,Completed,L005
-EM0382,Ultrasound Machine,2023-04-12,1314,Scheduled,L003
-EM0383,CT Scanner,2022-11-05,8783,In Progress,L001
-EM0384,MRI Machine,2025-03-30,11219,In Progress,L003
-EM0385,Ventilator,2024-11-11,16694,Completed,L004
-EM0386,Ventilator,2022-09-08,20415,In Progress,L004
-EM0387,MRI Machine,2023-12-21,12320,Completed,L003
-EM0388,CT Scanner,2022-12-30,19794,Scheduled,L004
-EM0389,MRI Machine,2023-10-08,22724,Completed,L002
-EM0390,MRI Machine,2024-07-28,18110,In Progress,L004
-EM0391,Ultrasound Machine,2024-06-25,16979,In Progress,L005
-EM0392,Defibrillator,2024-09-08,1739,In Progress,L004
-EM0393,MRI Machine,2023-01-01,1789,Scheduled,L004
-EM0394,MRI Machine,2024-01-13,4962,Scheduled,L004
-EM0395,CT Scanner,2025-03-29,14998,Completed,L003
-EM0396,MRI Machine,2025-03-14,18191,Scheduled,L004
-EM0397,Ventilator,2023-11-30,5537,Scheduled,L003
-EM0398,Ultrasound Machine,2024-02-08,5724,Scheduled,L001
-EM0399,MRI Machine,2022-12-13,4065,Completed,L003
-EM0400,MRI Machine,2025-01-14,10473,Scheduled,L004
-EM0401,Ventilator,2024-04-17,10310,In Progress,L004
-EM0402,MRI Machine,2024-01-03,21356,Completed,L001
-EM0403,CT Scanner,2023-12-14,14731,Scheduled,L001
-EM0404,Ultrasound Machine,2025-01-21,2472,Scheduled,L003
-EM0405,Defibrillator,2024-07-22,4479,In Progress,L005
-EM0406,MRI Machine,2022-12-20,7702,Completed,L005
-EM0407,Ventilator,2024-01-21,14800,In Progress,L004
-EM0408,Ventilator,2023-01-21,21699,Completed,L001
-EM0409,Ultrasound Machine,2025-02-23,7990,Completed,L004
-EM0410,Ventilator,2024-06-18,24010,Completed,L003
-EM0411,CT Scanner,2024-04-04,15199,In Progress,L005
-EM0412,MRI Machine,2022-11-23,20061,In Progress,L001
-EM0413,Ventilator,2024-02-12,8355,In Progress,L005
-EM0414,Ventilator,2023-08-03,15255,Completed,L005
-EM0415,MRI Machine,2025-01-14,2360,In Progress,L004
-EM0416,MRI Machine,2023-12-28,6105,Scheduled,L004
-EM0417,Defibrillator,2023-10-10,14466,In Progress,L005
-EM0418,Defibrillator,2024-12-08,18066,In Progress,L002
-EM0419,Ultrasound Machine,2022-10-20,21493,Completed,L003
-EM0420,Defibrillator,2023-09-08,4378,In Progress,L001
-EM0421,MRI Machine,2023-05-22,6729,In Progress,L005
-EM0422,MRI Machine,2025-02-22,18611,Completed,L002
-EM0423,CT Scanner,2023-04-23,3226,Completed,L003
-EM0424,Defibrillator,2023-05-27,8467,Scheduled,L004
-EM0425,Ventilator,2023-11-05,16239,In Progress,L001
-EM0426,MRI Machine,2023-06-02,4264,In Progress,L002
-EM0427,Ventilator,2023-11-13,8114,In Progress,L001
-EM0428,Ventilator,2025-04-10,19892,Scheduled,L004
-EM0429,MRI Machine,2025-02-15,20180,Scheduled,L004
-EM0430,Ventilator,2023-07-18,12272,In Progress,L003
-EM0431,Defibrillator,2024-12-10,2522,In Progress,L004
-EM0432,CT Scanner,2022-05-12,16451,Scheduled,L002
-EM0433,Ventilator,2024-04-29,8740,Completed,L001
-EM0434,Ultrasound Machine,2022-09-18,3859,Completed,L004
-EM0435,Ventilator,2022-12-08,9751,In Progress,L003
-EM0436,Defibrillator,2023-03-12,10228,In Progress,L002
-EM0437,Defibrillator,2025-02-27,1711,Scheduled,L001
-EM0438,Ventilator,2024-09-16,19909,In Progress,L004
-EM0439,Ultrasound Machine,2022-07-30,18844,Completed,L004
-EM0440,CT Scanner,2024-01-27,2329,Scheduled,L001
-EM0441,Defibrillator,2025-04-10,8709,Scheduled,L003
-EM0442,Ultrasound Machine,2022-05-18,3017,In Progress,L004
-EM0443,CT Scanner,2023-04-01,6611,In Progress,L001
-EM0444,Ultrasound Machine,2025-02-18,19640,In Progress,L005
-EM0445,Defibrillator,2022-06-26,4962,Scheduled,L001
-EM0446,Defibrillator,2024-07-19,20302,In Progress,L002
-EM0447,Ultrasound Machine,2022-12-04,23722,In Progress,L002
-EM0448,Defibrillator,2024-08-12,7178,Scheduled,L005
-EM0449,MRI Machine,2024-09-27,4185,Scheduled,L003
-EM0450,CT Scanner,2023-07-22,9218,Scheduled,L003
-EM0451,MRI Machine,2024-10-13,23955,Completed,L001
-EM0452,CT Scanner,2023-06-05,20099,In Progress,L002
-EM0453,Defibrillator,2023-05-18,7042,In Progress,L003
-EM0454,CT Scanner,2024-03-09,13115,Scheduled,L005
-EM0455,CT Scanner,2023-07-12,1478,Scheduled,L005
-EM0456,Ventilator,2025-02-07,4308,In Progress,L003
-EM0457,Defibrillator,2025-03-05,21211,Completed,L002
-EM0458,Ventilator,2025-02-01,18881,In Progress,L003
-EM0459,MRI Machine,2022-12-04,21859,Completed,L001
-EM0460,Ultrasound Machine,2023-09-07,3509,Completed,L005
-EM0461,Defibrillator,2022-08-16,18314,Completed,L003
-EM0462,CT Scanner,2022-10-22,24770,Completed,L002
-EM0463,Defibrillator,2023-12-03,7149,Scheduled,L003
-EM0464,CT Scanner,2022-11-10,17275,Scheduled,L005
-EM0465,MRI Machine,2024-05-21,21468,Scheduled,L003
-EM0466,Defibrillator,2022-12-15,12135,In Progress,L003
-EM0467,MRI Machine,2025-02-19,1443,Scheduled,L001
-EM0468,Ventilator,2024-12-04,20735,Completed,L004
-EM0469,Ventilator,2024-05-16,9485,In Progress,L005
-EM0470,Defibrillator,2023-07-30,1471,In Progress,L005
-EM0471,Defibrillator,2023-04-19,995,Scheduled,L004
-EM0472,MRI Machine,2025-01-18,7910,Scheduled,L004
-EM0473,Defibrillator,2022-09-09,8602,Scheduled,L003
-EM0474,Ventilator,2025-01-31,23278,Scheduled,L005
-EM0475,Ventilator,2023-08-05,20568,Scheduled,L003
-EM0476,Defibrillator,2024-06-17,18539,In Progress,L002
-EM0477,Ventilator,2023-08-13,1937,In Progress,L005
-EM0478,CT Scanner,2022-09-05,23802,Scheduled,L002
-EM0479,Defibrillator,2023-08-13,9037,Scheduled,L004
-EM0480,Ultrasound Machine,2023-09-05,23049,Scheduled,L003
-EM0481,Ventilator,2022-09-26,13083,Completed,L001
-EM0482,CT Scanner,2022-09-24,23699,In Progress,L005
-EM0483,Defibrillator,2022-04-29,15955,Completed,L005
-EM0484,Ultrasound Machine,2024-09-09,6432,In Progress,L002
-EM0485,CT Scanner,2024-07-12,17975,Completed,L004
-EM0486,Defibrillator,2023-04-03,17279,Completed,L001
-EM0487,MRI Machine,2025-03-31,22073,In Progress,L004
-EM0488,Ventilator,2022-04-26,5739,In Progress,L004
-EM0489,Ultrasound Machine,2023-05-01,2877,Completed,L005
-EM0490,Ventilator,2024-03-31,15380,Scheduled,L005
-EM0491,MRI Machine,2022-10-20,1596,Scheduled,L001
-EM0492,CT Scanner,2024-03-26,11797,Scheduled,L004
-EM0493,Defibrillator,2024-10-10,9255,Completed,L005
-EM0494,MRI Machine,2023-04-15,3758,In Progress,L005
-EM0495,Ventilator,2023-04-12,22154,Scheduled,L003
-EM0496,MRI Machine,2024-10-27,15544,Scheduled,L004
-EM0497,CT Scanner,2022-07-04,24900,Scheduled,L005
-EM0498,CT Scanner,2022-07-08,3917,Completed,L003
-EM0499,Ultrasound Machine,2023-03-11,17808,Completed,L002
-EM0500,Ultrasound Machine,2023-11-25,6302,Scheduled,L004
-EM0501,Ultrasound Machine,2023-08-26,4356,In Progress,L005
-EM0502,Ultrasound Machine,2024-07-21,1297,In Progress,L004
-EM0503,MRI Machine,2022-05-11,21479,In Progress,L005
-EM0504,Defibrillator,2024-01-23,6723,In Progress,L002
-EM0505,Ultrasound Machine,2022-11-21,15097,Completed,L002
-EM0506,Ultrasound Machine,2023-11-10,15309,In Progress,L001
-EM0507,MRI Machine,2023-10-09,15158,In Progress,L003
-EM0508,Defibrillator,2022-12-31,13537,Completed,L005
-EM0509,MRI Machine,2023-08-31,15001,Scheduled,L003
-EM0510,Ventilator,2023-07-02,7268,Completed,L001
-EM0511,Ventilator,2023-08-25,12296,Scheduled,L003
-EM0512,Ventilator,2024-10-12,15604,Completed,L005
-EM0513,Defibrillator,2023-02-22,2321,In Progress,L005
-EM0514,CT Scanner,2023-05-20,16077,Completed,L004
-EM0515,Ultrasound Machine,2022-09-20,21151,Completed,L004
-EM0516,MRI Machine,2025-03-10,8070,Scheduled,L001
-EM0517,CT Scanner,2022-07-01,16776,In Progress,L003
-EM0518,Ultrasound Machine,2023-02-01,20482,Completed,L001
-EM0519,CT Scanner,2023-10-02,15610,In Progress,L003
-EM0520,MRI Machine,2024-03-23,5409,Scheduled,L004
-EM0521,Defibrillator,2024-03-01,13311,Completed,L005
-EM0522,Ventilator,2022-06-30,12929,Completed,L002
-EM0523,MRI Machine,2023-10-11,1893,Completed,L002
-EM0524,Ventilator,2024-08-08,10323,In Progress,L004
-EM0525,Ultrasound Machine,2025-02-22,19720,Completed,L002
-EM0526,Defibrillator,2024-12-10,16186,In Progress,L004
-EM0527,Defibrillator,2023-09-18,6877,In Progress,L004
-EM0528,MRI Machine,2023-09-02,2120,Scheduled,L005
-EM0529,CT Scanner,2024-09-28,4328,Scheduled,L002
-EM0530,CT Scanner,2023-11-26,16228,Scheduled,L005
-EM0531,CT Scanner,2024-04-03,14228,Completed,L004
-EM0532,CT Scanner,2024-03-31,1612,Completed,L004
-EM0533,Ultrasound Machine,2023-02-21,20889,In Progress,L003
-EM0534,CT Scanner,2024-07-28,15209,Scheduled,L002
-EM0535,Defibrillator,2024-04-17,12493,Completed,L003
-EM0536,Ventilator,2023-07-10,5860,Scheduled,L005
-EM0537,Defibrillator,2024-05-06,17351,Completed,L002
-EM0538,Ventilator,2022-08-28,10656,Completed,L002
-EM0539,Ultrasound Machine,2023-12-13,9525,Completed,L002
-EM0540,Ventilator,2024-10-16,12437,Completed,L002
-EM0541,Defibrillator,2023-06-18,5571,Completed,L001
-EM0542,Defibrillator,2024-12-27,6376,Scheduled,L002
-EM0543,Ultrasound Machine,2023-01-22,6026,Completed,L002
-EM0544,Ventilator,2023-11-26,22690,Completed,L005
-EM0545,CT Scanner,2022-08-04,23359,In Progress,L005
-EM0546,MRI Machine,2024-08-14,3172,Completed,L005
-EM0547,Defibrillator,2024-01-17,18880,In Progress,L005
-EM0548,CT Scanner,2025-02-12,3077,In Progress,L004
-EM0549,MRI Machine,2024-04-04,823,Scheduled,L001
-EM0550,Defibrillator,2023-02-03,21260,Scheduled,L003
-EM0551,Defibrillator,2023-12-28,24447,Completed,L002
-EM0552,Ventilator,2023-12-24,12204,Completed,L005
-EM0553,MRI Machine,2025-04-10,24384,Scheduled,L002
-EM0554,CT Scanner,2022-10-08,21137,Completed,L003
-EM0555,CT Scanner,2025-03-23,9426,In Progress,L001
-EM0556,Ultrasound Machine,2024-05-14,4771,Completed,L004
-EM0557,Defibrillator,2023-05-02,24911,Completed,L001
-EM0558,MRI Machine,2024-08-06,6764,In Progress,L003
-EM0559,Ultrasound Machine,2023-09-21,6771,In Progress,L002
-EM0560,MRI Machine,2024-09-01,12639,In Progress,L005
-EM0561,CT Scanner,2022-09-17,2005,Scheduled,L001
-EM0562,Defibrillator,2024-04-08,8499,Completed,L001
-EM0563,CT Scanner,2025-03-25,19111,In Progress,L005
-EM0564,Ventilator,2024-04-30,12699,Scheduled,L004
-EM0565,MRI Machine,2024-05-11,6341,Scheduled,L003
-EM0566,Ultrasound Machine,2022-05-20,12824,Completed,L004
-EM0567,CT Scanner,2022-05-18,24923,Completed,L005
-EM0568,Ultrasound Machine,2024-05-06,7475,Scheduled,L001
-EM0569,Ventilator,2024-11-15,24936,Completed,L003
-EM0570,Ventilator,2022-07-01,5997,Completed,L002
-EM0571,Ultrasound Machine,2022-07-05,1657,In Progress,L003
-EM0572,CT Scanner,2023-08-02,7659,Scheduled,L001
-EM0573,MRI Machine,2024-09-30,16138,In Progress,L004
-EM0574,Defibrillator,2023-10-17,2476,Completed,L005
-EM0575,MRI Machine,2023-05-16,19420,In Progress,L002
-EM0576,Defibrillator,2022-08-14,24121,Completed,L005
-EM0577,CT Scanner,2023-01-15,19455,In Progress,L002
-EM0578,Ultrasound Machine,2023-09-13,11345,In Progress,L005
-EM0579,Ventilator,2023-10-22,3237,Scheduled,L001
-EM0580,MRI Machine,2023-12-25,23016,Scheduled,L001
-EM0581,Ventilator,2024-11-29,6653,Completed,L005
-EM0582,CT Scanner,2022-11-18,23723,In Progress,L002
-EM0583,CT Scanner,2024-05-01,7032,Completed,L005
-EM0584,Defibrillator,2023-05-24,24814,Scheduled,L005
-EM0585,CT Scanner,2022-05-06,10718,Scheduled,L002
-EM0586,MRI Machine,2022-12-23,17093,In Progress,L001
-EM0587,Ventilator,2024-10-11,14818,Completed,L003
-EM0588,Ventilator,2023-10-04,17640,Scheduled,L004
-EM0589,Defibrillator,2023-09-06,3539,In Progress,L005
-EM0590,Ultrasound Machine,2023-07-19,18351,In Progress,L002
-EM0591,Ultrasound Machine,2025-03-08,12108,Completed,L005
-EM0592,Ventilator,2024-03-01,16177,Completed,L005
-EM0593,MRI Machine,2022-07-01,13342,Completed,L002
-EM0594,Ventilator,2024-08-28,12481,In Progress,L003
-EM0595,Ultrasound Machine,2022-05-18,21333,Scheduled,L001
-EM0596,MRI Machine,2023-05-16,18947,In Progress,L003
-EM0597,Ultrasound Machine,2024-03-18,14288,Completed,L004
-EM0598,Ultrasound Machine,2023-07-19,2592,Completed,L001
-EM0599,Ultrasound Machine,2025-04-11,20434,In Progress,L005
-EM0600,Ultrasound Machine,2025-03-23,638,Scheduled,L002
-EM0601,MRI Machine,2024-07-01,15372,Scheduled,L001
-EM0602,CT Scanner,2023-11-11,10992,Completed,L002
-EM0603,Ultrasound Machine,2022-10-23,5758,In Progress,L004
-EM0604,CT Scanner,2022-06-04,9596,In Progress,L002
-EM0605,Ventilator,2025-02-10,24691,In Progress,L001
-EM0606,Ventilator,2023-06-24,14059,In Progress,L005
-EM0607,Defibrillator,2023-12-01,23388,Completed,L001
-EM0608,MRI Machine,2022-08-12,20567,Completed,L002
-EM0609,CT Scanner,2023-10-08,2501,In Progress,L005
-EM0610,Ventilator,2025-04-14,21350,In Progress,L002
-EM0611,MRI Machine,2023-12-18,24857,Scheduled,L001
-EM0612,CT Scanner,2023-03-08,683,Completed,L004
-EM0613,Defibrillator,2023-10-31,21262,In Progress,L004
-EM0614,Ventilator,2022-09-17,22794,In Progress,L003
-EM0615,MRI Machine,2022-09-29,4422,In Progress,L005
-EM0616,MRI Machine,2024-12-20,23768,Scheduled,L002
-EM0617,Ventilator,2022-11-09,4273,In Progress,L002
-EM0618,Ventilator,2023-07-07,20966,Completed,L003
-EM0619,MRI Machine,2025-01-12,12585,Scheduled,L004
-EM0620,MRI Machine,2023-01-12,5678,In Progress,L005
-EM0621,Ventilator,2024-12-22,16307,Completed,L001
-EM0622,Ventilator,2025-03-08,1015,Completed,L005
-EM0623,CT Scanner,2024-01-02,12666,Scheduled,L004
-EM0624,Ultrasound Machine,2025-03-21,24153,In Progress,L004
-EM0625,Defibrillator,2025-01-27,15112,In Progress,L004
-EM0626,Ultrasound Machine,2022-11-16,3366,Completed,L002
-EM0627,Ventilator,2024-05-12,14849,Scheduled,L003
-EM0628,Ventilator,2024-09-09,874,In Progress,L001
-EM0629,CT Scanner,2024-05-25,19509,In Progress,L005
-EM0630,Ventilator,2022-10-31,8381,In Progress,L003
-EM0631,MRI Machine,2025-04-02,965,In Progress,L004
-EM0632,Ventilator,2025-02-13,19899,In Progress,L004
-EM0633,Ultrasound Machine,2023-02-28,21515,In Progress,L001
-EM0634,Ventilator,2022-07-29,21837,Completed,L005
-EM0635,Ventilator,2024-09-15,12481,Completed,L001
-EM0636,Ultrasound Machine,2025-02-11,17363,Scheduled,L001
-EM0637,MRI Machine,2022-11-19,9518,Scheduled,L001
-EM0638,Defibrillator,2022-11-18,12526,Scheduled,L003
-EM0639,MRI Machine,2022-11-16,16541,Completed,L004
-EM0640,Ultrasound Machine,2022-09-05,23400,Completed,L001
-EM0641,CT Scanner,2025-04-10,15121,In Progress,L002
-EM0642,Ultrasound Machine,2025-01-24,23268,In Progress,L004
-EM0643,Ventilator,2023-08-20,20120,Completed,L001
-EM0644,Defibrillator,2023-04-28,7369,Scheduled,L001
-EM0645,MRI Machine,2023-09-02,17768,Scheduled,L003
-EM0646,Ventilator,2024-08-25,7266,Scheduled,L002
-EM0647,MRI Machine,2024-06-28,23240,In Progress,L002
-EM0648,Defibrillator,2022-05-18,3776,In Progress,L002
-EM0649,MRI Machine,2024-05-28,23137,In Progress,L002
-EM0650,Ventilator,2023-09-07,11050,Completed,L003
-EM0651,Ultrasound Machine,2024-10-13,8584,Completed,L002
-EM0652,Ventilator,2025-04-06,13583,Scheduled,L001
-EM0653,Defibrillator,2024-01-20,13607,In Progress,L004
-EM0654,CT Scanner,2024-07-06,12013,Scheduled,L004
-EM0655,Ventilator,2023-07-02,9680,Completed,L005
-EM0656,Ultrasound Machine,2025-03-24,19900,In Progress,L004
-EM0657,MRI Machine,2024-07-07,19573,Scheduled,L005
-EM0658,Ventilator,2023-09-24,10896,Scheduled,L001
-EM0659,CT Scanner,2024-06-05,17921,In Progress,L004
-EM0660,MRI Machine,2025-03-16,2879,In Progress,L004
-EM0661,Ultrasound Machine,2022-07-30,20864,Completed,L005
-EM0662,Ventilator,2023-06-06,7344,Completed,L004
-EM0663,Defibrillator,2024-07-12,12016,Completed,L002
-EM0664,CT Scanner,2025-04-24,8729,In Progress,L003
-EM0665,CT Scanner,2024-09-10,15604,Scheduled,L004
-EM0666,MRI Machine,2023-11-03,23123,Scheduled,L001
-EM0667,Ultrasound Machine,2025-01-02,2512,Completed,L004
-EM0668,Ultrasound Machine,2023-07-25,2638,Scheduled,L004
-EM0669,Ventilator,2022-09-11,1709,Completed,L003
-EM0670,Defibrillator,2024-02-19,23028,Completed,L003
-EM0671,Defibrillator,2022-11-30,21701,Scheduled,L004
-EM0672,Defibrillator,2023-09-30,9584,Scheduled,L003
-EM0673,Ventilator,2025-02-24,4092,Completed,L004
-EM0674,Defibrillator,2023-12-01,23810,Scheduled,L003
-EM0675,CT Scanner,2024-12-08,5825,Scheduled,L001
-EM0676,Defibrillator,2023-12-03,17621,Completed,L001
-EM0677,MRI Machine,2024-01-31,1833,Completed,L004
-EM0678,CT Scanner,2024-10-17,10499,Completed,L002
-EM0679,Ventilator,2025-04-04,20929,Completed,L004
-EM0680,Ventilator,2022-12-14,17324,Scheduled,L005
-EM0681,Ventilator,2023-01-08,7511,In Progress,L004
-EM0682,Defibrillator,2024-06-24,1954,Scheduled,L001
-EM0683,Ventilator,2023-10-08,18932,In Progress,L001
-EM0684,CT Scanner,2024-11-28,20589,Completed,L001
-EM0685,Defibrillator,2023-07-29,19181,Completed,L005
-EM0686,Ventilator,2024-07-02,20296,Scheduled,L001
-EM0687,Defibrillator,2023-06-15,17149,In Progress,L005
-EM0688,MRI Machine,2022-10-28,15226,Completed,L003
-EM0689,Defibrillator,2025-04-06,12758,Completed,L001
-EM0690,Defibrillator,2023-07-31,4960,Completed,L005
-EM0691,Ventilator,2022-10-24,17475,Completed,L004
-EM0692,CT Scanner,2024-07-24,21048,In Progress,L005
-EM0693,Defibrillator,2023-08-04,16324,In Progress,L005
-EM0694,CT Scanner,2023-07-29,8669,In Progress,L001
-EM0695,Ultrasound Machine,2022-09-04,8540,Scheduled,L004
-EM0696,Defibrillator,2022-08-27,15054,Scheduled,L004
-EM0697,CT Scanner,2025-01-17,9410,Scheduled,L003
-EM0698,MRI Machine,2024-04-14,6591,In Progress,L001
-EM0699,MRI Machine,2025-03-20,14690,In Progress,L005
-EM0700,Ventilator,2022-07-16,8152,In Progress,L002
-EM0701,Ultrasound Machine,2022-06-20,22736,In Progress,L002
-EM0702,MRI Machine,2023-05-20,5234,In Progress,L005
-EM0703,CT Scanner,2024-05-09,20887,In Progress,L004
-EM0704,MRI Machine,2022-06-03,12993,In Progress,L003
-EM0705,Ultrasound Machine,2025-01-09,6046,Completed,L002
-EM0706,MRI Machine,2023-08-12,18528,Scheduled,L003
-EM0707,Ultrasound Machine,2022-07-24,1352,In Progress,L005
-EM0708,Ultrasound Machine,2024-09-01,14466,Completed,L005
-EM0709,Ventilator,2025-02-14,2227,In Progress,L005
-EM0710,Defibrillator,2023-01-10,4309,In Progress,L005
-EM0711,Ventilator,2025-04-11,12009,In Progress,L001
-EM0712,Defibrillator,2022-11-06,2266,In Progress,L002
-EM0713,Ventilator,2023-06-05,1723,Scheduled,L004
-EM0714,MRI Machine,2024-02-22,19803,Scheduled,L001
-EM0715,Ultrasound Machine,2024-01-16,24718,In Progress,L002
-EM0716,CT Scanner,2023-09-24,22155,Completed,L002
-EM0717,CT Scanner,2022-11-20,8705,In Progress,L004
-EM0718,Ultrasound Machine,2023-04-12,9867,Scheduled,L005
-EM0719,Ventilator,2023-12-02,23863,Completed,L002
-EM0720,CT Scanner,2025-03-08,598,Scheduled,L003
-EM0721,CT Scanner,2024-01-19,21498,Completed,L004
-EM0722,Ultrasound Machine,2024-10-08,6650,Scheduled,L001
-EM0723,Defibrillator,2022-09-24,9626,In Progress,L005
-EM0724,Defibrillator,2024-04-16,20574,In Progress,L004
-EM0725,Defibrillator,2025-02-24,8640,Scheduled,L004
-EM0726,Ultrasound Machine,2024-08-25,15639,Scheduled,L001
-EM0727,Defibrillator,2023-03-25,12138,In Progress,L002
-EM0728,Ventilator,2022-10-01,5197,In Progress,L003
-EM0729,CT Scanner,2025-02-17,22549,Scheduled,L003
-EM0730,MRI Machine,2023-02-27,9872,In Progress,L003
-EM0731,Ventilator,2023-03-23,8679,Scheduled,L004
-EM0732,MRI Machine,2025-01-29,14050,Completed,L004
-EM0733,Ultrasound Machine,2022-12-18,10862,Completed,L001
-EM0734,Defibrillator,2025-04-22,18018,Completed,L005
-EM0735,CT Scanner,2024-11-20,12624,Scheduled,L005
-EM0736,Ultrasound Machine,2022-09-16,9689,Scheduled,L004
-EM0737,MRI Machine,2024-07-04,7738,In Progress,L001
-EM0738,MRI Machine,2023-11-14,2155,Completed,L004
-EM0739,CT Scanner,2024-05-19,20932,In Progress,L002
-EM0740,Ventilator,2024-02-26,22339,In Progress,L001
-EM0741,Defibrillator,2024-07-11,8924,Completed,L001
-EM0742,Defibrillator,2024-10-24,4819,Completed,L003
-EM0743,Defibrillator,2024-08-07,4854,Scheduled,L001
-EM0744,CT Scanner,2022-09-03,19242,Completed,L003
-EM0745,Ventilator,2024-01-13,16014,Scheduled,L001
-EM0746,Ultrasound Machine,2023-05-02,11895,Completed,L003
-EM0747,Ultrasound Machine,2023-03-28,598,In Progress,L005
-EM0748,CT Scanner,2024-01-15,2202,Scheduled,L002
-EM0749,Defibrillator,2023-12-31,24897,In Progress,L005
-EM0750,Ventilator,2023-12-20,14770,Completed,L005
-EM0751,Defibrillator,2024-06-01,5890,In Progress,L005
-EM0752,Defibrillator,2024-05-30,5643,In Progress,L005
-EM0753,Defibrillator,2022-05-03,17487,Completed,L003
-EM0754,Ultrasound Machine,2023-08-28,12501,In Progress,L005
-EM0755,Ventilator,2022-10-09,19281,In Progress,L002
-EM0756,CT Scanner,2023-01-17,15132,Scheduled,L004
-EM0757,MRI Machine,2024-05-03,22422,Completed,L001
-EM0758,Ultrasound Machine,2022-12-24,24407,In Progress,L002
-EM0759,Ultrasound Machine,2022-05-25,6467,Scheduled,L001
-EM0760,Ultrasound Machine,2025-03-20,6705,Completed,L001
-EM0761,MRI Machine,2024-04-13,5327,In Progress,L003
-EM0762,CT Scanner,2022-05-04,14081,Completed,L002
-EM0763,MRI Machine,2025-04-18,2342,Completed,L004
-EM0764,CT Scanner,2023-07-06,16174,Scheduled,L002
-EM0765,Defibrillator,2023-06-01,23295,Scheduled,L003
-EM0766,CT Scanner,2023-10-25,7442,Scheduled,L001
-EM0767,Defibrillator,2024-04-04,4466,In Progress,L005
-EM0768,MRI Machine,2024-03-03,5932,Scheduled,L002
-EM0769,CT Scanner,2023-02-02,17750,In Progress,L004
-EM0770,MRI Machine,2023-05-08,926,Completed,L005
-EM0771,Defibrillator,2022-07-01,1353,Scheduled,L005
-EM0772,Ultrasound Machine,2023-11-27,24175,In Progress,L004
-EM0773,CT Scanner,2023-06-02,22411,In Progress,L004
-EM0774,MRI Machine,2022-10-04,20304,Scheduled,L002
-EM0775,MRI Machine,2022-07-30,21385,In Progress,L005
-EM0776,Defibrillator,2025-04-04,23398,Scheduled,L001
-EM0777,CT Scanner,2024-08-16,21923,Completed,L001
-EM0778,CT Scanner,2024-04-10,9502,In Progress,L003
-EM0779,CT Scanner,2022-09-28,16730,In Progress,L002
-EM0780,Defibrillator,2022-11-24,17953,In Progress,L005
-EM0781,CT Scanner,2024-11-20,16238,Completed,L002
-EM0782,Ultrasound Machine,2024-11-16,23220,In Progress,L004
-EM0783,Ultrasound Machine,2023-10-18,5267,Scheduled,L004
-EM0784,Ultrasound Machine,2022-09-10,8404,Scheduled,L003
-EM0785,CT Scanner,2024-07-10,12700,Scheduled,L002
-EM0786,MRI Machine,2023-02-22,2631,Completed,L003
-EM0787,Defibrillator,2023-06-20,20748,In Progress,L005
-EM0788,MRI Machine,2024-04-06,6894,Scheduled,L002
-EM0789,MRI Machine,2024-01-19,5769,Scheduled,L001
-EM0790,MRI Machine,2024-06-27,16470,Scheduled,L002
-EM0791,CT Scanner,2024-03-07,3931,In Progress,L002
-EM0792,CT Scanner,2022-06-10,13513,Completed,L001
-EM0793,MRI Machine,2022-09-04,2964,In Progress,L002
-EM0794,Ultrasound Machine,2024-08-09,22423,Completed,L003
-EM0795,CT Scanner,2024-04-05,14156,In Progress,L002
-EM0796,Defibrillator,2022-08-16,4099,Completed,L003
-EM0797,Ventilator,2023-01-10,4991,Scheduled,L002
-EM0798,Defibrillator,2025-02-11,23620,Completed,L003
-EM0799,Ventilator,2022-11-15,12011,Completed,L003
-EM0800,MRI Machine,2024-12-11,24906,In Progress,L005
-EM0801,Ultrasound Machine,2023-08-04,14265,In Progress,L002
-EM0802,Ventilator,2024-09-06,3736,In Progress,L005
-EM0803,MRI Machine,2022-07-12,17554,Scheduled,L001
-EM0804,MRI Machine,2022-05-14,21196,Scheduled,L005
-EM0805,Defibrillator,2024-04-11,14063,Scheduled,L001
-EM0806,Ventilator,2023-12-29,20881,In Progress,L002
-EM0807,Defibrillator,2024-02-11,5184,Scheduled,L004
-EM0808,Ventilator,2023-06-16,20004,Scheduled,L002
-EM0809,Defibrillator,2024-11-25,7751,Scheduled,L003
-EM0810,MRI Machine,2025-02-08,13742,Completed,L003
-EM0811,CT Scanner,2022-11-24,4951,Scheduled,L002
-EM0812,Ventilator,2023-09-25,3182,In Progress,L003
-EM0813,Ultrasound Machine,2024-03-16,24877,In Progress,L001
-EM0814,MRI Machine,2024-07-10,23560,Completed,L003
-EM0815,MRI Machine,2024-01-07,7026,Completed,L002
-EM0816,Ventilator,2024-12-14,3034,Scheduled,L003
-EM0817,Ultrasound Machine,2024-07-29,5931,In Progress,L002
-EM0818,Ultrasound Machine,2023-10-27,9251,Scheduled,L003
-EM0819,MRI Machine,2024-11-18,22238,Completed,L001
-EM0820,Ultrasound Machine,2024-07-25,1784,Completed,L003
-EM0821,Defibrillator,2022-06-07,14350,Scheduled,L004
-EM0822,CT Scanner,2024-08-12,13020,Completed,L003
-EM0823,Ultrasound Machine,2023-03-24,2435,Scheduled,L002
-EM0824,Ultrasound Machine,2022-08-02,4965,Scheduled,L002
-EM0825,CT Scanner,2023-01-17,18673,Completed,L004
-EM0826,Ventilator,2024-05-27,10846,Scheduled,L002
-EM0827,Defibrillator,2022-05-29,10261,Scheduled,L005
-EM0828,MRI Machine,2024-02-04,14773,In Progress,L001
-EM0829,Defibrillator,2024-10-06,7854,Completed,L002
-EM0830,Ventilator,2022-05-30,8128,Scheduled,L002
-EM0831,MRI Machine,2023-05-18,2747,In Progress,L001
-EM0832,Defibrillator,2024-11-16,21255,In Progress,L005
-EM0833,Defibrillator,2024-08-19,2309,Completed,L003
-EM0834,CT Scanner,2023-10-05,9203,Scheduled,L001
-EM0835,Ultrasound Machine,2023-03-29,12979,Scheduled,L003
-EM0836,CT Scanner,2024-01-31,8169,In Progress,L002
-EM0837,MRI Machine,2023-07-17,19987,Scheduled,L005
-EM0838,Ventilator,2023-05-11,19361,Scheduled,L001
-EM0839,Defibrillator,2022-12-03,18886,Scheduled,L001
-EM0840,MRI Machine,2023-08-14,24416,Completed,L003
-EM0841,Ultrasound Machine,2024-10-25,7038,Completed,L004
-EM0842,Ventilator,2023-12-23,12719,Scheduled,L001
-EM0843,Ventilator,2023-03-15,17717,Completed,L004
-EM0844,MRI Machine,2024-12-22,752,Completed,L005
-EM0845,Ventilator,2022-05-01,6096,Completed,L002
-EM0846,MRI Machine,2024-09-25,12673,In Progress,L005
-EM0847,CT Scanner,2024-05-06,10290,Completed,L002
-EM0848,Ventilator,2022-11-08,18031,Scheduled,L001
-EM0849,MRI Machine,2022-05-18,8622,Completed,L003
-EM0850,Ventilator,2024-08-04,8929,Completed,L003
-EM0851,Ventilator,2023-01-19,24425,Completed,L003
-EM0852,Ventilator,2022-05-11,14503,Scheduled,L003
-EM0853,Ventilator,2022-12-19,6192,Scheduled,L003
-EM0854,Defibrillator,2022-09-27,4801,In Progress,L003
-EM0855,MRI Machine,2024-06-06,3825,Completed,L003
-EM0856,Defibrillator,2024-11-18,15756,Scheduled,L004
-EM0857,CT Scanner,2023-12-22,10352,Completed,L002
-EM0858,MRI Machine,2023-07-07,24897,Completed,L005
-EM0859,CT Scanner,2022-05-22,19007,Scheduled,L005
-EM0860,Defibrillator,2022-11-24,20889,Completed,L003
-EM0861,Ventilator,2025-04-15,24555,In Progress,L002
-EM0862,Defibrillator,2023-06-13,15236,Completed,L003
-EM0863,Ultrasound Machine,2024-06-14,22996,Completed,L005
-EM0864,Defibrillator,2022-06-12,24794,Scheduled,L005
-EM0865,Ultrasound Machine,2023-01-26,1107,Scheduled,L005
-EM0866,MRI Machine,2023-08-08,24518,Scheduled,L001
-EM0867,Defibrillator,2022-12-23,8851,Completed,L002
-EM0868,Defibrillator,2024-03-12,4836,In Progress,L005
-EM0869,Defibrillator,2022-09-05,16493,Completed,L005
-EM0870,Defibrillator,2022-10-23,15799,Completed,L002
-EM0871,MRI Machine,2023-08-23,19017,Completed,L002
-EM0872,Ventilator,2022-08-27,24294,Scheduled,L002
-EM0873,MRI Machine,2023-10-09,14235,In Progress,L005
-EM0874,Ultrasound Machine,2024-04-07,11608,Scheduled,L001
-EM0875,CT Scanner,2023-04-13,14197,Scheduled,L001
-EM0876,Ventilator,2022-05-15,7796,In Progress,L001
-EM0877,Ventilator,2023-04-10,13322,In Progress,L004
-EM0878,Ultrasound Machine,2022-09-27,9244,Scheduled,L001
-EM0879,Ventilator,2024-12-15,20392,Scheduled,L001
-EM0880,Defibrillator,2023-09-16,11769,Scheduled,L004
-EM0881,Ventilator,2024-10-21,17977,Scheduled,L004
-EM0882,MRI Machine,2023-04-24,12778,Completed,L001
-EM0883,CT Scanner,2025-04-06,23107,In Progress,L002
-EM0884,Defibrillator,2023-09-17,7526,Scheduled,L004
-EM0885,MRI Machine,2024-03-01,2072,Completed,L005
-EM0886,Ventilator,2023-12-27,6770,Scheduled,L003
-EM0887,MRI Machine,2023-05-21,1115,Completed,L005
-EM0888,CT Scanner,2024-07-28,4778,Completed,L004
-EM0889,MRI Machine,2024-05-02,17311,Scheduled,L002
-EM0890,CT Scanner,2024-04-27,8539,Completed,L002
-EM0891,CT Scanner,2022-12-31,2558,Completed,L003
-EM0892,Defibrillator,2024-07-18,7059,Completed,L003
-EM0893,Ventilator,2022-06-14,17967,Completed,L005
-EM0894,MRI Machine,2023-05-23,16042,Scheduled,L005
-EM0895,Defibrillator,2024-10-11,9420,Scheduled,L005
-EM0896,MRI Machine,2023-03-31,10815,In Progress,L002
-EM0897,Defibrillator,2024-11-06,5653,Scheduled,L004
-EM0898,Ventilator,2022-05-20,1000,Scheduled,L004
-EM0899,CT Scanner,2024-03-25,9279,Scheduled,L004
-EM0900,MRI Machine,2025-02-23,6566,Completed,L005
-EM0901,Ultrasound Machine,2024-04-29,5047,Completed,L004
-EM0902,MRI Machine,2023-07-22,15183,Scheduled,L004
-EM0903,MRI Machine,2023-06-09,22590,Completed,L004
-EM0904,Ventilator,2025-03-29,15504,Completed,L002
-EM0905,Ventilator,2025-02-01,12105,In Progress,L003
-EM0906,Ventilator,2024-04-19,22627,Scheduled,L003
-EM0907,MRI Machine,2023-12-03,5520,Completed,L001
-EM0908,Ultrasound Machine,2022-07-28,1589,Scheduled,L004
-EM0909,Ventilator,2023-10-20,1488,In Progress,L004
-EM0910,Defibrillator,2023-06-04,16417,Scheduled,L005
-EM0911,MRI Machine,2023-09-12,18398,In Progress,L004
-EM0912,CT Scanner,2022-12-12,14321,Completed,L003
-EM0913,MRI Machine,2022-08-03,20509,In Progress,L004
-EM0914,MRI Machine,2022-07-07,20273,Scheduled,L001
-EM0915,MRI Machine,2025-02-28,16058,Completed,L004
-EM0916,MRI Machine,2023-09-03,14256,Completed,L001
-EM0917,CT Scanner,2022-08-23,17741,Scheduled,L004
-EM0918,CT Scanner,2024-08-23,14405,In Progress,L003
-EM0919,Ventilator,2022-07-13,21025,Scheduled,L004
-EM0920,CT Scanner,2023-01-09,14637,Completed,L004
-EM0921,Ventilator,2023-05-25,10696,Completed,L001
-EM0922,MRI Machine,2022-06-04,11441,In Progress,L004
-EM0923,MRI Machine,2024-01-20,11859,Scheduled,L001
-EM0924,MRI Machine,2023-11-16,5905,Scheduled,L001
-EM0925,CT Scanner,2024-09-01,15241,In Progress,L003
-EM0926,MRI Machine,2025-03-10,10304,Scheduled,L002
-EM0927,MRI Machine,2024-07-09,9403,In Progress,L003
-EM0928,Ventilator,2023-06-04,23985,Completed,L004
-EM0929,MRI Machine,2024-07-14,16583,Scheduled,L001
-EM0930,CT Scanner,2025-03-19,24858,Scheduled,L003
-EM0931,Defibrillator,2022-09-04,9286,Completed,L004
-EM0932,CT Scanner,2022-11-19,2453,Scheduled,L003
-EM0933,Ultrasound Machine,2025-03-06,20474,Completed,L004
-EM0934,Ultrasound Machine,2023-05-21,22706,In Progress,L005
-EM0935,Ventilator,2025-04-07,22258,In Progress,L003
-EM0936,Ventilator,2023-09-23,7157,In Progress,L002
-EM0937,CT Scanner,2023-03-16,1674,In Progress,L001
-EM0938,Ultrasound Machine,2024-03-11,17046,In Progress,L002
-EM0939,CT Scanner,2023-07-01,9070,In Progress,L005
-EM0940,CT Scanner,2023-12-19,12792,In Progress,L005
-EM0941,Defibrillator,2024-04-25,14651,Completed,L002
-EM0942,MRI Machine,2023-10-29,18038,In Progress,L005
-EM0943,Ultrasound Machine,2024-12-25,24396,Scheduled,L002
-EM0944,Ventilator,2022-12-23,18197,In Progress,L003
-EM0945,CT Scanner,2023-09-14,24258,In Progress,L005
-EM0946,MRI Machine,2023-04-21,7236,Scheduled,L005
-EM0947,CT Scanner,2023-08-24,15058,Completed,L001
-EM0948,Ventilator,2024-02-05,18799,In Progress,L002
-EM0949,CT Scanner,2024-01-19,3746,Scheduled,L005
-EM0950,MRI Machine,2023-12-17,15839,Scheduled,L003
-EM0951,Ultrasound Machine,2022-07-23,2114,Completed,L001
-EM0952,Ultrasound Machine,2024-06-02,19957,Completed,L005
-EM0953,CT Scanner,2024-11-12,3453,In Progress,L005
-EM0954,MRI Machine,2024-10-30,10750,In Progress,L005
-EM0955,Defibrillator,2024-04-05,18615,In Progress,L003
-EM0956,CT Scanner,2024-02-17,19858,In Progress,L004
-EM0957,Defibrillator,2024-06-22,7537,Scheduled,L003
-EM0958,Ventilator,2024-04-19,13140,In Progress,L001
-EM0959,MRI Machine,2022-11-26,8795,In Progress,L002
-EM0960,Ultrasound Machine,2024-11-06,15344,In Progress,L001
-EM0961,MRI Machine,2024-10-07,11520,Scheduled,L004
-EM0962,Defibrillator,2022-08-31,2332,Scheduled,L004
-EM0963,Defibrillator,2024-06-01,23332,In Progress,L004
-EM0964,MRI Machine,2024-01-22,19392,Completed,L001
-EM0965,MRI Machine,2022-06-22,1264,Completed,L003
-EM0966,Ventilator,2022-05-23,6322,In Progress,L001
-EM0967,Ventilator,2022-09-30,8623,Scheduled,L005
-EM0968,Ventilator,2023-12-12,522,Scheduled,L002
-EM0969,Defibrillator,2024-08-10,21312,In Progress,L005
-EM0970,Defibrillator,2024-12-03,19914,In Progress,L001
-EM0971,Ultrasound Machine,2023-09-05,19465,Scheduled,L005
-EM0972,Ultrasound Machine,2023-02-22,9242,Scheduled,L002
-EM0973,Defibrillator,2024-09-25,13685,Scheduled,L001
-EM0974,Ventilator,2023-11-15,4481,Scheduled,L004
-EM0975,Defibrillator,2024-05-29,933,Scheduled,L004
-EM0976,Ventilator,2025-02-18,12114,In Progress,L003
-EM0977,Ventilator,2024-03-18,10597,Completed,L003
-EM0978,Defibrillator,2023-08-21,13653,Scheduled,L005
-EM0979,Defibrillator,2025-03-24,15149,Completed,L001
-EM0980,Ventilator,2023-07-24,671,In Progress,L005
-EM0981,Ventilator,2024-09-05,15202,Scheduled,L004
-EM0982,MRI Machine,2023-09-19,16717,Scheduled,L005
-EM0983,Ultrasound Machine,2023-06-10,7740,Scheduled,L004
-EM0984,Defibrillator,2024-04-10,19809,In Progress,L001
-EM0985,Ultrasound Machine,2023-11-13,14675,Scheduled,L003
-EM0986,Defibrillator,2025-02-02,5529,Completed,L003
-EM0987,MRI Machine,2024-04-29,24832,In Progress,L005
-EM0988,Defibrillator,2023-01-29,15368,Scheduled,L005
-EM0989,MRI Machine,2024-08-15,24105,Completed,L005
-EM0990,Ventilator,2023-07-23,2098,In Progress,L003
-EM0991,CT Scanner,2024-02-25,1205,Scheduled,L005
-EM0992,CT Scanner,2022-12-27,1794,Scheduled,L004
-EM0993,MRI Machine,2024-05-13,11008,In Progress,L003
-EM0994,Ventilator,2025-02-06,20675,Scheduled,L005
-EM0995,CT Scanner,2024-03-02,12712,Completed,L001
-EM0996,Ultrasound Machine,2022-05-16,10225,Scheduled,L004
-EM0997,Defibrillator,2024-03-01,15202,Completed,L003
-EM0998,CT Scanner,2024-01-07,11560,Scheduled,L002
-EM0999,Defibrillator,2024-07-03,7663,Completed,L005
-EM1000,CT Scanner,2024-03-10,22319,Completed,L004
+EM0001,MRI Machine,2025-04-04,19892,Scheduled,L004
+EM0002,Ultrasound Machine,2022-08-03,22541,Completed,L003
+EM0003,MRI Machine,2024-07-11,6783,Scheduled,L002
+EM0004,CT Scanner,2025-02-10,20648,In Progress,L004
+EM0005,CT Scanner,2024-09-18,20444,Scheduled,L002
+EM0006,CT Scanner,2022-08-23,1200,Completed,L004
+EM0007,Ventilator,2025-03-23,22972,Scheduled,L005
+EM0008,Ultrasound Machine,2024-03-24,3640,Completed,L003
+EM0009,MRI Machine,2022-12-17,15231,Completed,L003
+EM0010,CT Scanner,2025-02-04,18375,Completed,L003
+EM0011,CT Scanner,2022-05-31,24720,Completed,L005
+EM0012,Defibrillator,2024-05-14,7874,In Progress,L005
+EM0013,Defibrillator,2023-02-03,23060,Scheduled,L003
+EM0014,CT Scanner,2024-11-30,19948,In Progress,L002
+EM0015,MRI Machine,2023-05-09,8640,Scheduled,L002
+EM0016,Ventilator,2025-02-04,2922,Completed,L003
+EM0017,MRI Machine,2022-11-27,9232,Scheduled,L002
+EM0018,Defibrillator,2023-09-04,23064,Completed,L003
+EM0019,CT Scanner,2025-03-22,11213,Scheduled,L001
+EM0020,Ventilator,2023-01-09,4646,Scheduled,L001
+EM0021,Ventilator,2024-04-02,10045,In Progress,L004
+EM0022,Defibrillator,2024-10-02,11140,Completed,L004
+EM0023,CT Scanner,2022-08-27,1243,Completed,L002
+EM0024,CT Scanner,2025-01-16,7107,Scheduled,L003
+EM0025,Ultrasound Machine,2024-11-19,6614,In Progress,L005
+EM0026,Defibrillator,2024-01-30,21309,In Progress,L004
+EM0027,Ultrasound Machine,2023-05-21,9474,Completed,L005
+EM0028,CT Scanner,2025-03-15,9879,Completed,L001
+EM0029,Ventilator,2024-07-13,21915,Completed,L005
+EM0030,CT Scanner,2022-10-30,19422,Scheduled,L002
+EM0031,CT Scanner,2024-08-19,18807,Completed,L004
+EM0032,Ultrasound Machine,2023-06-14,21380,Scheduled,L004
+EM0033,Ventilator,2023-03-03,21678,Scheduled,L002
+EM0034,Ventilator,2022-11-06,11811,Scheduled,L002
+EM0035,Ventilator,2023-01-13,16198,Scheduled,L003
+EM0036,Defibrillator,2024-09-19,20376,Completed,L003
+EM0037,CT Scanner,2022-06-06,14742,In Progress,L002
+EM0038,MRI Machine,2022-08-09,23421,In Progress,L004
+EM0039,Defibrillator,2024-10-02,16221,Completed,L005
+EM0040,Ventilator,2024-12-10,21674,In Progress,L001
+EM0041,MRI Machine,2025-01-10,7528,In Progress,L002
+EM0042,Ultrasound Machine,2022-10-11,10127,Scheduled,L002
+EM0043,Defibrillator,2024-06-28,10223,Scheduled,L003
+EM0044,Defibrillator,2023-09-16,15571,Completed,L003
+EM0045,Ultrasound Machine,2024-01-18,10182,In Progress,L004
+EM0046,Ultrasound Machine,2022-11-28,12310,Scheduled,L001
+EM0047,Ventilator,2024-12-17,10629,Scheduled,L003
+EM0048,Ultrasound Machine,2022-11-22,3207,Completed,L004
+EM0049,Ultrasound Machine,2023-12-04,21383,Scheduled,L002
+EM0050,Ventilator,2023-12-14,9225,In Progress,L002
+EM0051,CT Scanner,2024-07-19,22724,In Progress,L002
+EM0052,CT Scanner,2025-02-27,16633,Completed,L003
+EM0053,Defibrillator,2023-10-15,18995,Completed,L003
+EM0054,CT Scanner,2022-11-26,10816,Completed,L002
+EM0055,Ventilator,2025-03-16,12899,Completed,L003
+EM0056,Ultrasound Machine,2024-12-04,20104,Completed,L003
+EM0057,CT Scanner,2024-10-24,7333,Completed,L002
+EM0058,Ultrasound Machine,2022-09-11,15553,Completed,L003
+EM0059,MRI Machine,2022-08-09,3042,Completed,L002
+EM0060,MRI Machine,2022-08-30,1953,Scheduled,L003
+EM0061,Ultrasound Machine,2025-03-28,10973,In Progress,L004
+EM0062,MRI Machine,2023-11-22,3586,Scheduled,L004
+EM0063,CT Scanner,2024-08-27,24426,Scheduled,L002
+EM0064,Ventilator,2024-10-03,11043,Completed,L001
+EM0065,Ventilator,2024-01-02,8943,In Progress,L005
+EM0066,Ultrasound Machine,2022-06-24,14548,Completed,L003
+EM0067,Ultrasound Machine,2024-07-21,16899,Completed,L003
+EM0068,MRI Machine,2024-02-26,15837,In Progress,L005
+EM0069,CT Scanner,2022-07-25,16389,Completed,L001
+EM0070,Ultrasound Machine,2025-02-13,1705,Scheduled,L005
+EM0071,Defibrillator,2023-02-24,17345,In Progress,L005
+EM0072,MRI Machine,2023-06-03,8198,Completed,L001
+EM0073,Ventilator,2023-02-12,14699,Completed,L002
+EM0074,CT Scanner,2022-07-28,14528,In Progress,L003
+EM0075,Defibrillator,2024-10-02,19928,Scheduled,L003
+EM0076,CT Scanner,2023-02-09,18479,In Progress,L003
+EM0077,CT Scanner,2022-09-06,14721,In Progress,L003
+EM0078,Defibrillator,2024-03-16,2519,Scheduled,L001
+EM0079,Defibrillator,2024-06-08,16093,In Progress,L004
+EM0080,MRI Machine,2025-03-24,4229,Completed,L001
+EM0081,Ventilator,2024-06-22,18234,In Progress,L004
+EM0082,MRI Machine,2022-05-31,9635,Scheduled,L005
+EM0083,Ultrasound Machine,2023-05-30,13270,In Progress,L003
+EM0084,MRI Machine,2023-06-28,13422,Scheduled,L001
+EM0085,Ventilator,2024-07-12,12309,Scheduled,L002
+EM0086,MRI Machine,2025-03-28,18176,In Progress,L003
+EM0087,Ventilator,2024-11-02,14447,In Progress,L005
+EM0088,CT Scanner,2022-07-04,11410,Completed,L002
+EM0089,Defibrillator,2023-04-14,20810,Completed,L003
+EM0090,CT Scanner,2022-09-16,10198,Scheduled,L001
+EM0091,Ultrasound Machine,2023-10-14,1114,In Progress,L005
+EM0092,Defibrillator,2024-07-03,5788,In Progress,L002
+EM0093,Defibrillator,2023-04-17,16588,In Progress,L004
+EM0094,Ventilator,2023-07-02,24654,Completed,L001
+EM0095,CT Scanner,2024-10-09,12969,In Progress,L003
+EM0096,Ventilator,2023-09-28,2063,Completed,L001
+EM0097,MRI Machine,2023-12-08,21542,Scheduled,L004
+EM0098,Ultrasound Machine,2022-06-26,18978,Completed,L002
+EM0099,MRI Machine,2022-05-15,3661,In Progress,L002
+EM0100,MRI Machine,2023-03-02,2840,Completed,L005
+EM0101,CT Scanner,2023-10-09,12031,Scheduled,L005
+EM0102,CT Scanner,2024-04-13,11284,Completed,L004
+EM0103,Ventilator,2023-05-16,21435,In Progress,L004
+EM0104,Ventilator,2024-05-21,17766,In Progress,L003
+EM0105,Ventilator,2023-04-15,11897,In Progress,L003
+EM0106,CT Scanner,2023-09-17,9564,Scheduled,L002
+EM0107,Ultrasound Machine,2022-10-10,11091,In Progress,L004
+EM0108,CT Scanner,2024-03-07,16451,Completed,L001
+EM0109,Ultrasound Machine,2023-11-13,15951,Scheduled,L002
+EM0110,Ventilator,2024-12-16,18102,In Progress,L004
+EM0111,Ultrasound Machine,2025-02-19,4140,Scheduled,L001
+EM0112,CT Scanner,2024-06-18,3084,Scheduled,L003
+EM0113,MRI Machine,2025-02-18,23786,Scheduled,L002
+EM0114,Defibrillator,2025-04-17,19722,Completed,L001
+EM0115,CT Scanner,2023-02-04,17326,In Progress,L002
+EM0116,Defibrillator,2023-05-05,18539,Completed,L001
+EM0117,Ultrasound Machine,2022-06-21,8412,In Progress,L002
+EM0118,CT Scanner,2023-11-02,1921,In Progress,L001
+EM0119,Ultrasound Machine,2023-05-11,6773,In Progress,L005
+EM0120,Defibrillator,2022-11-16,6277,Completed,L003
+EM0121,Ultrasound Machine,2024-04-19,23749,In Progress,L001
+EM0122,MRI Machine,2022-06-05,11925,Completed,L005
+EM0123,Defibrillator,2023-09-25,24603,In Progress,L004
+EM0124,Ultrasound Machine,2024-07-11,21792,Scheduled,L004
+EM0125,Ventilator,2024-08-10,16770,Scheduled,L001
+EM0126,CT Scanner,2023-06-28,5804,Completed,L004
+EM0127,Ventilator,2023-03-23,3365,Completed,L002
+EM0128,Defibrillator,2025-03-04,7624,Completed,L003
+EM0129,Ultrasound Machine,2024-01-18,15410,In Progress,L004
+EM0130,MRI Machine,2025-02-08,22409,Completed,L001
+EM0131,Ventilator,2022-09-18,11423,In Progress,L004
+EM0132,Defibrillator,2023-09-18,11158,In Progress,L005
+EM0133,Ultrasound Machine,2023-03-04,6806,In Progress,L005
+EM0134,CT Scanner,2025-01-29,23688,Completed,L001
+EM0135,MRI Machine,2024-11-25,13473,In Progress,L003
+EM0136,CT Scanner,2023-09-14,24074,In Progress,L002
+EM0137,Ultrasound Machine,2024-02-04,18869,Scheduled,L001
+EM0138,CT Scanner,2022-06-27,4894,Completed,L001
+EM0139,MRI Machine,2023-12-30,1316,Scheduled,L004
+EM0140,CT Scanner,2023-12-05,8452,Scheduled,L003
+EM0141,Defibrillator,2024-03-03,685,Completed,L003
+EM0142,Ultrasound Machine,2023-12-09,22056,Scheduled,L001
+EM0143,CT Scanner,2023-03-15,10728,Completed,L004
+EM0144,Ultrasound Machine,2022-11-07,3145,Completed,L003
+EM0145,Ventilator,2024-06-11,20325,Scheduled,L005
+EM0146,CT Scanner,2025-04-11,9001,In Progress,L004
+EM0147,MRI Machine,2023-12-26,18393,Scheduled,L005
+EM0148,MRI Machine,2024-09-24,18819,Scheduled,L002
+EM0149,Ventilator,2025-02-11,13199,Scheduled,L001
+EM0150,Ventilator,2022-08-10,1587,Completed,L004
+EM0151,MRI Machine,2025-03-13,1839,Scheduled,L003
+EM0152,MRI Machine,2024-12-13,23269,Completed,L004
+EM0153,Defibrillator,2022-11-04,13465,Scheduled,L004
+EM0154,Defibrillator,2025-01-13,17566,Completed,L004
+EM0155,Ultrasound Machine,2022-05-30,14126,Completed,L004
+EM0156,MRI Machine,2024-06-27,2223,Completed,L005
+EM0157,CT Scanner,2023-09-08,17768,Completed,L003
+EM0158,MRI Machine,2023-05-02,7692,Completed,L004
+EM0159,MRI Machine,2023-05-20,17113,Completed,L004
+EM0160,CT Scanner,2022-12-07,14404,In Progress,L003
+EM0161,Ventilator,2024-11-21,1990,Completed,L001
+EM0162,Defibrillator,2023-07-22,4567,In Progress,L005
+EM0163,Ventilator,2024-02-27,18881,Completed,L003
+EM0164,MRI Machine,2023-12-16,9703,In Progress,L005
+EM0165,Defibrillator,2022-07-26,11197,Completed,L001
+EM0166,MRI Machine,2022-07-04,5512,In Progress,L001
+EM0167,Ultrasound Machine,2023-09-09,18792,Scheduled,L001
+EM0168,CT Scanner,2022-12-05,8702,In Progress,L003
+EM0169,CT Scanner,2024-07-31,13708,In Progress,L002
+EM0170,Defibrillator,2024-12-18,24841,Completed,L002
+EM0171,MRI Machine,2023-10-05,22528,Completed,L005
+EM0172,CT Scanner,2023-08-27,3270,Completed,L002
+EM0173,CT Scanner,2024-06-08,19833,Completed,L005
+EM0174,MRI Machine,2023-10-30,10234,Scheduled,L001
+EM0175,Defibrillator,2024-01-16,16237,Completed,L003
+EM0176,CT Scanner,2023-11-19,12371,Scheduled,L004
+EM0177,MRI Machine,2024-01-27,23875,In Progress,L005
+EM0178,Defibrillator,2024-10-21,909,In Progress,L002
+EM0179,CT Scanner,2022-10-27,12702,Completed,L002
+EM0180,Ventilator,2023-02-17,2827,Scheduled,L002
+EM0181,MRI Machine,2023-01-27,17747,Scheduled,L002
+EM0182,CT Scanner,2022-05-29,21627,In Progress,L005
+EM0183,CT Scanner,2024-01-10,16614,Scheduled,L004
+EM0184,Ventilator,2023-10-11,19020,Scheduled,L004
+EM0185,Ventilator,2022-05-30,13590,Completed,L002
+EM0186,Ventilator,2022-06-12,21145,Completed,L003
+EM0187,CT Scanner,2023-05-15,11554,In Progress,L004
+EM0188,Defibrillator,2022-06-12,18304,Completed,L005
+EM0189,MRI Machine,2025-02-20,12410,Scheduled,L005
+EM0190,MRI Machine,2022-09-30,23231,Scheduled,L001
+EM0191,Ultrasound Machine,2022-05-28,3744,In Progress,L004
+EM0192,Ventilator,2024-02-26,7371,Completed,L005
+EM0193,Ultrasound Machine,2022-11-28,17637,Scheduled,L001
+EM0194,Defibrillator,2024-06-27,6774,Scheduled,L003
+EM0195,Defibrillator,2024-01-13,3619,Completed,L004
+EM0196,Ventilator,2024-10-16,19872,Completed,L002
+EM0197,Defibrillator,2023-02-27,15645,In Progress,L002
+EM0198,Ventilator,2022-05-10,16570,Completed,L001
+EM0199,CT Scanner,2023-07-30,4825,Scheduled,L004
+EM0200,MRI Machine,2023-01-18,24932,Scheduled,L002
+EM0201,MRI Machine,2023-09-19,23139,Scheduled,L003
+EM0202,MRI Machine,2023-01-03,22268,Completed,L001
+EM0203,Defibrillator,2023-05-27,14010,Scheduled,L004
+EM0204,Ventilator,2023-06-22,11923,In Progress,L004
+EM0205,MRI Machine,2024-12-15,17328,Completed,L005
+EM0206,Defibrillator,2025-01-25,12712,Completed,L004
+EM0207,Defibrillator,2022-09-27,23341,In Progress,L003
+EM0208,Ultrasound Machine,2024-02-13,22352,Completed,L002
+EM0209,Ventilator,2023-01-16,3463,Completed,L002
+EM0210,CT Scanner,2023-03-11,15406,Completed,L004
+EM0211,MRI Machine,2022-09-24,16911,Scheduled,L005
+EM0212,Ventilator,2023-08-12,541,In Progress,L004
+EM0213,MRI Machine,2022-07-07,18294,Completed,L004
+EM0214,Defibrillator,2024-01-16,22452,In Progress,L005
+EM0215,Ultrasound Machine,2023-10-23,22917,Scheduled,L004
+EM0216,MRI Machine,2023-05-15,13374,In Progress,L001
+EM0217,MRI Machine,2023-01-06,13589,Completed,L003
+EM0218,Ventilator,2022-06-10,10902,In Progress,L003
+EM0219,Ventilator,2022-10-13,20407,Scheduled,L002
+EM0220,MRI Machine,2022-10-04,16478,Scheduled,L004
+EM0221,Ventilator,2023-07-22,9617,Scheduled,L004
+EM0222,Defibrillator,2024-10-13,15435,Completed,L005
+EM0223,Ventilator,2025-02-01,11003,Scheduled,L001
+EM0224,Ventilator,2024-07-26,9617,In Progress,L003
+EM0225,Defibrillator,2024-07-20,24243,In Progress,L004
+EM0226,Ultrasound Machine,2024-06-06,12915,Completed,L005
+EM0227,Defibrillator,2024-12-22,16431,Completed,L001
+EM0228,Ultrasound Machine,2024-12-25,7547,Scheduled,L004
+EM0229,Ventilator,2022-10-16,17602,In Progress,L005
+EM0230,MRI Machine,2023-02-23,21283,Completed,L004
+EM0231,Defibrillator,2024-10-25,6918,Scheduled,L004
+EM0232,Ultrasound Machine,2023-04-01,6133,In Progress,L005
+EM0233,Ventilator,2023-09-20,23007,Scheduled,L004
+EM0234,Ventilator,2024-01-26,20253,Completed,L004
+EM0235,Ultrasound Machine,2025-01-26,21049,Completed,L001
+EM0236,Defibrillator,2023-08-04,24729,Scheduled,L001
+EM0237,Defibrillator,2022-06-24,20797,Completed,L002
+EM0238,Ultrasound Machine,2025-03-13,8470,Scheduled,L004
+EM0239,Defibrillator,2023-03-19,19775,In Progress,L004
+EM0240,Defibrillator,2023-06-28,21368,In Progress,L002
+EM0241,Defibrillator,2025-04-11,15908,In Progress,L003
+EM0242,Defibrillator,2024-02-09,3117,In Progress,L001
+EM0243,Ventilator,2024-01-12,13634,Scheduled,L005
+EM0244,Ultrasound Machine,2023-12-20,9671,Completed,L005
+EM0245,Ultrasound Machine,2024-04-07,6818,In Progress,L003
+EM0246,Ventilator,2023-11-01,12342,In Progress,L003
+EM0247,Defibrillator,2025-01-22,11598,In Progress,L004
+EM0248,Ventilator,2024-10-03,9373,In Progress,L002
+EM0249,Ventilator,2023-02-02,6457,Scheduled,L001
+EM0250,Defibrillator,2024-10-15,20022,In Progress,L002
+EM0251,CT Scanner,2024-11-21,20968,Completed,L005
+EM0252,MRI Machine,2022-07-31,15004,Scheduled,L004
+EM0253,Ventilator,2023-09-27,3248,Scheduled,L004
+EM0254,Ultrasound Machine,2024-01-02,18859,In Progress,L002
+EM0255,Ventilator,2025-03-11,17260,Scheduled,L003
+EM0256,MRI Machine,2023-08-06,1742,In Progress,L005
+EM0257,MRI Machine,2023-07-11,22027,In Progress,L002
+EM0258,CT Scanner,2022-12-11,9111,Completed,L002
+EM0259,Ultrasound Machine,2023-10-21,17910,In Progress,L001
+EM0260,MRI Machine,2024-12-12,14558,In Progress,L005
+EM0261,MRI Machine,2022-10-08,24659,Scheduled,L003
+EM0262,CT Scanner,2023-02-01,8627,In Progress,L003
+EM0263,Ventilator,2023-05-20,1823,Completed,L005
+EM0264,CT Scanner,2023-04-28,9995,Scheduled,L005
+EM0265,Defibrillator,2024-03-21,5862,In Progress,L003
+EM0266,CT Scanner,2024-09-08,1842,Completed,L002
+EM0267,Defibrillator,2022-07-04,11074,Scheduled,L004
+EM0268,CT Scanner,2023-11-06,3543,In Progress,L001
+EM0269,Defibrillator,2023-03-13,14076,In Progress,L004
+EM0270,Ventilator,2024-02-20,17370,Completed,L001
+EM0271,CT Scanner,2023-08-18,11701,Completed,L005
+EM0272,Defibrillator,2023-01-30,17146,Scheduled,L001
+EM0273,Ventilator,2022-06-01,21606,Scheduled,L003
+EM0274,Ultrasound Machine,2022-05-25,5831,In Progress,L005
+EM0275,Defibrillator,2025-04-05,18629,In Progress,L001
+EM0276,Defibrillator,2023-02-10,12070,Completed,L005
+EM0277,Defibrillator,2022-09-21,23727,Scheduled,L002
+EM0278,MRI Machine,2022-05-25,14229,Scheduled,L005
+EM0279,MRI Machine,2023-06-14,4088,Scheduled,L001
+EM0280,MRI Machine,2022-08-23,19200,In Progress,L002
+EM0281,CT Scanner,2022-10-01,8224,In Progress,L002
+EM0282,Ultrasound Machine,2023-07-16,23112,In Progress,L003
+EM0283,Ventilator,2023-06-19,3566,In Progress,L004
+EM0284,Ventilator,2022-12-26,10574,In Progress,L003
+EM0285,Defibrillator,2024-08-01,8983,Scheduled,L003
+EM0286,Defibrillator,2022-05-07,11509,Completed,L003
+EM0287,CT Scanner,2023-03-29,11470,Completed,L002
+EM0288,Defibrillator,2023-12-28,16178,Completed,L001
+EM0289,MRI Machine,2023-03-03,3079,Scheduled,L004
+EM0290,Ventilator,2022-05-12,9189,Scheduled,L005
+EM0291,Ultrasound Machine,2023-12-06,4203,Scheduled,L001
+EM0292,Ventilator,2023-11-06,5630,In Progress,L004
+EM0293,Ultrasound Machine,2023-07-25,9144,Scheduled,L003
+EM0294,Ultrasound Machine,2022-07-11,13685,Completed,L005
+EM0295,MRI Machine,2023-11-27,6555,Scheduled,L001
+EM0296,CT Scanner,2022-07-10,15710,In Progress,L004
+EM0297,MRI Machine,2022-10-14,5274,Completed,L002
+EM0298,MRI Machine,2025-04-07,3149,Completed,L005
+EM0299,Ultrasound Machine,2025-02-02,20948,Completed,L003
+EM0300,Defibrillator,2022-11-08,11473,Completed,L003
+EM0301,CT Scanner,2024-10-17,9305,In Progress,L005
+EM0302,Ultrasound Machine,2024-10-18,20669,Scheduled,L003
+EM0303,CT Scanner,2024-06-16,18355,Scheduled,L003
+EM0304,Ultrasound Machine,2023-10-03,6715,In Progress,L001
+EM0305,Defibrillator,2022-05-29,4595,In Progress,L004
+EM0306,Ultrasound Machine,2024-09-23,7156,Scheduled,L003
+EM0307,Ultrasound Machine,2024-05-17,19390,In Progress,L002
+EM0308,Defibrillator,2023-05-04,4447,Completed,L001
+EM0309,Ultrasound Machine,2022-05-19,13856,Completed,L001
+EM0310,MRI Machine,2024-12-06,3326,Scheduled,L005
+EM0311,Ultrasound Machine,2023-03-26,1860,Scheduled,L004
+EM0312,CT Scanner,2023-12-14,14752,Completed,L002
+EM0313,Ultrasound Machine,2025-04-10,8682,In Progress,L001
+EM0314,Ventilator,2022-05-26,24627,Scheduled,L002
+EM0315,Ultrasound Machine,2023-05-28,14036,Scheduled,L002
+EM0316,MRI Machine,2025-01-25,14341,In Progress,L002
+EM0317,Ventilator,2023-01-27,23672,Scheduled,L003
+EM0318,Ultrasound Machine,2024-07-07,21780,In Progress,L003
+EM0319,MRI Machine,2025-03-02,18713,In Progress,L002
+EM0320,Defibrillator,2024-10-25,22202,In Progress,L003
+EM0321,Defibrillator,2022-07-06,8417,Completed,L001
+EM0322,Ultrasound Machine,2024-01-15,23319,Scheduled,L005
+EM0323,MRI Machine,2024-03-31,5795,Scheduled,L002
+EM0324,MRI Machine,2022-08-23,15449,Scheduled,L003
+EM0325,MRI Machine,2023-01-25,18115,Completed,L001
+EM0326,Defibrillator,2025-01-22,16385,In Progress,L004
+EM0327,Defibrillator,2023-09-02,20571,Completed,L002
+EM0328,MRI Machine,2022-10-28,20270,Completed,L003
+EM0329,MRI Machine,2025-03-31,7033,Scheduled,L001
+EM0330,Ventilator,2024-08-27,24147,Scheduled,L001
+EM0331,Defibrillator,2025-03-25,17355,Scheduled,L001
+EM0332,Ultrasound Machine,2023-08-12,17017,Completed,L001
+EM0333,Ventilator,2022-11-28,20062,Completed,L003
+EM0334,CT Scanner,2024-03-20,8140,Completed,L003
+EM0335,Ultrasound Machine,2025-04-15,5238,In Progress,L005
+EM0336,MRI Machine,2023-02-07,15095,Scheduled,L004
+EM0337,Defibrillator,2024-09-30,20225,Completed,L001
+EM0338,Ventilator,2024-04-07,16329,In Progress,L002
+EM0339,MRI Machine,2022-05-20,1433,Completed,L005
+EM0340,Ultrasound Machine,2022-06-21,2256,Scheduled,L004
+EM0341,Ultrasound Machine,2024-05-20,15027,Completed,L004
+EM0342,Ventilator,2023-12-26,9859,Completed,L001
+EM0343,Ultrasound Machine,2022-09-14,7788,In Progress,L004
+EM0344,MRI Machine,2025-02-16,8209,Scheduled,L003
+EM0345,Defibrillator,2023-07-26,3445,Completed,L002
+EM0346,Ventilator,2024-06-21,14009,Scheduled,L004
+EM0347,MRI Machine,2024-11-06,13000,Scheduled,L002
+EM0348,Defibrillator,2022-10-27,16686,Scheduled,L005
+EM0349,Ultrasound Machine,2022-11-21,11702,In Progress,L005
+EM0350,CT Scanner,2022-11-30,24593,Completed,L003
+EM0351,Ventilator,2022-09-04,10987,Scheduled,L005
+EM0352,Ventilator,2023-12-20,16987,Scheduled,L001
+EM0353,MRI Machine,2025-04-27,10848,In Progress,L002
+EM0354,MRI Machine,2024-01-13,23900,Completed,L004
+EM0355,Ultrasound Machine,2024-09-06,21965,In Progress,L005
+EM0356,Ventilator,2025-02-10,24411,In Progress,L004
+EM0357,Ultrasound Machine,2024-12-08,20955,Completed,L003
+EM0358,CT Scanner,2024-04-01,22474,In Progress,L002
+EM0359,CT Scanner,2023-12-10,14224,In Progress,L005
+EM0360,CT Scanner,2025-03-05,4068,In Progress,L005
+EM0361,CT Scanner,2022-10-26,14090,Scheduled,L004
+EM0362,Ultrasound Machine,2023-05-03,10676,Completed,L004
+EM0363,MRI Machine,2024-11-28,24271,In Progress,L003
+EM0364,Ventilator,2025-04-25,5302,Scheduled,L004
+EM0365,MRI Machine,2022-11-01,14096,Completed,L004
+EM0366,Defibrillator,2022-09-12,22175,Completed,L005
+EM0367,Ventilator,2023-02-26,4626,Completed,L004
+EM0368,Ventilator,2023-10-08,13226,In Progress,L003
+EM0369,MRI Machine,2023-10-27,11468,In Progress,L005
+EM0370,Defibrillator,2022-11-18,11968,In Progress,L003
+EM0371,Ventilator,2023-02-28,24581,Completed,L001
+EM0372,CT Scanner,2023-04-29,7830,Scheduled,L001
+EM0373,Defibrillator,2022-09-03,7676,Completed,L004
+EM0374,Ultrasound Machine,2024-03-16,19985,Completed,L002
+EM0375,CT Scanner,2022-12-30,3603,Completed,L003
+EM0376,MRI Machine,2022-12-03,24592,In Progress,L002
+EM0377,Ventilator,2025-02-01,22655,Scheduled,L003
+EM0378,Ventilator,2022-07-10,9198,In Progress,L002
+EM0379,Ventilator,2023-11-23,9002,In Progress,L005
+EM0380,Defibrillator,2024-04-29,5056,Scheduled,L005
+EM0381,Ultrasound Machine,2023-04-07,1878,In Progress,L005
+EM0382,Ultrasound Machine,2023-11-13,16684,In Progress,L003
+EM0383,Defibrillator,2024-12-05,18347,Completed,L004
+EM0384,Ultrasound Machine,2022-08-20,22157,Completed,L002
+EM0385,CT Scanner,2022-05-01,5885,In Progress,L005
+EM0386,Ultrasound Machine,2023-11-18,14840,In Progress,L002
+EM0387,MRI Machine,2022-11-23,15695,In Progress,L001
+EM0388,MRI Machine,2023-02-14,5422,In Progress,L005
+EM0389,MRI Machine,2024-02-23,17717,In Progress,L004
+EM0390,Ventilator,2024-10-11,8127,Completed,L005
+EM0391,CT Scanner,2023-09-05,7341,Completed,L005
+EM0392,CT Scanner,2024-10-24,13527,Scheduled,L002
+EM0393,Ventilator,2024-12-19,3902,Scheduled,L003
+EM0394,Ventilator,2023-07-30,16140,Completed,L001
+EM0395,MRI Machine,2022-09-20,20516,Scheduled,L001
+EM0396,CT Scanner,2025-04-21,2700,Scheduled,L004
+EM0397,Defibrillator,2023-03-06,12703,Scheduled,L003
+EM0398,MRI Machine,2022-08-15,4286,Completed,L001
+EM0399,Defibrillator,2024-01-24,24045,Scheduled,L003
+EM0400,MRI Machine,2022-11-17,23266,Scheduled,L001
+EM0401,Ventilator,2023-12-28,3752,In Progress,L003
+EM0402,MRI Machine,2025-04-28,3959,Completed,L001
+EM0403,MRI Machine,2023-07-16,3789,Scheduled,L001
+EM0404,Ultrasound Machine,2025-03-15,5081,Scheduled,L002
+EM0405,Ultrasound Machine,2025-04-21,2260,Completed,L005
+EM0406,CT Scanner,2022-08-21,17090,In Progress,L002
+EM0407,Defibrillator,2024-07-07,2003,Scheduled,L002
+EM0408,Ventilator,2024-05-28,9580,Scheduled,L002
+EM0409,Ultrasound Machine,2024-03-07,8227,In Progress,L001
+EM0410,Defibrillator,2023-10-10,2738,Completed,L004
+EM0411,MRI Machine,2023-04-29,12998,In Progress,L001
+EM0412,Ultrasound Machine,2022-11-14,20831,Scheduled,L004
+EM0413,CT Scanner,2024-08-08,10323,In Progress,L004
+EM0414,MRI Machine,2024-05-20,22857,Completed,L003
+EM0415,MRI Machine,2022-11-24,14305,Completed,L002
+EM0416,Ventilator,2024-09-13,10193,Scheduled,L003
+EM0417,Ventilator,2023-01-11,506,In Progress,L002
+EM0418,Defibrillator,2023-03-23,14807,Completed,L001
+EM0419,Ventilator,2023-03-12,11272,Scheduled,L002
+EM0420,Ultrasound Machine,2023-05-28,11411,In Progress,L005
+EM0421,Defibrillator,2022-07-25,3620,Scheduled,L003
+EM0422,Ventilator,2024-04-21,6970,Completed,L003
+EM0423,Ultrasound Machine,2022-07-16,17077,In Progress,L004
+EM0424,Ultrasound Machine,2023-05-26,19516,Scheduled,L004
+EM0425,Defibrillator,2024-01-05,13209,Completed,L003
+EM0426,Ultrasound Machine,2022-07-18,20551,Completed,L004
+EM0427,Defibrillator,2024-06-23,10199,Scheduled,L002
+EM0428,CT Scanner,2024-03-26,21224,In Progress,L005
+EM0429,Defibrillator,2024-02-17,20892,In Progress,L004
+EM0430,MRI Machine,2022-08-09,24989,Scheduled,L001
+EM0431,Ventilator,2023-11-03,10845,Scheduled,L003
+EM0432,CT Scanner,2024-03-14,2883,Completed,L001
+EM0433,MRI Machine,2023-09-26,10476,Completed,L004
+EM0434,MRI Machine,2023-07-11,16261,In Progress,L005
+EM0435,MRI Machine,2024-08-22,3962,Completed,L003
+EM0436,Ventilator,2022-05-22,16701,Completed,L002
+EM0437,Ventilator,2022-11-30,12161,In Progress,L003
+EM0438,Defibrillator,2023-09-23,4434,In Progress,L004
+EM0439,Defibrillator,2025-04-05,19666,In Progress,L003
+EM0440,Ultrasound Machine,2022-12-16,14626,Scheduled,L005
+EM0441,MRI Machine,2023-07-21,21219,Scheduled,L002
+EM0442,MRI Machine,2023-06-07,14148,Completed,L001
+EM0443,Defibrillator,2022-11-24,1698,In Progress,L004
+EM0444,CT Scanner,2022-12-22,13395,In Progress,L002
+EM0445,Ultrasound Machine,2024-06-15,2975,Scheduled,L002
+EM0446,Ventilator,2023-09-14,3999,Scheduled,L005
+EM0447,MRI Machine,2024-09-24,4295,In Progress,L003
+EM0448,CT Scanner,2022-11-23,20483,In Progress,L003
+EM0449,Defibrillator,2023-03-11,7702,Completed,L005
+EM0450,Ultrasound Machine,2024-09-18,2957,Completed,L005
+EM0451,MRI Machine,2024-09-26,17900,Completed,L001
+EM0452,Ventilator,2023-12-15,5170,Scheduled,L005
+EM0453,Ventilator,2024-03-07,7971,In Progress,L003
+EM0454,CT Scanner,2025-02-04,11105,Completed,L002
+EM0455,Ventilator,2022-09-29,16043,Scheduled,L004
+EM0456,Ultrasound Machine,2023-06-26,17450,Scheduled,L005
+EM0457,MRI Machine,2023-01-31,18939,In Progress,L003
+EM0458,CT Scanner,2022-08-28,6418,Scheduled,L003
+EM0459,Ultrasound Machine,2023-05-27,14621,Scheduled,L005
+EM0460,Defibrillator,2023-04-26,15855,Scheduled,L002
+EM0461,MRI Machine,2023-04-05,5018,Scheduled,L001
+EM0462,Ultrasound Machine,2024-07-28,7822,Scheduled,L004
+EM0463,Defibrillator,2024-12-07,20131,Scheduled,L002
+EM0464,Ventilator,2023-04-24,6785,In Progress,L001
+EM0465,Ultrasound Machine,2024-08-24,4805,Completed,L001
+EM0466,Ventilator,2023-09-20,6539,Completed,L005
+EM0467,Ventilator,2024-11-09,11431,In Progress,L001
+EM0468,CT Scanner,2023-04-23,8684,Completed,L005
+EM0469,Ventilator,2022-08-01,22292,In Progress,L002
+EM0470,Ventilator,2024-03-09,22244,In Progress,L002
+EM0471,Defibrillator,2022-06-24,20329,In Progress,L003
+EM0472,MRI Machine,2023-11-19,10990,Completed,L003
+EM0473,Ventilator,2024-01-20,5645,In Progress,L005
+EM0474,Ultrasound Machine,2023-02-05,7219,Scheduled,L004
+EM0475,MRI Machine,2023-02-06,23886,Completed,L003
+EM0476,Ultrasound Machine,2022-10-13,20089,Completed,L001
+EM0477,CT Scanner,2023-05-04,7382,Completed,L001
+EM0478,CT Scanner,2025-03-24,1582,Completed,L002
+EM0479,Ultrasound Machine,2025-03-25,23999,Scheduled,L004
+EM0480,CT Scanner,2024-02-05,15340,In Progress,L003
+EM0481,Ultrasound Machine,2024-08-24,10424,Scheduled,L003
+EM0482,Ventilator,2023-05-13,6335,Scheduled,L001
+EM0483,Ventilator,2024-08-01,576,Scheduled,L005
+EM0484,MRI Machine,2025-01-06,7171,Completed,L004
+EM0485,Defibrillator,2022-11-03,21182,Scheduled,L005
+EM0486,Ultrasound Machine,2024-07-29,13879,Scheduled,L005
+EM0487,Ventilator,2022-09-24,3512,In Progress,L001
+EM0488,CT Scanner,2023-10-28,996,Completed,L002
+EM0489,MRI Machine,2024-12-11,18844,Scheduled,L002
+EM0490,CT Scanner,2023-05-03,6451,Completed,L001
+EM0491,Ventilator,2024-10-16,8049,Completed,L001
+EM0492,MRI Machine,2024-09-06,1422,In Progress,L001
+EM0493,Ventilator,2023-10-23,2946,In Progress,L005
+EM0494,MRI Machine,2022-10-13,11772,In Progress,L005
+EM0495,CT Scanner,2024-08-01,17491,In Progress,L002
+EM0496,Ultrasound Machine,2023-07-21,23284,Scheduled,L003
+EM0497,Defibrillator,2024-06-14,24359,In Progress,L004
+EM0498,Ultrasound Machine,2025-02-15,2977,In Progress,L002
+EM0499,CT Scanner,2023-06-21,10727,Completed,L001
+EM0500,MRI Machine,2025-03-13,9537,In Progress,L005
+EM0501,Ultrasound Machine,2023-12-10,14331,Scheduled,L004
+EM0502,Defibrillator,2023-08-25,6665,Completed,L003
+EM0503,Ultrasound Machine,2023-03-04,13964,In Progress,L003
+EM0504,CT Scanner,2025-02-11,22636,Scheduled,L005
+EM0505,Ventilator,2023-02-01,15428,Completed,L005
+EM0506,Defibrillator,2024-04-27,19003,Scheduled,L002
+EM0507,CT Scanner,2023-07-28,987,In Progress,L005
+EM0508,MRI Machine,2022-12-25,1060,In Progress,L001
+EM0509,CT Scanner,2022-06-24,5441,In Progress,L003
+EM0510,Ventilator,2025-03-31,11773,In Progress,L004
+EM0511,Ultrasound Machine,2023-12-07,24196,Completed,L002
+EM0512,Ventilator,2023-03-16,14956,Scheduled,L001
+EM0513,MRI Machine,2025-01-24,4921,Scheduled,L001
+EM0514,Ultrasound Machine,2024-08-25,12118,Completed,L004
+EM0515,MRI Machine,2024-03-06,18474,Completed,L001
+EM0516,CT Scanner,2022-12-31,14893,In Progress,L003
+EM0517,Ultrasound Machine,2025-02-04,21019,Scheduled,L004
+EM0518,Ultrasound Machine,2022-08-28,2807,In Progress,L003
+EM0519,CT Scanner,2024-02-02,16080,Completed,L005
+EM0520,Ultrasound Machine,2024-07-09,20194,Scheduled,L002
+EM0521,Ultrasound Machine,2025-02-24,9772,Scheduled,L001
+EM0522,MRI Machine,2023-07-14,9281,In Progress,L003
+EM0523,Defibrillator,2022-12-07,5922,In Progress,L002
+EM0524,Ultrasound Machine,2022-10-03,23528,Completed,L001
+EM0525,MRI Machine,2024-08-12,22825,Completed,L004
+EM0526,CT Scanner,2024-09-25,12468,In Progress,L005
+EM0527,Ultrasound Machine,2024-02-07,18494,Completed,L002
+EM0528,Ultrasound Machine,2022-09-05,13561,Completed,L005
+EM0529,CT Scanner,2023-09-01,1297,In Progress,L003
+EM0530,Ultrasound Machine,2025-02-18,4499,In Progress,L005
+EM0531,MRI Machine,2023-08-20,14647,Scheduled,L005
+EM0532,Ventilator,2025-02-24,13634,In Progress,L005
+EM0533,CT Scanner,2024-03-10,22681,In Progress,L005
+EM0534,Ultrasound Machine,2022-05-22,1232,Completed,L004
+EM0535,Ventilator,2022-11-22,10871,Completed,L001
+EM0536,Defibrillator,2023-08-13,10129,Scheduled,L002
+EM0537,Ultrasound Machine,2022-06-17,10209,In Progress,L001
+EM0538,MRI Machine,2024-11-30,18576,Completed,L005
+EM0539,MRI Machine,2024-03-30,14120,In Progress,L004
+EM0540,Ultrasound Machine,2025-01-19,951,Completed,L002
+EM0541,MRI Machine,2022-05-30,22486,Completed,L003
+EM0542,Defibrillator,2023-12-26,4596,In Progress,L002
+EM0543,Defibrillator,2023-09-02,7082,Scheduled,L004
+EM0544,CT Scanner,2024-07-23,3248,Completed,L003
+EM0545,Ultrasound Machine,2022-09-07,24925,Completed,L003
+EM0546,Ultrasound Machine,2024-05-20,18458,Scheduled,L005
+EM0547,CT Scanner,2023-05-01,16411,Completed,L003
+EM0548,MRI Machine,2024-07-23,8006,Scheduled,L002
+EM0549,CT Scanner,2022-06-12,10793,In Progress,L004
+EM0550,MRI Machine,2023-09-30,7699,Completed,L005
+EM0551,Defibrillator,2024-11-18,18958,Scheduled,L001
+EM0552,Defibrillator,2022-05-18,15171,Completed,L005
+EM0553,Ventilator,2024-10-13,24064,Scheduled,L003
+EM0554,Ventilator,2023-09-23,2787,Completed,L004
+EM0555,Ventilator,2024-11-04,19179,In Progress,L004
+EM0556,Defibrillator,2023-02-15,15989,Scheduled,L001
+EM0557,CT Scanner,2024-11-27,17399,In Progress,L001
+EM0558,Defibrillator,2022-12-05,17929,In Progress,L002
+EM0559,Ventilator,2024-05-28,24296,In Progress,L004
+EM0560,Ventilator,2023-11-08,23635,In Progress,L003
+EM0561,Ventilator,2024-05-13,24270,In Progress,L003
+EM0562,CT Scanner,2024-07-09,10607,Completed,L003
+EM0563,Ultrasound Machine,2022-11-25,20189,In Progress,L002
+EM0564,Ultrasound Machine,2024-03-31,3164,Completed,L004
+EM0565,Ultrasound Machine,2024-05-31,23141,Scheduled,L004
+EM0566,Ventilator,2023-01-17,7066,In Progress,L002
+EM0567,Ventilator,2022-12-08,18720,Completed,L001
+EM0568,Ultrasound Machine,2024-01-18,18640,Scheduled,L002
+EM0569,Ultrasound Machine,2024-04-07,19504,Completed,L002
+EM0570,CT Scanner,2022-05-08,20421,Completed,L003
+EM0571,Ventilator,2024-01-18,8506,Scheduled,L003
+EM0572,Ultrasound Machine,2024-07-12,22347,Completed,L004
+EM0573,Defibrillator,2023-09-24,3594,Completed,L005
+EM0574,Ultrasound Machine,2022-10-11,8229,In Progress,L004
+EM0575,CT Scanner,2022-06-13,4920,Completed,L003
+EM0576,Ultrasound Machine,2022-09-26,1178,Completed,L004
+EM0577,Defibrillator,2022-09-17,5881,Scheduled,L001
+EM0578,CT Scanner,2024-07-11,15477,In Progress,L004
+EM0579,Ultrasound Machine,2024-05-09,19401,In Progress,L005
+EM0580,CT Scanner,2022-12-01,8226,Completed,L004
+EM0581,Ultrasound Machine,2025-01-28,17007,Scheduled,L003
+EM0582,MRI Machine,2022-11-25,24665,Completed,L001
+EM0583,Ventilator,2022-11-19,10271,In Progress,L005
+EM0584,CT Scanner,2023-05-01,9815,Completed,L004
+EM0585,Ventilator,2023-11-29,4000,Scheduled,L001
+EM0586,Defibrillator,2023-04-19,20616,Scheduled,L005
+EM0587,MRI Machine,2023-05-15,11478,In Progress,L005
+EM0588,Defibrillator,2022-05-17,3677,In Progress,L004
+EM0589,Ventilator,2023-01-18,2017,In Progress,L003
+EM0590,MRI Machine,2022-07-11,2645,Scheduled,L005
+EM0591,MRI Machine,2024-11-06,18003,Completed,L001
+EM0592,Defibrillator,2024-03-17,1111,Scheduled,L004
+EM0593,CT Scanner,2023-05-04,20867,Scheduled,L002
+EM0594,CT Scanner,2024-11-29,1329,Scheduled,L002
+EM0595,MRI Machine,2023-06-21,4159,Completed,L005
+EM0596,MRI Machine,2024-08-30,3547,Completed,L001
+EM0597,Ultrasound Machine,2024-01-13,6572,Completed,L005
+EM0598,MRI Machine,2024-09-08,20086,Completed,L005
+EM0599,Ultrasound Machine,2025-02-08,11245,Scheduled,L001
+EM0600,Defibrillator,2022-07-30,2934,In Progress,L001
+EM0601,Ventilator,2025-04-09,14776,In Progress,L003
+EM0602,MRI Machine,2023-02-03,16015,In Progress,L004
+EM0603,Ultrasound Machine,2024-03-03,6658,Scheduled,L001
+EM0604,Ultrasound Machine,2023-03-18,21827,In Progress,L003
+EM0605,MRI Machine,2022-11-26,7071,Scheduled,L002
+EM0606,CT Scanner,2024-08-30,3543,Completed,L002
+EM0607,CT Scanner,2023-01-16,5818,Completed,L002
+EM0608,Ventilator,2023-04-07,8960,In Progress,L001
+EM0609,MRI Machine,2025-02-12,3574,Completed,L003
+EM0610,Ultrasound Machine,2022-12-12,5187,In Progress,L001
+EM0611,Ventilator,2024-11-19,13526,In Progress,L002
+EM0612,MRI Machine,2024-02-11,20540,In Progress,L003
+EM0613,Ultrasound Machine,2024-05-30,16781,Scheduled,L001
+EM0614,CT Scanner,2022-07-24,23984,Completed,L003
+EM0615,Defibrillator,2023-03-26,4786,Completed,L001
+EM0616,Ventilator,2023-03-12,1782,In Progress,L001
+EM0617,Ultrasound Machine,2022-06-08,15360,In Progress,L004
+EM0618,CT Scanner,2024-12-18,11638,In Progress,L002
+EM0619,MRI Machine,2022-07-05,24567,Scheduled,L003
+EM0620,Defibrillator,2022-07-07,8400,Scheduled,L002
+EM0621,Defibrillator,2024-12-31,22544,Scheduled,L005
+EM0622,CT Scanner,2022-12-28,7284,Scheduled,L004
+EM0623,Ultrasound Machine,2023-06-24,11183,Completed,L003
+EM0624,Ventilator,2025-02-11,8094,Scheduled,L001
+EM0625,Defibrillator,2024-07-11,24517,Scheduled,L003
+EM0626,Ultrasound Machine,2024-12-08,19404,Completed,L001
+EM0627,Ventilator,2023-04-22,24962,In Progress,L005
+EM0628,MRI Machine,2023-09-07,10577,Scheduled,L005
+EM0629,CT Scanner,2023-11-25,16692,Scheduled,L001
+EM0630,Ventilator,2022-07-03,23061,Completed,L005
+EM0631,MRI Machine,2025-04-09,10224,Completed,L002
+EM0632,Ultrasound Machine,2023-04-08,14889,Scheduled,L003
+EM0633,CT Scanner,2022-07-18,23134,In Progress,L001
+EM0634,MRI Machine,2022-06-22,9123,Scheduled,L002
+EM0635,Ventilator,2023-08-09,24282,In Progress,L003
+EM0636,Ultrasound Machine,2024-11-08,23462,In Progress,L004
+EM0637,Ventilator,2023-04-28,1486,In Progress,L004
+EM0638,Ultrasound Machine,2023-12-05,15318,Scheduled,L001
+EM0639,Ventilator,2023-05-31,11066,In Progress,L001
+EM0640,Ultrasound Machine,2022-10-02,24844,In Progress,L003
+EM0641,Ultrasound Machine,2024-02-04,22427,Scheduled,L001
+EM0642,MRI Machine,2025-01-16,8351,Completed,L002
+EM0643,Ventilator,2022-07-17,21436,Completed,L002
+EM0644,Ventilator,2023-08-08,11066,Completed,L004
+EM0645,Defibrillator,2024-09-25,19195,In Progress,L001
+EM0646,Defibrillator,2023-05-17,7956,Scheduled,L003
+EM0647,MRI Machine,2023-03-21,19004,In Progress,L002
+EM0648,Ventilator,2023-02-16,4819,Completed,L005
+EM0649,Ultrasound Machine,2025-03-25,14554,Completed,L001
+EM0650,Ventilator,2024-11-03,1831,In Progress,L004
+EM0651,CT Scanner,2024-03-17,986,Scheduled,L001
+EM0652,Ultrasound Machine,2022-07-12,12965,Completed,L005
+EM0653,CT Scanner,2023-03-18,6404,Scheduled,L004
+EM0654,Ventilator,2025-04-16,21795,Scheduled,L005
+EM0655,MRI Machine,2024-07-03,13625,Scheduled,L002
+EM0656,Ventilator,2022-06-10,5345,Scheduled,L004
+EM0657,Ventilator,2024-07-12,19766,In Progress,L005
+EM0658,Defibrillator,2023-01-21,1700,Completed,L001
+EM0659,MRI Machine,2024-04-30,15869,In Progress,L002
+EM0660,MRI Machine,2024-06-06,1757,Completed,L001
+EM0661,MRI Machine,2024-05-13,23715,Completed,L005
+EM0662,Ultrasound Machine,2023-12-05,10112,Scheduled,L003
+EM0663,Ultrasound Machine,2024-12-10,10593,Scheduled,L002
+EM0664,Defibrillator,2025-02-02,4011,In Progress,L004
+EM0665,CT Scanner,2023-10-03,23311,Scheduled,L003
+EM0666,Defibrillator,2024-01-09,593,Scheduled,L005
+EM0667,CT Scanner,2024-06-29,10766,Completed,L002
+EM0668,CT Scanner,2022-10-19,22324,Scheduled,L005
+EM0669,Defibrillator,2022-10-17,22456,Scheduled,L001
+EM0670,CT Scanner,2024-02-19,4903,In Progress,L002
+EM0671,MRI Machine,2023-06-17,1365,In Progress,L003
+EM0672,MRI Machine,2024-10-18,22537,Completed,L005
+EM0673,Defibrillator,2025-02-26,20887,Completed,L001
+EM0674,Ventilator,2023-12-15,10264,In Progress,L005
+EM0675,Ventilator,2022-12-18,16394,Completed,L004
+EM0676,CT Scanner,2022-10-31,22415,Completed,L001
+EM0677,Ventilator,2024-08-02,1171,In Progress,L002
+EM0678,MRI Machine,2024-02-14,14779,In Progress,L003
+EM0679,CT Scanner,2023-08-08,15528,In Progress,L002
+EM0680,Ventilator,2022-06-27,11563,In Progress,L004
+EM0681,CT Scanner,2024-08-16,6894,In Progress,L003
+EM0682,MRI Machine,2022-07-13,12077,In Progress,L003
+EM0683,MRI Machine,2023-02-20,11826,Completed,L005
+EM0684,Ventilator,2022-07-07,5051,Scheduled,L001
+EM0685,CT Scanner,2022-08-12,12912,Completed,L002
+EM0686,CT Scanner,2024-06-02,22194,In Progress,L003
+EM0687,MRI Machine,2024-03-08,2117,Scheduled,L004
+EM0688,CT Scanner,2022-09-01,17571,In Progress,L005
+EM0689,MRI Machine,2022-05-10,10933,In Progress,L005
+EM0690,Ultrasound Machine,2023-03-19,8865,In Progress,L004
+EM0691,Ultrasound Machine,2023-10-07,10397,Scheduled,L003
+EM0692,MRI Machine,2025-02-09,16873,In Progress,L004
+EM0693,MRI Machine,2022-07-11,12783,In Progress,L005
+EM0694,CT Scanner,2023-04-09,3542,Completed,L001
+EM0695,MRI Machine,2024-09-26,9214,Scheduled,L005
+EM0696,Ventilator,2025-03-01,22076,Scheduled,L002
+EM0697,CT Scanner,2023-04-06,9731,Scheduled,L005
+EM0698,Ultrasound Machine,2024-06-25,23269,In Progress,L002
+EM0699,Ultrasound Machine,2025-03-16,7382,Scheduled,L004
+EM0700,Ventilator,2024-12-18,11780,Completed,L004
+EM0701,Ventilator,2024-08-31,1169,Completed,L002
+EM0702,Defibrillator,2024-02-05,10063,In Progress,L003
+EM0703,CT Scanner,2022-09-17,5516,Scheduled,L004
+EM0704,MRI Machine,2024-11-06,23282,Scheduled,L001
+EM0705,Ventilator,2025-03-09,19967,In Progress,L003
+EM0706,Ultrasound Machine,2023-07-04,22468,In Progress,L004
+EM0707,Ventilator,2025-02-23,19645,In Progress,L005
+EM0708,CT Scanner,2023-01-02,13458,Completed,L003
+EM0709,CT Scanner,2022-10-22,7488,Completed,L004
+EM0710,CT Scanner,2024-02-20,14833,Scheduled,L002
+EM0711,Ventilator,2023-02-19,13865,In Progress,L003
+EM0712,MRI Machine,2025-01-19,17927,Completed,L002
+EM0713,Ultrasound Machine,2024-11-13,11335,In Progress,L003
+EM0714,Ultrasound Machine,2023-09-02,23652,Completed,L002
+EM0715,Defibrillator,2025-02-23,6331,In Progress,L001
+EM0716,Ultrasound Machine,2023-06-26,13102,In Progress,L001
+EM0717,Ventilator,2022-08-06,9280,In Progress,L005
+EM0718,Ventilator,2022-08-16,3530,Scheduled,L002
+EM0719,Ultrasound Machine,2024-05-21,1221,In Progress,L002
+EM0720,CT Scanner,2023-09-18,14847,Completed,L004
+EM0721,Ventilator,2022-07-12,11072,Completed,L004
+EM0722,Ventilator,2023-01-08,21640,Completed,L003
+EM0723,CT Scanner,2024-12-01,20231,Scheduled,L005
+EM0724,Ventilator,2024-09-18,6061,Scheduled,L005
+EM0725,Defibrillator,2023-03-08,23374,Completed,L004
+EM0726,Ultrasound Machine,2022-08-13,20583,Completed,L001
+EM0727,Defibrillator,2024-10-09,14479,Scheduled,L005
+EM0728,Ventilator,2025-04-16,7191,In Progress,L002
+EM0729,Defibrillator,2024-12-17,11911,Scheduled,L002
+EM0730,Defibrillator,2024-06-12,857,In Progress,L001
+EM0731,MRI Machine,2022-06-16,1821,In Progress,L003
+EM0732,MRI Machine,2022-12-20,4359,In Progress,L004
+EM0733,CT Scanner,2022-07-17,21056,Scheduled,L002
+EM0734,Defibrillator,2022-07-04,7350,Completed,L001
+EM0735,MRI Machine,2022-12-28,14968,Completed,L002
+EM0736,Defibrillator,2024-02-16,3340,Completed,L005
+EM0737,Ultrasound Machine,2022-08-19,18870,In Progress,L004
+EM0738,Ultrasound Machine,2024-01-31,7339,Completed,L001
+EM0739,Ventilator,2022-06-26,24200,In Progress,L004
+EM0740,Defibrillator,2023-04-24,10856,In Progress,L002
+EM0741,Defibrillator,2024-11-16,9073,Completed,L005
+EM0742,Defibrillator,2022-12-23,17879,Scheduled,L005
+EM0743,Ultrasound Machine,2023-06-05,14207,Completed,L004
+EM0744,Ventilator,2023-02-12,12613,Scheduled,L005
+EM0745,Ultrasound Machine,2023-02-11,7411,In Progress,L005
+EM0746,CT Scanner,2024-01-22,8724,Scheduled,L003
+EM0747,Defibrillator,2023-11-29,21184,Completed,L004
+EM0748,Defibrillator,2022-10-10,22820,In Progress,L001
+EM0749,CT Scanner,2022-05-06,10479,Completed,L003
+EM0750,MRI Machine,2022-07-12,12626,Completed,L001
+EM0751,Ultrasound Machine,2023-06-07,536,Completed,L004
+EM0752,Defibrillator,2025-02-03,10572,In Progress,L002
+EM0753,Ultrasound Machine,2022-09-25,13951,Completed,L004
+EM0754,Ultrasound Machine,2024-03-25,19898,Scheduled,L005
+EM0755,Defibrillator,2025-04-21,20404,Completed,L005
+EM0756,Ultrasound Machine,2023-04-12,23772,In Progress,L002
+EM0757,Ventilator,2025-03-10,23931,Completed,L005
+EM0758,Defibrillator,2022-04-30,13810,Completed,L003
+EM0759,Ventilator,2022-07-31,24956,Scheduled,L005
+EM0760,Ventilator,2022-10-20,12756,Completed,L002
+EM0761,Defibrillator,2025-04-10,21552,Scheduled,L003
+EM0762,MRI Machine,2024-03-28,4843,In Progress,L003
+EM0763,Ventilator,2022-12-05,17625,In Progress,L004
+EM0764,Defibrillator,2023-08-21,19713,In Progress,L003
+EM0765,Ventilator,2024-12-24,10867,Completed,L003
+EM0766,CT Scanner,2023-05-28,17525,Scheduled,L001
+EM0767,Ventilator,2023-01-12,1384,Completed,L003
+EM0768,CT Scanner,2023-04-19,2923,Scheduled,L002
+EM0769,MRI Machine,2022-10-18,3023,Completed,L003
+EM0770,Ventilator,2024-09-03,19613,Completed,L001
+EM0771,Ventilator,2022-08-25,12882,Completed,L003
+EM0772,Defibrillator,2023-01-06,15332,Completed,L002
+EM0773,Defibrillator,2023-08-24,7501,Completed,L005
+EM0774,Ultrasound Machine,2024-05-28,20303,Completed,L002
+EM0775,Ventilator,2024-01-04,10440,Completed,L001
+EM0776,Ultrasound Machine,2023-02-16,9379,Scheduled,L001
+EM0777,Ultrasound Machine,2024-01-17,15989,Completed,L004
+EM0778,MRI Machine,2022-07-16,6850,Completed,L003
+EM0779,Ultrasound Machine,2022-11-12,11185,Completed,L005
+EM0780,CT Scanner,2025-02-01,20873,Scheduled,L001
+EM0781,Ultrasound Machine,2024-08-23,11506,In Progress,L003
+EM0782,Defibrillator,2025-04-12,3574,Completed,L001
+EM0783,CT Scanner,2022-05-19,8674,Scheduled,L003
+EM0784,Defibrillator,2023-08-26,24101,Completed,L002
+EM0785,Ultrasound Machine,2023-10-30,1942,In Progress,L004
+EM0786,Ventilator,2024-06-13,7078,In Progress,L001
+EM0787,Ventilator,2023-08-09,20155,Completed,L001
+EM0788,CT Scanner,2022-05-02,2521,Scheduled,L002
+EM0789,Ventilator,2024-08-16,16667,Completed,L004
+EM0790,MRI Machine,2022-07-14,5183,Completed,L004
+EM0791,Ultrasound Machine,2024-02-12,4395,Completed,L004
+EM0792,MRI Machine,2024-01-18,21437,In Progress,L002
+EM0793,Ventilator,2024-11-01,20264,In Progress,L003
+EM0794,MRI Machine,2023-12-26,13027,Completed,L002
+EM0795,Ultrasound Machine,2023-03-02,9428,Scheduled,L001
+EM0796,Ultrasound Machine,2023-10-21,14852,Scheduled,L003
+EM0797,Ultrasound Machine,2024-12-04,21403,In Progress,L002
+EM0798,Ultrasound Machine,2024-11-24,5745,Scheduled,L003
+EM0799,Defibrillator,2024-02-06,10426,In Progress,L001
+EM0800,Defibrillator,2024-05-03,15228,Scheduled,L004
+EM0801,Defibrillator,2024-04-16,5950,Completed,L003
+EM0802,CT Scanner,2022-06-15,22307,In Progress,L004
+EM0803,Ventilator,2024-01-05,20949,Completed,L005
+EM0804,Ventilator,2025-02-13,8681,In Progress,L003
+EM0805,Ultrasound Machine,2022-08-16,20337,In Progress,L003
+EM0806,MRI Machine,2024-05-14,628,Completed,L003
+EM0807,CT Scanner,2023-06-24,23125,Scheduled,L004
+EM0808,Ventilator,2022-09-09,21339,In Progress,L003
+EM0809,Defibrillator,2024-01-16,9420,Scheduled,L005
+EM0810,Ultrasound Machine,2024-01-23,10840,Scheduled,L001
+EM0811,MRI Machine,2022-09-03,18738,Scheduled,L002
+EM0812,Ultrasound Machine,2023-08-17,23935,In Progress,L005
+EM0813,MRI Machine,2024-03-12,17096,Scheduled,L004
+EM0814,MRI Machine,2024-08-03,5402,Completed,L004
+EM0815,MRI Machine,2024-09-07,20241,In Progress,L004
+EM0816,MRI Machine,2022-06-04,19824,In Progress,L004
+EM0817,Defibrillator,2024-03-21,9180,Scheduled,L005
+EM0818,MRI Machine,2024-03-10,5678,Scheduled,L003
+EM0819,CT Scanner,2024-06-11,9601,Scheduled,L003
+EM0820,Defibrillator,2022-09-07,5996,Completed,L002
+EM0821,MRI Machine,2024-08-21,2941,Scheduled,L003
+EM0822,Defibrillator,2022-06-12,17277,In Progress,L002
+EM0823,MRI Machine,2023-06-14,9946,In Progress,L004
+EM0824,Defibrillator,2023-05-16,11367,Completed,L005
+EM0825,Ultrasound Machine,2024-07-03,10280,Scheduled,L003
+EM0826,MRI Machine,2022-10-09,11131,Completed,L001
+EM0827,Ventilator,2023-11-23,12435,Scheduled,L005
+EM0828,Defibrillator,2025-01-29,8613,Scheduled,L002
+EM0829,Defibrillator,2022-10-02,9294,Completed,L001
+EM0830,Ventilator,2024-10-18,15402,In Progress,L002
+EM0831,Defibrillator,2024-08-13,9818,Scheduled,L002
+EM0832,Ventilator,2022-06-24,23467,In Progress,L005
+EM0833,Ventilator,2022-08-04,888,Scheduled,L003
+EM0834,Ultrasound Machine,2025-01-15,5454,Completed,L003
+EM0835,Ventilator,2023-09-16,23984,In Progress,L005
+EM0836,CT Scanner,2024-07-11,1444,Scheduled,L002
+EM0837,Ventilator,2023-09-21,1087,Scheduled,L004
+EM0838,Defibrillator,2022-11-18,20671,Scheduled,L002
+EM0839,Ventilator,2024-07-27,6324,Scheduled,L001
+EM0840,MRI Machine,2025-02-26,16484,Completed,L003
+EM0841,CT Scanner,2024-03-02,4711,Completed,L003
+EM0842,Ventilator,2023-04-07,21701,In Progress,L003
+EM0843,CT Scanner,2022-12-13,18200,Scheduled,L004
+EM0844,Ultrasound Machine,2025-02-18,17756,Completed,L003
+EM0845,Defibrillator,2025-03-03,17525,In Progress,L002
+EM0846,Ventilator,2024-12-10,11262,Completed,L003
+EM0847,Defibrillator,2022-11-27,21961,Scheduled,L004
+EM0848,Defibrillator,2024-11-30,10855,Scheduled,L002
+EM0849,CT Scanner,2023-12-06,3931,Scheduled,L002
+EM0850,Ventilator,2024-06-01,8812,Scheduled,L004
+EM0851,Defibrillator,2024-08-04,1313,In Progress,L001
+EM0852,CT Scanner,2024-09-20,23053,Scheduled,L002
+EM0853,Ultrasound Machine,2024-05-19,2729,Completed,L003
+EM0854,CT Scanner,2023-01-28,20099,Scheduled,L004
+EM0855,Defibrillator,2023-08-10,6314,Completed,L003
+EM0856,Ultrasound Machine,2023-10-24,16049,Completed,L002
+EM0857,Ventilator,2023-09-12,10550,Completed,L001
+EM0858,Defibrillator,2025-01-26,11705,In Progress,L001
+EM0859,Ventilator,2022-05-25,1985,Scheduled,L004
+EM0860,Defibrillator,2023-12-05,18035,Completed,L005
+EM0861,Ultrasound Machine,2022-11-10,18891,Scheduled,L001
+EM0862,CT Scanner,2024-05-20,1708,Scheduled,L005
+EM0863,Defibrillator,2024-07-12,20753,Completed,L004
+EM0864,Defibrillator,2024-09-29,24720,Completed,L004
+EM0865,Ultrasound Machine,2023-06-16,8442,Completed,L003
+EM0866,Ultrasound Machine,2023-07-10,12191,In Progress,L001
+EM0867,MRI Machine,2024-12-26,23809,Completed,L003
+EM0868,MRI Machine,2024-10-06,20543,In Progress,L001
+EM0869,CT Scanner,2023-02-05,24073,Completed,L003
+EM0870,Ultrasound Machine,2024-02-29,15493,In Progress,L005
+EM0871,CT Scanner,2025-03-22,7447,Scheduled,L001
+EM0872,Ventilator,2023-07-09,14123,In Progress,L001
+EM0873,Ultrasound Machine,2025-03-04,16539,Completed,L001
+EM0874,Ultrasound Machine,2023-06-19,11006,Completed,L001
+EM0875,CT Scanner,2023-04-24,12495,Completed,L001
+EM0876,Ultrasound Machine,2024-12-23,11287,Completed,L003
+EM0877,Ventilator,2022-04-29,553,In Progress,L001
+EM0878,CT Scanner,2022-11-20,22838,Completed,L005
+EM0879,Ventilator,2025-01-10,16149,In Progress,L001
+EM0880,CT Scanner,2024-05-03,16526,In Progress,L003
+EM0881,CT Scanner,2024-06-15,1130,In Progress,L001
+EM0882,Ultrasound Machine,2022-12-08,814,Completed,L005
+EM0883,MRI Machine,2024-12-27,17017,In Progress,L001
+EM0884,MRI Machine,2022-07-31,16862,Scheduled,L003
+EM0885,Ventilator,2024-03-26,22870,Scheduled,L005
+EM0886,Defibrillator,2023-03-09,18164,In Progress,L004
+EM0887,Ventilator,2023-01-08,11430,Scheduled,L002
+EM0888,Ultrasound Machine,2024-05-04,10688,Scheduled,L004
+EM0889,Defibrillator,2025-03-01,18554,Completed,L005
+EM0890,MRI Machine,2024-05-08,9366,Scheduled,L004
+EM0891,Defibrillator,2023-12-19,8726,In Progress,L005
+EM0892,MRI Machine,2024-10-29,9694,In Progress,L003
+EM0893,Ultrasound Machine,2023-02-12,12633,Scheduled,L002
+EM0894,MRI Machine,2022-06-28,11221,Completed,L001
+EM0895,Ultrasound Machine,2023-10-23,20130,In Progress,L001
+EM0896,Defibrillator,2023-05-15,20945,Completed,L001
+EM0897,Ultrasound Machine,2025-01-16,7138,In Progress,L005
+EM0898,Defibrillator,2022-05-09,909,Completed,L003
+EM0899,Ventilator,2024-04-07,5622,Completed,L001
+EM0900,MRI Machine,2024-08-23,11913,In Progress,L004
+EM0901,Ventilator,2024-08-04,5600,Completed,L002
+EM0902,Ventilator,2022-07-02,6870,Scheduled,L001
+EM0903,Ventilator,2024-06-02,24812,In Progress,L004
+EM0904,CT Scanner,2024-12-13,23356,In Progress,L001
+EM0905,Ventilator,2022-05-31,15185,Completed,L005
+EM0906,Ultrasound Machine,2022-12-06,4092,In Progress,L003
+EM0907,MRI Machine,2024-10-19,10263,Completed,L004
+EM0908,Ultrasound Machine,2023-10-30,8051,Completed,L004
+EM0909,CT Scanner,2024-04-09,1601,Scheduled,L005
+EM0910,CT Scanner,2024-11-09,6900,Completed,L003
+EM0911,Defibrillator,2023-01-19,1321,Completed,L005
+EM0912,CT Scanner,2023-03-31,5032,In Progress,L001
+EM0913,Ultrasound Machine,2025-04-26,4381,Scheduled,L004
+EM0914,CT Scanner,2023-05-22,5599,In Progress,L002
+EM0915,Ultrasound Machine,2024-06-17,19859,Scheduled,L005
+EM0916,Ultrasound Machine,2023-04-09,10269,In Progress,L003
+EM0917,MRI Machine,2023-01-24,10763,Scheduled,L002
+EM0918,Defibrillator,2023-04-05,22638,Scheduled,L003
+EM0919,Ventilator,2023-06-10,9565,In Progress,L004
+EM0920,Ventilator,2024-07-22,12700,Scheduled,L001
+EM0921,Defibrillator,2023-09-01,12481,Completed,L001
+EM0922,Ventilator,2024-04-08,9589,In Progress,L001
+EM0923,Defibrillator,2025-04-21,20589,In Progress,L004
+EM0924,Ultrasound Machine,2024-10-19,6871,In Progress,L004
+EM0925,Defibrillator,2024-08-20,13780,In Progress,L002
+EM0926,Ventilator,2024-02-18,24241,In Progress,L002
+EM0927,Ventilator,2023-02-20,13636,Completed,L002
+EM0928,MRI Machine,2024-09-01,9387,Completed,L005
+EM0929,Ultrasound Machine,2022-07-09,16535,Scheduled,L005
+EM0930,CT Scanner,2022-07-28,15332,Completed,L005
+EM0931,Defibrillator,2022-10-15,15449,Completed,L001
+EM0932,Ultrasound Machine,2022-06-28,5255,Scheduled,L003
+EM0933,Ultrasound Machine,2022-12-15,11754,Completed,L003
+EM0934,CT Scanner,2023-08-31,3296,Completed,L002
+EM0935,Defibrillator,2023-09-16,23796,Scheduled,L005
+EM0936,Ultrasound Machine,2025-03-30,15468,Completed,L001
+EM0937,Ultrasound Machine,2025-04-28,11592,In Progress,L004
+EM0938,Ultrasound Machine,2023-03-30,15438,Scheduled,L005
+EM0939,Ventilator,2024-09-06,2878,Scheduled,L003
+EM0940,Ultrasound Machine,2024-05-06,19921,Scheduled,L003
+EM0941,Ultrasound Machine,2025-02-20,15208,Completed,L004
+EM0942,Defibrillator,2023-08-18,23915,Scheduled,L001
+EM0943,Ventilator,2023-08-23,24823,Completed,L003
+EM0944,Ultrasound Machine,2023-01-08,1291,Scheduled,L004
+EM0945,Defibrillator,2022-07-30,13794,In Progress,L004
+EM0946,Ventilator,2023-10-27,11291,Completed,L001
+EM0947,Defibrillator,2022-05-02,24117,Scheduled,L003
+EM0948,MRI Machine,2025-01-17,23471,In Progress,L002
+EM0949,MRI Machine,2024-05-16,2341,Scheduled,L002
+EM0950,Ventilator,2023-01-24,24964,Completed,L002
+EM0951,Defibrillator,2025-01-01,24411,Scheduled,L001
+EM0952,CT Scanner,2024-02-15,18734,Scheduled,L001
+EM0953,MRI Machine,2022-08-21,7121,Scheduled,L005
+EM0954,Defibrillator,2024-06-04,3325,In Progress,L001
+EM0955,Ventilator,2022-05-01,19665,Scheduled,L004
+EM0956,Ultrasound Machine,2025-03-03,17182,In Progress,L001
+EM0957,CT Scanner,2024-09-06,11530,In Progress,L004
+EM0958,MRI Machine,2024-08-07,17241,In Progress,L001
+EM0959,CT Scanner,2023-01-06,12006,Scheduled,L003
+EM0960,Ultrasound Machine,2023-05-14,2513,Scheduled,L004
+EM0961,Ultrasound Machine,2024-02-23,10928,Scheduled,L001
+EM0962,CT Scanner,2024-11-13,24711,In Progress,L002
+EM0963,Ultrasound Machine,2024-08-24,896,Completed,L002
+EM0964,CT Scanner,2023-01-27,5642,In Progress,L005
+EM0965,Defibrillator,2024-06-08,13815,Completed,L005
+EM0966,Ultrasound Machine,2023-01-18,15564,In Progress,L003
+EM0967,CT Scanner,2023-09-11,21282,Completed,L002
+EM0968,MRI Machine,2024-01-25,2390,Scheduled,L002
+EM0969,CT Scanner,2023-12-06,13704,Scheduled,L001
+EM0970,Ventilator,2024-10-25,22283,In Progress,L003
+EM0971,Ultrasound Machine,2023-09-29,4897,Scheduled,L003
+EM0972,MRI Machine,2023-07-30,19351,In Progress,L001
+EM0973,Defibrillator,2024-01-01,21148,Completed,L003
+EM0974,MRI Machine,2022-12-29,5319,In Progress,L005
+EM0975,Defibrillator,2023-05-26,11848,In Progress,L005
+EM0976,Defibrillator,2022-10-07,10161,Completed,L004
+EM0977,MRI Machine,2024-01-30,7859,Scheduled,L004
+EM0978,Ventilator,2022-05-20,7032,Scheduled,L002
+EM0979,Ultrasound Machine,2022-05-29,16072,In Progress,L004
+EM0980,Ventilator,2025-04-28,13279,In Progress,L005
+EM0981,Defibrillator,2025-03-21,1317,Scheduled,L001
+EM0982,Ventilator,2023-12-25,1905,Scheduled,L001
+EM0983,Defibrillator,2023-12-20,5677,Scheduled,L001
+EM0984,Ventilator,2025-03-16,20941,In Progress,L001
+EM0985,CT Scanner,2024-01-22,11702,Completed,L004
+EM0986,Ultrasound Machine,2024-11-16,3675,In Progress,L001
+EM0987,MRI Machine,2024-05-17,12833,In Progress,L003
+EM0988,Ventilator,2023-10-22,13697,In Progress,L002
+EM0989,Ultrasound Machine,2024-09-01,9992,Completed,L005
+EM0990,Defibrillator,2025-02-10,9125,In Progress,L002
+EM0991,Ventilator,2022-11-03,23438,In Progress,L002
+EM0992,Defibrillator,2023-06-21,22547,Completed,L004
+EM0993,Ventilator,2024-01-31,13533,Completed,L005
+EM0994,Ultrasound Machine,2022-06-05,3173,In Progress,L004
+EM0995,Ventilator,2024-06-23,5866,Completed,L002
+EM0996,CT Scanner,2023-06-19,13574,In Progress,L004
+EM0997,CT Scanner,2023-01-11,18003,Scheduled,L005
+EM0998,Ventilator,2022-08-19,21929,Scheduled,L002
+EM0999,MRI Machine,2022-06-16,16990,Completed,L005
+EM1000,Ultrasound Machine,2022-07-26,17201,Completed,L005

@@ -1,17 +1,12 @@
 {
-<<<<<<< HEAD:Template_App(3) - Copy.Report/definition/pages/963cb4fe3b6ab032bb37/visuals/524b2b097684913ae6df/visual.json
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "524b2b097684913ae6df",
-=======
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
   "name": "a2ac3878ffdea5cdcaae",
->>>>>>> 697baa5a93b76138c00c2a41bcaf8a234ce7cde6:Template_App(3) - Copy.Report/definition/pages/963cb4fe3b6ab032bb37/visuals/a2ac3878ffdea5cdcaae/visual.json
   "position": {
-    "x": 777.14285714285722,
-    "y": 85.714285714285722,
+    "x": 765.6482492344561,
+    "y": 85.890027958993471,
     "z": 9000,
-    "height": 267.14285714285717,
-    "width": 471.42857142857144,
+    "height": 267.48608707229397,
+    "width": 472.39515377446412,
     "tabOrder": 16000
   },
   "visual": {

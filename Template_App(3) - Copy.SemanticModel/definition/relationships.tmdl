@@ -111,10 +111,6 @@ relationship AutoDetected_9d7da88e-75c8-4eac-a56c-1e176c792297
 	fromColumn: 'hospital_admissions csv'.Location_ID
 	toColumn: 'hospital_locations csv'.Location_ID
 
-relationship AutoDetected_d6e574b7-539d-4e35-8d99-7b821109f6d2
-	fromColumn: 'hospital_rooms csv'.Location_ID
-	toColumn: 'hospital_locations csv'.Location_ID
-
 relationship 59e98fe8-7a18-eca9-c8de-33c15b1b3e83
 	fromColumn: 'hospital_admissions csv'.Department_ID
 	toColumn: 'hospital_departments csv'.Department_ID
@@ -205,5 +201,9 @@ relationship AutoDetected_78c3ed0d-1208-4f67-9819-ede4a5c32896
 relationship b8e6ff21-3036-3a6e-f5e6-12a54c020f96
 	isActive: false
 	fromColumn: 'hospital_procedures csv'.D_id
+	toColumn: 'hospital_departments csv'.Department_ID
+
+relationship a8456739-232f-44b7-16c6-b4a3a2e82e93
+	fromColumn: 'hospital_rooms csv'.Department_ID
 	toColumn: 'hospital_departments csv'.Department_ID
 
