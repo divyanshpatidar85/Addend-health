@@ -14,23 +14,14 @@
               "name": {
                 "expr": {
                   "Literal": {
-                    "Value": "'Presentation1.jpg'"
+                    "Value": "''"
                   }
                 }
               },
               "url": {
                 "expr": {
-                  "ResourcePackageItem": {
-                    "PackageName": "RegisteredResources",
-                    "PackageType": 1,
-                    "ItemName": "Presentation18375977315042296.jpg"
-                  }
-                }
-              },
-              "scaling": {
-                "expr": {
                   "Literal": {
-                    "Value": "'Normal'"
+                    "Value": "''"
                   }
                 }
               }
@@ -40,6 +31,17 @@
             "expr": {
               "Literal": {
                 "Value": "0D"
+              }
+            }
+          },
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#4494A4'"
+                  }
+                }
               }
             }
           }

@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "d523fc2eede96d21f1bb",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
+  "name": "e7b959149440c2a2a582",
   "position": {
-    "x": 1180,
-    "y": 10,
-    "z": 5000,
-    "height": 51.428571428571431,
-    "width": 68.571428571428569,
-    "tabOrder": 13000
+    "x": 1020.0000000000001,
+    "y": 35.714285714285715,
+    "z": 14000,
+    "height": 47.142857142857146,
+    "width": 41.428571428571431,
+    "tabOrder": 15000
   },
   "visual": {
     "visualType": "image",
@@ -20,7 +20,7 @@
                 "ResourcePackageItem": {
                   "PackageName": "RegisteredResources",
                   "PackageType": 1,
-                  "ItemName": "icons8-filter-10010032195737016825.png"
+                  "ItemName": "icons8-erase-645773054473587809.png"
                 }
               }
             }
@@ -42,14 +42,7 @@
             "type": {
               "expr": {
                 "Literal": {
-                  "Value": "'Bookmark'"
-                }
-              }
-            },
-            "bookmark": {
-              "expr": {
-                "Literal": {
-                  "Value": "'0524e767d4cd4cc43d28'"
+                  "Value": "'ClearAllSlicers'"
                 }
               }
             }
@@ -62,7 +55,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'open'"
+                  "Value": "'ClearAllSlicer'"
                 }
               }
             }
@@ -72,5 +65,6 @@
     },
     "drillFilterOtherVisuals": true
   },
+  "isHidden": true,
   "howCreated": "InsertVisualButton"
 }

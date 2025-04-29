@@ -1,13 +1,18 @@
 {
+<<<<<<< HEAD:Template_App(3) - Copy.Report/definition/pages/963cb4fe3b6ab032bb37/visuals/524b2b097684913ae6df/visual.json
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
-  "name": "e91a4fe3e4a1840c237d",
+  "name": "524b2b097684913ae6df",
+=======
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
+  "name": "a2ac3878ffdea5cdcaae",
+>>>>>>> 697baa5a93b76138c00c2a41bcaf8a234ce7cde6:Template_App(3) - Copy.Report/definition/pages/963cb4fe3b6ab032bb37/visuals/a2ac3878ffdea5cdcaae/visual.json
   "position": {
-    "x": 257.14285714285717,
+    "x": 777.14285714285722,
     "y": 85.714285714285722,
-    "z": 1000,
+    "z": 9000,
     "height": 267.14285714285717,
-    "width": 474.28571428571433,
-    "tabOrder": 5000
+    "width": 471.42857142857144,
+    "tabOrder": 16000
   },
   "visual": {
     "visualType": "clusteredColumnChart",
@@ -20,38 +25,15 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "hospital_locations csv"
+                      "Entity": "hospital_patients csv"
                     }
                   },
-                  "Property": "Location_Name"
+                  "Property": "Age_Group"
                 }
               },
-              "queryRef": "hospital_locations csv.Location_Name",
-              "nativeQueryRef": "Location_Name",
+              "queryRef": "hospital_patients csv.Age_Group",
+              "nativeQueryRef": "Age_Group",
               "active": true
-            }
-          ]
-        },
-        "Tooltips": {
-          "projections": [
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "hospital_locations csv"
-                        }
-                      },
-                      "Property": "Location_Name"
-                    }
-                  },
-                  "Function": 3
-                }
-              },
-              "queryRef": "Min(hospital_locations csv.Location_Name)",
-              "nativeQueryRef": "First Location_Name"
             }
           ]
         },
@@ -68,49 +50,14 @@
                   "Property": "Patients"
                 }
               },
-              "queryRef": "Measure Table.Patients",
+              "queryRef": "Measure Table.Total Patients",
               "nativeQueryRef": "Patients"
             }
           ]
         }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Measure": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "Measure Table"
-                  }
-                },
-                "Property": "Patients"
-              }
-            },
-            "direction": "Descending"
-          }
-        ],
-        "isDefaultSort": true
       }
     },
     "objects": {
-      "dataPoint": [
-        {
-          "properties": {
-            "fill": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#156B7C'"
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      ],
       "categoryAxis": [
         {
           "properties": {
@@ -189,6 +136,23 @@
           }
         }
       ],
+      "dataPoint": [
+        {
+          "properties": {
+            "fill": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#156B7C'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
       "labels": [
         {
           "properties": {
@@ -233,6 +197,13 @@
                 }
               }
             },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "13D"
+                }
+              }
+            },
             "bold": {
               "expr": {
                 "Literal": {
@@ -250,14 +221,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Patients by Location'"
-                }
-              }
-            },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "13D"
+                  "Value": "'Patients by Age Group'"
                 }
               }
             }
