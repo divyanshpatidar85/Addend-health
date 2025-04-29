@@ -1,61 +1,19 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
-  "name": "e91a4fe3e4a1840c237d",
+  "name": "9af2d2b57797b0327ada",
   "position": {
-    "x": 257.14285714285717,
-    "y": 85.714285714285722,
-    "z": 1000,
-    "height": 267.14285714285717,
-    "width": 474.28571428571433,
-    "tabOrder": 5000
+    "x": 18.571428571428573,
+    "y": 198.57142857142858,
+    "z": 11000,
+    "height": 115.71428571428572,
+    "width": 185.71428571428572,
+    "tabOrder": 17002
   },
   "visual": {
-    "visualType": "clusteredColumnChart",
+    "visualType": "cardVisual",
     "query": {
       "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "hospital_locations csv"
-                    }
-                  },
-                  "Property": "Location_Name"
-                }
-              },
-              "queryRef": "hospital_locations csv.Location_Name",
-              "nativeQueryRef": "Location_Name",
-              "active": true
-            }
-          ]
-        },
-        "Tooltips": {
-          "projections": [
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "hospital_locations csv"
-                        }
-                      },
-                      "Property": "Location_Name"
-                    }
-                  },
-                  "Function": 3
-                }
-              },
-              "queryRef": "Min(hospital_locations csv.Location_Name)",
-              "nativeQueryRef": "First Location_Name"
-            }
-          ]
-        },
-        "Y": {
+        "Data": {
           "projections": [
             {
               "field": {
@@ -65,55 +23,117 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Patients"
+                  "Property": "Patient in ICU"
                 }
               },
-              "queryRef": "Measure Table.Patients",
-              "nativeQueryRef": "Patients"
+              "queryRef": "Measure Table.Patient in ICU",
+              "nativeQueryRef": "Patient in ICU"
             }
           ]
         }
       },
       "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Measure": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "Measure Table"
-                  }
-                },
-                "Property": "Patients"
-              }
-            },
-            "direction": "Descending"
-          }
-        ],
         "isDefaultSort": true
       }
     },
     "objects": {
-      "dataPoint": [
+      "image": [
         {
           "properties": {
-            "fill": {
-              "solid": {
-                "color": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "image": {
+              "image": {
+                "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#156B7C'"
+                      "Value": "'emergency.png'"
+                    }
+                  }
+                },
+                "url": {
+                  "expr": {
+                    "ResourcePackageItem": {
+                      "PackageName": "RegisteredResources",
+                      "PackageType": 1,
+                      "ItemName": "emergency07836436166979.png"
+                    }
+                  }
+                },
+                "scaling": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'Normal'"
                     }
                   }
                 }
               }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            },
+            "position": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Left'"
+                }
+              }
+            },
+            "fixedSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "imageAreaSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "33L"
+                }
+              }
             }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ],
-      "categoryAxis": [
+      "fillCustom": [
         {
           "properties": {
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "50D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "label": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
             "fontFamily": {
               "expr": {
                 "Literal": {
@@ -121,46 +141,21 @@
                 }
               }
             },
-            "labelColor": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
                 }
               }
             },
-            "showAxisTitle": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
-                }
-              }
-            }
-          }
-        }
-      ],
-      "valueAxis": [
-        {
-          "properties": {
-            "show": {
+            "bold": {
               "expr": {
                 "Literal": {
                   "Value": "true"
                 }
               }
             },
-            "fontFamily": {
-              "expr": {
-                "Literal": {
-                  "Value": "'''Times New Roman'''"
-                }
-              }
-            },
-            "labelColor": {
+            "fontColor": {
               "solid": {
                 "color": {
                   "expr": {
@@ -171,46 +166,77 @@
                   }
                 }
               }
-            },
-            "showAxisTitle": {
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        },
+        {
+          "properties": {
+            "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "false"
-                }
-              }
-            },
-            "gridlineShow": {
-              "expr": {
-                "Literal": {
-                  "Value": "false"
+                  "Value": "11D"
                 }
               }
             }
+          },
+          "selector": {
+            "metadata": "Measure Table.Patient in ICU"
           }
         }
       ],
-      "labels": [
+      "layout": [
         {
           "properties": {
-            "show": {
+            "rectangleRoundedCurveCustomStyle": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
-            "color": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 1,
-                      "Percent": 0
-                    }
-                  }
+            "rectangleRoundedCurve": {
+              "expr": {
+                "Literal": {
+                  "Value": "50L"
+                }
+              }
+            },
+            "rectangleRoundedCurveLeftTop": {
+              "expr": {
+                "Literal": {
+                  "Value": "28L"
                 }
               }
             }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "value": [
+        {
+          "properties": {
+            "labelDisplayUnits": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "37D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Measure Table.Patient in ICU"
           }
         }
       ]
@@ -219,6 +245,13 @@
       "title": [
         {
           "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
             "titleWrap": {
               "expr": {
                 "Literal": {
@@ -230,6 +263,13 @@
               "expr": {
                 "Literal": {
                   "Value": "'center'"
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
                 }
               }
             },
@@ -250,14 +290,19 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Patients by Location'"
+                  "Value": "'Patients in ICU'"
                 }
               }
             },
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "13D"
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }
@@ -270,26 +315,14 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "color": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": 0
-                    }
-                  }
+                  "Value": "false"
                 }
               }
             },
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "50D"
+                  "Value": "48D"
                 }
               }
             }
@@ -302,26 +335,14 @@
             "show": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
-            "color": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "ThemeDataColor": {
-                      "ColorId": 0,
-                      "Percent": -0.1
-                    }
-                  }
+                  "Value": "false"
                 }
               }
             },
             "radius": {
               "expr": {
                 "Literal": {
-                  "Value": "30D"
+                  "Value": "0D"
                 }
               }
             },

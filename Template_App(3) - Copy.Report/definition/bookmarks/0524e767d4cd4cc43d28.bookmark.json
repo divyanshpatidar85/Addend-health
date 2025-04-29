@@ -11,12 +11,6 @@
     "sections": {
       "963cb4fe3b6ab032bb37": {
         "visualContainers": {
-          "35959daead466fa90cc1": {
-            "singleVisual": {
-              "visualType": "card",
-              "objects": {}
-            }
-          },
           "4cb18b6293924c5d78e3": {
             "singleVisual": {
               "visualType": "clusteredColumnChart",
@@ -50,48 +44,6 @@
                   }
                 ]
               }
-            }
-          },
-          "524b2b097684913ae6df": {
-            "singleVisual": {
-              "visualType": "card",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 2,
-                  "Expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure Table"
-                        }
-                      },
-                      "Property": "Patient in ICU"
-                    }
-                  }
-                }
-              ]
-            }
-          },
-          "597db5c93d269edf5d10": {
-            "singleVisual": {
-              "visualType": "card",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 2,
-                  "Expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure Table"
-                        }
-                      },
-                      "Property": "Re Admitted Patient"
-                    }
-                  }
-                }
-              ]
             }
           },
           "77a85d3c57934b57e808": {
@@ -141,27 +93,6 @@
                   }
                 ]
               }
-            }
-          },
-          "c4c4d62a8fa8cfcdf2dc": {
-            "singleVisual": {
-              "visualType": "card",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 2,
-                  "Expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure Table"
-                        }
-                      },
-                      "Property": "Patients"
-                    }
-                  }
-                }
-              ]
             }
           },
           "e39b7fecffa4ecab04ea": {
@@ -223,30 +154,6 @@
           "6f0c6449c780eee59437": {
             "singleVisual": {
               "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "e1f8107732522d59c168": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "d5e9d0be07fcd3ab0a99": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "a294b36856ba7af6bbea": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "52b2f51de93f515273f2": {
-            "singleVisual": {
-              "visualType": "image",
               "objects": {}
             }
           },

@@ -1,26 +1,51 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
-  "name": "c292564f1956b2677e18",
+  "name": "3e9e126d4f2c746dc526",
   "position": {
-    "x": 1147.1428571428571,
-    "y": 35.714285714285715,
-    "z": 13500,
-    "height": 42.857142857142861,
-    "width": 54.285714285714292,
-    "tabOrder": 14000
+    "x": 0,
+    "y": 0,
+    "z": 6000,
+    "height": 720.358501733322,
+    "width": 1279.6753191849159,
+    "tabOrder": 17000
   },
   "visual": {
-    "visualType": "image",
+    "visualType": "actionButton",
     "objects": {
-      "general": [
+      "icon": [
         {
           "properties": {
-            "imageUrl": {
+            "shapeType": {
               "expr": {
-                "ResourcePackageItem": {
-                  "PackageName": "RegisteredResources",
-                  "PackageType": 1,
-                  "ItemName": "icons8-close-1005941162405652507.png"
+                "Literal": {
+                  "Value": "'blank'"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        },
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "outline": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
                 }
               }
             }
@@ -29,7 +54,7 @@
       ]
     },
     "visualContainerObjects": {
-      "visualLink": [
+      "background": [
         {
           "properties": {
             "show": {
@@ -39,17 +64,10 @@
                 }
               }
             },
-            "type": {
+            "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "'Bookmark'"
-                }
-              }
-            },
-            "bookmark": {
-              "expr": {
-                "Literal": {
-                  "Value": "'2e4409a5f3fb05784cc3'"
+                  "Value": "50D"
                 }
               }
             }
@@ -62,7 +80,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'close'"
+                  "Value": "'blur button'"
                 }
               }
             }
