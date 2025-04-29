@@ -1,12 +1,12 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
   "name": "d19b2e8c8bca5a1ed411",
   "position": {
-    "x": 19.903355559754878,
-    "y": 521.2191237210809,
+    "x": 839.68721380767875,
+    "y": 502.08101444170484,
     "z": 7000,
-    "height": 159.22684447803903,
-    "width": 369.45603757794993,
+    "height": 160.14653046847482,
+    "width": 369.34695315251849,
     "tabOrder": 7000
   },
   "visual": {
@@ -38,45 +38,12 @@
                       "Entity": "hospital_departments csv"
                     }
                   },
-                  "Property": "Department_Name"
+                  "Property": "Department_ID"
                 }
               },
-              "queryRef": "hospital_departments csv.Department_Name",
-              "nativeQueryRef": "Department_Name",
-              "active": false
-            },
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "hospital_procedures csv"
-                    }
-                  },
-                  "Property": "Procedure"
-                }
-              },
-              "queryRef": "hospital_procedures csv.Procedure",
-              "nativeQueryRef": "Procedure",
-              "active": false
-            }
-          ]
-        },
-        "Values": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Measure Table"
-                    }
-                  },
-                  "Property": "Avg. Treatment Cost"
-                }
-              },
-              "queryRef": "Measure Table.Avg. Treatment Cost",
-              "nativeQueryRef": "Avg. Treatment Cost"
+              "queryRef": "hospital_departments csv.Department_ID",
+              "nativeQueryRef": "Department_ID",
+              "active": true
             }
           ]
         }
@@ -126,7 +93,7 @@
           },
           {
             "queryRefs": [
-              "hospital_departments csv.Department_Name"
+              "hospital_departments csv.Department_ID"
             ],
             "isCollapsed": true,
             "identityKeys": [
@@ -137,41 +104,81 @@
                       "Entity": "hospital_departments csv"
                     }
                   },
-                  "Property": "Department_Name"
+                  "Property": "Department_ID"
                 }
               }
             ],
-            "isPinned": true
-          },
-          {
-            "queryRefs": [
-              "hospital_procedures csv.Procedure"
-            ],
-            "isCollapsed": true,
             "isPinned": true
           }
         ],
-        "root": {}
+        "root": {
+          "children": [
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'Apollo Hospital Chennai'"
+                  }
+                }
+              ],
+              "isToggled": true,
+              "children": [
+                {
+                  "identityValues": [
+                    {
+                      "Literal": {
+                        "Value": "'D007'"
+                      }
+                    }
+                  ],
+                  "isToggled": true
+                }
+              ]
+            },
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'Massachusetts General Hospital'"
+                  }
+                }
+              ],
+              "isToggled": true
+            },
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'Royal Melbourne Hospital'"
+                  }
+                }
+              ],
+              "isToggled": true
+            },
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'Groote Schuur Hospital'"
+                  }
+                }
+              ],
+              "isToggled": true
+            },
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'Toronto General Hospital'"
+                  }
+                }
+              ],
+              "isToggled": true
+            }
+          ]
+        }
       }
     ],
-    "objects": {
-      "columnWidth": [
-        {
-          "properties": {
-            "value": {
-              "expr": {
-                "Literal": {
-                  "Value": "163.06749989985727D"
-                }
-              }
-            }
-          },
-          "selector": {
-            "metadata": "hospital_departments csv.Department_Name"
-          }
-        }
-      ]
-    },
     "visualContainerObjects": {
       "title": [
         {

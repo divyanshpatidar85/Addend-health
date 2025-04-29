@@ -1,0 +1,92 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "133cb336d6e35b394344",
+  "position": {
+    "x": 594.612747347677,
+    "y": 218.93691115730365,
+    "z": 1001,
+    "height": 323.42952784601675,
+    "width": 482.65637232405584,
+    "tabOrder": 1001
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "hospital_conditions csv"
+                    }
+                  },
+                  "Property": "Condition"
+                }
+              },
+              "queryRef": "hospital_conditions csv.Condition",
+              "nativeQueryRef": "Condition",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "hospital_symptoms csv"
+                    }
+                  },
+                  "Property": "Symptom"
+                }
+              },
+              "queryRef": "hospital_symptoms csv.Symptom",
+              "nativeQueryRef": "Symptom",
+              "active": true
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "isDefaultSort": true
+      }
+    },
+    "expansionStates": [
+      {
+        "roles": [
+          "Rows"
+        ],
+        "levels": [
+          {
+            "queryRefs": [
+              "hospital_conditions csv.Condition"
+            ],
+            "identityKeys": [
+              {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "hospital_conditions csv"
+                    }
+                  },
+                  "Property": "Condition"
+                }
+              }
+            ],
+            "isPinned": true
+          },
+          {
+            "queryRefs": [
+              "hospital_symptoms csv.Symptom"
+            ],
+            "isCollapsed": true,
+            "isPinned": true
+          }
+        ],
+        "root": {}
+      }
+    ],
+    "drillFilterOtherVisuals": true
+  }
+}

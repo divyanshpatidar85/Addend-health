@@ -1,16 +1,16 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
-  "name": "6ee56c10f1c658316914",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "name": "391ae0e0c133d1d29704",
   "position": {
-    "x": 924.2620738061172,
-    "y": 472.70469454417838,
-    "z": 10000,
-    "height": 156.73892503306968,
-    "width": 306.01409173123125,
-    "tabOrder": 10000
+    "x": 630.68757929973276,
+    "y": 485.14429176902519,
+    "z": 8000,
+    "height": 232.62046810463514,
+    "width": 623.22382096482465,
+    "tabOrder": 8000
   },
   "visual": {
-    "visualType": "lineClusteredColumnComboChart",
+    "visualType": "columnChart",
     "query": {
       "queryState": {
         "Category": {
@@ -20,14 +20,14 @@
                 "Column": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "hospital_departments csv"
+                      "Entity": "Date Table"
                     }
                   },
-                  "Property": "Department_Name"
+                  "Property": "MonthName"
                 }
               },
-              "queryRef": "hospital_departments csv.Department_Name",
-              "nativeQueryRef": "Department_Name",
+              "queryRef": "Date Table.MonthName",
+              "nativeQueryRef": "MonthName",
               "active": true
             }
           ]
@@ -42,11 +42,11 @@
                       "Entity": "Measure Table"
                     }
                   },
-                  "Property": "Avg. Days to Discharge"
+                  "Property": "Total Revenue"
                 }
               },
-              "queryRef": "Measure Table.Avg. Days to Discharge",
-              "nativeQueryRef": "Avg. Days to Discharge"
+              "queryRef": "Measure Table.Total Revenue",
+              "nativeQueryRef": "Total Revenue"
             }
           ]
         }
@@ -61,7 +61,7 @@
                     "Entity": "Measure Table"
                   }
                 },
-                "Property": "Avg. Days to Discharge"
+                "Property": "Total Revenue"
               }
             },
             "direction": "Descending"

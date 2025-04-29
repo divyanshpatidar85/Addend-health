@@ -4,5 +4,17 @@
   "displayName": "Divy_2",
   "displayOption": "FitToPage",
   "height": 720,
-  "width": 1280
+  "width": 1280,
+  "visualInteractions": [
+    {
+      "source": "77952a833e295999298a",
+      "target": "0a949e37e713e2e68436",
+      "type": "HighlightFilter"
+    },
+    {
+      "source": "0a949e37e713e2e68436",
+      "target": "77952a833e295999298a",
+      "type": "HighlightFilter"
+    }
+  ]
 }
