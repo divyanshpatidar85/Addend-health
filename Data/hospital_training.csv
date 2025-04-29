@@ -1,1501 +1,1501 @@
 Training_ID,Staff_ID,Training_Name,Training_Date,Duration_Hours,Certification,Location_ID
-TR0001,S0222,CPR Certification,2025-01-13,31,No,L004
-TR0002,S0455,CPR Certification,2024-08-08,26,No,L004
-TR0003,S0142,CPR Certification,2021-10-08,27,No,L005
-TR0004,S0472,Electronic Health Records,2023-12-07,19,No,L002
-TR0005,S0230,Patient Safety,2021-05-05,17,No,L001
-TR0006,S0117,Patient Safety,2020-09-23,28,No,L003
-TR0007,S0098,CPR Certification,2023-02-14,31,Yes,L004
-TR0008,S0104,CPR Certification,2023-03-11,28,No,L005
-TR0009,S0309,Electronic Health Records,2024-02-05,27,No,L002
-TR0010,S0192,Infection Control,2020-05-20,15,Yes,L003
-TR0011,S0472,Infection Control,2023-11-12,40,No,L003
-TR0012,S0258,Infection Control,2024-01-29,20,Yes,L001
-TR0013,S0054,Advanced Surgical Techniques,2022-12-20,33,No,L004
-TR0014,S0249,CPR Certification,2022-07-05,14,No,L004
-TR0015,S0314,Advanced Surgical Techniques,2025-04-16,34,Yes,L001
-TR0016,S0090,Infection Control,2024-01-06,11,Yes,L005
-TR0017,S0137,Electronic Health Records,2022-08-27,16,No,L003
-TR0018,S0093,CPR Certification,2024-03-31,36,Yes,L004
-TR0019,S0126,Advanced Surgical Techniques,2022-10-13,9,Yes,L002
-TR0020,S0455,Electronic Health Records,2021-01-20,6,Yes,L001
-TR0021,S0263,Infection Control,2024-05-04,14,No,L003
-TR0022,S0052,Infection Control,2024-10-19,11,No,L002
-TR0023,S0284,Advanced Surgical Techniques,2023-05-05,11,No,L002
-TR0024,S0140,Electronic Health Records,2025-04-11,4,No,L001
-TR0025,S0052,CPR Certification,2024-04-04,20,Yes,L002
-TR0026,S0084,CPR Certification,2021-02-24,15,No,L003
-TR0027,S0230,Electronic Health Records,2022-09-11,40,Yes,L003
-TR0028,S0117,Electronic Health Records,2022-01-19,23,No,L005
-TR0029,S0121,CPR Certification,2021-12-18,31,Yes,L003
-TR0030,S0143,Infection Control,2023-12-10,15,Yes,L001
-TR0031,S0271,Advanced Surgical Techniques,2021-01-12,9,Yes,L003
-TR0032,S0298,CPR Certification,2022-07-23,33,Yes,L001
-TR0033,S0088,Advanced Surgical Techniques,2021-02-26,6,Yes,L003
-TR0034,S0403,CPR Certification,2021-08-04,37,No,L005
-TR0035,S0072,CPR Certification,2024-10-17,34,Yes,L002
-TR0036,S0148,Infection Control,2023-06-21,12,No,L001
-TR0037,S0186,Electronic Health Records,2024-08-29,14,No,L005
-TR0038,S0401,CPR Certification,2023-07-03,39,No,L003
-TR0039,S0080,Electronic Health Records,2024-10-31,17,No,L004
-TR0040,S0095,Advanced Surgical Techniques,2020-08-09,12,Yes,L001
-TR0041,S0481,CPR Certification,2022-03-02,16,No,L004
-TR0042,S0240,Infection Control,2022-11-24,20,No,L001
-TR0043,S0247,Patient Safety,2023-03-31,21,No,L003
-TR0044,S0275,Electronic Health Records,2024-09-19,4,Yes,L005
-TR0045,S0171,Patient Safety,2024-02-14,19,No,L002
-TR0046,S0387,Patient Safety,2023-01-02,29,Yes,L001
-TR0047,S0131,CPR Certification,2021-06-01,21,No,L002
-TR0048,S0130,Patient Safety,2022-07-16,38,No,L003
-TR0049,S0143,CPR Certification,2020-11-09,4,No,L001
-TR0050,S0303,Advanced Surgical Techniques,2022-08-29,33,Yes,L004
-TR0051,S0290,Advanced Surgical Techniques,2024-08-06,16,Yes,L005
-TR0052,S0309,Advanced Surgical Techniques,2022-03-07,29,Yes,L004
-TR0053,S0073,CPR Certification,2023-01-22,14,No,L001
-TR0054,S0385,Infection Control,2023-08-17,6,Yes,L005
-TR0055,S0045,Patient Safety,2021-05-25,11,No,L001
-TR0056,S0421,Infection Control,2024-09-26,4,Yes,L002
-TR0057,S0198,CPR Certification,2022-01-16,19,No,L001
-TR0058,S0021,Patient Safety,2022-04-12,14,No,L004
-TR0059,S0204,Infection Control,2020-10-15,13,Yes,L001
-TR0060,S0256,Infection Control,2021-05-31,14,No,L003
-TR0061,S0106,Electronic Health Records,2023-04-15,22,No,L001
-TR0062,S0267,Infection Control,2022-09-11,32,Yes,L005
-TR0063,S0096,Electronic Health Records,2024-10-10,21,Yes,L001
-TR0064,S0350,Patient Safety,2020-11-25,40,No,L001
-TR0065,S0166,Infection Control,2020-06-15,19,Yes,L004
-TR0066,S0006,Advanced Surgical Techniques,2024-12-31,13,Yes,L001
-TR0067,S0482,Patient Safety,2024-03-17,5,No,L001
-TR0068,S0322,Patient Safety,2025-01-05,12,No,L004
-TR0069,S0250,CPR Certification,2022-02-04,11,Yes,L003
-TR0070,S0116,CPR Certification,2022-09-01,10,No,L003
-TR0071,S0500,CPR Certification,2024-06-04,14,Yes,L001
-TR0072,S0324,CPR Certification,2022-08-26,34,Yes,L001
-TR0073,S0200,Advanced Surgical Techniques,2021-08-03,6,Yes,L004
-TR0074,S0427,Patient Safety,2025-03-31,23,No,L003
-TR0075,S0261,CPR Certification,2021-02-21,30,Yes,L005
-TR0076,S0433,Patient Safety,2023-12-09,34,No,L004
-TR0077,S0261,Advanced Surgical Techniques,2021-02-14,14,Yes,L003
-TR0078,S0006,Advanced Surgical Techniques,2024-12-22,17,Yes,L002
-TR0079,S0081,Infection Control,2020-06-13,23,Yes,L005
-TR0080,S0390,Patient Safety,2024-04-11,18,Yes,L004
-TR0081,S0128,Advanced Surgical Techniques,2023-10-29,16,Yes,L004
-TR0082,S0178,Infection Control,2021-04-21,23,No,L001
-TR0083,S0461,CPR Certification,2022-04-16,32,No,L001
-TR0084,S0030,Infection Control,2025-01-10,38,Yes,L002
-TR0085,S0121,Electronic Health Records,2022-11-03,4,Yes,L003
-TR0086,S0031,Infection Control,2024-11-30,27,Yes,L003
-TR0087,S0366,Electronic Health Records,2021-05-08,28,No,L001
-TR0088,S0149,Patient Safety,2022-10-30,28,Yes,L004
-TR0089,S0187,Advanced Surgical Techniques,2020-11-07,9,Yes,L005
-TR0090,S0447,CPR Certification,2020-11-27,17,No,L001
-TR0091,S0172,Patient Safety,2020-11-15,4,No,L001
-TR0092,S0225,Patient Safety,2022-08-19,40,Yes,L005
-TR0093,S0418,Advanced Surgical Techniques,2024-06-07,33,Yes,L002
-TR0094,S0156,Patient Safety,2021-09-05,17,No,L003
-TR0095,S0090,Patient Safety,2025-02-17,31,Yes,L001
-TR0096,S0445,CPR Certification,2023-01-11,8,No,L005
-TR0097,S0471,CPR Certification,2024-04-25,20,Yes,L002
-TR0098,S0288,Electronic Health Records,2022-04-11,17,Yes,L004
-TR0099,S0414,Infection Control,2024-06-09,19,No,L003
-TR0100,S0202,Patient Safety,2020-10-08,6,No,L001
-TR0101,S0177,Patient Safety,2023-03-04,25,Yes,L005
-TR0102,S0138,Infection Control,2023-01-07,36,No,L004
-TR0103,S0478,Electronic Health Records,2020-06-22,20,Yes,L004
-TR0104,S0300,Patient Safety,2022-10-07,15,No,L003
-TR0105,S0276,Advanced Surgical Techniques,2024-10-16,34,No,L001
-TR0106,S0135,Advanced Surgical Techniques,2023-10-08,38,No,L005
-TR0107,S0464,Infection Control,2023-08-01,33,No,L005
-TR0108,S0194,CPR Certification,2020-11-08,25,No,L002
-TR0109,S0021,CPR Certification,2020-09-20,13,Yes,L004
-TR0110,S0105,Infection Control,2020-05-05,7,Yes,L004
-TR0111,S0074,Advanced Surgical Techniques,2022-08-12,33,No,L005
-TR0112,S0137,Electronic Health Records,2022-11-07,37,Yes,L005
-TR0113,S0456,Electronic Health Records,2025-03-11,22,No,L004
-TR0114,S0172,CPR Certification,2021-08-15,13,Yes,L004
-TR0115,S0325,CPR Certification,2023-12-19,31,No,L004
-TR0116,S0039,Patient Safety,2022-09-30,37,No,L001
-TR0117,S0425,Patient Safety,2022-02-01,34,Yes,L005
-TR0118,S0116,Infection Control,2022-05-09,39,No,L002
-TR0119,S0218,Advanced Surgical Techniques,2024-01-26,11,Yes,L004
-TR0120,S0400,CPR Certification,2023-02-16,12,No,L003
-TR0121,S0170,Advanced Surgical Techniques,2024-05-02,22,Yes,L005
-TR0122,S0091,CPR Certification,2020-12-19,33,Yes,L003
-TR0123,S0198,Electronic Health Records,2023-11-07,12,No,L003
-TR0124,S0365,Infection Control,2024-11-04,11,No,L004
-TR0125,S0145,Patient Safety,2024-01-25,31,Yes,L001
-TR0126,S0198,Advanced Surgical Techniques,2022-02-11,23,Yes,L004
-TR0127,S0425,Infection Control,2024-08-11,19,Yes,L002
-TR0128,S0454,Electronic Health Records,2021-02-28,29,No,L005
-TR0129,S0162,Electronic Health Records,2021-11-15,4,No,L003
-TR0130,S0154,Patient Safety,2023-03-28,10,No,L005
-TR0131,S0414,Advanced Surgical Techniques,2022-12-02,29,No,L003
-TR0132,S0455,Infection Control,2024-07-01,11,Yes,L005
-TR0133,S0200,Patient Safety,2021-12-18,33,Yes,L004
-TR0134,S0338,Infection Control,2021-04-06,38,Yes,L005
-TR0135,S0392,Electronic Health Records,2023-03-02,34,No,L001
-TR0136,S0283,CPR Certification,2024-04-25,39,Yes,L001
-TR0137,S0311,Patient Safety,2024-11-06,37,No,L001
-TR0138,S0195,CPR Certification,2024-12-17,7,Yes,L005
-TR0139,S0149,Infection Control,2024-03-28,18,No,L005
-TR0140,S0322,CPR Certification,2020-07-13,24,Yes,L002
-TR0141,S0266,CPR Certification,2024-11-05,19,No,L005
-TR0142,S0097,Advanced Surgical Techniques,2021-11-18,23,Yes,L002
-TR0143,S0185,Infection Control,2020-10-21,12,No,L002
-TR0144,S0308,Electronic Health Records,2022-04-20,25,Yes,L005
-TR0145,S0195,Patient Safety,2024-08-03,21,No,L002
-TR0146,S0397,CPR Certification,2020-06-14,14,Yes,L004
-TR0147,S0069,Advanced Surgical Techniques,2023-05-31,8,No,L005
-TR0148,S0385,Patient Safety,2025-01-14,13,Yes,L001
-TR0149,S0011,Electronic Health Records,2024-01-10,19,Yes,L005
-TR0150,S0351,Electronic Health Records,2022-05-14,22,No,L001
-TR0151,S0096,Advanced Surgical Techniques,2021-09-21,31,Yes,L001
-TR0152,S0362,Electronic Health Records,2024-08-31,25,Yes,L001
-TR0153,S0038,Advanced Surgical Techniques,2021-12-20,20,Yes,L001
-TR0154,S0155,Advanced Surgical Techniques,2025-03-18,22,No,L004
-TR0155,S0067,CPR Certification,2022-08-26,32,Yes,L002
-TR0156,S0047,Advanced Surgical Techniques,2020-08-23,38,No,L002
-TR0157,S0149,Electronic Health Records,2022-10-09,10,No,L002
-TR0158,S0297,Electronic Health Records,2023-03-01,39,Yes,L002
-TR0159,S0204,Infection Control,2022-08-25,9,No,L002
-TR0160,S0423,Advanced Surgical Techniques,2021-08-15,14,No,L003
-TR0161,S0213,Advanced Surgical Techniques,2023-12-18,30,No,L001
-TR0162,S0451,CPR Certification,2021-10-03,35,No,L002
-TR0163,S0122,Patient Safety,2025-04-12,36,No,L002
-TR0164,S0198,Patient Safety,2022-11-09,36,No,L005
-TR0165,S0140,Infection Control,2023-03-09,9,No,L004
-TR0166,S0165,Patient Safety,2023-03-06,15,No,L005
-TR0167,S0072,CPR Certification,2023-02-17,20,No,L004
-TR0168,S0253,Patient Safety,2021-07-27,25,No,L004
-TR0169,S0204,Patient Safety,2020-06-28,4,Yes,L001
-TR0170,S0244,CPR Certification,2022-02-13,25,Yes,L003
-TR0171,S0094,Patient Safety,2021-08-20,11,Yes,L003
-TR0172,S0460,Advanced Surgical Techniques,2021-11-16,5,No,L001
-TR0173,S0413,Advanced Surgical Techniques,2022-01-06,6,No,L001
-TR0174,S0242,Patient Safety,2023-05-23,35,No,L005
-TR0175,S0160,Patient Safety,2025-02-18,7,No,L005
-TR0176,S0291,Advanced Surgical Techniques,2021-01-07,11,No,L005
-TR0177,S0378,CPR Certification,2022-08-28,5,Yes,L005
-TR0178,S0325,Advanced Surgical Techniques,2024-03-11,27,Yes,L003
-TR0179,S0398,Advanced Surgical Techniques,2021-01-23,28,No,L001
-TR0180,S0100,Electronic Health Records,2021-01-28,15,No,L002
-TR0181,S0449,Advanced Surgical Techniques,2023-03-09,33,No,L001
-TR0182,S0463,Advanced Surgical Techniques,2023-09-27,25,Yes,L001
-TR0183,S0314,Patient Safety,2023-02-26,4,No,L001
-TR0184,S0367,Infection Control,2025-03-11,17,Yes,L001
-TR0185,S0435,Electronic Health Records,2023-10-26,32,No,L002
-TR0186,S0344,Advanced Surgical Techniques,2024-06-09,20,No,L003
-TR0187,S0243,Electronic Health Records,2020-08-20,5,No,L005
-TR0188,S0054,Infection Control,2022-03-05,8,Yes,L003
-TR0189,S0126,Electronic Health Records,2024-04-02,6,Yes,L003
-TR0190,S0268,Patient Safety,2023-02-05,13,Yes,L003
-TR0191,S0174,Patient Safety,2023-04-18,32,No,L005
-TR0192,S0430,CPR Certification,2023-09-16,15,Yes,L004
-TR0193,S0254,Electronic Health Records,2023-01-10,18,Yes,L005
-TR0194,S0135,Infection Control,2024-11-13,17,Yes,L004
-TR0195,S0152,Electronic Health Records,2020-09-19,30,No,L004
-TR0196,S0136,Electronic Health Records,2024-08-10,28,No,L005
-TR0197,S0057,Advanced Surgical Techniques,2023-11-20,32,Yes,L005
-TR0198,S0251,Patient Safety,2020-12-26,8,Yes,L003
-TR0199,S0337,CPR Certification,2022-02-20,13,No,L002
-TR0200,S0453,Advanced Surgical Techniques,2024-12-31,4,No,L005
-TR0201,S0085,Advanced Surgical Techniques,2021-09-11,40,No,L004
-TR0202,S0458,Patient Safety,2021-11-20,38,No,L001
-TR0203,S0459,Patient Safety,2022-03-12,38,No,L004
-TR0204,S0290,Advanced Surgical Techniques,2024-05-10,33,No,L001
-TR0205,S0253,Patient Safety,2023-10-19,4,No,L001
-TR0206,S0014,Electronic Health Records,2024-02-09,6,Yes,L002
-TR0207,S0424,Advanced Surgical Techniques,2020-10-18,10,Yes,L001
-TR0208,S0336,Electronic Health Records,2023-08-10,16,Yes,L004
-TR0209,S0080,Electronic Health Records,2024-10-04,25,Yes,L002
-TR0210,S0409,Advanced Surgical Techniques,2024-10-25,8,Yes,L002
-TR0211,S0397,Electronic Health Records,2021-07-20,15,Yes,L001
-TR0212,S0038,CPR Certification,2022-07-20,31,No,L004
-TR0213,S0481,CPR Certification,2022-12-17,23,Yes,L003
-TR0214,S0422,Electronic Health Records,2022-12-27,31,No,L001
-TR0215,S0108,Advanced Surgical Techniques,2021-01-09,26,Yes,L005
-TR0216,S0224,Advanced Surgical Techniques,2024-01-20,39,Yes,L003
-TR0217,S0338,Infection Control,2024-02-09,18,Yes,L004
-TR0218,S0178,Electronic Health Records,2021-04-25,6,Yes,L004
-TR0219,S0134,Electronic Health Records,2024-04-15,23,No,L005
-TR0220,S0438,Infection Control,2023-03-11,30,No,L001
-TR0221,S0432,Patient Safety,2023-02-06,30,No,L002
-TR0222,S0207,Infection Control,2021-09-02,16,No,L004
-TR0223,S0138,CPR Certification,2024-09-27,29,Yes,L004
-TR0224,S0010,Advanced Surgical Techniques,2023-02-28,11,No,L005
-TR0225,S0140,Electronic Health Records,2021-07-01,38,Yes,L005
-TR0226,S0101,Advanced Surgical Techniques,2023-11-09,29,No,L005
-TR0227,S0390,Electronic Health Records,2024-04-15,14,No,L001
-TR0228,S0459,Electronic Health Records,2024-08-18,22,No,L002
-TR0229,S0128,CPR Certification,2025-01-08,30,Yes,L005
-TR0230,S0221,Patient Safety,2021-10-01,29,Yes,L005
-TR0231,S0252,Advanced Surgical Techniques,2020-10-19,32,Yes,L005
-TR0232,S0489,Electronic Health Records,2022-12-13,35,No,L005
-TR0233,S0430,Advanced Surgical Techniques,2023-05-28,31,No,L002
-TR0234,S0156,Advanced Surgical Techniques,2025-04-10,36,No,L005
-TR0235,S0056,Advanced Surgical Techniques,2021-06-08,17,Yes,L003
-TR0236,S0101,Advanced Surgical Techniques,2020-04-26,11,No,L001
-TR0237,S0316,Advanced Surgical Techniques,2020-08-16,36,Yes,L004
-TR0238,S0321,Electronic Health Records,2021-05-02,7,No,L002
-TR0239,S0147,Advanced Surgical Techniques,2025-01-09,12,Yes,L001
-TR0240,S0022,Electronic Health Records,2022-01-31,25,Yes,L003
-TR0241,S0228,Infection Control,2022-06-30,14,No,L003
-TR0242,S0446,CPR Certification,2022-01-15,20,Yes,L004
-TR0243,S0253,Patient Safety,2025-01-31,26,No,L005
-TR0244,S0314,Advanced Surgical Techniques,2025-03-25,19,Yes,L003
-TR0245,S0094,Infection Control,2023-11-27,25,Yes,L003
-TR0246,S0259,CPR Certification,2024-09-03,13,Yes,L004
-TR0247,S0497,Electronic Health Records,2020-12-03,36,No,L005
-TR0248,S0095,Advanced Surgical Techniques,2020-11-28,8,No,L003
-TR0249,S0152,CPR Certification,2022-12-23,30,Yes,L004
-TR0250,S0340,Advanced Surgical Techniques,2020-12-08,38,Yes,L005
-TR0251,S0115,Infection Control,2025-03-14,13,No,L004
-TR0252,S0471,Electronic Health Records,2023-06-29,37,Yes,L003
-TR0253,S0493,Patient Safety,2022-10-29,24,Yes,L002
-TR0254,S0299,Electronic Health Records,2023-04-12,35,Yes,L005
-TR0255,S0250,Infection Control,2021-12-04,18,No,L002
-TR0256,S0135,Infection Control,2025-04-22,38,Yes,L001
-TR0257,S0217,CPR Certification,2020-11-18,6,No,L004
-TR0258,S0311,Infection Control,2020-10-06,23,Yes,L002
-TR0259,S0074,Patient Safety,2021-07-16,31,No,L005
-TR0260,S0034,Advanced Surgical Techniques,2024-07-19,38,No,L005
-TR0261,S0287,Patient Safety,2023-05-31,17,No,L004
-TR0262,S0415,Electronic Health Records,2021-03-14,4,Yes,L002
-TR0263,S0096,CPR Certification,2022-08-26,26,No,L003
-TR0264,S0084,Advanced Surgical Techniques,2022-04-14,24,No,L001
-TR0265,S0340,CPR Certification,2025-04-02,11,Yes,L005
-TR0266,S0231,Advanced Surgical Techniques,2024-08-31,4,No,L002
-TR0267,S0338,Patient Safety,2021-09-28,28,No,L004
-TR0268,S0308,CPR Certification,2024-02-08,23,No,L004
-TR0269,S0131,Advanced Surgical Techniques,2020-07-28,7,No,L005
-TR0270,S0370,CPR Certification,2020-06-05,20,Yes,L005
-TR0271,S0037,Electronic Health Records,2021-10-03,15,No,L005
-TR0272,S0311,CPR Certification,2024-08-18,17,Yes,L004
-TR0273,S0214,Infection Control,2023-06-23,13,No,L003
-TR0274,S0106,Infection Control,2021-06-19,40,Yes,L004
-TR0275,S0140,Advanced Surgical Techniques,2024-03-12,30,No,L003
-TR0276,S0159,Patient Safety,2021-08-01,30,Yes,L005
-TR0277,S0439,Infection Control,2021-11-13,35,Yes,L002
-TR0278,S0194,Advanced Surgical Techniques,2024-10-12,34,Yes,L001
-TR0279,S0171,Advanced Surgical Techniques,2022-07-04,18,No,L002
-TR0280,S0030,Infection Control,2021-01-17,38,Yes,L002
-TR0281,S0094,Patient Safety,2024-09-07,5,No,L001
-TR0282,S0365,Advanced Surgical Techniques,2023-05-06,32,Yes,L002
-TR0283,S0125,Infection Control,2024-07-14,18,Yes,L004
-TR0284,S0405,Patient Safety,2024-12-23,33,No,L004
-TR0285,S0009,Advanced Surgical Techniques,2022-03-28,32,Yes,L001
-TR0286,S0202,CPR Certification,2022-04-17,15,No,L003
-TR0287,S0032,Electronic Health Records,2021-06-01,39,Yes,L005
-TR0288,S0195,Infection Control,2021-02-21,7,Yes,L004
-TR0289,S0197,Electronic Health Records,2022-02-06,34,No,L001
-TR0290,S0025,Infection Control,2020-06-22,33,No,L003
-TR0291,S0203,Patient Safety,2022-06-29,12,Yes,L003
-TR0292,S0383,Patient Safety,2023-04-07,18,Yes,L004
-TR0293,S0441,Infection Control,2021-05-11,22,Yes,L001
-TR0294,S0054,Patient Safety,2023-05-20,33,Yes,L003
-TR0295,S0123,Patient Safety,2023-12-16,9,Yes,L004
-TR0296,S0206,CPR Certification,2023-11-20,15,No,L003
-TR0297,S0412,Infection Control,2021-10-08,25,No,L005
-TR0298,S0213,Electronic Health Records,2024-01-01,30,No,L003
-TR0299,S0348,Infection Control,2023-10-10,4,Yes,L002
-TR0300,S0184,CPR Certification,2021-03-18,10,Yes,L001
-TR0301,S0492,Advanced Surgical Techniques,2021-04-26,28,Yes,L002
-TR0302,S0275,Infection Control,2023-07-30,32,Yes,L004
-TR0303,S0008,CPR Certification,2024-05-17,4,No,L001
-TR0304,S0185,Advanced Surgical Techniques,2025-03-22,36,Yes,L002
-TR0305,S0086,Electronic Health Records,2024-03-23,14,Yes,L002
-TR0306,S0291,Advanced Surgical Techniques,2020-09-22,8,No,L004
-TR0307,S0407,CPR Certification,2023-11-13,10,No,L001
-TR0308,S0372,Advanced Surgical Techniques,2022-02-11,9,No,L004
-TR0309,S0187,Infection Control,2024-04-10,27,Yes,L004
-TR0310,S0149,CPR Certification,2021-07-03,22,Yes,L003
-TR0311,S0106,Patient Safety,2022-12-15,31,Yes,L002
-TR0312,S0468,Patient Safety,2023-05-26,16,Yes,L001
-TR0313,S0381,CPR Certification,2024-12-11,24,No,L001
-TR0314,S0365,Electronic Health Records,2023-04-03,16,Yes,L001
-TR0315,S0454,Advanced Surgical Techniques,2023-06-27,39,Yes,L003
-TR0316,S0263,Patient Safety,2022-04-20,11,No,L001
-TR0317,S0090,Advanced Surgical Techniques,2024-12-05,15,Yes,L002
-TR0318,S0048,Electronic Health Records,2025-01-23,18,Yes,L002
-TR0319,S0419,Electronic Health Records,2023-11-15,30,Yes,L001
-TR0320,S0263,Advanced Surgical Techniques,2023-05-30,36,Yes,L002
-TR0321,S0175,CPR Certification,2020-10-15,27,Yes,L004
-TR0322,S0006,Electronic Health Records,2020-06-02,12,No,L002
-TR0323,S0032,Infection Control,2020-05-26,11,Yes,L001
-TR0324,S0360,CPR Certification,2020-10-04,38,No,L004
-TR0325,S0155,CPR Certification,2023-10-06,9,Yes,L003
-TR0326,S0439,Patient Safety,2020-12-31,23,No,L001
-TR0327,S0485,Electronic Health Records,2025-02-04,17,Yes,L001
-TR0328,S0041,Electronic Health Records,2020-08-09,17,No,L005
-TR0329,S0072,Electronic Health Records,2022-07-05,36,Yes,L002
-TR0330,S0059,Electronic Health Records,2022-09-18,10,No,L002
-TR0331,S0023,CPR Certification,2024-08-11,4,No,L002
-TR0332,S0079,Patient Safety,2023-12-05,13,Yes,L001
-TR0333,S0122,Patient Safety,2020-12-09,19,Yes,L004
-TR0334,S0238,CPR Certification,2021-08-09,9,No,L001
-TR0335,S0420,Electronic Health Records,2020-08-06,21,Yes,L001
-TR0336,S0225,Infection Control,2023-02-10,32,No,L002
-TR0337,S0005,Infection Control,2021-10-27,38,No,L003
-TR0338,S0185,Infection Control,2021-07-13,22,No,L005
-TR0339,S0463,Patient Safety,2020-05-24,14,Yes,L002
-TR0340,S0002,CPR Certification,2021-11-11,13,No,L003
-TR0341,S0270,Electronic Health Records,2020-07-12,35,Yes,L004
-TR0342,S0001,CPR Certification,2022-01-16,30,No,L003
-TR0343,S0032,Electronic Health Records,2023-05-30,39,No,L002
-TR0344,S0209,Advanced Surgical Techniques,2023-09-18,40,No,L003
-TR0345,S0060,Patient Safety,2020-09-17,34,No,L004
-TR0346,S0138,Electronic Health Records,2021-12-25,29,Yes,L005
-TR0347,S0060,Electronic Health Records,2023-01-26,20,No,L002
-TR0348,S0346,CPR Certification,2025-02-27,32,No,L004
-TR0349,S0145,Electronic Health Records,2023-02-27,31,No,L003
-TR0350,S0176,CPR Certification,2022-12-06,32,No,L002
-TR0351,S0078,Electronic Health Records,2022-07-06,25,Yes,L002
-TR0352,S0337,Electronic Health Records,2024-09-06,16,Yes,L002
-TR0353,S0497,Electronic Health Records,2023-01-22,31,No,L002
-TR0354,S0354,CPR Certification,2023-08-01,7,Yes,L002
-TR0355,S0051,Electronic Health Records,2022-10-19,35,No,L002
-TR0356,S0063,Patient Safety,2023-09-09,5,Yes,L001
-TR0357,S0142,Advanced Surgical Techniques,2020-05-16,36,Yes,L004
-TR0358,S0331,Patient Safety,2023-08-13,13,Yes,L002
-TR0359,S0142,CPR Certification,2024-08-10,32,No,L004
-TR0360,S0219,Patient Safety,2023-06-12,32,No,L001
-TR0361,S0232,Infection Control,2024-08-01,32,No,L005
-TR0362,S0398,CPR Certification,2023-01-01,37,Yes,L005
-TR0363,S0047,Electronic Health Records,2022-09-11,39,Yes,L004
-TR0364,S0135,Patient Safety,2022-03-07,5,No,L005
-TR0365,S0412,Electronic Health Records,2024-01-01,17,Yes,L005
-TR0366,S0176,Patient Safety,2023-11-10,21,No,L005
-TR0367,S0105,Electronic Health Records,2025-01-01,11,Yes,L003
-TR0368,S0099,Electronic Health Records,2021-01-30,12,No,L004
-TR0369,S0012,Electronic Health Records,2022-09-07,15,Yes,L001
-TR0370,S0230,CPR Certification,2022-08-24,20,No,L004
-TR0371,S0034,Patient Safety,2023-07-08,7,No,L003
-TR0372,S0130,Electronic Health Records,2025-03-13,38,Yes,L001
-TR0373,S0362,Infection Control,2023-07-24,21,No,L001
-TR0374,S0440,Advanced Surgical Techniques,2021-12-06,31,No,L005
-TR0375,S0367,CPR Certification,2021-10-14,22,No,L004
-TR0376,S0078,CPR Certification,2022-05-02,17,Yes,L001
-TR0377,S0488,CPR Certification,2023-11-13,14,Yes,L005
-TR0378,S0479,CPR Certification,2020-09-04,30,Yes,L004
-TR0379,S0026,Infection Control,2025-01-11,33,No,L001
-TR0380,S0194,Electronic Health Records,2022-04-21,32,No,L005
-TR0381,S0077,Infection Control,2022-01-17,34,No,L005
-TR0382,S0472,Electronic Health Records,2022-06-11,32,Yes,L004
-TR0383,S0436,Electronic Health Records,2024-08-03,30,Yes,L005
-TR0384,S0446,Electronic Health Records,2024-12-02,33,Yes,L004
-TR0385,S0102,Patient Safety,2024-09-06,18,No,L004
-TR0386,S0459,Electronic Health Records,2022-09-10,37,No,L002
-TR0387,S0108,Electronic Health Records,2025-01-18,34,Yes,L004
-TR0388,S0396,Advanced Surgical Techniques,2022-03-20,35,Yes,L001
-TR0389,S0102,Electronic Health Records,2024-02-17,35,No,L004
-TR0390,S0089,Patient Safety,2022-12-12,30,No,L001
-TR0391,S0116,Infection Control,2021-01-05,4,No,L003
-TR0392,S0207,CPR Certification,2023-09-02,22,Yes,L001
-TR0393,S0254,Patient Safety,2022-10-07,21,No,L001
-TR0394,S0029,Electronic Health Records,2021-07-22,10,No,L003
-TR0395,S0014,CPR Certification,2025-03-21,18,Yes,L005
-TR0396,S0390,Infection Control,2021-09-11,39,Yes,L002
-TR0397,S0493,Advanced Surgical Techniques,2023-12-27,26,No,L004
-TR0398,S0279,Advanced Surgical Techniques,2022-04-26,35,No,L004
-TR0399,S0090,CPR Certification,2023-07-16,13,Yes,L003
-TR0400,S0048,Electronic Health Records,2024-07-24,12,No,L003
-TR0401,S0288,Patient Safety,2022-06-21,27,Yes,L004
-TR0402,S0364,Patient Safety,2024-08-29,6,Yes,L003
-TR0403,S0410,Patient Safety,2022-07-23,4,No,L001
-TR0404,S0263,Advanced Surgical Techniques,2023-11-15,7,Yes,L003
-TR0405,S0245,Infection Control,2021-05-30,5,Yes,L001
-TR0406,S0196,Infection Control,2024-12-25,11,Yes,L003
-TR0407,S0350,Patient Safety,2022-06-21,25,No,L003
-TR0408,S0007,Patient Safety,2023-06-20,6,No,L003
-TR0409,S0178,Infection Control,2024-07-24,11,No,L005
-TR0410,S0195,CPR Certification,2024-07-31,23,No,L004
-TR0411,S0112,Advanced Surgical Techniques,2022-06-18,15,Yes,L002
-TR0412,S0089,Infection Control,2020-06-03,5,No,L005
-TR0413,S0175,CPR Certification,2023-10-03,16,No,L001
-TR0414,S0395,Advanced Surgical Techniques,2024-07-26,27,Yes,L005
-TR0415,S0253,Electronic Health Records,2020-10-31,22,Yes,L001
-TR0416,S0053,Advanced Surgical Techniques,2025-01-08,9,Yes,L004
-TR0417,S0126,CPR Certification,2021-08-26,7,No,L001
-TR0418,S0082,Advanced Surgical Techniques,2023-01-16,28,No,L002
-TR0419,S0223,Patient Safety,2025-01-14,9,Yes,L005
-TR0420,S0085,Infection Control,2024-05-01,34,No,L001
-TR0421,S0460,Electronic Health Records,2023-10-17,26,No,L002
-TR0422,S0211,CPR Certification,2020-07-05,28,No,L001
-TR0423,S0029,CPR Certification,2024-11-23,7,Yes,L005
-TR0424,S0072,Infection Control,2021-03-06,30,Yes,L005
-TR0425,S0363,Infection Control,2023-01-12,31,No,L003
-TR0426,S0170,Advanced Surgical Techniques,2021-06-07,30,No,L001
-TR0427,S0350,Advanced Surgical Techniques,2024-04-09,12,Yes,L004
-TR0428,S0244,Electronic Health Records,2021-04-12,16,Yes,L005
-TR0429,S0233,Infection Control,2022-06-05,13,Yes,L001
-TR0430,S0197,CPR Certification,2023-12-23,5,Yes,L003
-TR0431,S0444,CPR Certification,2023-04-27,23,Yes,L002
-TR0432,S0176,Patient Safety,2025-02-19,12,Yes,L003
-TR0433,S0244,Patient Safety,2021-02-02,22,Yes,L003
-TR0434,S0472,Advanced Surgical Techniques,2025-03-26,19,No,L003
-TR0435,S0052,Patient Safety,2023-06-14,8,Yes,L005
-TR0436,S0008,Patient Safety,2021-10-20,29,Yes,L004
-TR0437,S0118,Advanced Surgical Techniques,2023-01-12,7,Yes,L005
-TR0438,S0341,CPR Certification,2021-01-12,27,Yes,L002
-TR0439,S0456,CPR Certification,2025-03-14,21,No,L003
-TR0440,S0150,Advanced Surgical Techniques,2020-11-14,4,Yes,L003
-TR0441,S0347,Infection Control,2023-08-23,13,No,L001
-TR0442,S0260,CPR Certification,2020-07-18,39,Yes,L001
-TR0443,S0233,Electronic Health Records,2022-07-29,40,No,L004
-TR0444,S0397,Infection Control,2023-03-01,28,Yes,L005
-TR0445,S0067,CPR Certification,2023-10-09,21,No,L001
-TR0446,S0244,CPR Certification,2022-06-22,36,No,L002
-TR0447,S0267,CPR Certification,2024-02-08,6,Yes,L005
-TR0448,S0373,CPR Certification,2024-12-18,32,Yes,L001
-TR0449,S0035,Patient Safety,2024-02-07,4,No,L002
-TR0450,S0447,CPR Certification,2020-08-10,36,Yes,L003
-TR0451,S0123,Advanced Surgical Techniques,2022-12-11,38,No,L002
-TR0452,S0076,CPR Certification,2022-06-20,21,Yes,L002
-TR0453,S0208,Infection Control,2025-02-21,18,Yes,L005
-TR0454,S0378,CPR Certification,2024-04-01,39,Yes,L004
-TR0455,S0162,Patient Safety,2024-06-17,23,No,L003
-TR0456,S0334,CPR Certification,2021-06-18,4,No,L003
-TR0457,S0066,Infection Control,2022-10-10,22,No,L001
-TR0458,S0114,Patient Safety,2022-09-02,13,No,L002
-TR0459,S0255,Advanced Surgical Techniques,2022-09-24,7,Yes,L005
-TR0460,S0118,Infection Control,2024-11-05,19,Yes,L002
-TR0461,S0027,Patient Safety,2020-07-21,39,No,L001
-TR0462,S0020,Advanced Surgical Techniques,2025-01-27,40,No,L005
-TR0463,S0035,Advanced Surgical Techniques,2022-09-04,18,No,L001
-TR0464,S0308,Electronic Health Records,2023-09-21,9,No,L002
-TR0465,S0088,Patient Safety,2024-03-07,29,No,L004
-TR0466,S0283,Advanced Surgical Techniques,2024-07-18,21,No,L001
-TR0467,S0184,Infection Control,2024-05-06,5,No,L002
-TR0468,S0178,CPR Certification,2023-06-09,25,Yes,L003
-TR0469,S0158,Electronic Health Records,2023-02-03,25,Yes,L002
-TR0470,S0444,Infection Control,2021-09-05,6,Yes,L004
-TR0471,S0023,Advanced Surgical Techniques,2022-02-27,20,No,L001
-TR0472,S0163,Electronic Health Records,2023-10-15,36,No,L001
-TR0473,S0093,Electronic Health Records,2022-08-25,11,No,L003
-TR0474,S0225,Advanced Surgical Techniques,2020-11-03,25,Yes,L003
-TR0475,S0132,Advanced Surgical Techniques,2021-06-13,13,No,L004
-TR0476,S0240,Advanced Surgical Techniques,2023-05-18,22,No,L001
-TR0477,S0245,Electronic Health Records,2022-08-31,5,Yes,L005
-TR0478,S0198,Infection Control,2022-07-18,8,No,L002
-TR0479,S0147,CPR Certification,2021-04-08,6,No,L002
-TR0480,S0023,Patient Safety,2023-12-07,11,Yes,L003
-TR0481,S0069,CPR Certification,2024-11-28,34,No,L004
-TR0482,S0061,Electronic Health Records,2021-05-28,19,Yes,L002
-TR0483,S0395,CPR Certification,2024-06-11,14,No,L002
-TR0484,S0344,Patient Safety,2024-05-18,31,Yes,L001
-TR0485,S0237,CPR Certification,2020-10-10,36,No,L001
-TR0486,S0293,Patient Safety,2022-07-23,11,Yes,L001
-TR0487,S0235,Patient Safety,2020-10-07,26,Yes,L001
-TR0488,S0322,Electronic Health Records,2020-06-14,16,No,L001
-TR0489,S0298,CPR Certification,2020-07-09,40,No,L001
-TR0490,S0460,Electronic Health Records,2025-03-30,22,Yes,L004
-TR0491,S0141,Infection Control,2025-03-06,20,No,L002
-TR0492,S0242,Infection Control,2025-02-22,23,Yes,L004
-TR0493,S0060,Electronic Health Records,2024-12-21,35,Yes,L004
-TR0494,S0139,Electronic Health Records,2020-04-25,6,No,L001
-TR0495,S0140,CPR Certification,2024-11-04,22,No,L001
-TR0496,S0312,Infection Control,2020-12-21,24,Yes,L002
-TR0497,S0332,Advanced Surgical Techniques,2021-09-18,10,Yes,L001
-TR0498,S0186,Infection Control,2024-09-24,20,Yes,L004
-TR0499,S0229,CPR Certification,2022-02-07,30,No,L003
-TR0500,S0386,Infection Control,2023-12-05,19,No,L002
-TR0501,S0373,Advanced Surgical Techniques,2021-07-04,17,Yes,L002
-TR0502,S0217,CPR Certification,2021-09-28,10,No,L004
-TR0503,S0005,Patient Safety,2021-06-16,26,Yes,L004
-TR0504,S0069,Patient Safety,2023-03-26,30,No,L005
-TR0505,S0269,Electronic Health Records,2023-12-30,28,Yes,L004
-TR0506,S0058,CPR Certification,2024-11-24,22,Yes,L005
-TR0507,S0445,Patient Safety,2020-09-20,38,Yes,L003
-TR0508,S0019,Infection Control,2024-02-01,34,No,L001
-TR0509,S0207,Infection Control,2023-02-14,4,No,L005
-TR0510,S0045,CPR Certification,2020-05-30,9,No,L002
-TR0511,S0397,Advanced Surgical Techniques,2021-09-08,7,No,L001
-TR0512,S0270,Advanced Surgical Techniques,2021-01-30,30,Yes,L002
-TR0513,S0244,Patient Safety,2024-12-06,18,Yes,L002
-TR0514,S0193,Patient Safety,2021-10-24,35,No,L002
-TR0515,S0373,Electronic Health Records,2022-11-04,14,No,L002
-TR0516,S0246,Patient Safety,2021-04-14,27,Yes,L004
-TR0517,S0403,Infection Control,2024-02-24,36,Yes,L001
-TR0518,S0165,Advanced Surgical Techniques,2022-08-20,39,Yes,L005
-TR0519,S0388,Patient Safety,2021-07-10,33,Yes,L002
-TR0520,S0269,CPR Certification,2022-11-03,5,Yes,L003
-TR0521,S0153,Electronic Health Records,2022-08-09,26,No,L002
-TR0522,S0135,Patient Safety,2022-03-17,22,Yes,L004
-TR0523,S0440,CPR Certification,2023-11-15,29,Yes,L001
-TR0524,S0223,Electronic Health Records,2023-06-05,13,No,L003
-TR0525,S0451,CPR Certification,2022-12-08,40,Yes,L003
-TR0526,S0254,Advanced Surgical Techniques,2022-05-26,36,No,L004
-TR0527,S0131,Advanced Surgical Techniques,2020-08-19,36,No,L005
-TR0528,S0068,CPR Certification,2022-12-24,40,Yes,L004
-TR0529,S0102,CPR Certification,2020-05-15,7,Yes,L002
-TR0530,S0213,Infection Control,2023-10-18,18,No,L002
-TR0531,S0292,Advanced Surgical Techniques,2020-06-16,23,No,L004
-TR0532,S0050,Infection Control,2023-04-27,33,Yes,L005
-TR0533,S0302,CPR Certification,2024-08-19,27,No,L002
-TR0534,S0093,Advanced Surgical Techniques,2023-03-21,9,No,L004
-TR0535,S0272,Patient Safety,2021-05-10,40,No,L004
-TR0536,S0105,CPR Certification,2024-04-16,29,No,L001
-TR0537,S0218,Advanced Surgical Techniques,2021-02-11,11,Yes,L001
-TR0538,S0328,Patient Safety,2023-08-04,19,No,L002
-TR0539,S0113,Infection Control,2020-09-29,15,Yes,L005
-TR0540,S0486,Infection Control,2024-04-15,13,No,L004
-TR0541,S0186,Electronic Health Records,2022-03-18,5,No,L004
-TR0542,S0323,Infection Control,2023-11-19,12,No,L003
-TR0543,S0203,Advanced Surgical Techniques,2021-12-06,40,Yes,L002
-TR0544,S0014,Electronic Health Records,2021-03-19,19,Yes,L002
-TR0545,S0095,Electronic Health Records,2022-11-06,12,No,L001
-TR0546,S0245,CPR Certification,2023-03-30,22,No,L005
-TR0547,S0211,Electronic Health Records,2022-06-29,32,Yes,L004
-TR0548,S0128,Infection Control,2022-10-31,30,Yes,L002
-TR0549,S0214,CPR Certification,2022-08-24,19,Yes,L002
-TR0550,S0462,Advanced Surgical Techniques,2021-09-13,22,Yes,L001
-TR0551,S0257,Patient Safety,2020-12-12,23,Yes,L004
-TR0552,S0270,Advanced Surgical Techniques,2020-07-29,32,No,L004
-TR0553,S0027,Electronic Health Records,2022-03-06,16,No,L002
-TR0554,S0366,CPR Certification,2023-09-08,37,No,L005
-TR0555,S0028,Advanced Surgical Techniques,2020-11-13,11,Yes,L001
-TR0556,S0413,CPR Certification,2021-08-08,34,Yes,L004
-TR0557,S0163,Patient Safety,2022-06-09,40,No,L002
-TR0558,S0025,CPR Certification,2024-04-21,21,Yes,L004
-TR0559,S0256,CPR Certification,2024-08-27,4,Yes,L001
-TR0560,S0477,Electronic Health Records,2024-10-26,15,No,L004
-TR0561,S0005,Infection Control,2024-06-18,39,Yes,L005
-TR0562,S0461,Infection Control,2022-07-15,28,Yes,L005
-TR0563,S0215,Electronic Health Records,2021-12-31,8,Yes,L005
-TR0564,S0355,Infection Control,2024-11-11,37,Yes,L005
-TR0565,S0382,CPR Certification,2024-05-20,23,Yes,L005
-TR0566,S0091,CPR Certification,2021-08-04,20,No,L001
-TR0567,S0461,Patient Safety,2021-10-31,6,No,L003
-TR0568,S0192,Electronic Health Records,2020-12-16,13,No,L004
-TR0569,S0243,Patient Safety,2020-09-16,32,No,L004
-TR0570,S0439,Infection Control,2024-05-20,9,No,L005
-TR0571,S0416,CPR Certification,2020-06-22,24,Yes,L001
-TR0572,S0046,Advanced Surgical Techniques,2023-03-18,30,No,L002
-TR0573,S0218,Infection Control,2023-02-01,5,No,L004
-TR0574,S0124,CPR Certification,2021-10-20,28,No,L002
-TR0575,S0412,Patient Safety,2024-03-17,31,Yes,L003
-TR0576,S0243,CPR Certification,2021-02-10,7,Yes,L001
-TR0577,S0337,CPR Certification,2021-06-21,4,No,L004
-TR0578,S0003,Advanced Surgical Techniques,2022-01-03,5,No,L003
-TR0579,S0475,Infection Control,2023-12-21,15,Yes,L005
-TR0580,S0060,CPR Certification,2020-12-11,32,Yes,L003
-TR0581,S0451,Electronic Health Records,2025-04-11,20,Yes,L003
-TR0582,S0291,Advanced Surgical Techniques,2024-03-20,13,No,L002
-TR0583,S0388,CPR Certification,2024-06-06,26,No,L005
-TR0584,S0472,Advanced Surgical Techniques,2020-11-18,28,No,L005
-TR0585,S0244,Infection Control,2023-01-09,4,Yes,L005
-TR0586,S0279,Advanced Surgical Techniques,2022-07-30,29,No,L005
-TR0587,S0098,Electronic Health Records,2025-03-15,23,No,L003
-TR0588,S0447,Infection Control,2024-10-31,7,Yes,L003
-TR0589,S0242,Patient Safety,2022-11-28,29,No,L003
-TR0590,S0167,Advanced Surgical Techniques,2022-08-08,13,Yes,L005
-TR0591,S0050,Electronic Health Records,2024-11-20,27,Yes,L001
-TR0592,S0260,Infection Control,2023-01-30,38,No,L002
-TR0593,S0347,Patient Safety,2021-08-24,9,No,L001
-TR0594,S0167,CPR Certification,2022-07-17,31,Yes,L005
-TR0595,S0172,Patient Safety,2022-02-08,35,No,L005
-TR0596,S0377,Patient Safety,2022-05-28,21,Yes,L001
-TR0597,S0413,Patient Safety,2021-05-06,11,No,L001
-TR0598,S0122,Electronic Health Records,2025-02-10,10,Yes,L004
-TR0599,S0279,Infection Control,2021-02-12,25,Yes,L001
-TR0600,S0252,CPR Certification,2020-09-19,12,Yes,L001
-TR0601,S0011,Patient Safety,2021-03-16,4,No,L001
-TR0602,S0345,Patient Safety,2021-10-22,4,No,L003
-TR0603,S0213,Patient Safety,2024-03-15,7,No,L005
-TR0604,S0095,Electronic Health Records,2024-06-03,35,No,L003
-TR0605,S0070,Patient Safety,2023-12-12,5,Yes,L004
-TR0606,S0268,Infection Control,2024-11-26,17,No,L001
-TR0607,S0463,Electronic Health Records,2022-07-02,10,No,L003
-TR0608,S0062,Electronic Health Records,2021-01-09,34,Yes,L005
-TR0609,S0355,Patient Safety,2025-03-16,15,No,L001
-TR0610,S0492,Electronic Health Records,2022-05-07,18,No,L003
-TR0611,S0238,Infection Control,2022-07-15,13,No,L001
-TR0612,S0433,Advanced Surgical Techniques,2022-09-03,28,Yes,L001
-TR0613,S0444,Advanced Surgical Techniques,2024-02-13,5,Yes,L001
-TR0614,S0461,Electronic Health Records,2022-10-04,28,No,L004
-TR0615,S0230,Advanced Surgical Techniques,2021-07-03,13,Yes,L002
-TR0616,S0169,Patient Safety,2024-12-12,17,No,L005
-TR0617,S0083,Advanced Surgical Techniques,2021-02-07,30,No,L002
-TR0618,S0233,CPR Certification,2021-01-17,7,No,L001
-TR0619,S0046,CPR Certification,2024-11-20,17,Yes,L003
-TR0620,S0086,Advanced Surgical Techniques,2022-02-09,11,No,L005
-TR0621,S0405,CPR Certification,2021-09-22,26,Yes,L004
-TR0622,S0272,Infection Control,2020-06-12,20,No,L003
-TR0623,S0243,Advanced Surgical Techniques,2021-02-26,12,Yes,L005
-TR0624,S0181,Patient Safety,2021-02-03,28,Yes,L002
-TR0625,S0486,Infection Control,2022-03-10,29,No,L002
-TR0626,S0104,Advanced Surgical Techniques,2022-11-10,8,No,L004
-TR0627,S0120,Advanced Surgical Techniques,2021-03-24,7,Yes,L005
-TR0628,S0289,Patient Safety,2022-06-16,35,Yes,L003
-TR0629,S0073,Advanced Surgical Techniques,2022-06-03,28,Yes,L002
-TR0630,S0274,Advanced Surgical Techniques,2020-10-15,6,No,L005
-TR0631,S0374,CPR Certification,2023-07-10,23,Yes,L004
-TR0632,S0136,Patient Safety,2023-11-05,16,No,L005
-TR0633,S0438,Patient Safety,2022-03-28,30,No,L003
-TR0634,S0079,Patient Safety,2021-01-29,18,Yes,L002
-TR0635,S0486,Electronic Health Records,2023-06-01,37,No,L002
-TR0636,S0090,Electronic Health Records,2022-09-24,28,Yes,L003
-TR0637,S0276,Electronic Health Records,2022-09-19,14,No,L005
-TR0638,S0349,CPR Certification,2022-12-18,22,Yes,L004
-TR0639,S0029,CPR Certification,2023-06-23,9,Yes,L002
-TR0640,S0253,CPR Certification,2022-07-01,12,Yes,L005
-TR0641,S0064,Advanced Surgical Techniques,2024-04-02,19,Yes,L002
-TR0642,S0028,CPR Certification,2024-03-19,30,Yes,L001
-TR0643,S0289,Patient Safety,2022-01-27,11,No,L005
-TR0644,S0008,Patient Safety,2023-08-17,20,No,L002
-TR0645,S0112,Advanced Surgical Techniques,2021-04-04,12,No,L003
-TR0646,S0164,Electronic Health Records,2023-05-19,15,No,L002
-TR0647,S0201,Patient Safety,2021-12-07,20,Yes,L002
-TR0648,S0119,CPR Certification,2020-07-19,7,Yes,L002
-TR0649,S0318,Patient Safety,2021-02-22,30,Yes,L004
-TR0650,S0049,Patient Safety,2021-06-28,33,Yes,L002
-TR0651,S0100,CPR Certification,2022-01-29,23,No,L001
-TR0652,S0466,Electronic Health Records,2022-03-16,37,No,L001
-TR0653,S0186,Electronic Health Records,2020-08-22,22,Yes,L004
-TR0654,S0393,Electronic Health Records,2023-10-05,7,No,L002
-TR0655,S0404,CPR Certification,2023-01-17,29,Yes,L003
-TR0656,S0335,Advanced Surgical Techniques,2023-06-19,36,No,L004
-TR0657,S0287,Patient Safety,2023-07-09,23,No,L004
-TR0658,S0283,Patient Safety,2020-11-28,7,Yes,L002
-TR0659,S0060,CPR Certification,2023-03-31,15,Yes,L001
-TR0660,S0389,CPR Certification,2021-09-23,12,Yes,L005
-TR0661,S0331,Patient Safety,2020-05-09,28,Yes,L002
-TR0662,S0296,Patient Safety,2021-10-12,38,Yes,L003
-TR0663,S0334,CPR Certification,2023-12-16,22,Yes,L003
-TR0664,S0070,CPR Certification,2021-08-27,24,Yes,L005
-TR0665,S0106,Patient Safety,2023-08-18,34,Yes,L004
-TR0666,S0165,Infection Control,2021-07-09,23,No,L001
-TR0667,S0297,Infection Control,2021-11-07,13,Yes,L002
-TR0668,S0177,Advanced Surgical Techniques,2020-08-09,39,Yes,L002
-TR0669,S0029,CPR Certification,2024-07-17,39,Yes,L001
-TR0670,S0011,Advanced Surgical Techniques,2020-07-07,7,Yes,L002
-TR0671,S0216,Advanced Surgical Techniques,2023-01-20,34,Yes,L001
-TR0672,S0436,Electronic Health Records,2023-10-21,33,Yes,L002
-TR0673,S0492,Infection Control,2022-05-12,16,No,L001
-TR0674,S0181,Patient Safety,2023-10-30,17,No,L005
-TR0675,S0165,CPR Certification,2020-05-01,33,No,L001
-TR0676,S0246,CPR Certification,2021-06-10,25,Yes,L005
-TR0677,S0468,Electronic Health Records,2022-04-21,36,No,L003
-TR0678,S0116,Infection Control,2023-06-25,22,No,L004
-TR0679,S0326,CPR Certification,2021-03-14,6,No,L004
-TR0680,S0046,Electronic Health Records,2024-10-07,35,No,L005
-TR0681,S0242,Advanced Surgical Techniques,2020-12-15,9,Yes,L002
-TR0682,S0315,Patient Safety,2021-08-04,32,No,L002
-TR0683,S0100,Electronic Health Records,2022-02-23,15,Yes,L001
-TR0684,S0449,Patient Safety,2023-02-03,34,No,L005
-TR0685,S0160,Infection Control,2025-01-02,22,No,L005
-TR0686,S0231,Electronic Health Records,2021-12-18,34,No,L005
-TR0687,S0006,CPR Certification,2023-07-27,14,No,L003
-TR0688,S0233,Patient Safety,2025-03-04,26,Yes,L001
-TR0689,S0452,Advanced Surgical Techniques,2021-10-14,26,No,L004
-TR0690,S0217,CPR Certification,2024-10-30,18,Yes,L004
-TR0691,S0271,CPR Certification,2022-11-05,25,Yes,L004
-TR0692,S0004,CPR Certification,2024-07-20,32,Yes,L001
-TR0693,S0173,CPR Certification,2023-06-16,21,No,L004
-TR0694,S0214,Electronic Health Records,2020-12-20,30,No,L004
-TR0695,S0432,Advanced Surgical Techniques,2022-10-09,7,No,L005
-TR0696,S0247,Infection Control,2024-12-16,11,No,L003
-TR0697,S0494,Patient Safety,2022-08-11,7,No,L002
-TR0698,S0304,Infection Control,2023-04-06,20,Yes,L002
-TR0699,S0160,CPR Certification,2024-06-16,8,No,L001
-TR0700,S0371,Advanced Surgical Techniques,2022-05-01,20,Yes,L003
-TR0701,S0345,Advanced Surgical Techniques,2022-07-13,31,No,L001
-TR0702,S0446,Patient Safety,2024-12-22,30,Yes,L005
-TR0703,S0012,Advanced Surgical Techniques,2021-01-02,35,No,L004
-TR0704,S0480,Advanced Surgical Techniques,2021-03-11,34,No,L005
-TR0705,S0381,Patient Safety,2022-09-22,14,No,L002
-TR0706,S0337,CPR Certification,2025-04-06,26,Yes,L003
-TR0707,S0009,CPR Certification,2021-10-02,18,No,L003
-TR0708,S0166,Infection Control,2025-01-13,16,No,L005
-TR0709,S0021,Patient Safety,2022-01-05,38,No,L002
-TR0710,S0190,Advanced Surgical Techniques,2024-07-23,17,Yes,L003
-TR0711,S0370,CPR Certification,2020-08-27,15,No,L003
-TR0712,S0259,CPR Certification,2024-03-18,12,No,L004
-TR0713,S0161,Infection Control,2020-12-15,22,No,L003
-TR0714,S0357,Infection Control,2020-07-22,30,No,L004
-TR0715,S0279,Electronic Health Records,2023-02-23,4,No,L003
-TR0716,S0314,CPR Certification,2023-09-21,17,Yes,L004
-TR0717,S0303,Electronic Health Records,2024-02-19,20,No,L001
-TR0718,S0002,Electronic Health Records,2023-10-06,4,No,L002
-TR0719,S0198,Patient Safety,2020-12-29,40,Yes,L005
-TR0720,S0417,Infection Control,2020-08-15,21,Yes,L004
-TR0721,S0253,Infection Control,2023-05-13,13,Yes,L002
-TR0722,S0021,Advanced Surgical Techniques,2022-04-16,18,No,L002
-TR0723,S0108,CPR Certification,2022-12-30,20,Yes,L001
-TR0724,S0322,Electronic Health Records,2020-09-13,18,No,L003
-TR0725,S0001,Patient Safety,2021-06-15,23,No,L004
-TR0726,S0172,Infection Control,2023-09-21,32,Yes,L001
-TR0727,S0156,Infection Control,2020-05-27,13,Yes,L001
-TR0728,S0452,Electronic Health Records,2024-08-07,34,Yes,L005
-TR0729,S0192,CPR Certification,2021-02-06,39,No,L004
-TR0730,S0127,Electronic Health Records,2021-03-13,10,Yes,L003
-TR0731,S0219,Patient Safety,2021-02-07,28,No,L004
-TR0732,S0345,CPR Certification,2022-05-28,4,No,L002
-TR0733,S0065,CPR Certification,2022-03-03,29,No,L004
-TR0734,S0335,Infection Control,2024-01-14,32,No,L004
-TR0735,S0047,Patient Safety,2024-12-04,7,No,L001
-TR0736,S0107,Patient Safety,2022-03-31,12,Yes,L001
-TR0737,S0076,Electronic Health Records,2023-04-29,4,Yes,L002
-TR0738,S0333,CPR Certification,2022-10-29,36,Yes,L002
-TR0739,S0129,Advanced Surgical Techniques,2021-12-13,14,Yes,L003
-TR0740,S0209,CPR Certification,2022-01-19,34,Yes,L001
-TR0741,S0259,Electronic Health Records,2020-07-29,22,No,L002
-TR0742,S0328,Infection Control,2024-09-23,36,Yes,L005
-TR0743,S0085,Advanced Surgical Techniques,2022-04-06,39,Yes,L002
-TR0744,S0423,Advanced Surgical Techniques,2023-02-11,8,Yes,L001
-TR0745,S0422,Patient Safety,2022-06-25,9,No,L003
-TR0746,S0467,CPR Certification,2021-03-07,21,Yes,L003
-TR0747,S0219,Electronic Health Records,2023-02-07,20,No,L005
-TR0748,S0350,Advanced Surgical Techniques,2024-12-11,5,No,L005
-TR0749,S0311,CPR Certification,2023-08-05,9,No,L005
-TR0750,S0402,CPR Certification,2023-01-13,34,Yes,L002
-TR0751,S0330,Infection Control,2022-05-20,38,No,L004
-TR0752,S0470,CPR Certification,2021-02-18,6,Yes,L001
-TR0753,S0067,Patient Safety,2021-05-25,14,Yes,L002
-TR0754,S0411,Electronic Health Records,2025-01-10,38,No,L003
-TR0755,S0046,Patient Safety,2021-11-27,10,No,L002
-TR0756,S0284,Advanced Surgical Techniques,2025-01-27,13,Yes,L003
-TR0757,S0448,CPR Certification,2022-11-11,6,Yes,L005
-TR0758,S0151,Infection Control,2024-12-25,32,No,L004
-TR0759,S0218,Advanced Surgical Techniques,2025-03-26,34,Yes,L001
-TR0760,S0337,Advanced Surgical Techniques,2021-11-28,25,No,L002
-TR0761,S0202,Patient Safety,2024-05-07,34,No,L002
-TR0762,S0406,Advanced Surgical Techniques,2022-12-22,24,Yes,L001
-TR0763,S0111,Patient Safety,2021-05-14,30,Yes,L003
-TR0764,S0237,CPR Certification,2025-01-24,6,No,L004
-TR0765,S0261,Infection Control,2025-04-10,29,Yes,L003
-TR0766,S0346,CPR Certification,2021-04-01,7,No,L001
-TR0767,S0467,Advanced Surgical Techniques,2021-08-21,34,Yes,L003
-TR0768,S0262,CPR Certification,2023-03-23,9,Yes,L002
-TR0769,S0185,CPR Certification,2022-12-31,33,No,L001
-TR0770,S0101,Advanced Surgical Techniques,2020-08-24,33,Yes,L001
-TR0771,S0391,Electronic Health Records,2024-01-14,19,Yes,L004
-TR0772,S0386,Electronic Health Records,2020-05-01,23,No,L002
-TR0773,S0433,Advanced Surgical Techniques,2025-03-23,22,No,L002
-TR0774,S0200,Electronic Health Records,2021-10-10,22,No,L004
-TR0775,S0104,Patient Safety,2021-03-22,34,No,L003
-TR0776,S0085,Advanced Surgical Techniques,2025-01-04,23,No,L001
-TR0777,S0187,Electronic Health Records,2022-05-26,35,No,L004
-TR0778,S0438,Patient Safety,2021-10-16,23,No,L003
-TR0779,S0288,Electronic Health Records,2020-10-01,36,Yes,L002
-TR0780,S0249,CPR Certification,2022-12-04,11,No,L004
-TR0781,S0078,Infection Control,2021-05-03,6,Yes,L002
-TR0782,S0208,Patient Safety,2024-02-10,34,No,L003
-TR0783,S0477,Advanced Surgical Techniques,2023-12-25,37,Yes,L005
-TR0784,S0032,Patient Safety,2021-06-17,25,Yes,L005
-TR0785,S0084,CPR Certification,2024-02-12,16,Yes,L001
-TR0786,S0061,Advanced Surgical Techniques,2023-03-17,37,Yes,L003
-TR0787,S0433,Advanced Surgical Techniques,2020-08-19,38,Yes,L001
-TR0788,S0373,Electronic Health Records,2024-01-17,30,Yes,L003
-TR0789,S0180,CPR Certification,2023-04-16,34,No,L003
-TR0790,S0458,Infection Control,2022-06-14,22,Yes,L001
-TR0791,S0292,CPR Certification,2023-06-26,17,No,L002
-TR0792,S0432,Electronic Health Records,2023-06-28,40,Yes,L003
-TR0793,S0064,CPR Certification,2023-04-30,5,No,L001
-TR0794,S0235,Patient Safety,2020-08-03,35,No,L005
-TR0795,S0409,Electronic Health Records,2023-03-24,16,No,L002
-TR0796,S0080,CPR Certification,2021-03-10,27,Yes,L002
-TR0797,S0323,Electronic Health Records,2023-10-22,9,No,L001
-TR0798,S0035,Electronic Health Records,2022-01-08,38,No,L005
-TR0799,S0482,CPR Certification,2022-02-25,28,No,L002
-TR0800,S0060,Advanced Surgical Techniques,2024-05-11,36,Yes,L001
-TR0801,S0426,Advanced Surgical Techniques,2021-04-25,28,Yes,L001
-TR0802,S0057,Advanced Surgical Techniques,2022-05-02,26,No,L003
-TR0803,S0251,CPR Certification,2024-03-27,29,Yes,L005
-TR0804,S0049,CPR Certification,2023-01-20,15,Yes,L002
-TR0805,S0219,Infection Control,2025-01-10,40,No,L004
-TR0806,S0102,Patient Safety,2024-06-09,16,No,L002
-TR0807,S0037,Electronic Health Records,2024-03-19,6,Yes,L001
-TR0808,S0401,Infection Control,2021-10-07,37,No,L004
-TR0809,S0494,Infection Control,2025-02-26,6,No,L004
-TR0810,S0183,Electronic Health Records,2023-05-14,7,Yes,L002
-TR0811,S0359,Patient Safety,2025-01-13,38,No,L001
-TR0812,S0357,Infection Control,2020-06-24,10,No,L001
-TR0813,S0199,Electronic Health Records,2024-05-18,33,No,L001
-TR0814,S0280,Electronic Health Records,2025-03-09,10,Yes,L003
-TR0815,S0201,Electronic Health Records,2022-04-01,11,No,L003
-TR0816,S0057,Electronic Health Records,2024-03-27,36,Yes,L001
-TR0817,S0115,CPR Certification,2020-08-02,9,Yes,L005
-TR0818,S0087,CPR Certification,2024-12-13,22,Yes,L002
-TR0819,S0130,Advanced Surgical Techniques,2024-05-04,16,No,L004
-TR0820,S0406,Electronic Health Records,2023-09-05,6,No,L005
-TR0821,S0445,Patient Safety,2022-07-03,25,Yes,L005
-TR0822,S0335,Electronic Health Records,2023-05-12,37,No,L001
-TR0823,S0203,Infection Control,2024-05-04,38,No,L005
-TR0824,S0282,Advanced Surgical Techniques,2024-10-02,23,Yes,L004
-TR0825,S0403,Electronic Health Records,2020-12-02,24,Yes,L004
-TR0826,S0185,CPR Certification,2021-12-13,4,No,L002
-TR0827,S0063,CPR Certification,2022-07-05,17,Yes,L001
-TR0828,S0116,Infection Control,2022-05-11,39,No,L003
-TR0829,S0473,Patient Safety,2025-03-03,14,Yes,L005
-TR0830,S0112,Electronic Health Records,2023-08-24,4,Yes,L002
-TR0831,S0034,Infection Control,2023-07-20,22,Yes,L003
-TR0832,S0284,Electronic Health Records,2020-05-18,33,Yes,L001
-TR0833,S0457,Electronic Health Records,2024-12-22,30,No,L004
-TR0834,S0022,Electronic Health Records,2021-06-28,7,Yes,L005
-TR0835,S0370,Infection Control,2024-07-14,27,No,L004
-TR0836,S0412,CPR Certification,2021-05-07,18,Yes,L001
-TR0837,S0057,Advanced Surgical Techniques,2021-03-07,35,No,L001
-TR0838,S0195,Infection Control,2022-11-04,7,No,L003
-TR0839,S0352,Infection Control,2022-09-07,34,Yes,L001
-TR0840,S0455,Electronic Health Records,2020-06-29,36,No,L001
-TR0841,S0061,Patient Safety,2022-02-25,11,Yes,L005
-TR0842,S0440,Advanced Surgical Techniques,2021-03-03,22,Yes,L004
-TR0843,S0487,CPR Certification,2024-12-20,39,Yes,L002
-TR0844,S0498,Infection Control,2020-09-23,11,Yes,L001
-TR0845,S0422,Infection Control,2021-01-23,24,No,L005
-TR0846,S0020,Electronic Health Records,2021-04-10,13,Yes,L003
-TR0847,S0009,Patient Safety,2022-08-06,31,No,L002
-TR0848,S0311,Patient Safety,2021-07-03,38,Yes,L001
-TR0849,S0228,Infection Control,2023-01-27,35,No,L002
-TR0850,S0146,Patient Safety,2021-01-19,28,Yes,L003
-TR0851,S0126,Electronic Health Records,2025-01-05,25,No,L002
-TR0852,S0052,CPR Certification,2024-02-04,38,Yes,L002
-TR0853,S0492,CPR Certification,2023-11-03,24,No,L004
-TR0854,S0293,Electronic Health Records,2020-09-28,5,Yes,L005
-TR0855,S0316,Electronic Health Records,2023-12-11,30,No,L003
-TR0856,S0448,Electronic Health Records,2021-02-03,27,No,L001
-TR0857,S0437,Infection Control,2023-11-12,16,No,L003
-TR0858,S0147,Patient Safety,2024-06-12,36,No,L005
-TR0859,S0305,Infection Control,2020-12-27,10,Yes,L003
-TR0860,S0015,Infection Control,2024-10-18,17,Yes,L004
-TR0861,S0178,Advanced Surgical Techniques,2024-04-18,8,Yes,L003
-TR0862,S0485,Electronic Health Records,2020-07-31,29,Yes,L002
-TR0863,S0074,Infection Control,2021-12-14,39,Yes,L004
-TR0864,S0155,Electronic Health Records,2022-07-05,16,No,L003
-TR0865,S0068,Patient Safety,2022-01-30,34,No,L004
-TR0866,S0103,CPR Certification,2020-10-03,36,No,L004
-TR0867,S0477,CPR Certification,2023-07-15,34,Yes,L005
-TR0868,S0431,CPR Certification,2021-02-02,37,Yes,L004
-TR0869,S0386,Patient Safety,2023-01-05,22,Yes,L003
-TR0870,S0007,Electronic Health Records,2025-02-05,31,No,L001
-TR0871,S0111,Advanced Surgical Techniques,2023-12-05,36,No,L002
-TR0872,S0267,Infection Control,2024-09-11,39,No,L001
-TR0873,S0117,Advanced Surgical Techniques,2024-02-06,13,Yes,L004
-TR0874,S0202,Electronic Health Records,2023-09-21,34,Yes,L002
-TR0875,S0479,Electronic Health Records,2021-07-17,17,Yes,L003
-TR0876,S0121,Advanced Surgical Techniques,2020-07-21,37,Yes,L001
-TR0877,S0440,Electronic Health Records,2021-07-10,29,No,L004
-TR0878,S0087,CPR Certification,2020-06-07,7,Yes,L005
-TR0879,S0030,Electronic Health Records,2025-03-12,6,Yes,L005
-TR0880,S0109,Infection Control,2020-11-02,19,Yes,L002
-TR0881,S0109,Infection Control,2021-12-24,35,No,L003
-TR0882,S0319,Electronic Health Records,2023-01-19,9,No,L003
-TR0883,S0468,Patient Safety,2024-04-26,32,No,L002
-TR0884,S0353,Advanced Surgical Techniques,2020-12-04,24,Yes,L004
-TR0885,S0360,Electronic Health Records,2020-11-18,22,Yes,L003
-TR0886,S0132,CPR Certification,2021-10-14,4,No,L004
-TR0887,S0331,Infection Control,2020-10-14,39,Yes,L005
-TR0888,S0440,Patient Safety,2023-03-04,31,No,L003
-TR0889,S0354,CPR Certification,2023-06-28,33,Yes,L004
-TR0890,S0250,Advanced Surgical Techniques,2021-03-07,23,No,L005
-TR0891,S0209,Patient Safety,2023-05-20,40,Yes,L004
-TR0892,S0019,Electronic Health Records,2022-03-15,18,No,L001
-TR0893,S0396,CPR Certification,2024-04-02,19,Yes,L002
-TR0894,S0318,Advanced Surgical Techniques,2022-05-17,10,No,L003
-TR0895,S0257,Infection Control,2024-09-16,8,No,L002
-TR0896,S0463,CPR Certification,2023-08-27,8,No,L004
-TR0897,S0447,Advanced Surgical Techniques,2022-12-24,13,No,L004
-TR0898,S0321,Patient Safety,2023-05-13,27,Yes,L002
-TR0899,S0081,Patient Safety,2024-07-29,23,Yes,L002
-TR0900,S0331,CPR Certification,2023-10-04,8,No,L005
-TR0901,S0007,Electronic Health Records,2024-06-20,10,Yes,L003
-TR0902,S0123,Electronic Health Records,2025-04-20,27,Yes,L003
-TR0903,S0055,Electronic Health Records,2024-07-27,19,No,L003
-TR0904,S0489,Patient Safety,2024-08-04,31,Yes,L002
-TR0905,S0367,Advanced Surgical Techniques,2023-09-07,4,No,L003
-TR0906,S0031,Infection Control,2022-02-03,32,Yes,L001
-TR0907,S0121,Patient Safety,2021-09-03,11,No,L001
-TR0908,S0074,Patient Safety,2022-12-13,4,No,L002
-TR0909,S0495,Electronic Health Records,2024-07-15,9,No,L002
-TR0910,S0092,Infection Control,2020-12-19,40,No,L004
-TR0911,S0475,Advanced Surgical Techniques,2020-11-14,15,No,L001
-TR0912,S0337,Advanced Surgical Techniques,2022-01-19,40,Yes,L005
-TR0913,S0100,Electronic Health Records,2020-08-25,10,Yes,L001
-TR0914,S0104,Patient Safety,2024-01-22,29,Yes,L002
-TR0915,S0334,Patient Safety,2024-09-19,23,No,L001
-TR0916,S0178,CPR Certification,2021-02-01,27,Yes,L005
-TR0917,S0349,Infection Control,2024-09-05,10,Yes,L002
-TR0918,S0431,Electronic Health Records,2020-06-09,25,No,L004
-TR0919,S0197,CPR Certification,2023-11-30,29,No,L004
-TR0920,S0061,Infection Control,2023-06-08,21,No,L004
-TR0921,S0158,Patient Safety,2023-07-23,20,No,L001
-TR0922,S0154,Infection Control,2021-01-18,13,Yes,L002
-TR0923,S0178,Electronic Health Records,2021-07-13,22,Yes,L004
-TR0924,S0099,Infection Control,2022-07-11,11,Yes,L005
-TR0925,S0465,Electronic Health Records,2020-07-11,17,Yes,L005
-TR0926,S0423,Patient Safety,2024-07-29,4,No,L005
-TR0927,S0113,CPR Certification,2020-08-24,36,Yes,L002
-TR0928,S0357,Advanced Surgical Techniques,2022-07-11,26,No,L001
-TR0929,S0212,Infection Control,2023-01-24,5,No,L001
-TR0930,S0355,Infection Control,2024-10-21,8,Yes,L005
-TR0931,S0431,CPR Certification,2020-08-28,31,No,L003
-TR0932,S0397,Infection Control,2021-04-06,25,No,L005
-TR0933,S0282,Infection Control,2024-12-14,28,No,L002
-TR0934,S0093,Advanced Surgical Techniques,2022-10-12,38,Yes,L004
-TR0935,S0356,CPR Certification,2024-07-06,23,Yes,L003
-TR0936,S0477,Infection Control,2023-09-17,29,No,L002
-TR0937,S0443,Infection Control,2024-09-19,38,No,L004
-TR0938,S0220,Infection Control,2021-09-22,8,No,L004
-TR0939,S0103,Infection Control,2021-06-11,17,Yes,L001
-TR0940,S0199,CPR Certification,2025-04-01,17,Yes,L004
-TR0941,S0268,Infection Control,2021-07-09,39,No,L004
-TR0942,S0088,Electronic Health Records,2024-07-04,23,No,L002
-TR0943,S0302,Infection Control,2021-08-27,10,No,L003
-TR0944,S0454,Electronic Health Records,2024-03-16,27,Yes,L001
-TR0945,S0309,Infection Control,2021-06-16,15,Yes,L002
-TR0946,S0431,Infection Control,2024-07-17,11,No,L005
-TR0947,S0400,Advanced Surgical Techniques,2024-03-19,31,No,L005
-TR0948,S0131,Infection Control,2024-05-16,22,Yes,L005
-TR0949,S0210,CPR Certification,2024-05-12,9,No,L002
-TR0950,S0136,Patient Safety,2020-12-16,19,No,L005
-TR0951,S0127,CPR Certification,2022-01-25,38,No,L001
-TR0952,S0079,Infection Control,2020-07-29,8,Yes,L001
-TR0953,S0005,Infection Control,2024-09-25,20,No,L002
-TR0954,S0083,Electronic Health Records,2021-10-16,8,No,L003
-TR0955,S0368,Infection Control,2024-12-26,34,Yes,L004
-TR0956,S0261,CPR Certification,2021-10-09,24,No,L001
-TR0957,S0112,Patient Safety,2022-01-15,7,No,L004
-TR0958,S0410,Advanced Surgical Techniques,2023-10-08,31,Yes,L004
-TR0959,S0089,Infection Control,2024-02-04,19,No,L001
-TR0960,S0268,Patient Safety,2023-11-12,10,No,L002
-TR0961,S0072,Electronic Health Records,2022-04-13,8,Yes,L005
-TR0962,S0084,Electronic Health Records,2022-03-17,17,No,L004
-TR0963,S0086,Advanced Surgical Techniques,2020-10-30,24,No,L004
-TR0964,S0154,Electronic Health Records,2023-10-13,25,Yes,L003
-TR0965,S0182,Patient Safety,2025-02-20,20,Yes,L004
-TR0966,S0222,CPR Certification,2020-06-07,7,No,L003
-TR0967,S0402,Advanced Surgical Techniques,2020-07-17,29,No,L001
-TR0968,S0496,Infection Control,2022-01-08,35,No,L005
-TR0969,S0140,Infection Control,2022-01-26,19,Yes,L003
-TR0970,S0330,Advanced Surgical Techniques,2023-11-29,31,Yes,L004
-TR0971,S0491,CPR Certification,2022-06-08,10,No,L004
-TR0972,S0387,Infection Control,2025-01-06,28,No,L005
-TR0973,S0381,CPR Certification,2023-03-08,4,Yes,L004
-TR0974,S0011,Advanced Surgical Techniques,2024-07-07,11,No,L002
-TR0975,S0096,Advanced Surgical Techniques,2024-09-03,4,Yes,L003
-TR0976,S0199,Infection Control,2022-11-30,14,No,L005
-TR0977,S0060,CPR Certification,2022-04-20,13,No,L004
-TR0978,S0338,Infection Control,2024-05-28,23,No,L005
-TR0979,S0264,Advanced Surgical Techniques,2023-07-19,20,Yes,L001
-TR0980,S0236,Advanced Surgical Techniques,2020-11-11,6,No,L003
-TR0981,S0195,Advanced Surgical Techniques,2020-12-04,6,Yes,L001
-TR0982,S0121,Electronic Health Records,2022-01-19,30,Yes,L003
-TR0983,S0416,Electronic Health Records,2021-11-27,4,No,L002
-TR0984,S0458,Electronic Health Records,2023-08-13,36,Yes,L005
-TR0985,S0439,Electronic Health Records,2022-09-15,36,No,L004
-TR0986,S0014,Electronic Health Records,2021-02-16,17,Yes,L001
-TR0987,S0407,Advanced Surgical Techniques,2024-11-08,15,Yes,L002
-TR0988,S0319,Infection Control,2024-09-17,37,Yes,L003
-TR0989,S0217,Infection Control,2020-12-18,9,Yes,L004
-TR0990,S0066,Advanced Surgical Techniques,2024-07-22,33,Yes,L003
-TR0991,S0025,Infection Control,2023-12-22,17,Yes,L004
-TR0992,S0342,Infection Control,2024-10-26,22,No,L003
-TR0993,S0090,Advanced Surgical Techniques,2024-02-09,32,Yes,L004
-TR0994,S0222,Patient Safety,2022-03-12,28,Yes,L001
-TR0995,S0125,Patient Safety,2024-05-08,32,Yes,L001
-TR0996,S0272,CPR Certification,2025-01-26,16,No,L005
-TR0997,S0203,CPR Certification,2024-12-06,31,No,L004
-TR0998,S0138,Advanced Surgical Techniques,2024-06-13,19,No,L002
-TR0999,S0130,Electronic Health Records,2024-04-25,29,Yes,L003
-TR1000,S0314,Infection Control,2020-07-09,23,No,L002
-TR1001,S0122,Electronic Health Records,2021-11-11,12,No,L002
-TR1002,S0173,Infection Control,2021-01-06,13,No,L005
-TR1003,S0255,Patient Safety,2021-07-03,24,Yes,L002
-TR1004,S0349,Electronic Health Records,2024-04-12,22,Yes,L002
-TR1005,S0023,CPR Certification,2020-08-12,6,Yes,L004
-TR1006,S0470,Patient Safety,2025-04-07,28,Yes,L004
-TR1007,S0146,CPR Certification,2020-07-24,21,Yes,L005
-TR1008,S0132,Electronic Health Records,2022-09-20,30,Yes,L005
-TR1009,S0486,Electronic Health Records,2022-03-04,35,Yes,L004
-TR1010,S0092,Advanced Surgical Techniques,2020-07-07,39,No,L002
-TR1011,S0090,Infection Control,2024-12-11,13,Yes,L005
-TR1012,S0280,CPR Certification,2021-01-01,23,Yes,L005
-TR1013,S0182,CPR Certification,2022-08-29,8,Yes,L004
-TR1014,S0397,Infection Control,2023-12-22,28,Yes,L002
-TR1015,S0444,Electronic Health Records,2020-06-04,22,Yes,L001
-TR1016,S0246,Advanced Surgical Techniques,2021-05-21,24,Yes,L001
-TR1017,S0074,Electronic Health Records,2023-08-06,5,No,L001
-TR1018,S0101,Patient Safety,2021-04-28,40,Yes,L001
-TR1019,S0307,Electronic Health Records,2024-04-25,4,Yes,L003
-TR1020,S0354,Patient Safety,2021-03-21,36,Yes,L002
-TR1021,S0285,Patient Safety,2021-06-28,9,Yes,L004
-TR1022,S0332,Electronic Health Records,2025-02-16,26,No,L001
-TR1023,S0477,Patient Safety,2020-07-28,8,Yes,L004
-TR1024,S0260,Patient Safety,2023-11-27,12,Yes,L003
-TR1025,S0119,Advanced Surgical Techniques,2020-05-25,32,Yes,L004
-TR1026,S0248,Patient Safety,2024-10-09,16,No,L003
-TR1027,S0176,Advanced Surgical Techniques,2021-07-22,23,Yes,L004
-TR1028,S0115,Advanced Surgical Techniques,2023-07-09,37,Yes,L002
-TR1029,S0194,Patient Safety,2021-06-18,34,No,L004
-TR1030,S0224,Electronic Health Records,2021-02-21,32,No,L001
-TR1031,S0311,CPR Certification,2023-04-26,39,Yes,L005
-TR1032,S0142,Electronic Health Records,2023-12-19,24,No,L005
-TR1033,S0493,Advanced Surgical Techniques,2020-08-22,38,No,L001
-TR1034,S0366,Patient Safety,2020-12-19,4,Yes,L002
-TR1035,S0139,Electronic Health Records,2024-06-05,4,No,L002
-TR1036,S0368,Advanced Surgical Techniques,2021-01-22,18,Yes,L005
-TR1037,S0156,CPR Certification,2020-05-09,37,Yes,L002
-TR1038,S0229,Patient Safety,2022-06-30,15,No,L005
-TR1039,S0348,Patient Safety,2022-09-23,30,Yes,L003
-TR1040,S0229,Electronic Health Records,2020-07-03,24,No,L002
-TR1041,S0155,Patient Safety,2023-09-07,14,No,L002
-TR1042,S0365,Electronic Health Records,2021-05-02,4,Yes,L005
-TR1043,S0134,Electronic Health Records,2023-08-08,29,Yes,L005
-TR1044,S0394,Electronic Health Records,2024-06-12,20,Yes,L001
-TR1045,S0337,Patient Safety,2023-11-14,18,No,L002
-TR1046,S0225,Patient Safety,2022-12-30,39,Yes,L003
-TR1047,S0082,Electronic Health Records,2020-07-13,10,No,L001
-TR1048,S0120,Electronic Health Records,2024-05-10,39,Yes,L002
-TR1049,S0086,Patient Safety,2024-07-10,35,No,L001
-TR1050,S0224,Patient Safety,2022-07-19,29,No,L004
-TR1051,S0350,Electronic Health Records,2020-12-12,31,Yes,L004
-TR1052,S0132,CPR Certification,2023-04-07,31,No,L002
-TR1053,S0172,CPR Certification,2022-12-22,25,Yes,L005
-TR1054,S0129,Electronic Health Records,2023-04-13,37,No,L001
-TR1055,S0176,Patient Safety,2020-09-20,14,No,L001
-TR1056,S0093,Patient Safety,2024-10-05,23,No,L002
-TR1057,S0390,Advanced Surgical Techniques,2021-08-15,6,No,L001
-TR1058,S0180,Patient Safety,2021-03-21,5,Yes,L004
-TR1059,S0222,Infection Control,2025-02-17,8,Yes,L004
-TR1060,S0280,Infection Control,2022-04-23,35,Yes,L003
-TR1061,S0172,Electronic Health Records,2023-01-18,13,No,L001
-TR1062,S0459,Infection Control,2024-09-24,29,No,L003
-TR1063,S0292,Electronic Health Records,2021-08-02,27,No,L005
-TR1064,S0412,Patient Safety,2021-07-25,6,Yes,L001
-TR1065,S0311,CPR Certification,2024-10-29,28,Yes,L005
-TR1066,S0041,Infection Control,2023-11-19,26,No,L001
-TR1067,S0374,Electronic Health Records,2023-09-12,33,Yes,L001
-TR1068,S0463,Infection Control,2021-05-31,16,Yes,L001
-TR1069,S0027,Infection Control,2024-09-08,14,Yes,L001
-TR1070,S0295,Patient Safety,2023-05-07,34,Yes,L005
-TR1071,S0096,Electronic Health Records,2021-06-25,16,Yes,L005
-TR1072,S0134,Patient Safety,2022-02-16,10,No,L001
-TR1073,S0369,CPR Certification,2022-02-09,37,Yes,L004
-TR1074,S0500,Patient Safety,2024-01-05,32,No,L005
-TR1075,S0199,Electronic Health Records,2024-02-28,6,No,L001
-TR1076,S0489,Electronic Health Records,2022-08-05,35,Yes,L002
-TR1077,S0254,Infection Control,2021-06-17,6,Yes,L005
-TR1078,S0055,Infection Control,2020-05-02,18,Yes,L005
-TR1079,S0103,CPR Certification,2023-01-03,5,Yes,L004
-TR1080,S0135,Patient Safety,2021-09-07,20,Yes,L005
-TR1081,S0497,CPR Certification,2024-10-06,18,Yes,L004
-TR1082,S0079,Patient Safety,2022-07-25,26,Yes,L004
-TR1083,S0223,CPR Certification,2024-10-03,19,Yes,L004
-TR1084,S0141,Electronic Health Records,2024-07-29,17,No,L003
-TR1085,S0411,Electronic Health Records,2020-11-17,10,No,L002
-TR1086,S0378,Advanced Surgical Techniques,2021-05-29,17,Yes,L002
-TR1087,S0260,CPR Certification,2023-10-16,6,No,L005
-TR1088,S0325,Infection Control,2022-08-19,35,Yes,L001
-TR1089,S0154,Advanced Surgical Techniques,2024-12-31,34,Yes,L001
-TR1090,S0324,Electronic Health Records,2021-12-16,39,Yes,L002
-TR1091,S0329,Electronic Health Records,2025-01-11,39,No,L002
-TR1092,S0193,Electronic Health Records,2022-10-15,4,Yes,L004
-TR1093,S0184,Advanced Surgical Techniques,2020-07-05,27,No,L005
-TR1094,S0477,Patient Safety,2024-09-22,30,Yes,L005
-TR1095,S0098,Electronic Health Records,2024-12-27,8,Yes,L001
-TR1096,S0052,Infection Control,2020-09-09,14,No,L001
-TR1097,S0199,CPR Certification,2020-07-10,16,Yes,L003
-TR1098,S0327,Patient Safety,2022-10-10,28,No,L001
-TR1099,S0264,CPR Certification,2021-12-21,40,Yes,L002
-TR1100,S0432,Electronic Health Records,2022-01-01,15,Yes,L002
-TR1101,S0005,CPR Certification,2024-09-06,17,No,L003
-TR1102,S0478,Infection Control,2023-04-01,22,No,L003
-TR1103,S0211,Electronic Health Records,2023-04-13,30,No,L005
-TR1104,S0198,Infection Control,2022-11-27,15,Yes,L003
-TR1105,S0497,Electronic Health Records,2020-07-10,27,No,L005
-TR1106,S0175,CPR Certification,2021-03-15,28,Yes,L004
-TR1107,S0105,Electronic Health Records,2024-04-17,31,No,L004
-TR1108,S0199,Infection Control,2021-06-06,39,Yes,L003
-TR1109,S0023,Patient Safety,2022-07-15,35,No,L003
-TR1110,S0218,Electronic Health Records,2021-10-03,34,No,L002
-TR1111,S0055,CPR Certification,2022-09-16,32,Yes,L001
-TR1112,S0034,CPR Certification,2025-01-20,30,No,L003
-TR1113,S0013,Electronic Health Records,2022-10-02,20,No,L005
-TR1114,S0230,Patient Safety,2025-03-17,13,Yes,L001
-TR1115,S0388,Electronic Health Records,2021-01-20,8,No,L002
-TR1116,S0126,CPR Certification,2021-11-04,21,Yes,L001
-TR1117,S0270,CPR Certification,2020-07-19,9,Yes,L002
-TR1118,S0006,CPR Certification,2023-12-01,25,Yes,L003
-TR1119,S0362,CPR Certification,2022-10-19,31,Yes,L002
-TR1120,S0047,Patient Safety,2022-05-09,8,No,L002
-TR1121,S0145,Infection Control,2020-08-05,5,No,L001
-TR1122,S0152,Electronic Health Records,2020-10-27,26,No,L002
-TR1123,S0231,Infection Control,2020-09-09,26,Yes,L005
-TR1124,S0480,Infection Control,2022-07-27,9,No,L002
-TR1125,S0327,CPR Certification,2021-07-19,27,Yes,L005
-TR1126,S0484,Electronic Health Records,2023-06-24,32,Yes,L002
-TR1127,S0051,Infection Control,2025-03-02,8,Yes,L003
-TR1128,S0331,Electronic Health Records,2021-08-21,21,Yes,L004
-TR1129,S0412,Electronic Health Records,2020-09-27,29,Yes,L001
-TR1130,S0055,Electronic Health Records,2023-01-20,20,Yes,L004
-TR1131,S0462,Electronic Health Records,2022-06-07,5,No,L002
-TR1132,S0030,Advanced Surgical Techniques,2021-08-13,23,Yes,L003
-TR1133,S0185,CPR Certification,2020-12-18,12,Yes,L002
-TR1134,S0289,Electronic Health Records,2023-02-12,26,Yes,L003
-TR1135,S0173,Electronic Health Records,2022-12-29,21,Yes,L003
-TR1136,S0197,Infection Control,2020-11-02,6,No,L002
-TR1137,S0193,Infection Control,2022-06-03,29,Yes,L005
-TR1138,S0066,CPR Certification,2021-08-10,37,Yes,L005
-TR1139,S0021,Infection Control,2024-01-28,19,No,L002
-TR1140,S0270,Electronic Health Records,2022-10-08,35,Yes,L004
-TR1141,S0139,Infection Control,2021-02-18,8,No,L005
-TR1142,S0134,CPR Certification,2023-10-05,33,Yes,L002
-TR1143,S0381,Infection Control,2024-02-12,30,Yes,L003
-TR1144,S0165,Electronic Health Records,2024-11-13,23,Yes,L002
-TR1145,S0022,Advanced Surgical Techniques,2023-07-27,37,Yes,L001
-TR1146,S0370,Patient Safety,2022-11-04,9,No,L002
-TR1147,S0155,Electronic Health Records,2023-04-14,16,Yes,L004
-TR1148,S0002,Patient Safety,2021-03-25,34,Yes,L001
-TR1149,S0447,Patient Safety,2023-06-30,37,No,L001
-TR1150,S0424,Patient Safety,2024-08-22,39,Yes,L003
-TR1151,S0241,CPR Certification,2024-01-14,4,Yes,L001
-TR1152,S0392,Infection Control,2024-04-06,22,Yes,L004
-TR1153,S0107,Electronic Health Records,2021-10-14,28,Yes,L004
-TR1154,S0135,Infection Control,2020-11-03,39,Yes,L004
-TR1155,S0055,Patient Safety,2024-07-12,40,No,L001
-TR1156,S0426,CPR Certification,2023-03-29,20,No,L005
-TR1157,S0248,Infection Control,2021-02-24,39,No,L004
-TR1158,S0004,Advanced Surgical Techniques,2023-02-03,23,Yes,L004
-TR1159,S0120,Infection Control,2025-03-02,29,No,L004
-TR1160,S0134,CPR Certification,2023-01-11,38,Yes,L001
-TR1161,S0387,Infection Control,2022-05-21,38,No,L004
-TR1162,S0231,Advanced Surgical Techniques,2024-12-21,8,Yes,L004
-TR1163,S0438,Infection Control,2022-12-22,39,No,L003
-TR1164,S0408,Advanced Surgical Techniques,2023-12-04,24,Yes,L002
-TR1165,S0300,CPR Certification,2021-02-05,25,Yes,L004
-TR1166,S0115,Patient Safety,2025-04-10,38,Yes,L004
-TR1167,S0441,CPR Certification,2024-05-08,21,Yes,L004
-TR1168,S0122,Infection Control,2021-11-29,10,No,L002
-TR1169,S0033,Advanced Surgical Techniques,2024-03-03,12,No,L005
-TR1170,S0493,Advanced Surgical Techniques,2024-09-09,24,No,L002
-TR1171,S0388,CPR Certification,2022-04-28,23,Yes,L004
-TR1172,S0009,Advanced Surgical Techniques,2023-08-02,28,Yes,L003
-TR1173,S0415,CPR Certification,2024-08-29,25,No,L003
-TR1174,S0214,Patient Safety,2023-10-19,17,Yes,L001
-TR1175,S0281,CPR Certification,2020-04-24,23,No,L004
-TR1176,S0301,Advanced Surgical Techniques,2020-11-13,34,Yes,L001
-TR1177,S0419,Electronic Health Records,2020-07-02,25,Yes,L002
-TR1178,S0318,Advanced Surgical Techniques,2020-06-23,34,Yes,L001
-TR1179,S0013,Electronic Health Records,2022-08-03,32,Yes,L003
-TR1180,S0228,Patient Safety,2020-09-07,19,No,L005
-TR1181,S0114,Patient Safety,2024-10-05,34,Yes,L003
-TR1182,S0434,CPR Certification,2020-11-12,8,No,L002
-TR1183,S0309,Patient Safety,2024-01-06,28,Yes,L004
-TR1184,S0154,Infection Control,2021-06-06,9,No,L004
-TR1185,S0189,Patient Safety,2024-06-06,21,No,L004
-TR1186,S0453,Electronic Health Records,2021-05-07,14,Yes,L001
-TR1187,S0448,Advanced Surgical Techniques,2021-04-12,35,Yes,L004
-TR1188,S0336,Infection Control,2024-03-12,27,No,L002
-TR1189,S0317,Electronic Health Records,2021-06-05,20,No,L003
-TR1190,S0331,Electronic Health Records,2020-08-29,39,Yes,L001
-TR1191,S0374,Electronic Health Records,2023-05-29,33,No,L005
-TR1192,S0035,Electronic Health Records,2022-06-28,15,No,L003
-TR1193,S0417,Advanced Surgical Techniques,2023-01-06,14,No,L002
-TR1194,S0213,Infection Control,2022-12-17,29,Yes,L005
-TR1195,S0217,CPR Certification,2023-12-31,32,Yes,L001
-TR1196,S0451,Patient Safety,2020-05-11,8,No,L004
-TR1197,S0283,Advanced Surgical Techniques,2024-06-09,34,No,L005
-TR1198,S0421,Infection Control,2025-02-28,34,No,L005
-TR1199,S0158,CPR Certification,2023-03-14,5,Yes,L005
-TR1200,S0174,Advanced Surgical Techniques,2021-03-13,4,Yes,L001
-TR1201,S0256,Advanced Surgical Techniques,2025-02-10,38,Yes,L005
-TR1202,S0120,CPR Certification,2024-10-22,10,Yes,L001
-TR1203,S0418,Advanced Surgical Techniques,2020-10-20,26,No,L004
-TR1204,S0409,Infection Control,2024-04-29,6,Yes,L004
-TR1205,S0063,Advanced Surgical Techniques,2020-12-19,16,Yes,L002
-TR1206,S0249,Advanced Surgical Techniques,2023-10-27,5,No,L002
-TR1207,S0102,CPR Certification,2024-05-20,16,No,L001
-TR1208,S0203,CPR Certification,2023-12-15,8,No,L003
-TR1209,S0422,Infection Control,2020-05-08,35,No,L004
-TR1210,S0148,Infection Control,2023-12-24,26,Yes,L005
-TR1211,S0413,Advanced Surgical Techniques,2021-05-11,8,Yes,L002
-TR1212,S0480,Patient Safety,2020-08-24,27,No,L002
-TR1213,S0380,Electronic Health Records,2023-01-24,8,No,L003
-TR1214,S0070,CPR Certification,2022-12-05,16,No,L001
-TR1215,S0299,Advanced Surgical Techniques,2021-11-09,21,No,L004
-TR1216,S0260,Advanced Surgical Techniques,2022-02-19,4,No,L005
-TR1217,S0241,Electronic Health Records,2020-07-11,22,Yes,L002
-TR1218,S0434,Advanced Surgical Techniques,2024-07-02,33,Yes,L001
-TR1219,S0122,Infection Control,2023-03-07,6,Yes,L005
-TR1220,S0104,Electronic Health Records,2023-09-27,16,Yes,L004
-TR1221,S0204,Infection Control,2021-06-06,28,No,L002
-TR1222,S0129,Electronic Health Records,2021-05-01,22,Yes,L005
-TR1223,S0106,CPR Certification,2022-05-27,33,No,L003
-TR1224,S0309,CPR Certification,2020-05-01,36,No,L005
-TR1225,S0195,Electronic Health Records,2022-12-28,7,No,L002
-TR1226,S0192,Advanced Surgical Techniques,2023-01-16,23,No,L002
-TR1227,S0031,Patient Safety,2024-07-23,32,No,L002
-TR1228,S0321,Infection Control,2024-06-03,22,Yes,L001
-TR1229,S0455,Infection Control,2022-02-11,25,No,L005
-TR1230,S0468,Advanced Surgical Techniques,2020-09-23,29,No,L002
-TR1231,S0457,Advanced Surgical Techniques,2023-03-23,19,No,L002
-TR1232,S0076,Patient Safety,2024-12-09,8,Yes,L001
-TR1233,S0421,Patient Safety,2020-09-17,7,No,L001
-TR1234,S0286,Electronic Health Records,2022-01-24,20,No,L003
-TR1235,S0218,Infection Control,2023-07-10,6,No,L003
-TR1236,S0305,Electronic Health Records,2022-10-01,13,Yes,L001
-TR1237,S0182,CPR Certification,2023-04-19,21,Yes,L002
-TR1238,S0103,CPR Certification,2021-08-26,31,No,L004
-TR1239,S0454,Electronic Health Records,2021-12-08,17,No,L002
-TR1240,S0213,Advanced Surgical Techniques,2024-07-29,28,Yes,L005
-TR1241,S0439,CPR Certification,2023-06-18,37,Yes,L005
-TR1242,S0330,CPR Certification,2022-09-15,28,Yes,L002
-TR1243,S0147,Infection Control,2022-02-22,5,No,L005
-TR1244,S0191,CPR Certification,2021-09-29,24,Yes,L005
-TR1245,S0264,Electronic Health Records,2024-06-14,6,No,L004
-TR1246,S0445,Patient Safety,2020-09-20,31,Yes,L005
-TR1247,S0417,Patient Safety,2022-03-15,29,Yes,L003
-TR1248,S0251,Advanced Surgical Techniques,2020-11-29,40,Yes,L002
-TR1249,S0364,Electronic Health Records,2025-02-12,38,Yes,L002
-TR1250,S0028,Advanced Surgical Techniques,2020-10-20,31,Yes,L005
-TR1251,S0279,Infection Control,2022-06-09,5,No,L001
-TR1252,S0355,Infection Control,2020-09-22,33,No,L002
-TR1253,S0320,Advanced Surgical Techniques,2023-05-06,14,Yes,L005
-TR1254,S0336,Advanced Surgical Techniques,2023-10-11,25,No,L005
-TR1255,S0021,Electronic Health Records,2021-11-29,21,No,L001
-TR1256,S0496,Patient Safety,2023-11-07,12,Yes,L002
-TR1257,S0368,Patient Safety,2021-12-05,24,Yes,L005
-TR1258,S0487,CPR Certification,2023-09-06,4,Yes,L002
-TR1259,S0129,Patient Safety,2021-04-20,34,Yes,L003
-TR1260,S0419,Infection Control,2023-11-20,29,No,L004
-TR1261,S0368,Infection Control,2022-12-15,5,No,L001
-TR1262,S0272,Patient Safety,2020-04-27,13,No,L003
-TR1263,S0343,CPR Certification,2021-08-18,18,No,L001
-TR1264,S0047,Infection Control,2023-02-14,13,Yes,L004
-TR1265,S0064,Electronic Health Records,2020-06-12,26,Yes,L003
-TR1266,S0120,Electronic Health Records,2020-11-15,30,Yes,L001
-TR1267,S0263,Infection Control,2022-03-16,10,Yes,L002
-TR1268,S0024,Advanced Surgical Techniques,2021-05-30,33,Yes,L001
-TR1269,S0008,Infection Control,2025-01-07,36,Yes,L005
-TR1270,S0273,Advanced Surgical Techniques,2024-06-02,29,Yes,L005
-TR1271,S0401,Advanced Surgical Techniques,2023-08-09,38,No,L004
-TR1272,S0384,Patient Safety,2024-01-25,7,Yes,L005
-TR1273,S0084,Advanced Surgical Techniques,2023-12-25,34,Yes,L001
-TR1274,S0335,Electronic Health Records,2020-05-05,10,No,L005
-TR1275,S0216,CPR Certification,2020-08-04,5,Yes,L003
-TR1276,S0065,Advanced Surgical Techniques,2020-06-24,21,Yes,L002
-TR1277,S0457,Infection Control,2024-05-03,21,Yes,L002
-TR1278,S0347,Patient Safety,2020-10-11,31,No,L003
-TR1279,S0130,Patient Safety,2023-11-21,20,No,L005
-TR1280,S0357,Advanced Surgical Techniques,2023-09-29,7,No,L005
-TR1281,S0490,Electronic Health Records,2023-09-10,35,No,L001
-TR1282,S0393,CPR Certification,2024-03-25,31,No,L001
-TR1283,S0283,CPR Certification,2023-01-20,19,Yes,L005
-TR1284,S0205,Patient Safety,2024-05-31,12,No,L003
-TR1285,S0346,CPR Certification,2020-10-03,19,Yes,L005
-TR1286,S0372,Advanced Surgical Techniques,2022-12-20,24,No,L002
-TR1287,S0240,CPR Certification,2024-03-18,16,Yes,L001
-TR1288,S0112,Infection Control,2022-06-02,9,No,L004
-TR1289,S0421,Patient Safety,2021-03-12,29,No,L002
-TR1290,S0291,CPR Certification,2022-02-18,18,Yes,L004
-TR1291,S0126,CPR Certification,2022-07-25,18,Yes,L004
-TR1292,S0418,CPR Certification,2024-10-20,9,No,L003
-TR1293,S0060,Electronic Health Records,2021-09-24,17,Yes,L001
-TR1294,S0395,CPR Certification,2021-07-26,35,No,L002
-TR1295,S0429,Infection Control,2024-07-28,9,No,L001
-TR1296,S0075,Patient Safety,2024-04-01,9,No,L004
-TR1297,S0335,Advanced Surgical Techniques,2025-02-14,17,No,L003
-TR1298,S0325,Electronic Health Records,2020-12-22,21,No,L004
-TR1299,S0375,Advanced Surgical Techniques,2025-03-06,22,Yes,L003
-TR1300,S0034,Advanced Surgical Techniques,2022-12-13,35,No,L004
-TR1301,S0009,Patient Safety,2024-10-30,39,No,L002
-TR1302,S0296,Electronic Health Records,2021-11-07,8,Yes,L004
-TR1303,S0440,Electronic Health Records,2022-02-11,19,Yes,L002
-TR1304,S0027,Electronic Health Records,2024-02-02,37,Yes,L004
-TR1305,S0459,Patient Safety,2021-07-27,7,Yes,L002
-TR1306,S0441,Infection Control,2024-04-11,6,No,L003
-TR1307,S0079,Electronic Health Records,2024-10-18,27,No,L003
-TR1308,S0050,CPR Certification,2025-01-08,19,No,L003
-TR1309,S0015,Patient Safety,2022-09-06,29,No,L004
-TR1310,S0232,Patient Safety,2023-01-08,10,Yes,L001
-TR1311,S0135,CPR Certification,2023-04-25,22,Yes,L002
-TR1312,S0036,CPR Certification,2022-05-15,24,Yes,L001
-TR1313,S0436,Infection Control,2023-07-14,19,Yes,L001
-TR1314,S0056,Patient Safety,2025-03-21,36,Yes,L001
-TR1315,S0206,Advanced Surgical Techniques,2020-11-11,35,Yes,L002
-TR1316,S0248,CPR Certification,2023-03-05,4,Yes,L003
-TR1317,S0107,Advanced Surgical Techniques,2022-10-22,15,No,L001
-TR1318,S0146,Advanced Surgical Techniques,2024-08-17,31,No,L004
-TR1319,S0097,Infection Control,2025-01-10,31,Yes,L001
-TR1320,S0244,Advanced Surgical Techniques,2021-03-31,16,Yes,L005
-TR1321,S0098,Patient Safety,2021-12-21,20,Yes,L002
-TR1322,S0362,Electronic Health Records,2022-08-15,12,Yes,L001
-TR1323,S0484,Infection Control,2020-05-10,32,No,L001
-TR1324,S0214,Advanced Surgical Techniques,2024-12-13,37,No,L001
-TR1325,S0178,Patient Safety,2022-07-28,38,Yes,L005
-TR1326,S0028,CPR Certification,2021-11-14,30,No,L002
-TR1327,S0332,Patient Safety,2021-07-25,10,No,L002
-TR1328,S0168,Infection Control,2023-02-06,34,Yes,L005
-TR1329,S0150,Patient Safety,2020-12-08,35,No,L004
-TR1330,S0266,CPR Certification,2024-09-30,29,No,L005
-TR1331,S0495,Electronic Health Records,2024-08-13,31,No,L004
-TR1332,S0179,Advanced Surgical Techniques,2024-09-23,35,No,L005
-TR1333,S0309,Electronic Health Records,2024-07-15,6,Yes,L004
-TR1334,S0478,Infection Control,2023-09-03,25,Yes,L002
-TR1335,S0233,Infection Control,2022-08-28,9,No,L001
-TR1336,S0292,Infection Control,2023-01-02,5,No,L001
-TR1337,S0289,CPR Certification,2020-12-11,30,No,L002
-TR1338,S0041,CPR Certification,2022-12-10,13,Yes,L005
-TR1339,S0422,CPR Certification,2024-10-25,24,Yes,L005
-TR1340,S0444,Electronic Health Records,2020-07-23,36,No,L004
-TR1341,S0066,Electronic Health Records,2024-07-19,4,Yes,L002
-TR1342,S0043,Patient Safety,2024-02-18,7,No,L005
-TR1343,S0034,Patient Safety,2020-05-26,8,No,L005
-TR1344,S0362,Patient Safety,2021-09-06,17,Yes,L003
-TR1345,S0379,CPR Certification,2022-01-21,35,No,L002
-TR1346,S0316,Infection Control,2024-02-14,7,No,L002
-TR1347,S0036,Electronic Health Records,2021-09-27,11,No,L004
-TR1348,S0140,Patient Safety,2021-08-28,12,Yes,L003
-TR1349,S0319,CPR Certification,2023-02-27,11,Yes,L002
-TR1350,S0051,Patient Safety,2023-01-02,38,No,L002
-TR1351,S0411,Patient Safety,2025-03-24,33,No,L002
-TR1352,S0183,Patient Safety,2021-02-25,7,No,L004
-TR1353,S0204,Patient Safety,2023-09-10,31,Yes,L005
-TR1354,S0433,CPR Certification,2024-07-21,40,Yes,L001
-TR1355,S0335,Infection Control,2023-03-18,24,Yes,L003
-TR1356,S0294,Patient Safety,2024-03-26,27,Yes,L005
-TR1357,S0171,CPR Certification,2024-04-30,33,No,L003
-TR1358,S0156,Infection Control,2023-12-02,5,Yes,L003
-TR1359,S0197,Patient Safety,2022-03-16,19,Yes,L003
-TR1360,S0379,Advanced Surgical Techniques,2024-06-22,8,Yes,L005
-TR1361,S0255,Advanced Surgical Techniques,2024-10-01,39,No,L003
-TR1362,S0265,Electronic Health Records,2022-06-14,40,No,L005
-TR1363,S0305,Infection Control,2021-04-04,33,Yes,L003
-TR1364,S0499,Electronic Health Records,2023-01-29,16,No,L005
-TR1365,S0403,Advanced Surgical Techniques,2024-11-29,23,No,L002
-TR1366,S0155,Advanced Surgical Techniques,2023-05-31,7,Yes,L001
-TR1367,S0188,Advanced Surgical Techniques,2021-02-28,11,No,L001
-TR1368,S0188,CPR Certification,2020-07-29,19,Yes,L005
-TR1369,S0338,CPR Certification,2025-02-07,7,No,L001
-TR1370,S0091,Electronic Health Records,2023-02-11,34,No,L001
-TR1371,S0328,Infection Control,2023-03-05,6,No,L002
-TR1372,S0174,Patient Safety,2023-03-22,8,Yes,L002
-TR1373,S0365,CPR Certification,2022-06-22,32,Yes,L001
-TR1374,S0219,CPR Certification,2022-10-02,21,No,L005
-TR1375,S0024,Advanced Surgical Techniques,2020-09-29,19,Yes,L005
-TR1376,S0005,Electronic Health Records,2023-08-12,18,No,L004
-TR1377,S0167,Advanced Surgical Techniques,2023-12-22,23,Yes,L005
-TR1378,S0140,Electronic Health Records,2021-11-29,12,Yes,L003
-TR1379,S0093,Electronic Health Records,2022-03-06,24,No,L004
-TR1380,S0149,Infection Control,2023-08-03,33,Yes,L005
-TR1381,S0011,Infection Control,2024-01-20,33,Yes,L001
-TR1382,S0022,Infection Control,2021-12-26,14,Yes,L001
-TR1383,S0150,CPR Certification,2021-07-09,15,No,L004
-TR1384,S0363,Advanced Surgical Techniques,2022-05-28,13,No,L005
-TR1385,S0124,Infection Control,2025-02-09,40,Yes,L001
-TR1386,S0234,Patient Safety,2022-09-30,7,No,L004
-TR1387,S0220,Advanced Surgical Techniques,2020-09-25,35,Yes,L005
-TR1388,S0169,Infection Control,2020-12-10,5,Yes,L002
-TR1389,S0478,Electronic Health Records,2022-05-25,4,Yes,L002
-TR1390,S0253,Patient Safety,2024-05-07,14,Yes,L005
-TR1391,S0101,Advanced Surgical Techniques,2024-07-30,18,Yes,L003
-TR1392,S0004,Advanced Surgical Techniques,2022-09-30,34,No,L002
-TR1393,S0046,Infection Control,2020-10-12,32,Yes,L002
-TR1394,S0073,CPR Certification,2021-08-23,5,Yes,L002
-TR1395,S0376,Electronic Health Records,2023-05-09,21,No,L001
-TR1396,S0430,Patient Safety,2023-04-12,17,Yes,L003
-TR1397,S0451,Electronic Health Records,2021-08-31,7,No,L002
-TR1398,S0394,Patient Safety,2021-05-24,15,No,L004
-TR1399,S0341,Electronic Health Records,2024-04-21,8,No,L004
-TR1400,S0106,Advanced Surgical Techniques,2024-09-21,17,No,L001
-TR1401,S0005,Patient Safety,2023-07-10,34,No,L005
-TR1402,S0082,CPR Certification,2021-04-26,39,Yes,L004
-TR1403,S0131,Patient Safety,2024-12-30,40,No,L001
-TR1404,S0471,Patient Safety,2024-07-20,7,No,L004
-TR1405,S0137,Electronic Health Records,2024-09-25,20,No,L005
-TR1406,S0268,Electronic Health Records,2022-04-11,12,No,L002
-TR1407,S0402,Infection Control,2024-11-28,6,Yes,L001
-TR1408,S0287,CPR Certification,2023-04-30,25,Yes,L002
-TR1409,S0447,Patient Safety,2023-06-12,26,No,L004
-TR1410,S0357,Infection Control,2023-11-10,10,Yes,L004
-TR1411,S0139,Infection Control,2022-03-02,10,Yes,L005
-TR1412,S0006,Electronic Health Records,2023-08-26,20,Yes,L005
-TR1413,S0437,Advanced Surgical Techniques,2021-03-18,7,Yes,L003
-TR1414,S0393,CPR Certification,2022-03-09,16,No,L003
-TR1415,S0448,Advanced Surgical Techniques,2024-01-09,11,No,L001
-TR1416,S0116,CPR Certification,2024-03-22,37,Yes,L005
-TR1417,S0355,Patient Safety,2022-05-03,18,No,L004
-TR1418,S0066,CPR Certification,2021-11-29,15,Yes,L005
-TR1419,S0199,Infection Control,2025-04-16,40,No,L005
-TR1420,S0307,Patient Safety,2024-02-04,7,No,L002
-TR1421,S0114,CPR Certification,2023-03-26,28,Yes,L001
-TR1422,S0018,Advanced Surgical Techniques,2020-08-29,40,Yes,L002
-TR1423,S0007,Infection Control,2023-07-09,7,Yes,L005
-TR1424,S0060,Infection Control,2021-12-21,33,No,L005
-TR1425,S0159,Patient Safety,2023-10-14,6,No,L002
-TR1426,S0359,Advanced Surgical Techniques,2024-02-29,25,Yes,L004
-TR1427,S0259,Infection Control,2025-03-28,33,Yes,L005
-TR1428,S0221,Advanced Surgical Techniques,2020-08-02,14,Yes,L002
-TR1429,S0143,Patient Safety,2022-01-10,34,No,L002
-TR1430,S0067,Infection Control,2024-05-17,25,Yes,L003
-TR1431,S0016,Advanced Surgical Techniques,2020-08-12,28,No,L001
-TR1432,S0429,CPR Certification,2023-09-14,35,No,L005
-TR1433,S0439,CPR Certification,2023-12-15,31,Yes,L004
-TR1434,S0324,CPR Certification,2021-10-24,30,Yes,L002
-TR1435,S0250,Patient Safety,2022-12-05,17,No,L005
-TR1436,S0376,Electronic Health Records,2024-11-26,31,No,L002
-TR1437,S0274,CPR Certification,2023-11-26,12,No,L002
-TR1438,S0220,CPR Certification,2024-02-13,18,Yes,L002
-TR1439,S0360,Electronic Health Records,2021-06-24,39,No,L001
-TR1440,S0065,Infection Control,2021-01-21,17,No,L001
-TR1441,S0082,Infection Control,2025-02-14,30,Yes,L001
-TR1442,S0094,Infection Control,2024-11-10,23,No,L004
-TR1443,S0157,Infection Control,2020-05-07,34,No,L001
-TR1444,S0139,Advanced Surgical Techniques,2022-03-13,36,Yes,L005
-TR1445,S0335,Patient Safety,2021-08-16,4,Yes,L001
-TR1446,S0011,Patient Safety,2022-05-25,11,No,L003
-TR1447,S0108,CPR Certification,2020-07-31,30,No,L003
-TR1448,S0478,Infection Control,2021-10-26,35,Yes,L003
-TR1449,S0493,Infection Control,2024-05-18,30,No,L003
-TR1450,S0134,Infection Control,2023-12-18,23,No,L005
-TR1451,S0391,Patient Safety,2023-03-29,27,Yes,L002
-TR1452,S0100,CPR Certification,2024-05-24,4,No,L004
-TR1453,S0475,Infection Control,2020-07-20,17,Yes,L003
-TR1454,S0077,Electronic Health Records,2020-12-12,13,No,L003
-TR1455,S0352,CPR Certification,2023-05-17,16,Yes,L002
-TR1456,S0251,Infection Control,2021-11-18,40,No,L005
-TR1457,S0294,Electronic Health Records,2023-03-11,29,No,L002
-TR1458,S0085,CPR Certification,2023-10-13,12,Yes,L002
-TR1459,S0272,Infection Control,2022-11-19,12,No,L005
-TR1460,S0470,CPR Certification,2024-03-25,39,Yes,L001
-TR1461,S0399,Advanced Surgical Techniques,2020-06-20,6,Yes,L001
-TR1462,S0368,CPR Certification,2021-01-30,9,No,L003
-TR1463,S0098,Patient Safety,2022-09-27,21,Yes,L004
-TR1464,S0126,Advanced Surgical Techniques,2022-09-22,16,No,L004
-TR1465,S0079,Patient Safety,2023-04-19,19,Yes,L004
-TR1466,S0487,Advanced Surgical Techniques,2023-06-10,24,No,L003
-TR1467,S0394,CPR Certification,2021-11-14,7,Yes,L004
-TR1468,S0342,Electronic Health Records,2021-09-02,9,No,L003
-TR1469,S0089,Advanced Surgical Techniques,2024-01-20,25,Yes,L004
-TR1470,S0319,CPR Certification,2024-09-24,9,Yes,L003
-TR1471,S0059,Advanced Surgical Techniques,2022-08-06,17,No,L002
-TR1472,S0189,Advanced Surgical Techniques,2022-09-17,22,Yes,L001
-TR1473,S0300,CPR Certification,2021-06-13,18,No,L004
-TR1474,S0102,Electronic Health Records,2020-09-03,4,Yes,L003
-TR1475,S0244,Advanced Surgical Techniques,2022-05-23,13,No,L001
-TR1476,S0115,Patient Safety,2023-10-22,10,Yes,L004
-TR1477,S0084,CPR Certification,2022-05-30,18,Yes,L001
-TR1478,S0321,Patient Safety,2021-04-16,7,Yes,L001
-TR1479,S0038,Electronic Health Records,2022-05-22,37,Yes,L001
-TR1480,S0091,Electronic Health Records,2022-07-04,30,No,L001
-TR1481,S0049,Advanced Surgical Techniques,2020-09-22,5,Yes,L005
-TR1482,S0421,Patient Safety,2020-05-05,9,Yes,L004
-TR1483,S0373,CPR Certification,2023-10-01,37,Yes,L003
-TR1484,S0417,Electronic Health Records,2020-04-24,14,No,L003
-TR1485,S0249,Patient Safety,2021-06-17,33,No,L004
-TR1486,S0346,Patient Safety,2025-02-22,25,No,L004
-TR1487,S0198,Electronic Health Records,2021-10-13,14,No,L002
-TR1488,S0235,Patient Safety,2022-11-13,20,No,L004
-TR1489,S0291,Advanced Surgical Techniques,2022-02-17,26,Yes,L001
-TR1490,S0042,Infection Control,2024-11-19,11,No,L005
-TR1491,S0248,Infection Control,2022-12-02,10,No,L004
-TR1492,S0369,CPR Certification,2022-12-27,6,Yes,L001
-TR1493,S0001,Advanced Surgical Techniques,2020-06-13,32,No,L004
-TR1494,S0302,Advanced Surgical Techniques,2023-07-12,39,No,L001
-TR1495,S0256,Infection Control,2023-12-30,6,Yes,L001
-TR1496,S0043,Electronic Health Records,2024-12-12,27,Yes,L004
-TR1497,S0396,Infection Control,2023-08-05,31,No,L005
-TR1498,S0419,Advanced Surgical Techniques,2021-08-25,28,Yes,L004
-TR1499,S0462,Patient Safety,2024-06-30,14,No,L001
-TR1500,S0087,Infection Control,2023-07-10,36,Yes,L004
+TR0001,S0027,Patient Safety,2020-10-10,10,Yes,L003
+TR0002,S0452,Infection Control,2024-05-23,9,No,L004
+TR0003,S0284,Advanced Surgical Techniques,2023-01-22,18,Yes,L005
+TR0004,S0309,Infection Control,2024-09-06,16,No,L003
+TR0005,S0461,CPR Certification,2022-11-18,39,Yes,L005
+TR0006,S0402,Patient Safety,2024-08-02,5,Yes,L001
+TR0007,S0368,Advanced Surgical Techniques,2022-07-18,35,No,L002
+TR0008,S0275,Advanced Surgical Techniques,2022-11-07,29,No,L004
+TR0009,S0091,Patient Safety,2022-10-20,33,Yes,L003
+TR0010,S0048,Infection Control,2021-04-20,29,No,L001
+TR0011,S0312,Infection Control,2022-03-17,32,Yes,L002
+TR0012,S0241,Infection Control,2021-01-27,34,No,L005
+TR0013,S0222,Electronic Health Records,2023-10-03,22,No,L005
+TR0014,S0202,Electronic Health Records,2022-08-27,4,Yes,L005
+TR0015,S0230,Electronic Health Records,2024-12-03,34,Yes,L004
+TR0016,S0346,Infection Control,2022-01-02,33,No,L005
+TR0017,S0226,Electronic Health Records,2022-09-16,15,No,L002
+TR0018,S0190,Electronic Health Records,2023-04-21,14,Yes,L005
+TR0019,S0281,Infection Control,2022-08-17,6,No,L002
+TR0020,S0268,Electronic Health Records,2023-05-26,15,Yes,L001
+TR0021,S0451,Infection Control,2020-06-27,13,Yes,L003
+TR0022,S0443,Patient Safety,2022-03-24,28,No,L001
+TR0023,S0070,CPR Certification,2021-08-05,13,Yes,L005
+TR0024,S0291,Patient Safety,2023-07-17,17,Yes,L002
+TR0025,S0259,Electronic Health Records,2021-11-28,12,Yes,L005
+TR0026,S0465,CPR Certification,2024-02-04,5,No,L002
+TR0027,S0099,Advanced Surgical Techniques,2023-01-20,13,No,L002
+TR0028,S0186,Infection Control,2020-12-07,15,Yes,L004
+TR0029,S0087,Patient Safety,2024-04-01,12,No,L004
+TR0030,S0477,CPR Certification,2024-05-16,13,Yes,L004
+TR0031,S0180,Electronic Health Records,2023-10-25,6,No,L003
+TR0032,S0320,Patient Safety,2023-07-27,12,Yes,L003
+TR0033,S0316,Electronic Health Records,2021-04-01,29,Yes,L003
+TR0034,S0363,Electronic Health Records,2022-05-28,7,No,L003
+TR0035,S0102,Advanced Surgical Techniques,2023-10-03,7,No,L002
+TR0036,S0267,Advanced Surgical Techniques,2024-05-28,33,No,L005
+TR0037,S0396,Patient Safety,2024-01-29,27,Yes,L002
+TR0038,S0071,Patient Safety,2024-01-08,27,Yes,L004
+TR0039,S0144,Patient Safety,2021-10-09,5,No,L003
+TR0040,S0392,Infection Control,2022-07-20,34,Yes,L003
+TR0041,S0178,Advanced Surgical Techniques,2021-10-08,5,No,L001
+TR0042,S0053,CPR Certification,2021-12-03,16,No,L001
+TR0043,S0045,Advanced Surgical Techniques,2024-12-04,25,Yes,L001
+TR0044,S0291,Patient Safety,2024-09-08,25,Yes,L003
+TR0045,S0282,CPR Certification,2021-04-11,4,No,L005
+TR0046,S0046,Advanced Surgical Techniques,2025-01-15,35,No,L002
+TR0047,S0361,CPR Certification,2024-01-21,7,Yes,L005
+TR0048,S0040,Electronic Health Records,2022-10-04,21,No,L002
+TR0049,S0283,Infection Control,2021-11-29,37,No,L002
+TR0050,S0090,Electronic Health Records,2023-03-02,28,No,L001
+TR0051,S0354,Electronic Health Records,2024-11-03,37,No,L002
+TR0052,S0449,Electronic Health Records,2022-12-22,17,No,L002
+TR0053,S0019,Patient Safety,2021-09-20,23,No,L002
+TR0054,S0225,Advanced Surgical Techniques,2025-02-22,5,No,L004
+TR0055,S0447,Advanced Surgical Techniques,2021-11-14,37,No,L001
+TR0056,S0437,Infection Control,2022-02-07,34,No,L003
+TR0057,S0104,Patient Safety,2020-11-18,21,Yes,L003
+TR0058,S0395,Electronic Health Records,2021-06-13,9,No,L002
+TR0059,S0261,Advanced Surgical Techniques,2024-07-29,31,No,L002
+TR0060,S0349,CPR Certification,2024-02-11,6,Yes,L005
+TR0061,S0104,Infection Control,2020-09-19,25,Yes,L001
+TR0062,S0377,Infection Control,2024-06-15,13,Yes,L004
+TR0063,S0055,Infection Control,2022-02-03,24,No,L005
+TR0064,S0331,Infection Control,2022-12-15,34,Yes,L004
+TR0065,S0055,CPR Certification,2023-10-04,27,No,L003
+TR0066,S0015,CPR Certification,2020-06-19,37,No,L002
+TR0067,S0429,Patient Safety,2020-08-23,21,No,L002
+TR0068,S0336,Infection Control,2023-10-08,5,Yes,L003
+TR0069,S0454,Patient Safety,2022-01-07,25,No,L002
+TR0070,S0251,Electronic Health Records,2020-09-09,13,Yes,L002
+TR0071,S0495,CPR Certification,2023-12-31,8,No,L002
+TR0072,S0161,Advanced Surgical Techniques,2024-05-24,29,Yes,L005
+TR0073,S0388,Advanced Surgical Techniques,2021-02-16,26,No,L001
+TR0074,S0414,Advanced Surgical Techniques,2021-11-22,22,Yes,L003
+TR0075,S0311,Patient Safety,2022-12-06,9,No,L004
+TR0076,S0098,Patient Safety,2025-01-24,20,No,L003
+TR0077,S0219,Infection Control,2022-07-28,34,Yes,L005
+TR0078,S0165,Advanced Surgical Techniques,2021-12-12,17,No,L004
+TR0079,S0151,Electronic Health Records,2023-04-20,36,No,L005
+TR0080,S0311,CPR Certification,2023-11-25,24,No,L001
+TR0081,S0084,Patient Safety,2022-04-01,29,Yes,L004
+TR0082,S0169,Infection Control,2021-01-20,30,No,L004
+TR0083,S0444,CPR Certification,2024-01-31,18,Yes,L005
+TR0084,S0426,CPR Certification,2024-01-24,21,Yes,L002
+TR0085,S0027,Electronic Health Records,2023-12-27,38,No,L003
+TR0086,S0491,CPR Certification,2023-08-02,39,Yes,L002
+TR0087,S0474,Electronic Health Records,2025-03-18,34,No,L002
+TR0088,S0248,CPR Certification,2020-10-20,13,No,L001
+TR0089,S0063,Advanced Surgical Techniques,2023-11-27,20,Yes,L003
+TR0090,S0074,Patient Safety,2020-10-13,29,No,L004
+TR0091,S0377,CPR Certification,2023-06-21,10,Yes,L002
+TR0092,S0146,CPR Certification,2021-09-06,21,No,L003
+TR0093,S0369,Advanced Surgical Techniques,2022-10-15,7,No,L004
+TR0094,S0246,Infection Control,2022-08-28,34,Yes,L004
+TR0095,S0438,Electronic Health Records,2024-04-21,37,No,L002
+TR0096,S0063,Electronic Health Records,2023-05-21,31,No,L001
+TR0097,S0201,Infection Control,2023-08-11,17,Yes,L001
+TR0098,S0493,Patient Safety,2025-04-22,18,Yes,L003
+TR0099,S0329,CPR Certification,2023-01-17,20,No,L001
+TR0100,S0209,Advanced Surgical Techniques,2022-02-26,15,No,L002
+TR0101,S0190,Patient Safety,2021-10-01,11,Yes,L003
+TR0102,S0078,Infection Control,2023-09-03,4,No,L003
+TR0103,S0474,Electronic Health Records,2021-09-02,5,No,L001
+TR0104,S0373,CPR Certification,2020-09-03,39,No,L004
+TR0105,S0464,Electronic Health Records,2023-08-03,27,Yes,L001
+TR0106,S0406,Infection Control,2021-10-10,5,Yes,L002
+TR0107,S0481,Advanced Surgical Techniques,2022-03-09,32,Yes,L001
+TR0108,S0440,Infection Control,2022-10-24,12,Yes,L003
+TR0109,S0498,CPR Certification,2021-11-07,8,No,L002
+TR0110,S0003,CPR Certification,2023-09-15,9,No,L003
+TR0111,S0331,CPR Certification,2021-01-13,30,No,L005
+TR0112,S0452,Advanced Surgical Techniques,2022-02-03,6,Yes,L004
+TR0113,S0241,Patient Safety,2023-04-15,4,Yes,L005
+TR0114,S0460,Infection Control,2025-04-10,32,No,L004
+TR0115,S0092,CPR Certification,2024-08-20,11,No,L004
+TR0116,S0319,CPR Certification,2025-04-07,19,No,L001
+TR0117,S0092,Advanced Surgical Techniques,2022-08-10,35,Yes,L004
+TR0118,S0422,Patient Safety,2020-10-25,27,Yes,L001
+TR0119,S0419,Electronic Health Records,2021-12-01,19,No,L004
+TR0120,S0443,Patient Safety,2024-09-02,27,Yes,L003
+TR0121,S0214,Electronic Health Records,2021-12-26,9,Yes,L004
+TR0122,S0023,CPR Certification,2023-07-15,31,No,L001
+TR0123,S0489,CPR Certification,2022-05-09,22,No,L004
+TR0124,S0097,Infection Control,2023-01-03,8,No,L005
+TR0125,S0346,CPR Certification,2022-09-09,9,Yes,L005
+TR0126,S0206,Advanced Surgical Techniques,2022-11-28,30,Yes,L002
+TR0127,S0204,CPR Certification,2022-03-30,5,No,L001
+TR0128,S0010,Advanced Surgical Techniques,2022-12-17,29,Yes,L004
+TR0129,S0413,Advanced Surgical Techniques,2022-06-27,7,Yes,L003
+TR0130,S0211,Patient Safety,2022-12-23,10,Yes,L002
+TR0131,S0121,Electronic Health Records,2024-01-06,22,Yes,L002
+TR0132,S0018,Infection Control,2020-05-26,20,No,L003
+TR0133,S0461,CPR Certification,2022-10-19,23,No,L001
+TR0134,S0005,Infection Control,2021-06-29,10,No,L002
+TR0135,S0487,Electronic Health Records,2020-06-24,19,Yes,L001
+TR0136,S0408,Electronic Health Records,2020-07-01,7,Yes,L001
+TR0137,S0186,Infection Control,2023-02-23,28,No,L005
+TR0138,S0363,Patient Safety,2023-11-27,40,Yes,L004
+TR0139,S0425,Electronic Health Records,2021-09-15,28,No,L002
+TR0140,S0320,Infection Control,2025-03-20,14,Yes,L001
+TR0141,S0121,Patient Safety,2022-02-07,37,Yes,L004
+TR0142,S0343,Advanced Surgical Techniques,2023-08-26,7,No,L001
+TR0143,S0317,Infection Control,2024-02-29,37,Yes,L004
+TR0144,S0395,Advanced Surgical Techniques,2022-12-04,14,Yes,L003
+TR0145,S0336,Electronic Health Records,2024-03-25,27,No,L001
+TR0146,S0423,Advanced Surgical Techniques,2022-08-26,33,No,L002
+TR0147,S0379,CPR Certification,2022-11-24,16,Yes,L001
+TR0148,S0477,CPR Certification,2022-11-27,9,Yes,L001
+TR0149,S0115,Infection Control,2020-04-28,36,No,L004
+TR0150,S0431,Advanced Surgical Techniques,2021-10-17,25,No,L002
+TR0151,S0213,Electronic Health Records,2021-01-28,12,Yes,L005
+TR0152,S0254,CPR Certification,2024-12-02,26,Yes,L002
+TR0153,S0064,Infection Control,2022-08-26,9,Yes,L004
+TR0154,S0028,Advanced Surgical Techniques,2022-03-28,14,No,L004
+TR0155,S0075,CPR Certification,2021-05-26,26,Yes,L005
+TR0156,S0158,Infection Control,2025-01-11,39,Yes,L001
+TR0157,S0202,Advanced Surgical Techniques,2024-09-17,4,No,L001
+TR0158,S0459,Advanced Surgical Techniques,2021-12-29,25,Yes,L005
+TR0159,S0380,Electronic Health Records,2024-06-26,29,No,L004
+TR0160,S0448,Electronic Health Records,2024-03-07,13,Yes,L004
+TR0161,S0475,Infection Control,2024-02-13,40,No,L001
+TR0162,S0388,Advanced Surgical Techniques,2025-04-23,40,Yes,L004
+TR0163,S0156,Infection Control,2023-08-23,18,No,L002
+TR0164,S0192,Infection Control,2022-06-20,25,Yes,L005
+TR0165,S0468,Electronic Health Records,2023-11-17,21,Yes,L005
+TR0166,S0430,Electronic Health Records,2021-04-11,10,Yes,L002
+TR0167,S0320,Advanced Surgical Techniques,2025-03-29,33,Yes,L002
+TR0168,S0164,Electronic Health Records,2024-05-09,25,Yes,L005
+TR0169,S0460,Electronic Health Records,2023-11-06,32,No,L004
+TR0170,S0384,Advanced Surgical Techniques,2021-02-14,23,No,L004
+TR0171,S0407,CPR Certification,2025-01-26,21,No,L005
+TR0172,S0097,Infection Control,2023-07-03,25,No,L004
+TR0173,S0027,CPR Certification,2021-12-03,15,No,L002
+TR0174,S0006,Electronic Health Records,2022-10-31,37,No,L001
+TR0175,S0318,Electronic Health Records,2022-12-08,22,No,L002
+TR0176,S0131,Patient Safety,2022-05-28,11,No,L005
+TR0177,S0241,Electronic Health Records,2021-09-27,8,Yes,L002
+TR0178,S0232,Infection Control,2020-05-19,20,No,L003
+TR0179,S0068,CPR Certification,2023-10-22,6,Yes,L005
+TR0180,S0483,Infection Control,2020-05-16,22,Yes,L002
+TR0181,S0496,Infection Control,2023-08-08,35,No,L002
+TR0182,S0304,Electronic Health Records,2021-02-03,14,No,L005
+TR0183,S0337,Advanced Surgical Techniques,2021-04-03,36,No,L002
+TR0184,S0450,Electronic Health Records,2020-09-13,36,Yes,L001
+TR0185,S0338,Electronic Health Records,2023-02-26,38,No,L005
+TR0186,S0395,Patient Safety,2020-05-10,6,No,L004
+TR0187,S0084,Patient Safety,2024-05-23,17,No,L002
+TR0188,S0247,Advanced Surgical Techniques,2021-09-02,35,No,L003
+TR0189,S0076,Electronic Health Records,2021-01-21,38,Yes,L003
+TR0190,S0001,Infection Control,2020-09-23,10,No,L004
+TR0191,S0483,CPR Certification,2024-11-26,28,No,L004
+TR0192,S0297,Advanced Surgical Techniques,2023-04-24,23,No,L003
+TR0193,S0205,Infection Control,2021-01-07,18,Yes,L003
+TR0194,S0305,Patient Safety,2023-01-27,6,Yes,L003
+TR0195,S0402,Electronic Health Records,2020-12-11,7,Yes,L001
+TR0196,S0022,Electronic Health Records,2024-09-21,7,No,L001
+TR0197,S0281,Advanced Surgical Techniques,2021-06-30,8,No,L004
+TR0198,S0111,CPR Certification,2022-08-05,39,Yes,L004
+TR0199,S0191,Infection Control,2022-01-03,24,No,L003
+TR0200,S0350,CPR Certification,2023-05-25,8,No,L004
+TR0201,S0366,Patient Safety,2020-08-26,28,Yes,L001
+TR0202,S0282,Infection Control,2023-10-26,21,No,L004
+TR0203,S0131,Electronic Health Records,2023-12-02,13,No,L002
+TR0204,S0152,Advanced Surgical Techniques,2020-05-19,15,Yes,L004
+TR0205,S0304,CPR Certification,2023-06-19,35,No,L003
+TR0206,S0337,Advanced Surgical Techniques,2022-10-02,18,Yes,L001
+TR0207,S0330,Infection Control,2024-03-13,12,Yes,L002
+TR0208,S0386,Electronic Health Records,2023-05-22,33,No,L003
+TR0209,S0100,Advanced Surgical Techniques,2021-07-17,35,Yes,L005
+TR0210,S0239,Electronic Health Records,2024-12-16,38,No,L002
+TR0211,S0420,Electronic Health Records,2023-08-24,35,Yes,L001
+TR0212,S0070,Electronic Health Records,2024-05-04,31,No,L001
+TR0213,S0139,Patient Safety,2022-10-11,11,Yes,L001
+TR0214,S0440,Electronic Health Records,2022-12-22,30,Yes,L004
+TR0215,S0492,CPR Certification,2025-04-18,20,No,L002
+TR0216,S0308,Advanced Surgical Techniques,2022-01-05,38,No,L005
+TR0217,S0326,Advanced Surgical Techniques,2025-01-18,33,Yes,L003
+TR0218,S0476,Infection Control,2023-01-04,40,Yes,L005
+TR0219,S0027,Electronic Health Records,2024-11-29,20,Yes,L001
+TR0220,S0030,Infection Control,2022-03-16,28,Yes,L005
+TR0221,S0166,Electronic Health Records,2021-03-09,11,Yes,L005
+TR0222,S0124,Electronic Health Records,2025-02-15,39,No,L004
+TR0223,S0269,Advanced Surgical Techniques,2021-08-28,19,Yes,L001
+TR0224,S0384,CPR Certification,2020-08-10,11,No,L002
+TR0225,S0377,CPR Certification,2020-09-21,15,No,L001
+TR0226,S0234,CPR Certification,2023-04-28,7,Yes,L003
+TR0227,S0135,Advanced Surgical Techniques,2023-09-11,8,Yes,L004
+TR0228,S0498,Infection Control,2022-06-27,27,Yes,L001
+TR0229,S0420,Patient Safety,2021-07-17,35,No,L004
+TR0230,S0449,Electronic Health Records,2023-05-23,35,No,L001
+TR0231,S0257,Electronic Health Records,2024-04-26,36,No,L001
+TR0232,S0221,Advanced Surgical Techniques,2021-03-19,35,No,L004
+TR0233,S0167,Infection Control,2020-10-22,25,No,L004
+TR0234,S0093,CPR Certification,2024-04-22,10,No,L002
+TR0235,S0441,CPR Certification,2023-08-13,19,No,L003
+TR0236,S0032,CPR Certification,2025-01-01,19,Yes,L005
+TR0237,S0448,Patient Safety,2024-11-16,31,Yes,L003
+TR0238,S0258,Infection Control,2020-04-28,11,Yes,L002
+TR0239,S0498,CPR Certification,2023-04-27,13,No,L002
+TR0240,S0054,CPR Certification,2024-08-31,5,Yes,L003
+TR0241,S0234,Patient Safety,2024-08-06,34,No,L004
+TR0242,S0168,Infection Control,2025-03-06,28,No,L003
+TR0243,S0291,Patient Safety,2023-04-15,33,No,L003
+TR0244,S0338,CPR Certification,2023-08-18,38,No,L001
+TR0245,S0135,Advanced Surgical Techniques,2020-11-10,14,No,L001
+TR0246,S0354,Electronic Health Records,2024-08-01,12,No,L004
+TR0247,S0124,Infection Control,2020-08-04,15,Yes,L004
+TR0248,S0404,Infection Control,2024-09-13,38,Yes,L001
+TR0249,S0080,CPR Certification,2020-12-13,31,Yes,L003
+TR0250,S0360,Patient Safety,2021-04-26,26,No,L004
+TR0251,S0477,Electronic Health Records,2024-12-24,35,No,L005
+TR0252,S0172,Advanced Surgical Techniques,2025-03-18,9,Yes,L003
+TR0253,S0288,Patient Safety,2022-08-07,8,No,L005
+TR0254,S0405,Electronic Health Records,2023-08-05,28,Yes,L004
+TR0255,S0358,Patient Safety,2024-07-27,9,Yes,L005
+TR0256,S0021,Electronic Health Records,2021-06-16,29,No,L002
+TR0257,S0400,Patient Safety,2023-04-01,21,No,L004
+TR0258,S0175,Infection Control,2024-11-26,35,Yes,L002
+TR0259,S0004,Electronic Health Records,2020-09-13,4,Yes,L003
+TR0260,S0195,Advanced Surgical Techniques,2022-11-04,28,No,L001
+TR0261,S0078,CPR Certification,2020-05-04,13,No,L003
+TR0262,S0463,Infection Control,2022-09-22,21,Yes,L002
+TR0263,S0422,CPR Certification,2020-12-01,15,No,L004
+TR0264,S0197,Patient Safety,2025-01-05,12,No,L001
+TR0265,S0426,Patient Safety,2021-05-16,4,No,L001
+TR0266,S0351,Patient Safety,2024-12-22,21,Yes,L001
+TR0267,S0148,Advanced Surgical Techniques,2020-09-25,31,Yes,L004
+TR0268,S0415,Advanced Surgical Techniques,2022-03-10,12,No,L004
+TR0269,S0441,Patient Safety,2022-05-15,17,Yes,L005
+TR0270,S0056,Patient Safety,2023-07-26,38,Yes,L004
+TR0271,S0240,Infection Control,2021-09-02,16,Yes,L001
+TR0272,S0244,Electronic Health Records,2022-09-15,38,No,L005
+TR0273,S0085,Advanced Surgical Techniques,2021-10-05,18,No,L002
+TR0274,S0468,Infection Control,2021-12-17,11,No,L004
+TR0275,S0065,CPR Certification,2022-03-07,7,Yes,L003
+TR0276,S0265,CPR Certification,2024-03-03,6,Yes,L003
+TR0277,S0473,CPR Certification,2024-05-04,17,No,L005
+TR0278,S0353,Patient Safety,2025-03-15,30,No,L004
+TR0279,S0416,CPR Certification,2023-06-25,27,No,L004
+TR0280,S0388,Advanced Surgical Techniques,2021-06-12,37,Yes,L004
+TR0281,S0107,Advanced Surgical Techniques,2023-06-14,10,Yes,L001
+TR0282,S0097,Patient Safety,2022-01-25,13,No,L001
+TR0283,S0337,Advanced Surgical Techniques,2023-02-28,18,Yes,L005
+TR0284,S0086,Advanced Surgical Techniques,2024-03-09,32,No,L004
+TR0285,S0464,CPR Certification,2022-11-10,7,Yes,L002
+TR0286,S0112,Electronic Health Records,2024-03-08,33,No,L004
+TR0287,S0145,Patient Safety,2022-09-10,36,Yes,L005
+TR0288,S0171,CPR Certification,2020-10-25,18,Yes,L003
+TR0289,S0398,Electronic Health Records,2021-04-14,28,Yes,L001
+TR0290,S0149,Infection Control,2025-03-10,26,No,L005
+TR0291,S0117,CPR Certification,2022-04-06,34,No,L001
+TR0292,S0349,Advanced Surgical Techniques,2025-02-13,13,No,L002
+TR0293,S0268,CPR Certification,2022-08-17,28,Yes,L002
+TR0294,S0314,Patient Safety,2022-08-01,27,Yes,L002
+TR0295,S0296,Infection Control,2024-09-25,15,No,L002
+TR0296,S0486,Advanced Surgical Techniques,2024-07-09,33,No,L005
+TR0297,S0406,Infection Control,2021-07-30,16,No,L001
+TR0298,S0465,Electronic Health Records,2022-06-25,11,Yes,L003
+TR0299,S0270,CPR Certification,2020-09-09,9,Yes,L004
+TR0300,S0477,Patient Safety,2020-06-22,30,No,L005
+TR0301,S0148,Advanced Surgical Techniques,2022-08-17,23,Yes,L004
+TR0302,S0198,CPR Certification,2023-02-13,6,No,L003
+TR0303,S0320,Patient Safety,2021-11-30,10,No,L003
+TR0304,S0037,CPR Certification,2021-03-24,9,Yes,L001
+TR0305,S0398,CPR Certification,2020-10-20,35,Yes,L001
+TR0306,S0467,Infection Control,2021-06-21,12,No,L001
+TR0307,S0364,Patient Safety,2021-03-23,11,No,L001
+TR0308,S0291,CPR Certification,2020-07-01,20,No,L001
+TR0309,S0400,Infection Control,2023-03-12,27,No,L001
+TR0310,S0292,Electronic Health Records,2021-02-21,12,Yes,L002
+TR0311,S0214,CPR Certification,2024-10-30,8,Yes,L003
+TR0312,S0392,Advanced Surgical Techniques,2024-08-26,18,No,L001
+TR0313,S0049,Patient Safety,2022-04-03,24,No,L001
+TR0314,S0488,Patient Safety,2023-08-12,11,No,L001
+TR0315,S0195,Patient Safety,2024-06-29,12,No,L005
+TR0316,S0140,Advanced Surgical Techniques,2022-09-25,13,Yes,L004
+TR0317,S0324,Electronic Health Records,2020-06-28,35,Yes,L003
+TR0318,S0446,Electronic Health Records,2023-09-23,26,No,L004
+TR0319,S0191,Infection Control,2022-08-29,30,Yes,L005
+TR0320,S0428,Electronic Health Records,2022-09-10,5,No,L003
+TR0321,S0228,Infection Control,2023-04-19,33,No,L001
+TR0322,S0338,Infection Control,2021-04-17,26,No,L003
+TR0323,S0486,Advanced Surgical Techniques,2021-10-21,29,Yes,L003
+TR0324,S0195,Patient Safety,2025-03-13,12,Yes,L002
+TR0325,S0412,Patient Safety,2024-06-30,36,No,L003
+TR0326,S0262,Patient Safety,2021-04-26,20,No,L005
+TR0327,S0400,CPR Certification,2020-07-02,33,No,L005
+TR0328,S0058,Infection Control,2024-08-14,18,No,L004
+TR0329,S0244,Infection Control,2022-01-22,12,No,L003
+TR0330,S0355,Advanced Surgical Techniques,2023-05-09,17,No,L002
+TR0331,S0445,CPR Certification,2021-06-28,14,Yes,L005
+TR0332,S0119,Patient Safety,2021-05-05,11,No,L002
+TR0333,S0104,Patient Safety,2023-08-06,5,Yes,L005
+TR0334,S0423,Patient Safety,2022-11-23,22,No,L005
+TR0335,S0288,Electronic Health Records,2025-04-25,10,Yes,L004
+TR0336,S0384,CPR Certification,2021-04-21,22,Yes,L005
+TR0337,S0174,Infection Control,2024-03-24,38,No,L004
+TR0338,S0400,Electronic Health Records,2025-03-26,17,No,L001
+TR0339,S0011,Advanced Surgical Techniques,2024-12-23,13,Yes,L002
+TR0340,S0414,CPR Certification,2023-09-03,18,Yes,L001
+TR0341,S0388,Patient Safety,2022-05-10,26,Yes,L005
+TR0342,S0421,CPR Certification,2023-07-09,32,No,L001
+TR0343,S0252,Infection Control,2023-01-08,29,Yes,L002
+TR0344,S0174,Infection Control,2020-12-21,39,No,L001
+TR0345,S0346,Electronic Health Records,2020-05-09,31,Yes,L005
+TR0346,S0051,Advanced Surgical Techniques,2023-09-21,20,No,L003
+TR0347,S0418,Electronic Health Records,2022-12-06,13,Yes,L003
+TR0348,S0366,Infection Control,2021-07-23,9,Yes,L003
+TR0349,S0131,Advanced Surgical Techniques,2021-01-08,18,No,L005
+TR0350,S0410,Infection Control,2022-01-12,13,Yes,L002
+TR0351,S0268,Electronic Health Records,2021-08-23,34,Yes,L002
+TR0352,S0453,Electronic Health Records,2022-11-19,13,Yes,L002
+TR0353,S0087,Infection Control,2020-07-30,37,Yes,L003
+TR0354,S0101,CPR Certification,2022-07-23,8,Yes,L004
+TR0355,S0423,Infection Control,2023-12-13,32,Yes,L001
+TR0356,S0164,Electronic Health Records,2025-01-21,39,No,L003
+TR0357,S0263,Advanced Surgical Techniques,2022-05-06,4,Yes,L002
+TR0358,S0160,Patient Safety,2024-02-13,7,Yes,L005
+TR0359,S0312,Electronic Health Records,2021-02-20,28,Yes,L004
+TR0360,S0224,Infection Control,2022-08-19,25,No,L003
+TR0361,S0094,Electronic Health Records,2025-04-28,6,No,L002
+TR0362,S0444,Advanced Surgical Techniques,2020-08-20,39,No,L001
+TR0363,S0164,Patient Safety,2024-10-23,9,Yes,L002
+TR0364,S0493,Electronic Health Records,2022-01-09,23,No,L004
+TR0365,S0491,Infection Control,2022-01-13,8,Yes,L003
+TR0366,S0294,Infection Control,2022-07-03,12,Yes,L003
+TR0367,S0132,Advanced Surgical Techniques,2021-08-29,15,No,L002
+TR0368,S0105,Patient Safety,2020-05-21,16,No,L001
+TR0369,S0158,CPR Certification,2025-01-08,9,No,L005
+TR0370,S0398,Patient Safety,2020-11-12,17,Yes,L001
+TR0371,S0096,Patient Safety,2022-01-29,8,No,L001
+TR0372,S0411,CPR Certification,2022-09-10,23,Yes,L005
+TR0373,S0486,Advanced Surgical Techniques,2024-06-02,10,Yes,L002
+TR0374,S0406,CPR Certification,2022-08-27,15,No,L001
+TR0375,S0256,CPR Certification,2022-05-14,35,Yes,L004
+TR0376,S0376,CPR Certification,2020-06-20,4,Yes,L003
+TR0377,S0434,Advanced Surgical Techniques,2022-01-03,32,No,L002
+TR0378,S0040,Advanced Surgical Techniques,2021-05-12,8,No,L003
+TR0379,S0083,Advanced Surgical Techniques,2021-05-31,11,Yes,L003
+TR0380,S0277,Patient Safety,2023-04-28,36,No,L005
+TR0381,S0156,Infection Control,2023-03-04,32,Yes,L004
+TR0382,S0466,Electronic Health Records,2020-09-26,24,No,L004
+TR0383,S0362,Electronic Health Records,2024-05-05,15,Yes,L003
+TR0384,S0496,Advanced Surgical Techniques,2024-10-17,40,Yes,L005
+TR0385,S0406,Advanced Surgical Techniques,2022-02-21,29,Yes,L005
+TR0386,S0146,CPR Certification,2024-08-24,5,Yes,L001
+TR0387,S0116,Patient Safety,2021-12-10,4,Yes,L002
+TR0388,S0253,Advanced Surgical Techniques,2025-04-08,24,No,L003
+TR0389,S0178,Electronic Health Records,2025-03-30,24,Yes,L005
+TR0390,S0284,Infection Control,2023-09-23,15,No,L005
+TR0391,S0362,Infection Control,2023-10-09,23,Yes,L004
+TR0392,S0270,Advanced Surgical Techniques,2024-07-17,29,No,L004
+TR0393,S0224,CPR Certification,2020-05-21,20,Yes,L005
+TR0394,S0357,Infection Control,2020-06-26,30,No,L003
+TR0395,S0036,Infection Control,2021-10-23,39,Yes,L002
+TR0396,S0437,Electronic Health Records,2020-11-27,21,No,L003
+TR0397,S0240,CPR Certification,2022-12-16,33,No,L001
+TR0398,S0110,Electronic Health Records,2020-12-10,12,Yes,L002
+TR0399,S0389,CPR Certification,2020-08-15,4,No,L004
+TR0400,S0228,Infection Control,2022-08-06,34,No,L005
+TR0401,S0037,Advanced Surgical Techniques,2022-11-24,40,Yes,L002
+TR0402,S0380,Infection Control,2023-06-08,8,Yes,L003
+TR0403,S0346,CPR Certification,2020-10-23,13,No,L002
+TR0404,S0448,CPR Certification,2021-08-13,11,No,L001
+TR0405,S0290,Electronic Health Records,2023-01-20,8,No,L004
+TR0406,S0116,Patient Safety,2022-08-30,9,Yes,L005
+TR0407,S0069,Infection Control,2023-07-19,39,Yes,L002
+TR0408,S0357,Electronic Health Records,2024-04-25,28,No,L003
+TR0409,S0031,Electronic Health Records,2022-11-17,10,Yes,L005
+TR0410,S0129,Electronic Health Records,2022-01-11,4,Yes,L002
+TR0411,S0034,Infection Control,2021-11-30,7,Yes,L003
+TR0412,S0150,CPR Certification,2021-02-25,34,No,L004
+TR0413,S0191,Advanced Surgical Techniques,2022-06-06,25,Yes,L001
+TR0414,S0433,Advanced Surgical Techniques,2024-06-29,16,No,L005
+TR0415,S0294,Patient Safety,2023-09-21,14,No,L002
+TR0416,S0498,Electronic Health Records,2025-02-04,40,No,L001
+TR0417,S0425,CPR Certification,2024-10-27,40,Yes,L001
+TR0418,S0265,Electronic Health Records,2021-05-17,13,Yes,L001
+TR0419,S0187,Infection Control,2023-08-12,5,Yes,L004
+TR0420,S0095,Advanced Surgical Techniques,2021-08-20,37,Yes,L004
+TR0421,S0264,Electronic Health Records,2021-12-11,16,No,L003
+TR0422,S0099,Electronic Health Records,2024-09-07,20,No,L002
+TR0423,S0084,Advanced Surgical Techniques,2022-06-28,18,No,L001
+TR0424,S0393,Electronic Health Records,2023-10-29,6,No,L002
+TR0425,S0099,Infection Control,2022-09-20,30,No,L003
+TR0426,S0199,Advanced Surgical Techniques,2024-03-09,17,No,L003
+TR0427,S0484,Advanced Surgical Techniques,2021-04-28,25,No,L001
+TR0428,S0415,Electronic Health Records,2024-10-20,22,No,L003
+TR0429,S0268,CPR Certification,2023-07-31,30,Yes,L002
+TR0430,S0037,Advanced Surgical Techniques,2020-08-30,11,No,L004
+TR0431,S0487,Advanced Surgical Techniques,2021-08-08,36,No,L002
+TR0432,S0152,Electronic Health Records,2023-01-21,13,Yes,L005
+TR0433,S0004,Patient Safety,2020-07-25,29,No,L005
+TR0434,S0178,Patient Safety,2021-12-10,30,No,L003
+TR0435,S0039,Advanced Surgical Techniques,2023-10-19,15,Yes,L003
+TR0436,S0091,CPR Certification,2024-11-02,13,Yes,L005
+TR0437,S0320,Patient Safety,2023-07-06,31,No,L001
+TR0438,S0228,CPR Certification,2024-06-11,25,No,L005
+TR0439,S0300,Advanced Surgical Techniques,2023-09-22,4,Yes,L005
+TR0440,S0117,Patient Safety,2021-10-03,15,Yes,L001
+TR0441,S0237,CPR Certification,2020-06-22,23,No,L001
+TR0442,S0066,Infection Control,2024-10-24,5,Yes,L003
+TR0443,S0055,Electronic Health Records,2022-06-02,15,No,L005
+TR0444,S0263,CPR Certification,2023-07-19,30,No,L002
+TR0445,S0283,Advanced Surgical Techniques,2024-10-29,25,Yes,L004
+TR0446,S0329,Advanced Surgical Techniques,2023-10-12,31,No,L002
+TR0447,S0106,Electronic Health Records,2025-03-30,25,Yes,L001
+TR0448,S0320,Patient Safety,2023-11-26,4,Yes,L003
+TR0449,S0125,Electronic Health Records,2020-12-05,40,Yes,L003
+TR0450,S0220,CPR Certification,2022-03-30,37,No,L002
+TR0451,S0276,Patient Safety,2023-04-13,30,No,L003
+TR0452,S0241,Patient Safety,2022-08-24,37,Yes,L001
+TR0453,S0062,Infection Control,2020-05-17,7,No,L001
+TR0454,S0177,Electronic Health Records,2023-06-02,10,Yes,L001
+TR0455,S0218,Infection Control,2020-07-15,7,Yes,L004
+TR0456,S0133,Patient Safety,2024-02-14,11,Yes,L002
+TR0457,S0448,Patient Safety,2023-09-30,13,No,L003
+TR0458,S0418,Electronic Health Records,2023-02-08,7,No,L001
+TR0459,S0166,Infection Control,2023-02-27,17,No,L001
+TR0460,S0047,Infection Control,2020-05-10,30,No,L003
+TR0461,S0241,Advanced Surgical Techniques,2023-01-20,15,Yes,L001
+TR0462,S0169,Advanced Surgical Techniques,2024-11-16,6,Yes,L002
+TR0463,S0466,Advanced Surgical Techniques,2023-05-05,10,No,L001
+TR0464,S0103,CPR Certification,2024-11-04,33,Yes,L001
+TR0465,S0285,CPR Certification,2022-11-10,33,No,L005
+TR0466,S0446,Infection Control,2020-11-30,35,Yes,L003
+TR0467,S0132,Electronic Health Records,2024-01-22,39,No,L005
+TR0468,S0188,Electronic Health Records,2022-01-03,24,Yes,L005
+TR0469,S0362,CPR Certification,2025-02-12,21,Yes,L001
+TR0470,S0194,Electronic Health Records,2021-11-30,22,No,L002
+TR0471,S0141,Infection Control,2021-11-20,6,No,L004
+TR0472,S0070,Advanced Surgical Techniques,2022-07-17,30,Yes,L004
+TR0473,S0106,Advanced Surgical Techniques,2023-01-07,27,Yes,L004
+TR0474,S0003,Patient Safety,2021-10-30,29,Yes,L001
+TR0475,S0153,Advanced Surgical Techniques,2025-04-18,13,Yes,L002
+TR0476,S0165,Electronic Health Records,2023-01-10,28,Yes,L003
+TR0477,S0171,CPR Certification,2021-01-04,19,Yes,L002
+TR0478,S0083,Electronic Health Records,2023-06-02,35,Yes,L003
+TR0479,S0089,Patient Safety,2022-01-12,26,No,L005
+TR0480,S0120,Infection Control,2024-05-16,26,No,L005
+TR0481,S0092,Infection Control,2023-07-11,40,Yes,L001
+TR0482,S0271,Advanced Surgical Techniques,2024-03-07,36,Yes,L001
+TR0483,S0356,Electronic Health Records,2024-01-22,21,Yes,L005
+TR0484,S0051,Infection Control,2020-07-06,12,Yes,L004
+TR0485,S0403,Electronic Health Records,2023-01-06,13,No,L003
+TR0486,S0208,CPR Certification,2023-02-06,26,Yes,L001
+TR0487,S0077,Advanced Surgical Techniques,2021-06-25,24,Yes,L002
+TR0488,S0417,Advanced Surgical Techniques,2023-04-07,31,No,L005
+TR0489,S0265,Patient Safety,2022-06-30,26,Yes,L005
+TR0490,S0212,Advanced Surgical Techniques,2024-04-19,28,No,L003
+TR0491,S0460,Patient Safety,2022-01-23,29,No,L004
+TR0492,S0069,CPR Certification,2025-01-29,21,No,L005
+TR0493,S0395,Electronic Health Records,2021-07-19,13,Yes,L001
+TR0494,S0387,Patient Safety,2025-03-31,27,Yes,L001
+TR0495,S0387,Infection Control,2024-03-22,17,Yes,L002
+TR0496,S0289,Patient Safety,2020-11-17,10,Yes,L002
+TR0497,S0445,Patient Safety,2020-12-14,21,Yes,L003
+TR0498,S0203,Patient Safety,2020-05-05,35,No,L002
+TR0499,S0277,Electronic Health Records,2022-11-26,33,Yes,L005
+TR0500,S0074,Patient Safety,2023-09-14,10,Yes,L005
+TR0501,S0372,Electronic Health Records,2023-04-30,13,Yes,L001
+TR0502,S0469,CPR Certification,2024-10-21,40,Yes,L001
+TR0503,S0359,Patient Safety,2022-03-07,20,Yes,L004
+TR0504,S0277,Infection Control,2022-01-06,4,Yes,L004
+TR0505,S0442,CPR Certification,2024-09-04,7,Yes,L003
+TR0506,S0344,Infection Control,2023-12-22,29,Yes,L003
+TR0507,S0181,Infection Control,2020-04-28,31,Yes,L001
+TR0508,S0190,CPR Certification,2025-04-03,27,Yes,L005
+TR0509,S0054,Infection Control,2021-03-12,10,No,L003
+TR0510,S0066,Electronic Health Records,2025-02-10,13,Yes,L004
+TR0511,S0116,Infection Control,2021-04-17,38,Yes,L001
+TR0512,S0102,Infection Control,2024-10-05,8,Yes,L001
+TR0513,S0009,CPR Certification,2023-07-12,24,Yes,L002
+TR0514,S0478,Patient Safety,2023-07-11,33,No,L001
+TR0515,S0199,Infection Control,2021-04-07,4,Yes,L003
+TR0516,S0107,CPR Certification,2023-01-06,16,Yes,L001
+TR0517,S0180,Patient Safety,2023-02-17,8,Yes,L005
+TR0518,S0483,Advanced Surgical Techniques,2024-05-08,29,No,L005
+TR0519,S0412,Patient Safety,2021-06-07,29,No,L003
+TR0520,S0191,CPR Certification,2023-07-15,38,Yes,L003
+TR0521,S0308,Electronic Health Records,2023-05-05,26,No,L004
+TR0522,S0087,Electronic Health Records,2023-07-31,30,Yes,L002
+TR0523,S0154,Patient Safety,2024-08-16,11,Yes,L005
+TR0524,S0238,CPR Certification,2025-04-04,28,Yes,L005
+TR0525,S0069,Electronic Health Records,2025-02-14,13,Yes,L002
+TR0526,S0432,Electronic Health Records,2023-06-12,5,No,L002
+TR0527,S0147,Advanced Surgical Techniques,2020-10-17,10,No,L001
+TR0528,S0428,Electronic Health Records,2024-12-25,30,No,L002
+TR0529,S0252,Electronic Health Records,2024-02-15,20,Yes,L001
+TR0530,S0194,Patient Safety,2022-03-03,23,Yes,L003
+TR0531,S0428,Patient Safety,2020-08-14,16,Yes,L004
+TR0532,S0314,CPR Certification,2020-10-06,37,No,L003
+TR0533,S0181,CPR Certification,2020-05-11,14,Yes,L001
+TR0534,S0034,Infection Control,2022-01-11,33,No,L002
+TR0535,S0419,CPR Certification,2021-12-12,14,No,L003
+TR0536,S0176,Patient Safety,2020-12-26,32,No,L001
+TR0537,S0468,Advanced Surgical Techniques,2024-08-07,19,No,L005
+TR0538,S0295,CPR Certification,2020-11-17,15,No,L001
+TR0539,S0214,Infection Control,2021-01-15,26,No,L002
+TR0540,S0064,Electronic Health Records,2025-04-17,27,Yes,L004
+TR0541,S0288,CPR Certification,2024-12-29,39,Yes,L003
+TR0542,S0304,Infection Control,2023-10-11,29,No,L001
+TR0543,S0432,Advanced Surgical Techniques,2023-10-19,19,Yes,L005
+TR0544,S0457,CPR Certification,2021-08-06,13,Yes,L004
+TR0545,S0431,Patient Safety,2020-07-11,7,Yes,L003
+TR0546,S0101,Infection Control,2023-10-10,23,Yes,L001
+TR0547,S0314,Advanced Surgical Techniques,2021-11-25,7,Yes,L002
+TR0548,S0223,Electronic Health Records,2023-05-08,39,Yes,L002
+TR0549,S0179,Patient Safety,2021-06-28,38,Yes,L004
+TR0550,S0166,Electronic Health Records,2022-02-15,21,Yes,L002
+TR0551,S0120,Patient Safety,2020-11-13,18,No,L002
+TR0552,S0213,Patient Safety,2024-07-16,34,Yes,L005
+TR0553,S0246,Advanced Surgical Techniques,2024-05-01,30,Yes,L001
+TR0554,S0391,Advanced Surgical Techniques,2020-12-29,32,Yes,L002
+TR0555,S0101,Infection Control,2021-11-15,20,Yes,L002
+TR0556,S0370,Advanced Surgical Techniques,2025-02-07,39,No,L002
+TR0557,S0196,Electronic Health Records,2023-10-04,16,No,L005
+TR0558,S0279,Infection Control,2023-11-07,6,Yes,L004
+TR0559,S0040,Advanced Surgical Techniques,2021-01-13,16,No,L002
+TR0560,S0085,Patient Safety,2025-02-05,21,Yes,L005
+TR0561,S0462,Advanced Surgical Techniques,2022-10-04,22,Yes,L005
+TR0562,S0403,Advanced Surgical Techniques,2021-01-22,4,Yes,L005
+TR0563,S0206,Infection Control,2025-03-20,22,Yes,L005
+TR0564,S0406,Electronic Health Records,2022-09-26,14,Yes,L005
+TR0565,S0365,CPR Certification,2022-01-29,27,Yes,L004
+TR0566,S0445,Infection Control,2020-06-15,6,Yes,L003
+TR0567,S0161,CPR Certification,2023-02-26,23,No,L005
+TR0568,S0011,Infection Control,2022-01-07,21,No,L002
+TR0569,S0178,Patient Safety,2021-02-28,13,No,L002
+TR0570,S0285,Infection Control,2024-12-17,20,Yes,L005
+TR0571,S0032,Electronic Health Records,2023-08-09,27,No,L005
+TR0572,S0117,Advanced Surgical Techniques,2021-04-11,19,No,L001
+TR0573,S0365,Advanced Surgical Techniques,2022-11-23,34,Yes,L004
+TR0574,S0451,CPR Certification,2023-01-17,14,No,L001
+TR0575,S0019,Infection Control,2025-01-02,15,No,L001
+TR0576,S0157,Patient Safety,2023-11-06,35,No,L001
+TR0577,S0338,Patient Safety,2021-06-16,26,Yes,L003
+TR0578,S0043,Electronic Health Records,2020-12-19,11,No,L002
+TR0579,S0137,CPR Certification,2021-07-11,17,Yes,L002
+TR0580,S0437,Electronic Health Records,2021-12-16,22,Yes,L001
+TR0581,S0383,Advanced Surgical Techniques,2020-10-01,15,Yes,L001
+TR0582,S0396,CPR Certification,2020-10-28,29,Yes,L002
+TR0583,S0122,Infection Control,2024-04-06,20,No,L001
+TR0584,S0450,CPR Certification,2021-03-29,22,Yes,L001
+TR0585,S0498,Electronic Health Records,2023-11-24,32,No,L004
+TR0586,S0368,Patient Safety,2022-09-23,18,No,L005
+TR0587,S0076,CPR Certification,2020-09-13,21,No,L004
+TR0588,S0112,CPR Certification,2023-11-12,8,Yes,L005
+TR0589,S0083,CPR Certification,2025-01-12,18,No,L001
+TR0590,S0051,CPR Certification,2021-02-28,19,No,L004
+TR0591,S0188,Infection Control,2021-01-23,31,No,L003
+TR0592,S0453,Infection Control,2021-01-19,39,No,L001
+TR0593,S0265,Infection Control,2025-04-12,39,Yes,L005
+TR0594,S0096,Patient Safety,2021-10-12,4,No,L002
+TR0595,S0451,CPR Certification,2024-05-25,28,Yes,L003
+TR0596,S0233,Patient Safety,2023-06-01,30,No,L004
+TR0597,S0089,Electronic Health Records,2022-06-20,11,Yes,L005
+TR0598,S0369,Infection Control,2023-04-15,32,No,L005
+TR0599,S0375,Electronic Health Records,2024-03-07,16,Yes,L002
+TR0600,S0458,Electronic Health Records,2021-01-12,7,Yes,L004
+TR0601,S0381,Electronic Health Records,2022-09-02,34,Yes,L004
+TR0602,S0065,Infection Control,2023-10-19,19,Yes,L003
+TR0603,S0237,Infection Control,2023-09-08,19,No,L001
+TR0604,S0136,Advanced Surgical Techniques,2024-09-14,38,No,L004
+TR0605,S0341,Advanced Surgical Techniques,2023-09-04,4,Yes,L002
+TR0606,S0431,Advanced Surgical Techniques,2023-03-01,7,Yes,L005
+TR0607,S0111,Infection Control,2024-01-15,15,Yes,L004
+TR0608,S0105,Advanced Surgical Techniques,2024-08-12,12,Yes,L004
+TR0609,S0438,Patient Safety,2024-04-04,20,No,L003
+TR0610,S0344,CPR Certification,2024-09-17,35,Yes,L004
+TR0611,S0341,CPR Certification,2025-01-04,37,No,L005
+TR0612,S0249,Infection Control,2022-06-07,26,No,L002
+TR0613,S0427,CPR Certification,2024-05-12,12,Yes,L004
+TR0614,S0089,Patient Safety,2024-06-20,26,Yes,L003
+TR0615,S0147,Electronic Health Records,2024-02-28,36,Yes,L003
+TR0616,S0262,Infection Control,2021-06-06,27,Yes,L003
+TR0617,S0164,Patient Safety,2025-02-28,8,Yes,L003
+TR0618,S0226,Infection Control,2025-03-12,8,No,L005
+TR0619,S0194,Patient Safety,2023-02-11,15,No,L004
+TR0620,S0351,Electronic Health Records,2024-06-12,40,No,L005
+TR0621,S0251,Infection Control,2022-06-05,25,Yes,L004
+TR0622,S0226,CPR Certification,2025-02-18,27,Yes,L003
+TR0623,S0298,Patient Safety,2021-10-13,15,Yes,L005
+TR0624,S0083,CPR Certification,2020-12-09,26,Yes,L004
+TR0625,S0359,Electronic Health Records,2024-11-14,33,Yes,L004
+TR0626,S0307,CPR Certification,2022-04-18,29,No,L004
+TR0627,S0189,Electronic Health Records,2023-06-10,19,No,L005
+TR0628,S0338,Patient Safety,2023-09-18,12,No,L003
+TR0629,S0061,Electronic Health Records,2025-03-09,36,Yes,L005
+TR0630,S0354,Electronic Health Records,2022-06-01,21,Yes,L004
+TR0631,S0481,CPR Certification,2024-10-03,38,Yes,L004
+TR0632,S0241,Infection Control,2024-05-26,16,No,L003
+TR0633,S0036,Infection Control,2023-09-29,6,No,L004
+TR0634,S0054,Electronic Health Records,2024-05-03,6,Yes,L003
+TR0635,S0129,CPR Certification,2023-07-20,11,Yes,L005
+TR0636,S0298,Patient Safety,2021-11-12,27,Yes,L004
+TR0637,S0298,Patient Safety,2021-09-23,6,Yes,L002
+TR0638,S0102,CPR Certification,2020-11-05,10,Yes,L003
+TR0639,S0150,Advanced Surgical Techniques,2023-05-19,36,No,L005
+TR0640,S0313,Electronic Health Records,2024-02-05,8,No,L001
+TR0641,S0197,Infection Control,2022-03-23,38,No,L003
+TR0642,S0129,Infection Control,2024-01-05,26,Yes,L003
+TR0643,S0291,Infection Control,2022-08-05,33,No,L002
+TR0644,S0074,Infection Control,2024-05-29,39,No,L004
+TR0645,S0181,Infection Control,2025-03-19,38,Yes,L002
+TR0646,S0197,Electronic Health Records,2022-03-16,29,No,L001
+TR0647,S0462,Infection Control,2020-05-17,6,No,L004
+TR0648,S0329,Electronic Health Records,2022-11-13,28,No,L001
+TR0649,S0377,Patient Safety,2024-09-13,26,Yes,L001
+TR0650,S0064,Advanced Surgical Techniques,2024-01-14,35,Yes,L001
+TR0651,S0038,Advanced Surgical Techniques,2023-10-09,31,Yes,L002
+TR0652,S0079,Patient Safety,2021-06-05,11,No,L002
+TR0653,S0397,Patient Safety,2023-03-04,9,No,L002
+TR0654,S0479,Infection Control,2022-03-18,8,Yes,L003
+TR0655,S0264,Advanced Surgical Techniques,2022-07-13,33,Yes,L004
+TR0656,S0110,Infection Control,2025-03-11,13,No,L002
+TR0657,S0417,CPR Certification,2025-02-02,40,No,L001
+TR0658,S0290,Infection Control,2022-06-11,17,Yes,L003
+TR0659,S0408,Infection Control,2022-11-02,11,No,L003
+TR0660,S0391,Advanced Surgical Techniques,2022-04-08,21,No,L005
+TR0661,S0469,Advanced Surgical Techniques,2023-06-28,28,Yes,L005
+TR0662,S0178,Patient Safety,2022-04-07,26,No,L003
+TR0663,S0192,Patient Safety,2021-05-26,25,No,L003
+TR0664,S0298,CPR Certification,2022-07-19,21,No,L002
+TR0665,S0379,Patient Safety,2023-12-23,13,No,L003
+TR0666,S0375,Patient Safety,2020-07-31,21,Yes,L005
+TR0667,S0018,Electronic Health Records,2023-01-31,26,No,L004
+TR0668,S0287,Electronic Health Records,2022-08-20,8,No,L004
+TR0669,S0150,Electronic Health Records,2024-04-21,13,No,L001
+TR0670,S0216,Electronic Health Records,2024-07-09,11,No,L001
+TR0671,S0161,Infection Control,2021-05-14,19,No,L004
+TR0672,S0191,Electronic Health Records,2020-09-12,35,No,L003
+TR0673,S0463,Electronic Health Records,2022-11-29,37,Yes,L003
+TR0674,S0084,Electronic Health Records,2023-10-18,21,No,L001
+TR0675,S0142,Infection Control,2021-08-04,24,No,L003
+TR0676,S0278,Patient Safety,2020-12-31,32,No,L003
+TR0677,S0273,Infection Control,2024-01-01,27,No,L005
+TR0678,S0220,Patient Safety,2023-02-23,27,Yes,L004
+TR0679,S0093,CPR Certification,2022-04-25,33,Yes,L001
+TR0680,S0098,Advanced Surgical Techniques,2024-09-08,5,No,L002
+TR0681,S0030,Electronic Health Records,2021-12-08,16,No,L003
+TR0682,S0145,Patient Safety,2023-02-28,7,No,L004
+TR0683,S0021,Advanced Surgical Techniques,2023-12-29,28,Yes,L003
+TR0684,S0265,Infection Control,2021-04-05,8,Yes,L001
+TR0685,S0220,Advanced Surgical Techniques,2025-03-13,6,Yes,L001
+TR0686,S0438,Infection Control,2022-10-18,36,Yes,L001
+TR0687,S0388,Electronic Health Records,2025-02-20,24,No,L001
+TR0688,S0335,Infection Control,2022-10-04,22,Yes,L003
+TR0689,S0481,CPR Certification,2021-03-14,4,Yes,L001
+TR0690,S0467,Patient Safety,2025-01-22,35,No,L001
+TR0691,S0365,CPR Certification,2020-11-06,39,No,L001
+TR0692,S0164,Electronic Health Records,2020-12-07,24,Yes,L005
+TR0693,S0122,Infection Control,2024-11-19,21,No,L004
+TR0694,S0036,Patient Safety,2024-03-04,29,Yes,L004
+TR0695,S0300,Patient Safety,2024-12-16,34,Yes,L001
+TR0696,S0186,CPR Certification,2020-06-13,29,Yes,L003
+TR0697,S0061,Infection Control,2024-11-16,32,Yes,L004
+TR0698,S0465,CPR Certification,2024-04-25,12,Yes,L002
+TR0699,S0467,Advanced Surgical Techniques,2022-09-14,32,No,L001
+TR0700,S0027,CPR Certification,2023-05-29,24,No,L004
+TR0701,S0442,CPR Certification,2023-02-23,17,No,L005
+TR0702,S0058,Electronic Health Records,2024-10-31,7,No,L003
+TR0703,S0069,Electronic Health Records,2024-12-13,5,No,L005
+TR0704,S0038,Advanced Surgical Techniques,2021-11-16,27,Yes,L001
+TR0705,S0238,Infection Control,2022-02-14,27,Yes,L004
+TR0706,S0009,Patient Safety,2024-08-20,34,Yes,L005
+TR0707,S0010,Infection Control,2023-08-30,9,No,L005
+TR0708,S0465,Infection Control,2023-08-25,13,Yes,L005
+TR0709,S0329,Infection Control,2024-12-14,19,Yes,L002
+TR0710,S0266,Electronic Health Records,2024-09-12,21,No,L003
+TR0711,S0053,CPR Certification,2022-07-15,36,No,L003
+TR0712,S0488,Infection Control,2024-03-20,6,No,L005
+TR0713,S0094,Infection Control,2021-12-04,38,Yes,L004
+TR0714,S0117,Advanced Surgical Techniques,2022-12-15,19,No,L003
+TR0715,S0466,Infection Control,2024-04-27,26,No,L003
+TR0716,S0161,Electronic Health Records,2020-11-11,26,No,L001
+TR0717,S0435,Advanced Surgical Techniques,2023-09-09,5,No,L005
+TR0718,S0310,Patient Safety,2021-07-25,23,No,L005
+TR0719,S0280,CPR Certification,2020-11-10,31,No,L002
+TR0720,S0399,Infection Control,2021-11-19,22,Yes,L001
+TR0721,S0126,Advanced Surgical Techniques,2022-08-10,29,No,L003
+TR0722,S0001,Electronic Health Records,2020-09-16,31,No,L002
+TR0723,S0389,Advanced Surgical Techniques,2023-12-10,18,Yes,L002
+TR0724,S0190,Electronic Health Records,2021-07-28,15,Yes,L001
+TR0725,S0172,Patient Safety,2022-01-27,22,No,L003
+TR0726,S0235,Infection Control,2021-10-13,19,Yes,L002
+TR0727,S0341,Patient Safety,2023-12-19,10,No,L005
+TR0728,S0335,Infection Control,2021-10-02,18,Yes,L005
+TR0729,S0017,CPR Certification,2023-02-15,15,Yes,L003
+TR0730,S0499,Electronic Health Records,2024-03-02,10,Yes,L004
+TR0731,S0020,Advanced Surgical Techniques,2021-12-20,6,No,L001
+TR0732,S0233,Electronic Health Records,2021-12-10,30,No,L003
+TR0733,S0359,CPR Certification,2023-07-28,14,Yes,L004
+TR0734,S0373,CPR Certification,2022-02-07,12,Yes,L005
+TR0735,S0187,Electronic Health Records,2024-09-17,22,Yes,L004
+TR0736,S0352,Electronic Health Records,2023-07-09,36,Yes,L005
+TR0737,S0113,Patient Safety,2020-07-25,27,No,L002
+TR0738,S0065,Electronic Health Records,2023-12-08,39,Yes,L005
+TR0739,S0064,Patient Safety,2020-10-05,20,No,L004
+TR0740,S0357,Electronic Health Records,2020-06-14,29,No,L003
+TR0741,S0029,Infection Control,2023-10-09,36,Yes,L004
+TR0742,S0265,Advanced Surgical Techniques,2023-11-30,24,Yes,L003
+TR0743,S0418,Infection Control,2021-08-13,34,Yes,L004
+TR0744,S0328,Infection Control,2024-09-14,19,Yes,L004
+TR0745,S0445,Electronic Health Records,2024-01-22,7,No,L004
+TR0746,S0245,Advanced Surgical Techniques,2020-07-15,11,No,L003
+TR0747,S0035,CPR Certification,2021-04-27,29,No,L004
+TR0748,S0033,Infection Control,2021-08-31,22,No,L003
+TR0749,S0469,CPR Certification,2023-04-26,24,No,L004
+TR0750,S0214,Advanced Surgical Techniques,2023-06-03,26,No,L003
+TR0751,S0114,Electronic Health Records,2021-03-31,11,No,L004
+TR0752,S0358,Infection Control,2023-06-01,39,No,L002
+TR0753,S0422,Patient Safety,2025-04-06,39,Yes,L005
+TR0754,S0371,Advanced Surgical Techniques,2025-02-06,21,Yes,L003
+TR0755,S0303,CPR Certification,2020-08-10,37,Yes,L005
+TR0756,S0295,Electronic Health Records,2025-02-15,22,No,L001
+TR0757,S0187,Electronic Health Records,2023-12-15,28,Yes,L001
+TR0758,S0313,Infection Control,2022-04-15,39,No,L001
+TR0759,S0386,Infection Control,2023-05-11,18,No,L003
+TR0760,S0364,Advanced Surgical Techniques,2020-11-09,14,No,L002
+TR0761,S0412,CPR Certification,2023-09-29,16,Yes,L001
+TR0762,S0123,CPR Certification,2020-05-05,40,No,L004
+TR0763,S0020,Advanced Surgical Techniques,2021-05-05,23,Yes,L002
+TR0764,S0184,Patient Safety,2023-07-05,14,No,L004
+TR0765,S0034,Infection Control,2020-10-05,40,Yes,L002
+TR0766,S0484,Electronic Health Records,2021-01-13,17,Yes,L002
+TR0767,S0223,CPR Certification,2020-07-06,9,Yes,L004
+TR0768,S0062,Advanced Surgical Techniques,2021-10-31,5,Yes,L005
+TR0769,S0033,Advanced Surgical Techniques,2024-08-27,21,No,L002
+TR0770,S0174,CPR Certification,2023-12-09,27,Yes,L003
+TR0771,S0086,Infection Control,2021-10-25,25,No,L004
+TR0772,S0460,Infection Control,2024-06-29,14,Yes,L002
+TR0773,S0229,CPR Certification,2021-07-14,35,Yes,L002
+TR0774,S0203,Advanced Surgical Techniques,2023-08-05,23,No,L002
+TR0775,S0034,CPR Certification,2022-03-25,31,No,L005
+TR0776,S0119,Advanced Surgical Techniques,2024-12-06,19,Yes,L003
+TR0777,S0227,CPR Certification,2021-10-15,27,No,L005
+TR0778,S0010,Advanced Surgical Techniques,2025-04-21,18,No,L003
+TR0779,S0286,Electronic Health Records,2023-12-09,30,Yes,L001
+TR0780,S0404,Patient Safety,2024-07-29,28,Yes,L001
+TR0781,S0470,Electronic Health Records,2020-11-10,15,No,L001
+TR0782,S0300,Infection Control,2023-01-13,28,No,L002
+TR0783,S0324,Advanced Surgical Techniques,2022-04-06,18,Yes,L004
+TR0784,S0474,Infection Control,2022-06-13,27,No,L002
+TR0785,S0227,Patient Safety,2021-08-02,27,No,L005
+TR0786,S0065,Electronic Health Records,2024-11-08,15,Yes,L003
+TR0787,S0039,Electronic Health Records,2024-01-09,10,No,L002
+TR0788,S0381,Electronic Health Records,2022-09-30,34,No,L001
+TR0789,S0293,CPR Certification,2021-07-06,40,No,L005
+TR0790,S0081,Electronic Health Records,2023-05-30,28,Yes,L003
+TR0791,S0032,Patient Safety,2025-03-14,13,No,L005
+TR0792,S0452,Advanced Surgical Techniques,2025-03-27,17,Yes,L003
+TR0793,S0343,CPR Certification,2022-02-06,33,Yes,L003
+TR0794,S0290,Advanced Surgical Techniques,2021-12-13,39,Yes,L001
+TR0795,S0328,Advanced Surgical Techniques,2020-11-13,9,Yes,L002
+TR0796,S0417,CPR Certification,2021-06-13,13,No,L002
+TR0797,S0340,Advanced Surgical Techniques,2021-02-26,22,No,L004
+TR0798,S0246,Patient Safety,2021-07-19,10,No,L001
+TR0799,S0229,Infection Control,2025-01-28,24,Yes,L004
+TR0800,S0090,Electronic Health Records,2022-04-11,35,No,L002
+TR0801,S0370,CPR Certification,2023-06-12,33,Yes,L002
+TR0802,S0175,Infection Control,2025-01-26,36,Yes,L004
+TR0803,S0227,CPR Certification,2020-06-17,32,No,L003
+TR0804,S0068,Patient Safety,2023-11-05,8,No,L004
+TR0805,S0196,Patient Safety,2021-10-11,13,Yes,L002
+TR0806,S0190,CPR Certification,2023-04-18,25,Yes,L002
+TR0807,S0166,Advanced Surgical Techniques,2022-02-21,7,Yes,L005
+TR0808,S0137,Infection Control,2022-07-27,14,Yes,L004
+TR0809,S0181,CPR Certification,2020-06-22,19,Yes,L005
+TR0810,S0417,Electronic Health Records,2023-08-11,37,Yes,L003
+TR0811,S0112,Infection Control,2020-09-08,26,Yes,L002
+TR0812,S0129,CPR Certification,2021-04-20,35,Yes,L001
+TR0813,S0291,Infection Control,2021-09-24,39,No,L003
+TR0814,S0223,Electronic Health Records,2024-12-01,12,Yes,L002
+TR0815,S0105,CPR Certification,2021-09-23,30,No,L003
+TR0816,S0377,Advanced Surgical Techniques,2023-05-25,29,Yes,L002
+TR0817,S0097,CPR Certification,2023-08-21,27,No,L004
+TR0818,S0214,Electronic Health Records,2023-08-07,28,No,L003
+TR0819,S0007,CPR Certification,2020-12-21,40,Yes,L005
+TR0820,S0419,Advanced Surgical Techniques,2021-02-11,10,Yes,L001
+TR0821,S0211,Electronic Health Records,2020-05-10,9,No,L002
+TR0822,S0112,Infection Control,2022-04-17,12,No,L004
+TR0823,S0459,Patient Safety,2022-06-03,31,Yes,L004
+TR0824,S0489,CPR Certification,2023-10-27,39,No,L001
+TR0825,S0378,CPR Certification,2024-04-21,30,Yes,L005
+TR0826,S0110,Patient Safety,2025-03-03,30,Yes,L003
+TR0827,S0319,Patient Safety,2022-06-22,33,No,L004
+TR0828,S0003,Infection Control,2025-01-15,34,No,L002
+TR0829,S0214,Infection Control,2022-06-02,21,No,L003
+TR0830,S0383,CPR Certification,2024-10-30,16,No,L004
+TR0831,S0393,CPR Certification,2021-01-24,21,Yes,L003
+TR0832,S0109,Advanced Surgical Techniques,2022-06-04,32,Yes,L002
+TR0833,S0169,Patient Safety,2022-11-20,38,No,L001
+TR0834,S0225,Electronic Health Records,2022-06-02,38,No,L002
+TR0835,S0039,Infection Control,2024-06-09,23,Yes,L001
+TR0836,S0116,Patient Safety,2023-12-31,25,Yes,L002
+TR0837,S0057,Patient Safety,2023-08-30,23,No,L001
+TR0838,S0396,Advanced Surgical Techniques,2022-04-15,13,Yes,L003
+TR0839,S0397,Patient Safety,2022-10-25,8,No,L004
+TR0840,S0311,Patient Safety,2022-01-20,11,Yes,L001
+TR0841,S0151,CPR Certification,2023-12-26,40,Yes,L003
+TR0842,S0307,Infection Control,2022-12-19,40,Yes,L003
+TR0843,S0337,Advanced Surgical Techniques,2024-12-28,11,No,L001
+TR0844,S0331,Infection Control,2020-08-10,35,Yes,L004
+TR0845,S0237,Advanced Surgical Techniques,2024-06-23,6,No,L005
+TR0846,S0104,Patient Safety,2021-06-21,18,No,L004
+TR0847,S0065,CPR Certification,2021-08-25,17,Yes,L002
+TR0848,S0132,Infection Control,2022-02-18,14,Yes,L004
+TR0849,S0140,Infection Control,2024-01-19,21,Yes,L001
+TR0850,S0444,Infection Control,2023-11-04,17,Yes,L005
+TR0851,S0292,Infection Control,2021-10-05,28,No,L001
+TR0852,S0229,Advanced Surgical Techniques,2021-07-10,17,Yes,L003
+TR0853,S0425,Patient Safety,2023-08-25,34,Yes,L003
+TR0854,S0313,CPR Certification,2020-10-13,25,Yes,L005
+TR0855,S0412,Patient Safety,2024-05-23,8,Yes,L005
+TR0856,S0042,Advanced Surgical Techniques,2020-05-10,7,No,L002
+TR0857,S0224,Electronic Health Records,2021-11-30,38,Yes,L002
+TR0858,S0393,Patient Safety,2022-09-16,10,No,L004
+TR0859,S0096,CPR Certification,2024-11-23,19,Yes,L004
+TR0860,S0148,CPR Certification,2022-12-29,40,No,L005
+TR0861,S0203,Electronic Health Records,2021-10-30,13,No,L003
+TR0862,S0384,Infection Control,2021-07-01,26,Yes,L001
+TR0863,S0084,Electronic Health Records,2024-08-09,30,Yes,L002
+TR0864,S0146,Patient Safety,2020-11-16,36,No,L004
+TR0865,S0487,Patient Safety,2021-11-15,37,Yes,L001
+TR0866,S0339,Patient Safety,2021-11-26,29,Yes,L005
+TR0867,S0188,CPR Certification,2021-11-29,23,No,L002
+TR0868,S0028,CPR Certification,2021-09-14,39,Yes,L004
+TR0869,S0335,CPR Certification,2020-11-09,14,Yes,L004
+TR0870,S0469,Infection Control,2025-02-15,25,No,L004
+TR0871,S0153,Advanced Surgical Techniques,2021-11-25,20,No,L004
+TR0872,S0307,Advanced Surgical Techniques,2023-03-12,30,No,L003
+TR0873,S0334,CPR Certification,2023-08-28,31,No,L005
+TR0874,S0487,CPR Certification,2021-04-27,18,No,L002
+TR0875,S0406,Advanced Surgical Techniques,2021-04-29,38,Yes,L005
+TR0876,S0128,Advanced Surgical Techniques,2022-10-12,28,Yes,L005
+TR0877,S0433,Electronic Health Records,2023-09-15,40,Yes,L004
+TR0878,S0186,Infection Control,2023-09-09,35,No,L002
+TR0879,S0094,CPR Certification,2024-05-14,19,No,L004
+TR0880,S0281,CPR Certification,2021-11-13,10,No,L004
+TR0881,S0195,Electronic Health Records,2024-01-11,9,Yes,L003
+TR0882,S0085,CPR Certification,2022-08-13,21,No,L005
+TR0883,S0471,Patient Safety,2020-11-03,40,No,L001
+TR0884,S0090,Patient Safety,2024-07-22,9,Yes,L005
+TR0885,S0087,CPR Certification,2021-03-20,35,Yes,L002
+TR0886,S0389,Infection Control,2023-09-17,9,No,L005
+TR0887,S0390,CPR Certification,2022-10-08,18,Yes,L003
+TR0888,S0337,CPR Certification,2024-09-01,19,Yes,L002
+TR0889,S0249,Infection Control,2024-04-26,5,Yes,L003
+TR0890,S0051,Patient Safety,2022-05-28,14,Yes,L001
+TR0891,S0207,Advanced Surgical Techniques,2022-03-04,24,No,L005
+TR0892,S0013,Patient Safety,2023-03-09,9,No,L002
+TR0893,S0445,CPR Certification,2022-07-10,39,Yes,L002
+TR0894,S0224,Infection Control,2024-04-30,13,Yes,L004
+TR0895,S0308,Patient Safety,2020-11-26,17,No,L002
+TR0896,S0294,Infection Control,2024-12-01,17,Yes,L004
+TR0897,S0075,CPR Certification,2025-01-09,11,No,L003
+TR0898,S0065,CPR Certification,2020-06-07,29,Yes,L002
+TR0899,S0463,Electronic Health Records,2023-02-26,38,No,L003
+TR0900,S0149,Infection Control,2024-05-12,12,No,L004
+TR0901,S0468,CPR Certification,2024-02-09,23,No,L002
+TR0902,S0076,CPR Certification,2021-02-11,6,No,L003
+TR0903,S0028,Advanced Surgical Techniques,2022-10-27,16,No,L001
+TR0904,S0419,CPR Certification,2024-07-10,31,No,L003
+TR0905,S0300,CPR Certification,2024-01-18,10,No,L002
+TR0906,S0065,Patient Safety,2022-07-08,7,No,L005
+TR0907,S0174,Patient Safety,2024-05-21,13,No,L004
+TR0908,S0049,Electronic Health Records,2020-09-17,36,Yes,L005
+TR0909,S0470,Electronic Health Records,2024-07-19,22,No,L001
+TR0910,S0020,Electronic Health Records,2021-08-16,38,Yes,L003
+TR0911,S0213,Advanced Surgical Techniques,2022-05-02,7,Yes,L005
+TR0912,S0105,Advanced Surgical Techniques,2023-10-14,22,Yes,L002
+TR0913,S0163,Patient Safety,2024-05-23,31,No,L002
+TR0914,S0113,Advanced Surgical Techniques,2023-11-08,5,No,L002
+TR0915,S0289,Electronic Health Records,2020-08-20,39,No,L004
+TR0916,S0385,Advanced Surgical Techniques,2020-07-19,32,No,L005
+TR0917,S0154,Electronic Health Records,2024-12-31,26,No,L001
+TR0918,S0428,Electronic Health Records,2023-02-22,20,Yes,L002
+TR0919,S0365,CPR Certification,2025-03-28,36,No,L001
+TR0920,S0214,Advanced Surgical Techniques,2021-07-19,8,No,L003
+TR0921,S0096,Patient Safety,2023-01-02,27,Yes,L003
+TR0922,S0413,Patient Safety,2024-06-30,38,No,L001
+TR0923,S0083,Electronic Health Records,2020-10-08,30,No,L005
+TR0924,S0335,Infection Control,2021-01-03,26,No,L005
+TR0925,S0135,Patient Safety,2020-11-14,21,Yes,L005
+TR0926,S0012,Electronic Health Records,2023-04-03,11,No,L001
+TR0927,S0248,Advanced Surgical Techniques,2020-05-08,37,Yes,L003
+TR0928,S0492,CPR Certification,2021-03-10,39,No,L001
+TR0929,S0296,Patient Safety,2022-04-04,28,Yes,L003
+TR0930,S0459,CPR Certification,2020-11-28,19,Yes,L005
+TR0931,S0224,Advanced Surgical Techniques,2021-11-09,25,No,L004
+TR0932,S0007,Infection Control,2023-02-13,33,No,L002
+TR0933,S0346,Infection Control,2021-04-09,40,Yes,L003
+TR0934,S0177,Infection Control,2020-07-13,7,No,L003
+TR0935,S0483,Infection Control,2025-02-17,15,Yes,L003
+TR0936,S0221,Infection Control,2025-03-19,32,Yes,L003
+TR0937,S0416,Patient Safety,2024-04-08,5,No,L003
+TR0938,S0367,Infection Control,2022-08-07,24,Yes,L001
+TR0939,S0477,Patient Safety,2023-02-02,11,Yes,L003
+TR0940,S0305,Patient Safety,2021-09-18,11,Yes,L004
+TR0941,S0089,Electronic Health Records,2022-09-27,37,Yes,L003
+TR0942,S0395,Patient Safety,2023-10-15,5,Yes,L002
+TR0943,S0089,CPR Certification,2023-02-16,30,No,L005
+TR0944,S0213,Advanced Surgical Techniques,2020-08-18,17,No,L003
+TR0945,S0029,CPR Certification,2021-05-10,26,Yes,L004
+TR0946,S0409,Infection Control,2024-12-06,19,No,L001
+TR0947,S0045,Patient Safety,2024-05-01,22,Yes,L004
+TR0948,S0133,CPR Certification,2025-02-23,8,No,L005
+TR0949,S0017,Electronic Health Records,2024-11-30,5,No,L002
+TR0950,S0286,Infection Control,2024-05-25,24,No,L003
+TR0951,S0416,Advanced Surgical Techniques,2022-04-15,24,No,L001
+TR0952,S0364,CPR Certification,2024-01-28,12,No,L004
+TR0953,S0073,Infection Control,2020-08-18,34,Yes,L001
+TR0954,S0336,CPR Certification,2024-08-06,8,No,L002
+TR0955,S0179,Patient Safety,2023-11-02,24,Yes,L004
+TR0956,S0052,Patient Safety,2021-09-27,7,No,L005
+TR0957,S0220,Advanced Surgical Techniques,2022-07-21,26,No,L004
+TR0958,S0134,Infection Control,2024-06-06,5,Yes,L002
+TR0959,S0107,Patient Safety,2021-12-02,11,No,L003
+TR0960,S0270,Infection Control,2024-02-23,27,No,L001
+TR0961,S0080,Advanced Surgical Techniques,2024-07-04,39,No,L005
+TR0962,S0372,Infection Control,2021-04-20,6,No,L005
+TR0963,S0243,Electronic Health Records,2021-09-02,7,Yes,L005
+TR0964,S0476,Electronic Health Records,2021-08-23,34,No,L004
+TR0965,S0104,Advanced Surgical Techniques,2023-02-22,17,No,L003
+TR0966,S0284,CPR Certification,2024-02-25,28,Yes,L002
+TR0967,S0117,Infection Control,2021-01-18,11,Yes,L005
+TR0968,S0309,Advanced Surgical Techniques,2022-10-22,10,Yes,L002
+TR0969,S0457,Advanced Surgical Techniques,2021-10-01,22,Yes,L005
+TR0970,S0408,Patient Safety,2021-01-19,10,No,L005
+TR0971,S0243,Patient Safety,2020-10-16,22,Yes,L002
+TR0972,S0249,Electronic Health Records,2023-09-22,9,Yes,L004
+TR0973,S0172,Electronic Health Records,2024-06-23,6,Yes,L005
+TR0974,S0479,Electronic Health Records,2021-08-18,24,No,L002
+TR0975,S0391,CPR Certification,2023-12-25,10,No,L005
+TR0976,S0029,Infection Control,2023-06-27,27,No,L001
+TR0977,S0345,CPR Certification,2021-06-28,30,No,L004
+TR0978,S0386,Advanced Surgical Techniques,2025-03-31,9,No,L003
+TR0979,S0484,Electronic Health Records,2022-07-04,29,Yes,L001
+TR0980,S0136,Advanced Surgical Techniques,2020-09-13,7,No,L001
+TR0981,S0497,Electronic Health Records,2020-04-28,8,Yes,L005
+TR0982,S0221,Advanced Surgical Techniques,2020-05-02,8,No,L003
+TR0983,S0011,Patient Safety,2022-09-24,30,Yes,L003
+TR0984,S0172,Electronic Health Records,2024-05-13,30,No,L001
+TR0985,S0254,Advanced Surgical Techniques,2020-10-16,21,No,L001
+TR0986,S0237,CPR Certification,2024-12-17,30,No,L001
+TR0987,S0027,CPR Certification,2023-09-05,9,Yes,L001
+TR0988,S0287,Patient Safety,2022-08-08,9,Yes,L004
+TR0989,S0098,Patient Safety,2023-11-07,12,No,L001
+TR0990,S0208,Advanced Surgical Techniques,2021-04-04,22,Yes,L004
+TR0991,S0276,Patient Safety,2022-04-30,38,No,L003
+TR0992,S0438,Advanced Surgical Techniques,2023-02-28,24,No,L001
+TR0993,S0467,CPR Certification,2020-08-27,7,Yes,L001
+TR0994,S0161,Infection Control,2021-11-13,32,Yes,L004
+TR0995,S0104,Patient Safety,2022-05-27,34,No,L003
+TR0996,S0384,Electronic Health Records,2023-05-20,5,No,L004
+TR0997,S0216,Patient Safety,2023-03-15,29,No,L002
+TR0998,S0460,CPR Certification,2022-12-08,28,Yes,L002
+TR0999,S0402,CPR Certification,2024-10-13,10,No,L002
+TR1000,S0120,CPR Certification,2023-02-25,21,No,L003
+TR1001,S0311,Infection Control,2025-01-28,17,Yes,L001
+TR1002,S0114,CPR Certification,2022-12-31,5,Yes,L003
+TR1003,S0261,Electronic Health Records,2022-01-08,19,Yes,L005
+TR1004,S0238,Infection Control,2025-03-04,37,Yes,L005
+TR1005,S0330,CPR Certification,2023-08-13,8,Yes,L005
+TR1006,S0269,Advanced Surgical Techniques,2023-11-27,9,Yes,L004
+TR1007,S0137,Electronic Health Records,2022-09-27,22,No,L005
+TR1008,S0128,Advanced Surgical Techniques,2025-02-14,33,Yes,L001
+TR1009,S0429,Electronic Health Records,2023-11-28,20,Yes,L005
+TR1010,S0147,CPR Certification,2023-06-12,16,No,L001
+TR1011,S0287,Patient Safety,2025-04-21,23,Yes,L004
+TR1012,S0145,Infection Control,2023-12-28,13,No,L001
+TR1013,S0296,CPR Certification,2022-11-14,14,Yes,L004
+TR1014,S0087,Infection Control,2023-06-10,33,Yes,L004
+TR1015,S0005,Infection Control,2024-02-05,27,No,L002
+TR1016,S0374,Patient Safety,2024-12-24,19,Yes,L001
+TR1017,S0284,Patient Safety,2024-04-10,9,Yes,L005
+TR1018,S0454,Patient Safety,2021-03-31,17,Yes,L005
+TR1019,S0245,Electronic Health Records,2023-05-13,34,Yes,L001
+TR1020,S0212,Patient Safety,2023-03-06,33,Yes,L003
+TR1021,S0384,Infection Control,2021-05-21,4,Yes,L003
+TR1022,S0222,CPR Certification,2021-05-27,32,Yes,L005
+TR1023,S0414,CPR Certification,2024-03-02,35,Yes,L004
+TR1024,S0366,CPR Certification,2025-04-06,10,Yes,L005
+TR1025,S0450,Patient Safety,2023-03-07,25,No,L005
+TR1026,S0065,Infection Control,2022-08-16,37,Yes,L003
+TR1027,S0200,Electronic Health Records,2021-04-21,14,Yes,L001
+TR1028,S0236,Advanced Surgical Techniques,2023-08-07,25,No,L003
+TR1029,S0052,Patient Safety,2024-12-30,33,No,L001
+TR1030,S0389,Patient Safety,2022-05-20,10,Yes,L005
+TR1031,S0001,Infection Control,2022-07-19,29,No,L002
+TR1032,S0281,Electronic Health Records,2023-06-24,12,No,L004
+TR1033,S0358,Patient Safety,2023-12-06,25,Yes,L004
+TR1034,S0314,CPR Certification,2024-02-09,26,No,L004
+TR1035,S0494,Infection Control,2022-12-14,9,Yes,L004
+TR1036,S0472,Electronic Health Records,2020-07-26,12,No,L001
+TR1037,S0083,Patient Safety,2021-09-08,30,No,L001
+TR1038,S0228,Advanced Surgical Techniques,2021-08-05,8,Yes,L002
+TR1039,S0204,Advanced Surgical Techniques,2023-12-25,40,Yes,L003
+TR1040,S0426,Electronic Health Records,2021-11-16,21,Yes,L005
+TR1041,S0006,Advanced Surgical Techniques,2023-03-25,21,Yes,L005
+TR1042,S0387,Advanced Surgical Techniques,2024-09-23,18,Yes,L002
+TR1043,S0479,Patient Safety,2023-02-10,19,Yes,L005
+TR1044,S0080,Advanced Surgical Techniques,2023-04-07,36,Yes,L002
+TR1045,S0257,CPR Certification,2022-02-04,37,No,L004
+TR1046,S0449,Advanced Surgical Techniques,2022-08-12,16,Yes,L003
+TR1047,S0431,Patient Safety,2022-01-12,26,No,L002
+TR1048,S0066,Patient Safety,2022-01-25,21,No,L005
+TR1049,S0434,CPR Certification,2021-12-04,14,Yes,L004
+TR1050,S0015,Patient Safety,2021-05-16,21,Yes,L005
+TR1051,S0464,Advanced Surgical Techniques,2023-11-08,7,No,L005
+TR1052,S0031,Infection Control,2021-04-12,39,No,L004
+TR1053,S0106,CPR Certification,2023-08-17,7,Yes,L003
+TR1054,S0194,Infection Control,2022-11-03,33,Yes,L004
+TR1055,S0031,CPR Certification,2022-10-06,12,No,L004
+TR1056,S0317,Electronic Health Records,2023-05-15,8,No,L005
+TR1057,S0200,Patient Safety,2021-10-19,10,No,L003
+TR1058,S0376,Infection Control,2024-02-21,39,Yes,L001
+TR1059,S0302,Electronic Health Records,2021-04-09,10,No,L001
+TR1060,S0077,CPR Certification,2022-11-22,13,Yes,L002
+TR1061,S0405,Electronic Health Records,2020-07-29,4,Yes,L002
+TR1062,S0385,Infection Control,2020-11-04,16,No,L001
+TR1063,S0161,Advanced Surgical Techniques,2020-08-20,32,Yes,L005
+TR1064,S0298,CPR Certification,2023-05-06,30,Yes,L005
+TR1065,S0336,Electronic Health Records,2021-06-10,25,No,L002
+TR1066,S0252,Infection Control,2020-09-17,12,No,L001
+TR1067,S0248,Advanced Surgical Techniques,2024-03-09,11,No,L002
+TR1068,S0349,Advanced Surgical Techniques,2023-05-12,36,Yes,L003
+TR1069,S0138,Infection Control,2021-08-23,27,No,L002
+TR1070,S0021,CPR Certification,2020-11-03,35,Yes,L005
+TR1071,S0038,Infection Control,2020-05-23,5,Yes,L004
+TR1072,S0444,Advanced Surgical Techniques,2021-02-17,19,Yes,L005
+TR1073,S0059,Patient Safety,2024-02-28,10,Yes,L003
+TR1074,S0104,Infection Control,2022-06-15,28,Yes,L003
+TR1075,S0211,Patient Safety,2022-05-08,32,No,L001
+TR1076,S0124,CPR Certification,2023-01-30,7,No,L005
+TR1077,S0166,Infection Control,2020-08-16,22,No,L001
+TR1078,S0095,Infection Control,2024-03-27,34,Yes,L002
+TR1079,S0249,Patient Safety,2021-10-05,20,Yes,L002
+TR1080,S0040,Infection Control,2024-05-04,4,No,L004
+TR1081,S0065,Electronic Health Records,2021-01-05,40,Yes,L005
+TR1082,S0209,Patient Safety,2022-03-30,27,Yes,L005
+TR1083,S0021,Advanced Surgical Techniques,2025-01-24,17,No,L001
+TR1084,S0392,Advanced Surgical Techniques,2022-09-02,10,Yes,L003
+TR1085,S0448,Advanced Surgical Techniques,2023-10-07,39,Yes,L001
+TR1086,S0220,Infection Control,2020-09-11,31,Yes,L002
+TR1087,S0017,Infection Control,2022-12-20,36,No,L001
+TR1088,S0169,Advanced Surgical Techniques,2024-05-29,15,Yes,L004
+TR1089,S0359,Infection Control,2021-05-05,28,Yes,L004
+TR1090,S0179,Infection Control,2024-01-04,19,No,L004
+TR1091,S0126,CPR Certification,2021-12-27,19,Yes,L001
+TR1092,S0369,CPR Certification,2021-04-04,28,No,L001
+TR1093,S0329,CPR Certification,2020-10-05,36,Yes,L001
+TR1094,S0270,CPR Certification,2022-01-01,18,Yes,L005
+TR1095,S0287,CPR Certification,2025-02-03,17,No,L005
+TR1096,S0180,Infection Control,2021-07-29,16,Yes,L005
+TR1097,S0289,Electronic Health Records,2023-07-25,34,No,L001
+TR1098,S0340,Infection Control,2022-08-21,7,Yes,L005
+TR1099,S0352,Electronic Health Records,2025-04-19,22,No,L002
+TR1100,S0283,Infection Control,2024-02-18,22,No,L005
+TR1101,S0451,Advanced Surgical Techniques,2025-03-26,36,No,L004
+TR1102,S0268,Infection Control,2020-06-07,17,No,L005
+TR1103,S0336,Electronic Health Records,2022-10-17,22,No,L005
+TR1104,S0398,Patient Safety,2024-02-07,20,No,L005
+TR1105,S0437,Patient Safety,2023-12-12,38,No,L003
+TR1106,S0344,Infection Control,2023-03-14,21,No,L001
+TR1107,S0163,Advanced Surgical Techniques,2021-01-10,5,No,L005
+TR1108,S0062,Advanced Surgical Techniques,2023-06-28,12,No,L002
+TR1109,S0001,Infection Control,2024-03-01,36,No,L005
+TR1110,S0122,Electronic Health Records,2024-08-07,15,Yes,L003
+TR1111,S0491,Infection Control,2024-03-02,5,Yes,L005
+TR1112,S0291,Patient Safety,2020-08-07,12,No,L004
+TR1113,S0206,Patient Safety,2020-07-03,23,Yes,L001
+TR1114,S0402,Advanced Surgical Techniques,2020-06-12,9,Yes,L003
+TR1115,S0298,Infection Control,2021-09-04,9,Yes,L005
+TR1116,S0480,Electronic Health Records,2021-11-28,27,Yes,L001
+TR1117,S0205,CPR Certification,2024-02-02,24,Yes,L002
+TR1118,S0431,CPR Certification,2021-01-08,29,No,L005
+TR1119,S0161,Infection Control,2025-02-21,5,Yes,L001
+TR1120,S0453,Infection Control,2022-03-07,12,No,L004
+TR1121,S0140,CPR Certification,2020-07-08,26,Yes,L002
+TR1122,S0256,CPR Certification,2022-02-01,25,No,L001
+TR1123,S0484,Infection Control,2020-12-24,17,No,L005
+TR1124,S0458,Infection Control,2021-06-16,40,No,L004
+TR1125,S0093,Advanced Surgical Techniques,2021-10-02,11,No,L001
+TR1126,S0037,CPR Certification,2023-03-20,22,Yes,L004
+TR1127,S0164,CPR Certification,2024-12-25,33,Yes,L004
+TR1128,S0239,CPR Certification,2022-01-15,26,No,L003
+TR1129,S0398,CPR Certification,2022-07-12,35,Yes,L001
+TR1130,S0347,Electronic Health Records,2023-10-28,35,Yes,L005
+TR1131,S0403,CPR Certification,2021-11-30,35,No,L005
+TR1132,S0354,Advanced Surgical Techniques,2024-05-13,26,Yes,L001
+TR1133,S0389,Infection Control,2025-03-17,16,No,L005
+TR1134,S0453,Patient Safety,2020-11-22,36,Yes,L004
+TR1135,S0161,Advanced Surgical Techniques,2020-06-28,20,No,L002
+TR1136,S0417,Patient Safety,2022-10-26,18,Yes,L005
+TR1137,S0340,Infection Control,2024-01-19,26,Yes,L002
+TR1138,S0116,Electronic Health Records,2024-06-18,25,Yes,L004
+TR1139,S0186,Electronic Health Records,2024-12-07,35,Yes,L004
+TR1140,S0332,Infection Control,2024-09-27,10,No,L003
+TR1141,S0054,Advanced Surgical Techniques,2023-09-13,26,No,L003
+TR1142,S0436,CPR Certification,2024-05-08,25,Yes,L002
+TR1143,S0469,Patient Safety,2021-06-23,38,No,L003
+TR1144,S0052,Infection Control,2025-03-26,18,No,L003
+TR1145,S0234,Infection Control,2021-12-11,32,No,L005
+TR1146,S0276,Patient Safety,2020-09-22,6,Yes,L004
+TR1147,S0267,Advanced Surgical Techniques,2020-10-01,32,No,L002
+TR1148,S0500,Patient Safety,2020-07-25,37,No,L001
+TR1149,S0297,Advanced Surgical Techniques,2020-11-05,20,Yes,L002
+TR1150,S0099,CPR Certification,2020-11-05,27,Yes,L004
+TR1151,S0262,Patient Safety,2023-03-31,40,No,L001
+TR1152,S0219,CPR Certification,2020-09-22,36,Yes,L005
+TR1153,S0359,Advanced Surgical Techniques,2023-02-19,24,No,L005
+TR1154,S0458,Advanced Surgical Techniques,2024-08-13,35,Yes,L002
+TR1155,S0274,Infection Control,2022-10-26,28,Yes,L003
+TR1156,S0493,Patient Safety,2023-12-11,29,No,L001
+TR1157,S0267,Advanced Surgical Techniques,2020-10-21,29,No,L003
+TR1158,S0289,Infection Control,2023-09-08,8,Yes,L002
+TR1159,S0327,Electronic Health Records,2020-09-30,23,Yes,L004
+TR1160,S0463,Electronic Health Records,2020-11-02,31,No,L002
+TR1161,S0266,Advanced Surgical Techniques,2024-03-22,25,No,L002
+TR1162,S0228,Advanced Surgical Techniques,2022-02-04,32,Yes,L004
+TR1163,S0081,Advanced Surgical Techniques,2023-01-13,22,Yes,L001
+TR1164,S0221,Advanced Surgical Techniques,2022-11-29,25,Yes,L002
+TR1165,S0094,CPR Certification,2023-07-16,29,No,L003
+TR1166,S0435,CPR Certification,2021-02-12,23,Yes,L001
+TR1167,S0364,Electronic Health Records,2020-06-28,6,No,L003
+TR1168,S0023,CPR Certification,2021-08-26,21,Yes,L001
+TR1169,S0233,CPR Certification,2024-02-19,9,Yes,L003
+TR1170,S0009,Electronic Health Records,2022-08-29,19,Yes,L002
+TR1171,S0465,Infection Control,2025-03-25,22,No,L003
+TR1172,S0151,Advanced Surgical Techniques,2022-03-13,26,No,L003
+TR1173,S0113,Infection Control,2022-07-06,17,Yes,L003
+TR1174,S0176,Patient Safety,2023-11-20,36,Yes,L002
+TR1175,S0420,Patient Safety,2021-03-07,33,No,L005
+TR1176,S0131,Advanced Surgical Techniques,2024-08-04,40,Yes,L005
+TR1177,S0475,Advanced Surgical Techniques,2022-06-01,20,No,L005
+TR1178,S0224,Infection Control,2022-10-27,31,No,L001
+TR1179,S0014,Infection Control,2024-08-18,34,Yes,L001
+TR1180,S0301,Advanced Surgical Techniques,2022-02-09,14,No,L003
+TR1181,S0402,Advanced Surgical Techniques,2021-06-25,12,Yes,L005
+TR1182,S0077,Infection Control,2024-02-14,36,No,L005
+TR1183,S0001,CPR Certification,2024-10-21,8,No,L004
+TR1184,S0299,Infection Control,2024-11-26,28,Yes,L005
+TR1185,S0445,Electronic Health Records,2021-11-14,9,No,L005
+TR1186,S0053,Advanced Surgical Techniques,2024-01-13,23,No,L004
+TR1187,S0192,Electronic Health Records,2024-05-05,23,No,L004
+TR1188,S0236,CPR Certification,2023-01-17,4,Yes,L002
+TR1189,S0121,Advanced Surgical Techniques,2022-09-09,37,Yes,L002
+TR1190,S0085,Patient Safety,2025-01-16,7,Yes,L003
+TR1191,S0355,Electronic Health Records,2022-06-30,14,No,L005
+TR1192,S0465,Infection Control,2021-09-01,14,No,L002
+TR1193,S0444,CPR Certification,2023-02-23,5,Yes,L004
+TR1194,S0373,CPR Certification,2021-07-01,35,Yes,L004
+TR1195,S0475,Infection Control,2022-12-30,7,No,L005
+TR1196,S0023,Patient Safety,2024-10-15,37,No,L005
+TR1197,S0033,Infection Control,2023-11-08,7,Yes,L005
+TR1198,S0221,CPR Certification,2020-08-01,35,Yes,L003
+TR1199,S0064,Electronic Health Records,2022-03-14,39,Yes,L001
+TR1200,S0494,Infection Control,2024-11-27,32,Yes,L002
+TR1201,S0055,Patient Safety,2024-10-09,35,No,L001
+TR1202,S0497,CPR Certification,2021-06-10,30,Yes,L003
+TR1203,S0052,Advanced Surgical Techniques,2021-01-12,21,No,L003
+TR1204,S0066,Patient Safety,2023-12-06,38,Yes,L001
+TR1205,S0217,Advanced Surgical Techniques,2021-04-29,36,Yes,L004
+TR1206,S0262,Electronic Health Records,2021-01-27,25,Yes,L002
+TR1207,S0409,Electronic Health Records,2024-02-19,16,Yes,L005
+TR1208,S0174,Infection Control,2023-11-03,25,No,L005
+TR1209,S0368,Advanced Surgical Techniques,2020-09-22,30,No,L002
+TR1210,S0406,Patient Safety,2024-04-30,26,No,L002
+TR1211,S0398,Electronic Health Records,2025-03-04,38,No,L001
+TR1212,S0277,CPR Certification,2025-02-02,20,Yes,L003
+TR1213,S0500,CPR Certification,2021-01-25,19,No,L003
+TR1214,S0089,Patient Safety,2022-07-06,18,No,L005
+TR1215,S0465,Patient Safety,2024-05-27,9,Yes,L004
+TR1216,S0257,Electronic Health Records,2021-06-17,27,No,L001
+TR1217,S0247,Patient Safety,2025-03-21,14,Yes,L004
+TR1218,S0028,Infection Control,2025-04-28,20,Yes,L004
+TR1219,S0230,Infection Control,2021-04-27,27,No,L005
+TR1220,S0041,Patient Safety,2023-04-16,9,No,L005
+TR1221,S0494,Electronic Health Records,2020-09-18,7,Yes,L001
+TR1222,S0389,Infection Control,2024-04-04,21,Yes,L002
+TR1223,S0239,CPR Certification,2024-10-05,37,Yes,L004
+TR1224,S0339,Electronic Health Records,2022-08-13,34,Yes,L004
+TR1225,S0347,Patient Safety,2022-04-20,17,Yes,L001
+TR1226,S0443,Infection Control,2020-09-11,20,No,L003
+TR1227,S0157,CPR Certification,2020-10-05,31,No,L005
+TR1228,S0365,CPR Certification,2021-01-12,25,Yes,L003
+TR1229,S0190,Electronic Health Records,2023-02-18,26,No,L001
+TR1230,S0242,Infection Control,2025-04-04,11,Yes,L005
+TR1231,S0450,Electronic Health Records,2024-05-20,8,Yes,L005
+TR1232,S0158,Infection Control,2020-06-10,18,No,L001
+TR1233,S0484,Infection Control,2021-02-02,21,No,L002
+TR1234,S0054,Infection Control,2025-03-18,39,No,L002
+TR1235,S0261,Patient Safety,2020-06-26,24,Yes,L003
+TR1236,S0386,Electronic Health Records,2022-11-13,22,Yes,L005
+TR1237,S0389,Infection Control,2024-05-01,39,No,L005
+TR1238,S0481,Advanced Surgical Techniques,2020-12-30,32,No,L002
+TR1239,S0106,Infection Control,2020-08-04,40,Yes,L001
+TR1240,S0262,Patient Safety,2020-11-11,28,No,L005
+TR1241,S0329,Advanced Surgical Techniques,2024-08-10,5,No,L005
+TR1242,S0129,Advanced Surgical Techniques,2024-02-28,33,Yes,L002
+TR1243,S0144,CPR Certification,2023-12-18,40,Yes,L002
+TR1244,S0061,Advanced Surgical Techniques,2024-09-01,32,Yes,L004
+TR1245,S0108,Patient Safety,2023-05-04,36,No,L001
+TR1246,S0483,CPR Certification,2024-10-27,27,Yes,L001
+TR1247,S0310,Advanced Surgical Techniques,2024-03-22,9,Yes,L001
+TR1248,S0341,Patient Safety,2025-02-04,13,Yes,L002
+TR1249,S0221,Electronic Health Records,2022-05-04,26,Yes,L004
+TR1250,S0451,Electronic Health Records,2024-12-26,36,Yes,L001
+TR1251,S0188,Patient Safety,2021-09-17,36,No,L005
+TR1252,S0234,Infection Control,2021-10-13,36,No,L003
+TR1253,S0284,Advanced Surgical Techniques,2020-09-26,13,Yes,L003
+TR1254,S0257,Patient Safety,2022-07-30,17,Yes,L005
+TR1255,S0019,Advanced Surgical Techniques,2024-07-04,34,No,L002
+TR1256,S0482,Electronic Health Records,2024-02-04,30,Yes,L004
+TR1257,S0250,CPR Certification,2021-04-08,31,No,L001
+TR1258,S0310,CPR Certification,2021-01-18,12,Yes,L005
+TR1259,S0415,Advanced Surgical Techniques,2024-10-22,10,Yes,L005
+TR1260,S0227,Infection Control,2020-06-22,21,No,L005
+TR1261,S0166,Infection Control,2023-08-26,17,Yes,L003
+TR1262,S0198,Advanced Surgical Techniques,2022-10-17,39,No,L003
+TR1263,S0232,CPR Certification,2023-07-22,34,No,L002
+TR1264,S0106,CPR Certification,2020-11-02,35,Yes,L005
+TR1265,S0212,Electronic Health Records,2021-11-01,30,No,L002
+TR1266,S0142,Patient Safety,2022-10-16,8,Yes,L001
+TR1267,S0020,Patient Safety,2022-02-27,32,No,L005
+TR1268,S0367,CPR Certification,2022-07-25,8,Yes,L003
+TR1269,S0384,Electronic Health Records,2020-11-23,32,Yes,L002
+TR1270,S0090,Advanced Surgical Techniques,2023-01-15,10,No,L003
+TR1271,S0467,Patient Safety,2021-05-28,14,No,L005
+TR1272,S0356,CPR Certification,2023-05-27,8,No,L002
+TR1273,S0189,Patient Safety,2020-12-02,20,No,L005
+TR1274,S0100,CPR Certification,2020-08-15,13,No,L005
+TR1275,S0209,CPR Certification,2023-08-07,19,Yes,L004
+TR1276,S0094,Advanced Surgical Techniques,2020-10-05,7,No,L004
+TR1277,S0428,Advanced Surgical Techniques,2024-06-21,5,No,L003
+TR1278,S0103,Electronic Health Records,2024-07-09,17,Yes,L005
+TR1279,S0380,Electronic Health Records,2021-09-20,24,No,L002
+TR1280,S0481,Electronic Health Records,2021-02-16,12,No,L001
+TR1281,S0265,CPR Certification,2020-11-15,13,No,L003
+TR1282,S0384,Electronic Health Records,2022-05-02,11,No,L002
+TR1283,S0275,Patient Safety,2024-05-27,30,Yes,L001
+TR1284,S0046,CPR Certification,2024-09-22,37,No,L002
+TR1285,S0072,Infection Control,2022-02-13,8,Yes,L005
+TR1286,S0038,Infection Control,2022-03-01,21,Yes,L003
+TR1287,S0344,Infection Control,2021-09-10,25,Yes,L004
+TR1288,S0028,Patient Safety,2021-09-29,34,Yes,L002
+TR1289,S0107,CPR Certification,2024-09-29,18,Yes,L004
+TR1290,S0010,CPR Certification,2021-05-17,8,No,L004
+TR1291,S0025,Patient Safety,2021-06-11,11,Yes,L001
+TR1292,S0204,Patient Safety,2023-05-02,31,Yes,L003
+TR1293,S0272,Electronic Health Records,2022-09-29,21,No,L003
+TR1294,S0118,Advanced Surgical Techniques,2021-08-03,25,Yes,L003
+TR1295,S0361,Patient Safety,2020-12-01,12,No,L002
+TR1296,S0292,Electronic Health Records,2023-12-06,23,Yes,L004
+TR1297,S0264,Patient Safety,2022-09-07,13,Yes,L004
+TR1298,S0484,Infection Control,2022-09-22,4,No,L001
+TR1299,S0175,Electronic Health Records,2023-05-01,31,No,L003
+TR1300,S0210,Infection Control,2024-11-20,34,Yes,L004
+TR1301,S0303,Advanced Surgical Techniques,2021-08-15,20,Yes,L002
+TR1302,S0038,Advanced Surgical Techniques,2024-05-23,16,No,L001
+TR1303,S0165,Infection Control,2024-11-29,19,Yes,L003
+TR1304,S0497,Electronic Health Records,2021-02-12,11,Yes,L004
+TR1305,S0322,Infection Control,2024-09-23,16,No,L002
+TR1306,S0150,CPR Certification,2023-11-30,15,No,L002
+TR1307,S0219,Advanced Surgical Techniques,2021-09-23,40,Yes,L001
+TR1308,S0313,Patient Safety,2022-11-23,27,Yes,L005
+TR1309,S0157,Infection Control,2022-11-25,33,Yes,L002
+TR1310,S0420,Electronic Health Records,2024-10-26,8,Yes,L003
+TR1311,S0305,Infection Control,2025-01-14,19,Yes,L004
+TR1312,S0167,Electronic Health Records,2024-11-14,38,No,L005
+TR1313,S0346,Infection Control,2024-09-14,35,No,L004
+TR1314,S0102,Electronic Health Records,2023-02-22,15,No,L004
+TR1315,S0257,Infection Control,2021-02-20,27,Yes,L002
+TR1316,S0003,Advanced Surgical Techniques,2020-06-22,38,No,L005
+TR1317,S0303,Electronic Health Records,2021-06-26,36,No,L001
+TR1318,S0043,Patient Safety,2024-07-22,34,Yes,L001
+TR1319,S0071,CPR Certification,2022-02-28,18,Yes,L002
+TR1320,S0402,Advanced Surgical Techniques,2022-02-19,11,No,L001
+TR1321,S0061,Patient Safety,2024-01-17,11,No,L004
+TR1322,S0163,Advanced Surgical Techniques,2021-03-16,23,No,L002
+TR1323,S0123,Advanced Surgical Techniques,2020-09-16,14,No,L003
+TR1324,S0060,Advanced Surgical Techniques,2024-04-27,23,Yes,L005
+TR1325,S0386,Patient Safety,2021-10-31,36,No,L004
+TR1326,S0417,Patient Safety,2020-08-18,14,Yes,L003
+TR1327,S0156,Patient Safety,2023-06-17,10,No,L005
+TR1328,S0183,Electronic Health Records,2021-03-17,36,No,L005
+TR1329,S0234,Patient Safety,2024-04-27,22,No,L004
+TR1330,S0031,Advanced Surgical Techniques,2020-06-11,5,No,L001
+TR1331,S0185,Electronic Health Records,2022-02-22,40,No,L001
+TR1332,S0420,CPR Certification,2021-10-02,5,Yes,L005
+TR1333,S0382,Advanced Surgical Techniques,2021-06-24,17,Yes,L004
+TR1334,S0080,Patient Safety,2023-05-12,38,Yes,L005
+TR1335,S0367,Infection Control,2021-12-11,26,Yes,L002
+TR1336,S0019,Advanced Surgical Techniques,2024-03-07,24,No,L003
+TR1337,S0216,Electronic Health Records,2023-09-18,12,Yes,L004
+TR1338,S0020,Advanced Surgical Techniques,2020-12-27,22,Yes,L002
+TR1339,S0125,Advanced Surgical Techniques,2025-04-09,24,Yes,L004
+TR1340,S0192,Advanced Surgical Techniques,2025-04-05,5,Yes,L005
+TR1341,S0160,Patient Safety,2024-02-07,11,Yes,L002
+TR1342,S0211,Infection Control,2024-04-20,30,No,L005
+TR1343,S0002,Advanced Surgical Techniques,2020-07-31,32,Yes,L003
+TR1344,S0256,CPR Certification,2023-03-30,10,No,L003
+TR1345,S0003,Patient Safety,2024-07-08,31,Yes,L002
+TR1346,S0041,Infection Control,2021-01-07,38,No,L002
+TR1347,S0159,CPR Certification,2021-02-17,20,Yes,L001
+TR1348,S0445,Infection Control,2022-05-07,36,Yes,L005
+TR1349,S0309,Advanced Surgical Techniques,2023-09-18,11,Yes,L005
+TR1350,S0352,Electronic Health Records,2024-09-19,27,Yes,L001
+TR1351,S0057,Electronic Health Records,2024-09-12,8,No,L002
+TR1352,S0082,Infection Control,2020-07-17,9,No,L005
+TR1353,S0475,CPR Certification,2020-06-07,6,No,L002
+TR1354,S0204,Electronic Health Records,2024-03-08,31,No,L003
+TR1355,S0432,CPR Certification,2021-04-13,31,No,L001
+TR1356,S0125,Infection Control,2020-07-09,23,No,L001
+TR1357,S0002,Patient Safety,2022-07-16,8,Yes,L003
+TR1358,S0062,Patient Safety,2022-12-06,33,Yes,L002
+TR1359,S0100,Advanced Surgical Techniques,2024-10-23,28,Yes,L002
+TR1360,S0307,CPR Certification,2024-03-28,20,No,L001
+TR1361,S0112,Patient Safety,2023-05-25,32,Yes,L002
+TR1362,S0103,Advanced Surgical Techniques,2023-09-16,27,No,L003
+TR1363,S0226,CPR Certification,2025-04-19,5,Yes,L005
+TR1364,S0173,Patient Safety,2022-03-26,14,No,L001
+TR1365,S0137,Infection Control,2024-02-24,6,No,L002
+TR1366,S0375,Electronic Health Records,2022-05-21,28,Yes,L003
+TR1367,S0095,Patient Safety,2024-07-18,16,No,L001
+TR1368,S0241,Patient Safety,2024-07-12,15,Yes,L002
+TR1369,S0175,Electronic Health Records,2024-03-04,20,Yes,L003
+TR1370,S0215,CPR Certification,2021-03-29,32,Yes,L002
+TR1371,S0366,Patient Safety,2022-08-21,37,Yes,L005
+TR1372,S0259,CPR Certification,2021-10-22,39,Yes,L001
+TR1373,S0405,Electronic Health Records,2022-09-21,26,No,L003
+TR1374,S0476,Electronic Health Records,2020-11-04,28,No,L005
+TR1375,S0351,Advanced Surgical Techniques,2023-06-10,29,No,L004
+TR1376,S0126,Electronic Health Records,2024-08-02,31,No,L005
+TR1377,S0102,Electronic Health Records,2021-04-04,34,No,L005
+TR1378,S0204,Patient Safety,2022-02-01,13,No,L002
+TR1379,S0418,Patient Safety,2022-09-28,19,Yes,L005
+TR1380,S0233,Patient Safety,2024-12-29,8,No,L004
+TR1381,S0234,CPR Certification,2022-03-30,5,No,L002
+TR1382,S0273,Advanced Surgical Techniques,2022-06-15,33,No,L002
+TR1383,S0005,CPR Certification,2025-03-23,33,Yes,L001
+TR1384,S0388,Advanced Surgical Techniques,2020-12-27,8,Yes,L004
+TR1385,S0279,Electronic Health Records,2021-01-24,10,No,L002
+TR1386,S0162,Advanced Surgical Techniques,2022-08-20,35,Yes,L004
+TR1387,S0166,Electronic Health Records,2020-05-12,26,No,L004
+TR1388,S0110,CPR Certification,2022-08-31,6,No,L002
+TR1389,S0380,Patient Safety,2021-12-15,16,Yes,L001
+TR1390,S0471,Infection Control,2023-05-07,19,No,L002
+TR1391,S0028,Advanced Surgical Techniques,2022-07-10,9,Yes,L005
+TR1392,S0156,Advanced Surgical Techniques,2023-10-02,20,No,L005
+TR1393,S0483,CPR Certification,2022-12-31,14,Yes,L001
+TR1394,S0199,Infection Control,2021-10-14,36,Yes,L005
+TR1395,S0213,Electronic Health Records,2022-08-08,5,Yes,L003
+TR1396,S0206,Electronic Health Records,2023-01-05,19,No,L003
+TR1397,S0402,Infection Control,2024-09-25,32,No,L003
+TR1398,S0134,Infection Control,2021-06-30,13,Yes,L005
+TR1399,S0359,CPR Certification,2020-06-16,7,Yes,L002
+TR1400,S0250,Patient Safety,2025-04-01,7,Yes,L003
+TR1401,S0091,Infection Control,2023-07-20,21,Yes,L003
+TR1402,S0166,CPR Certification,2023-06-21,39,No,L003
+TR1403,S0255,CPR Certification,2023-08-24,14,Yes,L002
+TR1404,S0256,Patient Safety,2020-09-26,20,No,L003
+TR1405,S0209,Infection Control,2024-04-25,22,No,L002
+TR1406,S0498,Electronic Health Records,2022-09-27,36,Yes,L001
+TR1407,S0415,CPR Certification,2022-07-14,38,Yes,L001
+TR1408,S0194,Advanced Surgical Techniques,2025-03-27,27,Yes,L003
+TR1409,S0424,Electronic Health Records,2021-01-29,32,No,L005
+TR1410,S0428,Advanced Surgical Techniques,2022-04-18,14,No,L001
+TR1411,S0415,Infection Control,2022-10-03,28,Yes,L002
+TR1412,S0401,Electronic Health Records,2025-04-26,26,Yes,L005
+TR1413,S0199,Infection Control,2021-07-13,16,Yes,L003
+TR1414,S0264,Infection Control,2023-05-21,30,Yes,L001
+TR1415,S0029,Advanced Surgical Techniques,2022-10-09,40,No,L003
+TR1416,S0031,Infection Control,2024-01-11,20,Yes,L001
+TR1417,S0102,Infection Control,2023-07-11,14,Yes,L004
+TR1418,S0180,CPR Certification,2024-12-30,15,Yes,L001
+TR1419,S0108,Patient Safety,2024-08-14,20,No,L002
+TR1420,S0345,Patient Safety,2022-11-20,31,No,L002
+TR1421,S0247,Patient Safety,2021-03-16,21,No,L002
+TR1422,S0265,CPR Certification,2024-04-30,34,No,L005
+TR1423,S0436,Advanced Surgical Techniques,2021-11-20,26,Yes,L002
+TR1424,S0036,CPR Certification,2025-03-30,22,No,L002
+TR1425,S0041,CPR Certification,2020-07-29,6,Yes,L001
+TR1426,S0282,Electronic Health Records,2024-06-20,11,No,L001
+TR1427,S0029,Advanced Surgical Techniques,2023-07-09,30,Yes,L005
+TR1428,S0279,Patient Safety,2024-10-19,22,Yes,L003
+TR1429,S0212,Advanced Surgical Techniques,2021-03-20,20,No,L002
+TR1430,S0062,Electronic Health Records,2025-01-31,21,Yes,L004
+TR1431,S0242,Infection Control,2020-09-12,15,No,L004
+TR1432,S0288,Electronic Health Records,2024-06-16,5,No,L005
+TR1433,S0091,Patient Safety,2021-06-05,34,No,L002
+TR1434,S0304,CPR Certification,2025-04-16,25,No,L002
+TR1435,S0054,Patient Safety,2023-10-22,26,Yes,L002
+TR1436,S0063,CPR Certification,2023-11-15,22,Yes,L001
+TR1437,S0378,CPR Certification,2020-11-19,17,No,L005
+TR1438,S0243,Advanced Surgical Techniques,2022-02-24,37,No,L003
+TR1439,S0412,Electronic Health Records,2023-10-13,37,Yes,L005
+TR1440,S0244,Infection Control,2025-03-07,8,No,L003
+TR1441,S0479,Infection Control,2022-02-27,21,No,L003
+TR1442,S0296,Infection Control,2025-03-10,28,Yes,L001
+TR1443,S0124,Electronic Health Records,2020-05-22,23,Yes,L002
+TR1444,S0372,Infection Control,2024-06-22,33,Yes,L004
+TR1445,S0453,CPR Certification,2023-10-29,38,No,L001
+TR1446,S0249,Infection Control,2024-06-04,28,No,L001
+TR1447,S0278,Electronic Health Records,2022-01-18,14,No,L003
+TR1448,S0248,Infection Control,2021-06-01,10,Yes,L001
+TR1449,S0369,CPR Certification,2024-01-24,25,No,L002
+TR1450,S0396,Infection Control,2020-06-16,8,Yes,L005
+TR1451,S0231,Infection Control,2023-10-01,24,No,L003
+TR1452,S0487,Patient Safety,2021-12-03,12,No,L003
+TR1453,S0177,Patient Safety,2020-08-30,36,No,L002
+TR1454,S0360,Electronic Health Records,2025-04-09,32,No,L002
+TR1455,S0246,Patient Safety,2022-03-03,27,No,L002
+TR1456,S0108,Advanced Surgical Techniques,2021-08-28,27,No,L005
+TR1457,S0271,CPR Certification,2021-08-18,40,Yes,L001
+TR1458,S0114,Electronic Health Records,2023-06-05,29,Yes,L003
+TR1459,S0018,Infection Control,2024-05-27,13,Yes,L003
+TR1460,S0318,Infection Control,2020-08-31,14,No,L005
+TR1461,S0478,Advanced Surgical Techniques,2021-05-19,33,No,L004
+TR1462,S0171,Advanced Surgical Techniques,2024-08-21,23,Yes,L002
+TR1463,S0150,Electronic Health Records,2023-03-07,35,Yes,L001
+TR1464,S0447,Patient Safety,2024-03-16,4,Yes,L002
+TR1465,S0198,Electronic Health Records,2021-05-29,36,Yes,L001
+TR1466,S0264,CPR Certification,2021-10-20,39,Yes,L001
+TR1467,S0360,CPR Certification,2022-10-29,40,No,L001
+TR1468,S0302,Advanced Surgical Techniques,2020-11-09,12,Yes,L005
+TR1469,S0443,Infection Control,2024-03-05,24,Yes,L001
+TR1470,S0453,Infection Control,2021-12-05,36,Yes,L002
+TR1471,S0193,Infection Control,2024-12-24,23,Yes,L004
+TR1472,S0148,Infection Control,2024-02-07,32,Yes,L002
+TR1473,S0444,CPR Certification,2025-02-23,32,Yes,L004
+TR1474,S0197,Patient Safety,2022-04-28,9,Yes,L001
+TR1475,S0279,Electronic Health Records,2022-11-23,17,Yes,L001
+TR1476,S0003,Advanced Surgical Techniques,2022-10-17,39,No,L001
+TR1477,S0439,Advanced Surgical Techniques,2023-07-03,6,Yes,L001
+TR1478,S0492,Advanced Surgical Techniques,2024-11-10,33,No,L004
+TR1479,S0017,Infection Control,2025-01-19,34,No,L005
+TR1480,S0141,Infection Control,2020-11-01,17,Yes,L001
+TR1481,S0120,Electronic Health Records,2023-01-16,11,No,L004
+TR1482,S0378,Electronic Health Records,2020-08-07,25,No,L001
+TR1483,S0315,Patient Safety,2024-08-30,9,Yes,L001
+TR1484,S0065,Electronic Health Records,2025-02-15,16,No,L004
+TR1485,S0224,Infection Control,2020-08-04,24,Yes,L002
+TR1486,S0224,CPR Certification,2020-07-08,33,Yes,L005
+TR1487,S0387,Electronic Health Records,2020-08-13,32,No,L004
+TR1488,S0395,Infection Control,2020-11-01,6,Yes,L002
+TR1489,S0190,Advanced Surgical Techniques,2024-01-15,13,Yes,L005
+TR1490,S0040,Patient Safety,2021-10-29,30,No,L001
+TR1491,S0082,Electronic Health Records,2023-11-17,22,No,L002
+TR1492,S0347,CPR Certification,2023-04-09,14,No,L003
+TR1493,S0317,Advanced Surgical Techniques,2023-08-01,30,No,L002
+TR1494,S0442,CPR Certification,2023-02-07,22,No,L001
+TR1495,S0448,Electronic Health Records,2021-06-19,38,No,L001
+TR1496,S0182,Patient Safety,2023-02-22,17,No,L002
+TR1497,S0225,Patient Safety,2022-10-23,6,No,L003
+TR1498,S0219,CPR Certification,2025-01-29,32,Yes,L004
+TR1499,S0176,Advanced Surgical Techniques,2021-04-08,29,Yes,L003
+TR1500,S0064,Advanced Surgical Techniques,2024-04-23,19,No,L005

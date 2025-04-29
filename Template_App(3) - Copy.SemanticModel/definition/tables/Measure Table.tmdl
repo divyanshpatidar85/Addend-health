@@ -42,7 +42,7 @@ table 'Measure Table'
 
 	measure Staff =
 			
-			var y=if(SELECTEDVALUE('Date Table'[Year])==BLANK(),2024,SELECTEDVALUE('Date Table'[Year]))
+			var y=if(SELECTEDVALUE('Date Table'[Year])==BLANK(),2025,SELECTEDVALUE('Date Table'[Year]))
 			return
 			CALCULATE(
 			    count('hospital_staff csv'[Staff_ID]),
@@ -755,6 +755,26 @@ table 'Measure Table'
 	measure Satisfaction = Count('hospital_feedback csv'[Feedback_ID])
 		formatString: 0
 		lineageTag: f9f6160a-c39f-43ff-9aab-127c048fcae9
+
+	measure Mild = CALCULATE(count('hospital_conditions csv'[Condition_ID]),'hospital_conditions csv'[Severity]="Mild")
+		formatString: 0
+		lineageTag: 235dc1d4-94c5-4a78-8633-ce58668b0806
+
+	measure Moderate = CALCULATE(count('hospital_conditions csv'[Condition_ID]),'hospital_conditions csv'[Severity]="Moderate")
+		formatString: 0
+		lineageTag: 83f56190-6df7-4195-9ee9-aa5b88d726a1
+
+	measure Severe = CALCULATE(COUNT('hospital_conditions csv'[Condition_ID]),'hospital_conditions csv'[Severity]="Severe")
+		formatString: 0
+		lineageTag: a2061ecd-c32e-4fdf-8004-c91d0a7dcea7
+
+	measure Rooms = Count('hospital_rooms csv'[Room_ID])
+		formatString: 0
+		lineageTag: 084374b1-934e-42ff-bfd9-da10060a16c3
+
+	measure 'Occupied Rooms' = CALCULATE([Rooms],'hospital_rooms csv'[Occupancy_Status]="Occupied")
+		formatString: 0
+		lineageTag: 756b2304-e602-4bf9-ab3e-34eb04c81163
 
 	column Column1
 		dataType: string

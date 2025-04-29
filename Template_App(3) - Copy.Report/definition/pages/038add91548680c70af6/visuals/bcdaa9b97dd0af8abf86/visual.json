@@ -1,9 +1,9 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
   "name": "bcdaa9b97dd0af8abf86",
   "position": {
-    "x": 186.593958372702,
-    "y": 174.15436114785518,
+    "x": 0,
+    "y": 0,
     "z": 0,
     "height": 159.22684447803903,
     "width": 369.45603757794993,
@@ -43,7 +43,7 @@
               },
               "queryRef": "hospital_departments csv.Department_Name",
               "nativeQueryRef": "Department_Name",
-              "active": false
+              "active": true
             },
             {
               "field": {
@@ -58,7 +58,7 @@
               },
               "queryRef": "hospital_procedures csv.Procedure",
               "nativeQueryRef": "Procedure",
-              "active": false
+              "active": true
             }
           ]
         },
@@ -151,7 +151,32 @@
             "isPinned": true
           }
         ],
-        "root": {}
+        "root": {
+          "children": [
+            {
+              "identityValues": [
+                {
+                  "Literal": {
+                    "Value": "'Apollo Hospital Chennai'"
+                  }
+                }
+              ],
+              "isToggled": true,
+              "children": [
+                {
+                  "identityValues": [
+                    {
+                      "Literal": {
+                        "Value": "'Radiology'"
+                      }
+                    }
+                  ],
+                  "isToggled": true
+                }
+              ]
+            }
+          ]
+        }
       }
     ],
     "objects": {

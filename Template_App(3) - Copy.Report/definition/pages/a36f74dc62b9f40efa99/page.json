@@ -4,5 +4,12 @@
   "displayName": "Divy_3",
   "displayOption": "FitToPage",
   "height": 720,
-  "width": 1280
+  "width": 1280,
+  "visualInteractions": [
+    {
+      "source": "4db747b2f8de25b97e97",
+      "target": "391ae0e0c133d1d29704",
+      "type": "NoFilter"
+    }
+  ]
 }
