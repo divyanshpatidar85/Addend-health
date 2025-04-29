@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
   "name": "6f0c6449c780eee59437",
   "position": {
-    "x": 360,
-    "y": 0,
-    "z": 3000,
-    "height": 71.428571428571431,
-    "width": 638.57142857142856,
-    "tabOrder": 7000
+    "x": 28,
+    "y": 18.840579710144929,
+    "z": 4000,
+    "height": 92.753623188405811,
+    "width": 414.49275362318843,
+    "tabOrder": 4000
   },
   "visual": {
     "visualType": "textbox",
@@ -19,15 +19,22 @@
               {
                 "textRuns": [
                   {
-                    "value": "Hospital Efficiency Tracker",
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "  Hospital Efficiency Tracker",
                     "textStyle": {
+                      "fontWeight": "bold",
                       "fontFamily": "Times New Roman",
-                      "fontSize": "40pt",
+                      "fontSize": "24pt",
                       "color": "#ffffff"
                     }
                   }
-                ],
-                "horizontalTextAlignment": "center"
+                ]
               }
             ]
           }
@@ -80,6 +87,33 @@
                       "Value": "'#FFFFFF'"
                     }
                   }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "12D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "20D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
                 }
               }
             }

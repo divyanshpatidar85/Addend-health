@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
   "name": "927c3f9f42e743ce0a14",
   "position": {
-    "x": 18.571428571428573,
-    "y": 388.57142857142861,
-    "z": 12000,
-    "height": 115.71428571428572,
-    "width": 185.71428571428572,
-    "tabOrder": 17003
+    "x": 844.07539850900048,
+    "y": 18.619310261227952,
+    "z": 9000,
+    "height": 93.096551306139759,
+    "width": 162.60864294805745,
+    "tabOrder": 10000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -52,7 +52,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'doctor-patient.png'"
+                      "Value": "'patient (1).png'"
                     }
                   }
                 },
@@ -61,7 +61,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "doctor-patient946185915058322.png"
+                      "ItemName": "patient_(1)4826309361354696.png"
                     }
                   }
                 },
@@ -114,7 +114,7 @@
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "50D"
+                  "Value": "30D"
                 }
               }
             }
@@ -230,7 +230,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "37D"
+                  "Value": "30D"
                 }
               }
             }
@@ -251,6 +251,50 @@
           },
           "selector": {
             "metadata": "Measure Table.Re Admitted Patient"
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "paddingSelection": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Custom'"
+                }
+              }
+            },
+            "topMargin": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            },
+            "rightMargin": {
+              "expr": {
+                "Literal": {
+                  "Value": "5L"
+                }
+              }
+            },
+            "bottomMargin": {
+              "expr": {
+                "Literal": {
+                  "Value": "5L"
+                }
+              }
+            },
+            "leftMargin": {
+              "expr": {
+                "Literal": {
+                  "Value": "5L"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
           }
         }
       ]
@@ -290,7 +334,7 @@
             "bold": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -305,6 +349,18 @@
               "expr": {
                 "Literal": {
                   "Value": "'Re Admitted Patients'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
                 }
               }
             }

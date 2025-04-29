@@ -1,13 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
   "name": "e91a4fe3e4a1840c237d",
   "position": {
-    "x": 257.14285714285717,
-    "y": 85.714285714285722,
-    "z": 1000,
-    "height": 267.14285714285717,
-    "width": 474.28571428571433,
-    "tabOrder": 5000
+    "x": 27.308321716467663,
+    "y": 131.5764591793442,
+    "z": 5500,
+    "height": 240,
+    "width": 400,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "clusteredColumnChart",
@@ -102,7 +102,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#156B7C'"
+                      "Value": "'#2C367B'"
                     }
                   }
                 }
@@ -289,7 +289,7 @@
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "50D"
+                  "Value": "30D"
                 }
               }
             }
@@ -321,7 +321,7 @@
             "radius": {
               "expr": {
                 "Literal": {
-                  "Value": "30D"
+                  "Value": "15D"
                 }
               }
             },

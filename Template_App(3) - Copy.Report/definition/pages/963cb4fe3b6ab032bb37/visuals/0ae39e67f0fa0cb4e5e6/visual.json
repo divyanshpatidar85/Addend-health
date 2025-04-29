@@ -1,12 +1,13 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
   "name": "0ae39e67f0fa0cb4e5e6",
   "position": {
-    "x": 55.891144958871486,
-    "y": 205.39244883291948,
-    "z": 1000,
-    "height": 93.672746307995865,
-    "width": 173.94588202468489
+    "x": 1048.8522871967884,
+    "y": 409.38410176204422,
+    "z": 4000,
+    "height": 91.776443730447284,
+    "width": 173.16310137820241,
+    "tabOrder": 2000
   },
   "visual": {
     "visualType": "slicer",
@@ -26,8 +27,9 @@
                 }
               },
               "queryRef": "Doctor name.Name",
-              "nativeQueryRef": "Name",
-              "active": true
+              "nativeQueryRef": "Doctor Name",
+              "active": true,
+              "displayName": "Doctor Name"
             }
           ]
         }
@@ -102,6 +104,18 @@
                 }
               }
             },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
             "outlineStyle": {
               "expr": {
                 "Literal": {
@@ -159,7 +173,7 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 1,
+                      "ColorId": 0,
                       "Percent": 0
                     }
                   }
@@ -171,7 +185,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#75B6C2'"
+                      "Value": "'#2C367B'"
                     }
                   }
                 }
@@ -213,7 +227,7 @@
             "radius": {
               "expr": {
                 "Literal": {
-                  "Value": "15D"
+                  "Value": "13D"
                 }
               }
             },
@@ -240,7 +254,7 @@
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "50D"
+                  "Value": "78D"
                 }
               }
             }
@@ -263,17 +277,17 @@
       "title": [
         {
           "properties": {
-            "titleWrap": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
             "text": {
               "expr": {
                 "Literal": {
                   "Value": "'DocName'"
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }

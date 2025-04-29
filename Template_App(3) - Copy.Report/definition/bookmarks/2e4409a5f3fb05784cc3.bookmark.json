@@ -3,7 +3,9 @@
   "displayName": "close",
   "name": "2e4409a5f3fb05784cc3",
   "options": {
-    "targetVisualNames": []
+    "targetVisualNames": [
+      "eef574e02a8475ec8ccf"
+    ]
   },
   "explorationState": {
     "version": "1.3",
@@ -11,6 +13,68 @@
     "sections": {
       "963cb4fe3b6ab032bb37": {
         "visualContainers": {
+          "3e9e126d4f2c746dc526": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
+            }
+          },
+          "4cb18b6293924c5d78e3": {
+            "singleVisual": {
+              "visualType": "clusteredColumnChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure Table"
+                        }
+                      },
+                      "Property": "Patients"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hospital_departments csv"
+                        }
+                      },
+                      "Property": "Department_Name"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "6980d210690204a54dc7": {
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "6f0c6449c780eee59437": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "7443ed13176aac1343d4": {
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
           "0ae39e67f0fa0cb4e5e6": {
             "singleVisual": {
               "visualType": "slicer",
@@ -58,62 +122,6 @@
                   }
                 ]
               }
-            }
-          },
-          "0cdf948befd764199c9b": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
-          "3e9e126d4f2c746dc526": {
-            "singleVisual": {
-              "visualType": "actionButton",
-              "objects": {},
-              "display": {
-                "mode": "hidden"
-              }
-            }
-          },
-          "4cb18b6293924c5d78e3": {
-            "singleVisual": {
-              "visualType": "clusteredColumnChart",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 2,
-                  "Expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure Table"
-                        }
-                      },
-                      "Property": "Patients"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "Category": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "hospital_departments csv"
-                        }
-                      },
-                      "Property": "Department_Name"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "6f0c6449c780eee59437": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
             }
           },
           "77a85d3c57934b57e808": {
@@ -263,58 +271,38 @@
               }
             }
           },
-          "c292564f1956b2677e18": {
+          "eef574e02a8475ec8ccf": {
             "singleVisual": {
-              "visualType": "image",
-              "objects": {},
-              "display": {
-                "mode": "hidden"
-              }
+              "visualType": "shape",
+              "objects": {}
             }
           },
-          "d02f33f338e64158ac3e": {
+          "927c3f9f42e743ce0a14": {
             "singleVisual": {
-              "visualType": "slicer",
-              "objects": {
-                "merge": {
-                  "data": [
-                    {
-                      "properties": {
-                        "mode": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "'Dropdown'"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ],
-                  "selection": [
-                    {
-                      "properties": {
-                        "strictSingleSelect": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "false"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "9af2d2b57797b0327ada": {
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "a2ac3878ffdea5cdcaae": {
+            "singleVisual": {
+              "visualType": "clusteredColumnChart",
+              "objects": {},
               "activeProjections": {
-                "Values": [
+                "Category": [
                   {
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Date Table"
+                          "Entity": "hospital_patients csv"
                         }
                       },
-                      "Property": "QuarterOfYear"
+                      "Property": "Age_Group"
                     }
                   }
                 ]
@@ -346,6 +334,15 @@
                   }
                 }
               ]
+            }
+          },
+          "e7b959149440c2a2a582": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {},
+              "display": {
+                "mode": "hidden"
+              }
             }
           },
           "e91a4fe3e4a1840c237d": {
@@ -383,13 +380,7 @@
               }
             }
           },
-          "eef574e02a8475ec8ccf": {
-            "singleVisual": {
-              "visualType": "shape",
-              "objects": {}
-            }
-          },
-          "e7b959149440c2a2a582": {
+          "5864adfe8ada5ba40200": {
             "singleVisual": {
               "visualType": "image",
               "objects": {},

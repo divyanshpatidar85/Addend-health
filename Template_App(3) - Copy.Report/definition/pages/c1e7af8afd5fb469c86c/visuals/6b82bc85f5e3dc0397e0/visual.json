@@ -1,5 +1,5 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.5.0/schema.json",
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
   "name": "6b82bc85f5e3dc0397e0",
   "position": {
     "x": 23.084184572032406,
@@ -96,7 +96,7 @@
               },
               "queryRef": "hospital_staff csv.Name",
               "nativeQueryRef": "Name",
-              "active": false
+              "active": true
             }
           ]
         }
@@ -206,7 +206,7 @@
               "identityValues": [
                 {
                   "Literal": {
-                    "Value": "'Groote Schuur Hospital'"
+                    "Value": "'Massachusetts General Hospital'"
                   }
                 }
               ],
@@ -220,7 +220,19 @@
                       }
                     }
                   ],
-                  "isToggled": true
+                  "isToggled": true,
+                  "children": [
+                    {
+                      "identityValues": [
+                        {
+                          "Literal": {
+                            "Value": "'Orthopedics'"
+                          }
+                        }
+                      ],
+                      "isToggled": true
+                    }
+                  ]
                 }
               ]
             }
@@ -284,7 +296,7 @@
                     },
                     "Right": {
                       "Literal": {
-                        "Value": "'Urban Main'"
+                        "Value": "'Massachusetts General Hospital'"
                       }
                     }
                   }
@@ -328,7 +340,7 @@
                     },
                     "Right": {
                       "Literal": {
-                        "Value": "'Emergency'"
+                        "Value": "'Orthopedics'"
                       }
                     }
                   }
@@ -350,7 +362,7 @@
                     },
                     "Right": {
                       "Literal": {
-                        "Value": "'Shawn Alvarez'"
+                        "Value": "'Justin Warner'"
                       }
                     }
                   }

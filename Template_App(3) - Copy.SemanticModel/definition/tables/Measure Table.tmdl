@@ -11,8 +11,9 @@ table 'Measure Table'
 
 	measure Patients =
 			
-			Count('hospital_admissions csv'[Patient_ID])
-			// Count('hospital_procedures csv'[Procedure_ID])
+			CALCULATE(
+			Count('hospital_admissions csv'[Patient_ID]), USERELATIONSHIP('hospital_locations csv'[Location_ID], 'hospital_admissions csv'[Location_ID]))
+			// Count('hospital_procedures csv'[Procedure_ID]))
 		formatString: 0
 		lineageTag: 00b4e49c-9f3a-49c2-bba5-2dd262af0495
 

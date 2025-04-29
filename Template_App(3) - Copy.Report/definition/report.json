@@ -56,18 +56,8 @@
       "type": "RegisteredResources",
       "items": [
         {
-          "name": "hospital6597737413484978.png",
-          "path": "hospital6597737413484978.png",
-          "type": "Image"
-        },
-        {
           "name": "icons8-filter-10010032195737016825.png",
           "path": "icons8-filter-10010032195737016825.png",
-          "type": "Image"
-        },
-        {
-          "name": "icons8-close-1005941162405652507.png",
-          "path": "icons8-close-1005941162405652507.png",
           "type": "Image"
         },
         {
@@ -76,23 +66,48 @@
           "type": "Image"
         },
         {
-          "name": "crowd7858123773150897.png",
-          "path": "crowd7858123773150897.png",
+          "name": "patient9763523665238958.png",
+          "path": "patient9763523665238958.png",
           "type": "Image"
         },
         {
-          "name": "emergency07836436166979.png",
-          "path": "emergency07836436166979.png",
+          "name": "emergency_(1)5309662946028197.png",
+          "path": "emergency_(1)5309662946028197.png",
           "type": "Image"
         },
         {
-          "name": "doctor-patient946185915058322.png",
-          "path": "doctor-patient946185915058322.png",
+          "name": "patient_(1)4826309361354696.png",
+          "path": "patient_(1)4826309361354696.png",
           "type": "Image"
         },
         {
-          "name": "elder12816561550610084.png",
-          "path": "elder12816561550610084.png",
+          "name": "supporting4978044927846158.png",
+          "path": "supporting4978044927846158.png",
+          "type": "Image"
+        },
+        {
+          "name": "letter-x05450291113432226.png",
+          "path": "letter-x05450291113432226.png",
+          "type": "Image"
+        },
+        {
+          "name": "icons8-home-1005712397338327317.png",
+          "path": "icons8-home-1005712397338327317.png",
+          "type": "Image"
+        },
+        {
+          "name": "healthcare33528257226605584.png",
+          "path": "healthcare33528257226605584.png",
+          "type": "Image"
+        },
+        {
+          "name": "medical-team943481254002999.png",
+          "path": "medical-team943481254002999.png",
+          "type": "Image"
+        },
+        {
+          "name": "doctor01698499638696438.png",
+          "path": "doctor01698499638696438.png",
           "type": "Image"
         }
       ]

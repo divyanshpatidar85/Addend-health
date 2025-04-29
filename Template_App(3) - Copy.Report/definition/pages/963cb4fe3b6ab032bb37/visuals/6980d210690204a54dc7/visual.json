@@ -2,12 +2,12 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
   "name": "6980d210690204a54dc7",
   "position": {
-    "x": 18.571428571428573,
-    "y": 61.428571428571431,
-    "z": 10000,
-    "height": 115.71428571428572,
-    "width": 185.71428571428572,
-    "tabOrder": 17001
+    "x": 464.24146917995029,
+    "y": 18.619310261227952,
+    "z": 7000,
+    "height": 93.096551306139759,
+    "width": 162.60864294805745,
+    "tabOrder": 8000
   },
   "visual": {
     "visualType": "cardVisual",
@@ -52,7 +52,7 @@
                 "name": {
                   "expr": {
                     "Literal": {
-                      "Value": "'crowd.png'"
+                      "Value": "'patient.png'"
                     }
                   }
                 },
@@ -61,7 +61,7 @@
                     "ResourcePackageItem": {
                       "PackageName": "RegisteredResources",
                       "PackageType": 1,
-                      "ItemName": "crowd7858123773150897.png"
+                      "ItemName": "patient9763523665238958.png"
                     }
                   }
                 },
@@ -114,7 +114,7 @@
             "transparency": {
               "expr": {
                 "Literal": {
-                  "Value": "50D"
+                  "Value": "30D"
                 }
               }
             }
@@ -216,7 +216,51 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "37D"
+                  "Value": "30D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "id": "default"
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "paddingSelection": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Custom'"
+                }
+              }
+            },
+            "topMargin": {
+              "expr": {
+                "Literal": {
+                  "Value": "0L"
+                }
+              }
+            },
+            "leftMargin": {
+              "expr": {
+                "Literal": {
+                  "Value": "5L"
+                }
+              }
+            },
+            "rightMargin": {
+              "expr": {
+                "Literal": {
+                  "Value": "5L"
+                }
+              }
+            },
+            "bottomMargin": {
+              "expr": {
+                "Literal": {
+                  "Value": "5L"
                 }
               }
             }
@@ -275,7 +319,7 @@
             "bold": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },

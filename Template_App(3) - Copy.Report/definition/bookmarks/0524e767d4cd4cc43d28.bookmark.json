@@ -11,6 +11,12 @@
     "sections": {
       "963cb4fe3b6ab032bb37": {
         "visualContainers": {
+          "3e9e126d4f2c746dc526": {
+            "singleVisual": {
+              "visualType": "actionButton",
+              "objects": {}
+            }
+          },
           "4cb18b6293924c5d78e3": {
             "singleVisual": {
               "visualType": "clusteredColumnChart",
@@ -40,6 +46,73 @@
                         }
                       },
                       "Property": "Department_Name"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "6980d210690204a54dc7": {
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "6f0c6449c780eee59437": {
+            "singleVisual": {
+              "visualType": "textbox",
+              "objects": {}
+            }
+          },
+          "7443ed13176aac1343d4": {
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "0ae39e67f0fa0cb4e5e6": {
+            "singleVisual": {
+              "visualType": "slicer",
+              "objects": {
+                "merge": {
+                  "data": [
+                    {
+                      "properties": {
+                        "mode": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "'Dropdown'"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "selection": [
+                    {
+                      "properties": {
+                        "strictSingleSelect": {
+                          "expr": {
+                            "Literal": {
+                              "Value": "false"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              "activeProjections": {
+                "Values": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Doctor name"
+                        }
+                      },
+                      "Property": "Name"
                     }
                   }
                 ]
@@ -95,74 +168,6 @@
               }
             }
           },
-          "e39b7fecffa4ecab04ea": {
-            "singleVisual": {
-              "visualType": "PBI_CV_73744D90_4DC9_4F18_8BA5_EE8FA5C98035",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 2,
-                  "Expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure Table"
-                        }
-                      },
-                      "Property": "Patients"
-                    }
-                  }
-                }
-              ]
-            }
-          },
-          "e91a4fe3e4a1840c237d": {
-            "singleVisual": {
-              "visualType": "clusteredColumnChart",
-              "objects": {},
-              "orderBy": [
-                {
-                  "Direction": 2,
-                  "Expression": {
-                    "Measure": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Measure Table"
-                        }
-                      },
-                      "Property": "Patients"
-                    }
-                  }
-                }
-              ],
-              "activeProjections": {
-                "Category": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "hospital_locations csv"
-                        }
-                      },
-                      "Property": "Location_Name"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "6f0c6449c780eee59437": {
-            "singleVisual": {
-              "visualType": "textbox",
-              "objects": {}
-            }
-          },
-          "0cdf948befd764199c9b": {
-            "singleVisual": {
-              "visualType": "image",
-              "objects": {}
-            }
-          },
           "7b8284742a5090b480a5": {
             "singleVisual": {
               "visualType": "slicer",
@@ -206,55 +211,6 @@
                         }
                       },
                       "Property": "MonthName"
-                    }
-                  }
-                ]
-              }
-            }
-          },
-          "d02f33f338e64158ac3e": {
-            "singleVisual": {
-              "visualType": "slicer",
-              "objects": {
-                "merge": {
-                  "data": [
-                    {
-                      "properties": {
-                        "mode": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "'Dropdown'"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ],
-                  "selection": [
-                    {
-                      "properties": {
-                        "strictSingleSelect": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "false"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
-              "activeProjections": {
-                "Values": [
-                  {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Date Table"
-                        }
-                      },
-                      "Property": "QuarterOfYear"
                     }
                   }
                 ]
@@ -310,58 +266,121 @@
               }
             }
           },
-          "0ae39e67f0fa0cb4e5e6": {
+          "eef574e02a8475ec8ccf": {
             "singleVisual": {
-              "visualType": "slicer",
-              "objects": {
-                "merge": {
-                  "data": [
-                    {
-                      "properties": {
-                        "mode": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "'Dropdown'"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ],
-                  "selection": [
-                    {
-                      "properties": {
-                        "strictSingleSelect": {
-                          "expr": {
-                            "Literal": {
-                              "Value": "false"
-                            }
-                          }
-                        }
-                      }
-                    }
-                  ]
-                }
-              },
+              "visualType": "shape",
+              "objects": {}
+            }
+          },
+          "927c3f9f42e743ce0a14": {
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "9af2d2b57797b0327ada": {
+            "singleVisual": {
+              "visualType": "cardVisual",
+              "objects": {}
+            }
+          },
+          "a2ac3878ffdea5cdcaae": {
+            "singleVisual": {
+              "visualType": "clusteredColumnChart",
+              "objects": {},
               "activeProjections": {
-                "Values": [
+                "Category": [
                   {
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "Doctor name"
+                          "Entity": "hospital_patients csv"
                         }
                       },
-                      "Property": "Name"
+                      "Property": "Age_Group"
                     }
                   }
                 ]
               }
             }
           },
-          "eef574e02a8475ec8ccf": {
+          "d523fc2eede96d21f1bb": {
             "singleVisual": {
-              "visualType": "shape",
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "e39b7fecffa4ecab04ea": {
+            "singleVisual": {
+              "visualType": "PBI_CV_73744D90_4DC9_4F18_8BA5_EE8FA5C98035",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure Table"
+                        }
+                      },
+                      "Property": "Patients"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "e7b959149440c2a2a582": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "e91a4fe3e4a1840c237d": {
+            "singleVisual": {
+              "visualType": "clusteredColumnChart",
+              "objects": {},
+              "orderBy": [
+                {
+                  "Direction": 2,
+                  "Expression": {
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Measure Table"
+                        }
+                      },
+                      "Property": "Patients"
+                    }
+                  }
+                }
+              ],
+              "activeProjections": {
+                "Category": [
+                  {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "hospital_locations csv"
+                        }
+                      },
+                      "Property": "Location_Name"
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          "5864adfe8ada5ba40200": {
+            "singleVisual": {
+              "visualType": "image",
+              "objects": {}
+            }
+          },
+          "5e00aad021663209ea3b": {
+            "singleVisual": {
+              "visualType": "pageNavigator",
               "objects": {}
             }
           }
