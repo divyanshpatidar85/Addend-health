@@ -2,12 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
   "name": "d02f33f338e64158ac3e",
   "position": {
-    "x": 104.5814847109321,
-    "y": 247.32432109547318,
+    "x": 59.353329832821068,
+    "y": 323.54295903700114,
     "z": 3000,
-    "height": 70.956521739130437,
-    "width": 173.91304347826087,
-    "tabOrder": 2000
+    "height": 94.119897959183675,
+    "width": 174.84033613445379
   },
   "visual": {
     "visualType": "slicer",
@@ -107,6 +106,13 @@
               "expr": {
                 "Literal": {
                   "Value": "0D"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Quarter'"
                 }
               }
             }

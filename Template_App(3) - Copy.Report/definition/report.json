@@ -56,31 +56,6 @@
       "type": "RegisteredResources",
       "items": [
         {
-          "name": "Presentation18375977315042296.jpg",
-          "path": "Presentation18375977315042296.jpg",
-          "type": "Image"
-        },
-        {
-          "name": "crowd5378777865403181.png",
-          "path": "crowd5378777865403181.png",
-          "type": "Image"
-        },
-        {
-          "name": "emergency5005750708528486.png",
-          "path": "emergency5005750708528486.png",
-          "type": "Image"
-        },
-        {
-          "name": "doctor-patient30655538482920686.png",
-          "path": "doctor-patient30655538482920686.png",
-          "type": "Image"
-        },
-        {
-          "name": "elder14379659425040103.png",
-          "path": "elder14379659425040103.png",
-          "type": "Image"
-        },
-        {
           "name": "hospital6597737413484978.png",
           "path": "hospital6597737413484978.png",
           "type": "Image"
@@ -93,6 +68,31 @@
         {
           "name": "icons8-close-1005941162405652507.png",
           "path": "icons8-close-1005941162405652507.png",
+          "type": "Image"
+        },
+        {
+          "name": "icons8-erase-645773054473587809.png",
+          "path": "icons8-erase-645773054473587809.png",
+          "type": "Image"
+        },
+        {
+          "name": "crowd7858123773150897.png",
+          "path": "crowd7858123773150897.png",
+          "type": "Image"
+        },
+        {
+          "name": "emergency07836436166979.png",
+          "path": "emergency07836436166979.png",
+          "type": "Image"
+        },
+        {
+          "name": "doctor-patient946185915058322.png",
+          "path": "doctor-patient946185915058322.png",
+          "type": "Image"
+        },
+        {
+          "name": "elder12816561550610084.png",
+          "path": "elder12816561550610084.png",
           "type": "Image"
         }
       ]

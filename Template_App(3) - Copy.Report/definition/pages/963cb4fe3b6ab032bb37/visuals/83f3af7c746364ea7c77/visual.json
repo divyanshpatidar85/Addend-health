@@ -2,12 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.6.0/schema.json",
   "name": "83f3af7c746364ea7c77",
   "position": {
-    "x": 114.59288915192116,
-    "y": 33.06345153025579,
+    "x": 50.697867647947113,
+    "y": 87.241938628837858,
     "z": 2000,
-    "height": 70.956521739130437,
-    "width": 173.91304347826087,
-    "tabOrder": 3000
+    "height": 94.119897959183675,
+    "width": 174.84033613445379
   },
   "visual": {
     "visualType": "slicer",
@@ -107,6 +106,13 @@
               "expr": {
                 "Literal": {
                   "Value": "0D"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Location Name'"
                 }
               }
             }
